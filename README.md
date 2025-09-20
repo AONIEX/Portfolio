@@ -16,7 +16,7 @@ Dundee and Angus College - HNC
 
 ### Projects
 - Dare Academy: Synaptic: https://bonny-bandits.itch.io/synaptic
--  <img width="315" height="250" alt="Synaptic" src="https://github.com/user-attachments/assets/a12b8fc3-fe75-453e-8ef8-0454fba62356" />
+ <br/>  <img width="315" height="250" alt="Synaptic" src="https://github.com/user-attachments/assets/a12b8fc3-fe75-453e-8ef8-0454fba62356" />
 - Ba Ba BANG! Sheep: https://alex-onions.itch.io/ba-ba-bang-sheep
   
 #### University
