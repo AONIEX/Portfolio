@@ -12,7 +12,7 @@ Dundee and Angus College - HNC
 -Customer Service and Sales Assisant 4 Years
 
 ### Projects
-- Dare Academny Synaptic https://bonny-bandits.itch.io/synaptic
+- Dare Academy: Synaptic https://bonny-bandits.itch.io/synaptic
 - Big Project 2
 - 
 ### Hobbies
