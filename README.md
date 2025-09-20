@@ -1,7 +1,10 @@
 # Portlio
 
 ### Education
-Computer Games Application Development
+Abertay University - Computer Games Application Development
+Dundee and Angus College - HNC
+Dundee and Angus College - HNC
+
 
 ### Work Experience
 Barista 3 Years
