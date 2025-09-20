@@ -19,3 +19,4 @@ Customer Service and Sales Assisant 4 Years
 - DND
 - Miniature Painting
 - Game Jams
+- -
