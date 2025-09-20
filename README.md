@@ -10,9 +10,9 @@ Dundee and Angus College - HNC
 
 
 ### Work Experience
--Barista 3 Years
--Cleaner 1 Year
--Customer Service and Sales Assisant 4 Years
+- Barista 3 Years
+- Cleaner 1 Year
+- Customer Service and Sales Assisant 4 Years
 
 ### Projects
 - Dare Academy: Synaptic: https://bonny-bandits.itch.io/synaptic
