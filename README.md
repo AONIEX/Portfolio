@@ -13,8 +13,12 @@ Dundee and Angus College - HNC
 
 ### Projects
 - Dare Academy: Synaptic https://bonny-bandits.itch.io/synaptic
-- Big Project 2
-- 
+- Ba Ba BANG! Sheep
+- Blue
+- The Reapers Garden
+- Skuffed
+
+  
 ### Hobbies
 - DND
 - Miniature Painting
