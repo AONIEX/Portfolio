@@ -1,5 +1,8 @@
 # Portlio
 
+### About Me
+Hi i'm Alex, Im a 4th Year student at Abertay university studying Computer Games Applications Development. In my free time i take part in Game Jams, play DND and Paint 3d Models. I have a huge passion for creating video games, as i want to bring people together and help them create memories with friends and family. 
+
 ### Education
 Abertay University - Computer Games Application Development
 Dundee and Angus College - HNC
@@ -14,6 +17,10 @@ Dundee and Angus College - HNC
 ### Projects
 - Dare Academy: Synaptic: https://bonny-bandits.itch.io/synaptic
 - Ba Ba BANG! Sheep: https://alex-onions.itch.io/ba-ba-bang-sheep
+  
+#### University
+- 3rd Year Graphics Project: 
+- 3rd Year Games Mechanics Project: Mesh Cutting 
 #### Game Jams
 - Blue: https://alex-onions.itch.io/blue
 - The Reapers Garden: https://alex-onions.itch.io/the-reapers-garden
