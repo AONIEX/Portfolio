@@ -12,11 +12,12 @@ Dundee and Angus College - HNC
 -Customer Service and Sales Assisant 4 Years
 
 ### Projects
-- Dare Academy: Synaptic https://bonny-bandits.itch.io/synaptic
-- Ba Ba BANG! Sheep
-- Blue
-- The Reapers Garden
-- Skuffed
+- Dare Academy: Synaptic: https://bonny-bandits.itch.io/synaptic
+- Ba Ba BANG! Sheep: https://alex-onions.itch.io/ba-ba-bang-sheep
+## Game Jams
+- Blue: https://alex-onions.itch.io/blue
+- The Reapers Garden: https://alex-onions.itch.io/the-reapers-garden
+- Skuffed: https://alex-onions.itch.io/skuffed
 
   
 ### Hobbies
