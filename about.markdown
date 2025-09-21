@@ -1,7 +1,7 @@
 ---
 layout: default
 title: About
-permalink: Portfolio/about/
+permalink: /about/
 ---
 Testing
 
