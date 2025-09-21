@@ -1,6 +1,6 @@
 layout: page
 title: "Contact"
-permalink: /Portlio/contact.html
+permalink: /Portfolio/contact.html
 
 Github:
 
