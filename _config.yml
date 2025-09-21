@@ -1,10 +1,7 @@
 title: Alex O'Nions
 logo: /Assets/Me.jpg
 description: [Contact Me](https://aoniex.github.io/Portlio/contact.html)
-[Dare Academy Synaptic](https://aoniex.github.io/Portlio/Synaptic.html)
-[About](https://aoniex.github.io/Portlio/about.html)
-[Cv](https://aoniex.github.io/Portlio/cv.html)
-[Education](https://aoniex.github.io/Portlio/education.html)
+
 #show_dowloads: true
 theme: jekyll-theme-minimal
 markdown: kramdown 
