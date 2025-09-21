@@ -2,7 +2,6 @@
 Hi i'm Alex, Im a 4th Year student at Abertay university studying Computer Games Applications Development. In my free time i take part in Game Jams, play DND and Paint 3d Models. I have a huge passion for creating video games, as i want to bring people together and help them create memories with friends and family. 
 
 ### Contact Me
-<br/>
 https://aoniex.github.io/Portlio/contact.html
 
 ### Education
