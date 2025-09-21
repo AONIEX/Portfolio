@@ -3,7 +3,7 @@ logo: /Assets/Me.jpg
 description: /about.html
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-[Link to a page]({{ site.baseurl }}{% link test_sub.md %})
+
 #show_dowloads: true
 theme: jekyll-theme-minimal
 plugins:
