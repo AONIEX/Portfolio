@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Contact
-permalink: /contact/
+permalink: Portfolio/contact/
 ---
-#Get In Contact With Me At:
+# Get In Contact With Me At:
 
 
 <br/>
