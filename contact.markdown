@@ -1,6 +1,9 @@
-layout: page
-title: "Contact"
-permalink: /Portfolio/contact.html
+---
+layout: default
+title: Contact
+permalink: /about/contact/
+---
+
 
 Github:
 
