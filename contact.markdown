@@ -3,7 +3,8 @@ layout: default
 title: Contact
 permalink: /Portfolio/contact/
 ---
-#Get In Contact With Me At
+#Get In Contact With Me At:
+<br/>
 Email: Alexonions@hotmail.com
 <br/>
 [GitHub](https://github.com/AONIEX)
