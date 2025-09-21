@@ -2,8 +2,9 @@
 title: Alex O'Nions
 logo: /Assets/Me.jpg
 description: Game Programmer and 4th Year Computer Games Applications Development Student
-baseurl: ""
-url: "https://username.github.io/Portfolio/"
+baseurl: "/Portfolio"
+url: "https://aoniex.github.io"
+
 
 
 #show_dowloads: true
