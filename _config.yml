@@ -3,4 +3,4 @@ logo: /Assets/Me.jpg
 description: Alex O'Nions
 #show_dowloads: true
 theme: jekyll-theme-minimal
-
+markdown: kramdown 
