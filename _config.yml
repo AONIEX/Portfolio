@@ -6,6 +6,4 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 #show_dowloads: true
 theme: jekyll-theme-minimal
-plugins:
-  - jekyll-feed
 markdown: kramdown 
