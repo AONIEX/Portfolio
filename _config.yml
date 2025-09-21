@@ -6,4 +6,6 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 [Link to a page]({{ site.baseurl }}{% link test_sub.md %})
 #show_dowloads: true
 theme: jekyll-theme-minimal
+plugins:
+  - jekyll-feed
 markdown: kramdown 
