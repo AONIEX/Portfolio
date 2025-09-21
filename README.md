@@ -1,9 +1,11 @@
 ### About Me
 Hi i'm Alex, Im a 4th Year student at Abertay university studying Computer Games Applications Development. In my free time i take part in Game Jams, play DND and Paint 3d Models. I have a huge passion for creating video games, as i want to bring people together and help them create memories with friends and family. 
 
-### Contact Me
 [Contact Me](https://aoniex.github.io/Portlio/contact.html)
-
+[Dare Academy: Synaptic](https://aoniex.github.io/Portlio/Synaptic.html)
+[About](https://aoniex.github.io/Portlio/about.html)
+[Cv](https://aoniex.github.io/Portlio/cv.html)
+[Education](https://aoniex.github.io/Portlio/education.html)
 ### Education
 Abertay University - Computer Games Application Development
 Dundee and Angus College - HNC
