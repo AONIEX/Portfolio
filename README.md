@@ -1,3 +1,9 @@
+---
+layout: default
+title: Home
+---
+
+
 [Contact Me](https://aoniex.github.io/Portlio/contact.html) |
 [Dare Academy Synaptic](https://aoniex.github.io/Portlio/Synaptic.html) |
 [About](https://aoniex.github.io/Portlio/about.html) |
