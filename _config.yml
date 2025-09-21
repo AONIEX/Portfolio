@@ -1,7 +1,7 @@
-header_pages
+
 title: Alex O'Nions
 logo: /Assets/Me.jpg
-description: /about.html
+description: Game Programmer and 4th Year Computer Games Applications Development Student
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
