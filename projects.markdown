@@ -23,14 +23,7 @@ One of my biggest projects is a game made for Abertay's Dare Academy and is call
 
 
 ## Game Jams
-
-### Blue
-
-
-### The Reapers Garden
-
-
-### Skuffed
-
-
-### Fire Breathing Space Corgi
+- ### Blue
+- ### The Reapers Garden
+- ### Skuffed
+- ### Fire Breathing Space Corgi
