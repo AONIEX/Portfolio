@@ -2,8 +2,7 @@
 title: Alex O'Nions
 logo: /Assets/Me.jpg
 description: Game Programmer and 4th Year Computer Games Applications Development Student
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+
 
 #show_dowloads: true
 theme: jekyll-theme-minimal
