@@ -22,7 +22,11 @@
         {% endif %}
 
 
-        <nav class="site-nav">
+       
+
+        <p>{{ site.description | default: site.github.project_tagline }}</p>
+
+         <nav class="site-nav">
           <ul>
             <li><a href="{{ '/' | relative_url }}">Home</a></li>
             <li><a href="{{ 'Portfolio/about/' | relative_url }}">About</a></li>
@@ -30,13 +34,11 @@
             <li><a href="{{ 'Portfolio/contact/' | relative_url }}">Contact</a></li>
           </ul>
         </nav>
-
-        <p>{{ site.description | default: site.github.project_tagline }}</p>
-
+        
         {% if site.github.is_project_page %}
         <p class="view"><a href="{{ site.github.repository_url }}">View the Project on GitHub <small>{{ site.github.repository_nwo }}</small></a></p>
         {% endif %}
-
+  
         {% if site.github.is_user_page %}
         <p class="view"><a href="{{ site.github.owner_url }}">View My GitHub Profile</a></p>
         {% endif %}
