@@ -19,8 +19,7 @@ Hi i'm Alex, Im a Games Programmer, Abertays Dare Finalist (2025) and 4th Year s
   -  <img width="315" height="250" alt="BaBa" src="https://github.com/user-attachments/assets/c6ad0947-6c5b-4b3f-bbf7-5a3c4aef396c" />
 
   
-#### University
-- 3rd Year Graphics Project: 
+#### University Projects
 - 3rd Year Games Mechanics Project: Mesh Cutting 
 
 #### Game Jam Games
