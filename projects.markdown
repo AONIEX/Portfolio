@@ -16,6 +16,7 @@ One of my biggest projects is a game made for my 3rd year professional project c
 
 ### Game Mechanics Programming Mesh Cutting (3rd Year University Project)
 The project was made for Game Mechanics Programming (3rd Year Class), where i had to make a unique game mechanic in Unreal Engine 5 using C++ with minimal blueprint use. For this i decided to make a mesh cutting "Weapon" which allowed the player to cut out parts of a mesh, before being able to grab them and then return them to their original position if wanted.
+(Need to link git hub page |or| Create a itch.io page)
 
  
 ### Ba Ba Bang Sheep
