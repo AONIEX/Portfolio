@@ -8,7 +8,7 @@ permalink: /Portfolio/projects/
 
 ## Main Projects
 
-### Dare Academy Synaptic
+### Dare Academy - Synaptic
 <img width="315" height="250" alt="Synaptic" src="https://github.com/user-attachments/assets/a12b8fc3-fe75-453e-8ef8-0454fba62356" />
 <br/>
 [Synaptic's Itch.io Page](https://bonny-bandits.itch.io/synaptic)
