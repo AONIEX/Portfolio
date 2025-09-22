@@ -14,8 +14,6 @@ Hi i'm Alex, Im a Games Programmer, Abertays Dare Finalist (2025) and 4th Year s
   - Made in Unreal 5
   - Made with C++ and Unreal Blueprints
   - [Synaptic's Itch.io Page](https://bonny-bandits.itch.io/synaptic)
-<br/>
-
   - ![Synaptic Gif One](Assets/SynapticOne.gif) ![Synaptic Gif Two](Assets/SynapticTwo.gif)
  
 - [Ba Ba BANG! Sheep](https://alex-onions.itch.io/ba-ba-bang-sheep)
