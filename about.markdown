@@ -5,7 +5,7 @@ permalink: /Portfolio/about/
 ---
 
 # About Me
-![Me](https://github.com/user-attachments/assets/1217a47d-8f18-41f9-a422-547721476353)
+![Picture Of Alex O'Nions (me)](/Assets/me.jpg)
 
 <br/>
 ### General
