@@ -41,7 +41,7 @@ Hi i'm Alex, Im a Games Programmer, Abertays Dare Finalist (2025) and 4th Year s
 
 
 #### Game Jam Games
-For more information on these games please go to the projects page
+For more information on these games please go to the projects page or check out their itch.io pages below
 - [Blue](https://alex-onions.itch.io/blue)
 - [The Reapers Garden](https://alex-onions.itch.io/the-reapers-garden)
 - [Skuffed](https://alex-onions.itch.io/skuffed)
