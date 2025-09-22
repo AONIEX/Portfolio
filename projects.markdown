@@ -35,6 +35,7 @@ The project was made for Game Mechanics Programming (3rd Year Class), where i ha
 Ba Ba BANG! Sheep is a first year project which i have grown and worked on when not working each summer. It started as a sfml game for PC but i quickly move it over to Unity and made the game work for both PC and Mobile, with the game currently having a downloadable android version. The game consists of a infinte procedurally generates level with platforms and enemies constantly spawning as the player tries to move up and get a new high score. This project taught me alot about prefabs, inheritance, parent classes and how to use them properly to stop myself from re writing code where avoidable. It has also shown me the imporatance of object management and performance, due to working with an "infintely" generated level.
 <br/>
 ![Untitled video - Made with Clipchamp (6)](https://github.com/user-attachments/assets/0851b836-ee25-4665-8ef2-6b2f9dd1ca75)
+![Untitled video - Made with Clipchamp (7)](https://github.com/user-attachments/assets/195cc9a1-0fd5-4c24-a110-6fc9c13dd06c)
 
 
 
