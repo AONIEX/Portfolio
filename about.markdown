@@ -5,7 +5,7 @@ permalink: /Portfolio/about/
 ---
 
 # About Me
-![Picture Of Alex O'Nions (me)](/Assets/me.jpg)
+![Picture Of Alex O'Nions (me)](/Assets/Me.jpg)
 
 <br/>
 ### General
