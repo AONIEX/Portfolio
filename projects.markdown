@@ -16,7 +16,10 @@ permalink: /Portfolio/projects/
 Synaptic is one of my biggest projects and is a game made for my 3rd year professional project class, which was then taken forward to Abertay's Dare Academy. This game was made as with a team of 8 and my role was the Weapons, UI, Interactions and Accesability Programmer. This project has helped with my team building skills, helping me stay in contact with team members and stick to deadlines. I also learned alot about the collabrative side of programming and how important it is to keep in contact with out professions to keep work flowing. For example keeping up to date with the animation team so we can link the animations to the code on time.
 <br/> 
 Game Engine: Unreal Engine 5
+<br/>
 Team Project
+<br/>
+
 ![Synaptic Gif One](Assets/SynapticOne.gif)
 ![Synaptic Gif Two](Assets/SynapticTwo.gif)
 
@@ -27,7 +30,9 @@ The project was made for Game Mechanics Programming (3rd Year Class), where i ha
 <br/>
 Game Engine: Unreal Engine 5
 <br/>
-Solo Prject
+Solo Project
+<br/>
+
 ![Mesh Cutting Gif One](Assets/MeshCuttingOne.gif)
 ![Mesh Cutting Gif Two](Assets/MeshCuttingTwo.gif)
 <br/>
