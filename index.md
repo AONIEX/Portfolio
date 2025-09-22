@@ -18,6 +18,18 @@ Hi i'm Alex, Im a Games Programmer, Abertays Dare Finalist (2025) and 4th Year s
  
 - [Ba Ba BANG! Sheep](https://alex-onions.itch.io/ba-ba-bang-sheep)
   -  <img width="315" height="250" alt="BaBa" src="https://github.com/user-attachments/assets/c6ad0947-6c5b-4b3f-bbf7-5a3c4aef396c" />
+  - Ba Ba BANG! Sheep is a first year project which i have grown and worked on when not working each summer. It started as a SFML game for PC but i quickly moved it over to Unity (C#) and made the game work for both PC and Mobile, with the game currently having a downloadable android version. The game consists of a infinte procedurally generates level with platforms and enemies constantly spawning as the player tries to move up and get a new high score. This project taught me alot about prefabs, inheritance, parent classes and how to use them properly to stop myself from re writing code where avoidable. It has also shown me the imporatance of object management and performance, due to working with an "infintely" generated level.
+  - Game Engine: Unity
+  - Solo Project
+  - Language: C#
+<br/>
+
+![Ba Ba BANG Sheep Gif One](Assets/BangOne.gif)
+![Ba Ba BANG Sheep Gif Two](Assets/BangTwo.gif)
+<br/>
+[Ba Ba BANG Sheep Itch.io Page](https://alex-onions.itch.io/ba-ba-bang-sheep)
+<br/>
+
 
   
 #### University Projects
