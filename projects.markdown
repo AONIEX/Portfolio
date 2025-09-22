@@ -95,3 +95,12 @@ Before and during at university i have taken part in multiple game jams to refre
   - Game Engine: Unity
   - Language: C#
   - [Fire Breathing Space Corgi Itch.io Page](https://alex-onions.itch.io/fire-breathing-space-corgi)
+ 
+- ### More Game Jam Games
+  - [Bong](https://alex-onions.itch.io/bong)
+  - [Fire Breathing Space Corgi](https://alex-onions.itch.io/fire-breathing-space-corgi)
+  - [Magnus's Libary](https://alex-onions.itch.io/magnuss-libary)
+  - [Maledictum Colori](https://alex-onions.itch.io/maledictum-colori)
+  - [Clash Of The Roots](https://alex-onions.itch.io/clash-of-the-roots)
+  - [Breadpocalypse](https://park66.itch.io/brotc)
+  - [Paranormal Containmetn Protocl](https://park66.itch.io/paraconpro) 
