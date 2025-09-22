@@ -51,15 +51,12 @@ Before and during at university i have taken part in multiple game jams to refre
 ### Game Jam Games
 - ### Blue
   - [Blue Itch.io Page](https://alex-onions.itch.io/blue)
-<br/>
 
 - ### The Reapers Garden
   - [The Reapers Garden Itch.io Page](https://alex-onions.itch.io/the-reapers-garden)
-<br/>
 
 - ### Skuffed
   - [Skuffed Itch.io Page](https://alex-onions.itch.io/skuffed)
-<br/>
 
 - ### Fire Breathing Space Corgi
   - [Fire Breathing Space Corgi Itch.io Page](https://alex-onions.itch.io/fire-breathing-space-corgi)
