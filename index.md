@@ -20,7 +20,20 @@ Hi i'm Alex, Im a Games Programmer, Abertays Dare Finalist (2025) and 4th Year s
 
   
 #### University Projects
-- 3rd Year Games Mechanics Project: Mesh Cutting 
+- 3rd Year Games Mechanics Project: Mesh Cutting
+  - The project was made for Game Mechanics Programming (3rd Year Class), where i had to make a unique game mechanic in Unreal Engine 5 using C++ with minimal blueprint use. For this i decided to make a mesh cutting "Weapon" which allowed the player to cut out parts of a mesh, before being able to grab them and then return them to their original position if wanted.
+<br/>
+  - Game Engine: Unreal Engine 5
+  - Solo Project
+  - Language: C++
+<br/>
+
+![Mesh Cutting Gif One](Assets/MeshCuttingOne.gif)
+![Mesh Cutting Gif Two](Assets/MeshCuttingTwo.gif)
+<br/>
+  - [Mesh Cutting Git Page](https://github.com/AONIEX/MeshCuttingWORKING)
+<br/>
+  - [Mesh Cutting Video Demonstration](https://www.youtube.com/watch?v=rBjXFgnGRYU)
 
 #### Game Jam Games
 For more information on these games please go to the projects page
