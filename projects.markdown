@@ -11,13 +11,15 @@ permalink: /Portfolio/projects/
 ### Dare Academy Synaptic
 <img width="315" height="250" alt="Synaptic" src="https://github.com/user-attachments/assets/a12b8fc3-fe75-453e-8ef8-0454fba62356" />
 <br/>
+[Synaptic's Itch.io Page](https://bonny-bandits.itch.io/synaptic)
+<br/> 
 Synaptic is one of my biggest projects and is a game made for my 3rd year professional project class, which was then taken forward to Abertay's Dare Academy. This game was made as with a team of 8 and my role was the Weapons, UI, Interactions and Accesability Programmer. This project has helped with my team building skills, helping me stay in contact with team members and stick to deadlines. I also learned alot about the collabrative side of programming and how important it is to keep in contact with out professions to keep work flowing. For example keeping up to date with the animation team so we can link the animations to the code on time.
 
 ![Untitled video - Made with Clipchamp (2)](https://github.com/user-attachments/assets/1824a971-2345-48c7-9ce0-2a717f8f2ba8)
 ![Untitled video - Made with Clipchamp (4)](https://github.com/user-attachments/assets/4baf44ef-6189-4da5-85c9-4f49d8cf325b)
 
 
-<br/> [Synaptic's Itch.io Page](https://bonny-bandits.itch.io/synaptic)
+
 
 ### Game Mechanics Programming Mesh Cutting (3rd Year University Project)
 The project was made for Game Mechanics Programming (3rd Year Class), where i had to make a unique game mechanic in Unreal Engine 5 using C++ with minimal blueprint use. For this i decided to make a mesh cutting "Weapon" which allowed the player to cut out parts of a mesh, before being able to grab them and then return them to their original position if wanted.
