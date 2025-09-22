@@ -42,12 +42,3 @@ For more information on these games please go to the projects page
 - [Breadpocalypse](https://park66.itch.io/brotc)
 - [Paranormal Containmetn Protocl](https://park66.itch.io/paraconpro)
   <br/> <img width="315" height="250" alt="Blue" src="https://github.com/user-attachments/assets/0e8de0a7-45ea-4af8-afe3-82b733398430" /> <img width="315" height="250" alt="Reap" src="https://github.com/user-attachments/assets/b0b8752e-ca1d-40f0-bad4-d977ccefe3e4" />   <br/> <img width="315" height="250" alt="Skuffed" src="https://github.com/user-attachments/assets/6a611d58-fec7-4d5f-9831-1fe0a31d31ba" />
-
-
-
-
-  
-### Hobbies
-- DND
-- Miniature Painting
-- Game Jams
