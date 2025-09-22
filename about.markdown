@@ -15,8 +15,7 @@ Hi, my name is Alex O'Nions, i'm a Games Programmer, Abertay Dare Finalist (2025
 ### Work Experience
 - Barista 3 Years (Dan's Goods)
 - Cleaner 1 Year (Apartments in St Andrews)
-- Customer Service and Sales Assisant 4 Years (The Studio Bathrooms and Kitchens)
-
+- Customer Service and Sales Assisant 4 Years (The Studio Kitchens and Bathrooms)
 
 <br/>
 ### Hobbies
