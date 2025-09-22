@@ -16,6 +16,10 @@ Synaptic is one of my biggest projects and is a game made for my 3rd year profes
 
 ### Game Mechanics Programming Mesh Cutting (3rd Year University Project)
 The project was made for Game Mechanics Programming (3rd Year Class), where i had to make a unique game mechanic in Unreal Engine 5 using C++ with minimal blueprint use. For this i decided to make a mesh cutting "Weapon" which allowed the player to cut out parts of a mesh, before being able to grab them and then return them to their original position if wanted.
+![Untitled video - Made with Clipchamp](https://github.com/user-attachments/assets/1998bacd-790f-4b99-8b07-287be275db79)
+![Untitled video - Made with Clipchamp (1)](https://github.com/user-attachments/assets/da219f4c-00d0-48ec-a3f0-554c4168ad35)
+
+
 <br/>
 (Need to link git hub page |or| Create a itch.io page)
 
