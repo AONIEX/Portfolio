@@ -15,6 +15,8 @@ permalink: /Portfolio/projects/
 <br/> 
 Synaptic is one of my biggest projects and is a game made for my 3rd year professional project class, which was then taken forward to Abertay's Dare Academy. This game was made as with a team of 8 and my role was the Weapons, UI, Interactions and Accesability Programmer. This project has helped with my team building skills, helping me stay in contact with team members and stick to deadlines. I also learned alot about the collabrative side of programming and how important it is to keep in contact with out professions to keep work flowing. For example keeping up to date with the animation team so we can link the animations to the code on time.
 
+![Alt text](Portfolio/Assets/Untitled video -Made with Clipchamp (1).gif)
+
 ![Untitled video - Made with Clipchamp (2)](https://github.com/user-attachments/assets/1824a971-2345-48c7-9ce0-2a717f8f2ba8)
 ![Untitled video - Made with Clipchamp (4)](https://github.com/user-attachments/assets/4baf44ef-6189-4da5-85c9-4f49d8cf325b)
 
