@@ -13,7 +13,6 @@ Hi i'm Alex, Im a Games Programmer, Abertays Dare Finalist (2025) and 4th Year s
   - Synaptic was made by a team of 8 people: 2 Programmers (Me being one of them), 3 Designers, 2 Artists and 1 Artist/Animator
   - Made in Unreal 5
   - Made with C++ and Unreal Blueprints
-  - [Synaptic's Itch.io Page](https://bonny-bandits.itch.io/synaptic)
   - ![Synaptic Gif One](Assets/SynapticOne.gif) ![Synaptic Gif Two](Assets/SynapticTwo.gif)
  
 - [Ba Ba BANG! Sheep](https://alex-onions.itch.io/ba-ba-bang-sheep)
@@ -26,8 +25,6 @@ Hi i'm Alex, Im a Games Programmer, Abertays Dare Finalist (2025) and 4th Year s
 
 ![Ba Ba BANG Sheep Gif One](Assets/BangOne.gif)
 ![Ba Ba BANG Sheep Gif Two](Assets/BangTwo.gif)
-<br/>
-[Ba Ba BANG Sheep Itch.io Page](https://alex-onions.itch.io/ba-ba-bang-sheep)
 <br/>
 
 
