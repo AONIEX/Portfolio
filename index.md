@@ -14,7 +14,11 @@ Dundee and Angus College - HNC
 
 ### Big Projects
 - [Dare Academy Synaptic](https://bonny-bandits.itch.io/synaptic)
-  - <img width="315" height="250" alt="Synaptic" src="https://github.com/user-attachments/assets/a12b8fc3-fe75-453e-8ef8-0454fba62356" /> 
+  - <img width="315" height="250" alt="Synaptic" src="https://github.com/user-attachments/assets/a12b8fc3-fe75-453e-8ef8-0454fba62356" />
+  - Synaptic is one of my biggest projects and is a game made for my 3rd year professional project class, which was then taken forward to Abertay's Dare Academy. This game was made as with a team of 8 and my role was the Weapons, UI, Interactions and Accesability Programmer. This project has helped with my team building skills, helping me stay in contact with team members and stick to deadlines. I also learned alot about the collabrative side of programming and how important it is to keep in contact with out professions to keep work flowing. For example keeping up to date with the animation team so we can link the animations to the code on time.
+  - Synaptic was made by a team of 8 people: 2 Programmers (Me being one of them), 3 Designers, 2 Artists and 1 Artist/Animator
+  - Made in Unreal 5
+  - Made with C++ and Unreal Blueprints
 - [Ba Ba BANG! Sheep](https://alex-onions.itch.io/ba-ba-bang-sheep)
   -  <img width="315" height="250" alt="BaBa" src="https://github.com/user-attachments/assets/c6ad0947-6c5b-4b3f-bbf7-5a3c4aef396c" />
 
