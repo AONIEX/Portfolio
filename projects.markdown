@@ -49,8 +49,7 @@ Ba Ba BANG! Sheep is a first year project which i have grown and worked on when 
 Before and during at university i have taken part in multiple game jams to refresh and improve my knowledge. The main thing i try to do every game jam is make each game unique, whether thats a new genre or different core mechanics as i believe this allows me to learn more in such a short amount of time.
 
 - ### Blue
-<br/>
-[Blue Itch.io Page](https://alex-onions.itch.io/blue)
+ - [Blue Itch.io Page](https://alex-onions.itch.io/blue)
 <br/>
 
 - ### The Reapers Garden
