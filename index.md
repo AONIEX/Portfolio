@@ -12,11 +12,6 @@ Dundee and Angus College - HNC
 Dundee and Angus College - HNC
 
 
-### Work Experience
-- Barista 3 Years
-- Cleaner 1 Year
-- Customer Service and Sales Assisant 4 Years
-
 ### Projects
  <br/>  <img width="315" height="250" alt="Synaptic" src="https://github.com/user-attachments/assets/a12b8fc3-fe75-453e-8ef8-0454fba62356" /> <img width="315" height="250" alt="BaBa" src="https://github.com/user-attachments/assets/c6ad0947-6c5b-4b3f-bbf7-5a3c4aef396c" />
 - Ba Ba BANG! Sheep: https://alex-onions.itch.io/ba-ba-bang-sheep
