@@ -51,7 +51,7 @@ Before and during at university i have taken part in multiple game jams to refre
 ### Game Jam Games
 - ### Blue
   - [Blue Itch.io Page](https://alex-onions.itch.io/blue)
-
+  - Blue was made for the Speed Jam #5 with a themes Speed Running and ASCEND. For this Project i wanted to work with lighting and ambience to give the game a nice feel and look whilst having minimal controls (Just a drag and click). I did this game alone, so worked on every aspect, and wanted to take a short break from coding to learn about the other aspects of game development as i believe it is important to understand what each department ahs to deal with
 - ### The Reapers Garden
   - [The Reapers Garden Itch.io Page](https://alex-onions.itch.io/the-reapers-garden)
 
