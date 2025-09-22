@@ -50,7 +50,7 @@ Before and during at university i have taken part in multiple game jams to refre
 
 - ### Blue
 <br/>
-[Blue Itch.io Page](https://alex-onions.itch.io/blue)
+- - [Blue Itch.io Page](https://alex-onions.itch.io/blue)
 <br/>
 
 - ### The Reapers Garden
