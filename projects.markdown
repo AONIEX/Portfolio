@@ -39,6 +39,9 @@ Ba Ba BANG! Sheep is a first year project which i have grown and worked on when 
 <br/>
 ![Ba Ba BANG Sheep Gif One](Assets/BangOne.gif)
 ![Ba Ba BANG Sheep Gif Two](Assets/BangTwo.gif)
+<br/>
+[Ba Ba BANG Sheep Itch.io Page](https://alex-onions.itch.io/ba-ba-bang-sheep)
+<br/>
 
 
 
@@ -46,6 +49,14 @@ Ba Ba BANG! Sheep is a first year project which i have grown and worked on when 
 Before and during at university i have taken part in multiple game jams to refresh and improve my knowledge. The main thing i try to do every game jam is make each game unique, whether thats a new genre or different core mechanics as i believe this allows me to learn more in such a short amount of time.
 
 - ### Blue
+<br/>
+[Blue Itch.io Page](https://alex-onions.itch.io/blue)
 - ### The Reapers Garden
+<br/>
+[The Reapers Garden Itch.io Page](https://alex-onions.itch.io/the-reapers-garden)
 - ### Skuffed
+<br/>
+[Skuffed Itch.io Page](https://alex-onions.itch.io/skuffed)
 - ### Fire Breathing Space Corgi
+<br/>
+[Fire Breathing Space Corgi Itch.io Page](https://alex-onions.itch.io/fire-breathing-space-corgi)
