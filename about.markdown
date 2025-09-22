@@ -16,12 +16,20 @@ Hi, my name is Alex O'Nions, i'm a Games Programmer, Abertay Dare Finalist (2025
 
 ### Work Experience
 - Barista 3 Years (Dan's Goods)
+  - This Job helped me to learn how to work under pressure as well as how to keep calm and collected when talking to people and resolving issues.     
 - Cleaner 1 Year (Apartments in St Andrews)
+  - This Job helped me with persistance and helped me learn to keep going even when i dont feel like it. 
 - Customer Service and Sales Assisant 4 Years (The Studio Kitchens and Bathrooms)
+  - This job has helped me to learn how to handle tough situations and how to calm down situations, as well as learning on the job and give people information without over complicating it.     
 
 <br/>
 
 ### Hobbies
-In my free times i like to play DND, Paint Miniatures and Play Video Games likes Final Fantasy 14, Boredlands 4 and Balatro. I believe these mix of hobbies allows me to keep an open and creative mindset through out my day to day life, helping me develope as a person.
+- DND
+- Miniature Painting
+- Video games
+  - I sometimes play video games in my free time to relac me but also to keep up to date with the latest gaming trends and to give me new ideas for mechanics that i can learn to code. I can then also use these ideas to make unique mechanics in my own games and fix any errors that i have had in previous projects. 
+- Game Jams
+  - I take part in game jams when i have enough free time as i belive it allows me to keep my creativity thrive as well as allows me to keep up to date and learn new skills when im not studying. Game jams also keep me up to date on how to work in a team and different proffesions effieciently and conflict free.
 
 
