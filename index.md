@@ -30,8 +30,7 @@ Hi i'm Alex, Im a Games Programmer, Abertays Dare Finalist (2025) and 4th Year s
   - Language: C++
 <br/>
 
-![Mesh Cutting Gif One](Assets/MeshCuttingOne.gif)
-![Mesh Cutting Gif Two](Assets/MeshCuttingTwo.gif)
+  - ![Mesh Cutting Gif One](Assets/MeshCuttingOne.gif) ![Mesh Cutting Gif Two](Assets/MeshCuttingTwo.gif)
   - [Mesh Cutting Git Page](https://github.com/AONIEX/MeshCuttingWORKING)
   - [Mesh Cutting Video Demonstration](https://www.youtube.com/watch?v=rBjXFgnGRYU)
 
