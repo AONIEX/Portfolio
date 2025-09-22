@@ -50,13 +50,17 @@ Before and during at university i have taken part in multiple game jams to refre
 
 ### Game Jam Games
 - ### Blue
-  - [Blue Itch.io Page](https://alex-onions.itch.io/blue)
   - Blue was made for the Speed Jam #5 with a themes Speed Running and ASCEND. For this Project i wanted to work with lighting and ambience to give the game a nice feel and look whilst having minimal controls (Just a drag and click). I did this game alone, so worked on every aspect, and wanted to take a short break from coding to learn about the other aspects of game development as i believe it is important to understand what each department ahs to deal with
+  - [Blue Itch.io Page](https://alex-onions.itch.io/blue)
+
 - ### The Reapers Garden
+  - 
   - [The Reapers Garden Itch.io Page](https://alex-onions.itch.io/the-reapers-garden)
 
 - ### Skuffed
+  - This project was a team project i did in my 3rd year of university and i took it on myself to have a team of 3rd years so i can see how it is to help people learn and work wiwth less experience people. Even though i was working with lesss experienced people i still wanted to do something unique, so we decided to do a two player rigid body physics game, where you would control your oppents arms and your legs whilst trying to race towards a finish line and screw up your enemy.
   - [Skuffed Itch.io Page](https://alex-onions.itch.io/skuffed)
 
 - ### Fire Breathing Space Corgi
+  - This project was one of my first team projects in a game jam and was a big learning curve, figuring out how to learn with artists, level designers and audio designers. I focused on the core movements for the player and the AI for the enemies within the game, giving each of them unique mechanics, attacks and movement. For this i focused on state machines allowing an enemy to move between states based on if the enemy is close, what attack it wants to use and if it dies. I also made sure to re use this state machine for each enemy, making sure to re use the states that can re used.
   - [Fire Breathing Space Corgi Itch.io Page](https://alex-onions.itch.io/fire-breathing-space-corgi)
