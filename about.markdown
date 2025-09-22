@@ -9,7 +9,7 @@ permalink: /Portfolio/about/
 
 <br/>
 ### General
-My name is Alex O'Nions, i'm a Games Programmer, Abertay Dare Finalist (2025) and 4th Year student at Abertay University studying Computer Games Applications Development.
+Hi, my name is Alex O'Nions, i'm a Games Programmer, Abertay Dare Finalist (2025) and 4th Year student at Abertay University studying Computer Games Applications Development.
 
 <br/>
 ### Hobbies
