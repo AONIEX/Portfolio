@@ -22,7 +22,10 @@ The project was made for Game Mechanics Programming (3rd Year Class), where i ha
  
 ### Ba Ba BANG! Sheep
 Ba Ba BANG! Sheep is a first year project which i have grown and worked on when not working each summer. It started as a sfml game for PC but i quickly move it over to Unity and made the game work for both PC and Mobile, with the game currently having a downloadable android version. The game consists of a infinte procedurally generates level with platforms and enemies constantly spawning as the player tries to move up and get a new high score. This project taught me alot about prefabs, inheritance, parent classes and how to use them properly to stop myself from re writing code where avoidable. It has also shown me the imporatance of object management and performance, due to working with an "infintely" generated level.
+
 ## Game Jams
+Before and whilst at university i have taken part in multiple game jams to refresh and improve my knowledge. The main thing i try to do every game jam is make each game unique, whether thats a new genre or different core mechanics as i believe this allows me to learn more in such a short amount of time.
+
 - ### Blue
 - ### The Reapers Garden
 - ### Skuffed
