@@ -6,12 +6,6 @@ title: Home
 ### About Me
 Hi i'm Alex, Im a Games Programmer, Abertays Dare Finalist (2025) and 4th Year student at Abertay university studying Computer Games Applications Development . In my free time i take part in Game Jams, play DND and Paint 3d Models. I have a huge passion for creating video games, as i want to bring people together and help them create memories with friends and family. 
 
-### Education
-Abertay University - Computer Games Application Development
-Dundee and Angus College - HNC
-Dundee and Angus College - HNC
-
-
 ### Big Projects
 - [Dare Academy Synaptic](https://bonny-bandits.itch.io/synaptic)
   - <img width="315" height="250" alt="Synaptic" src="https://github.com/user-attachments/assets/a12b8fc3-fe75-453e-8ef8-0454fba62356" />
