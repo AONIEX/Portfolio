@@ -19,6 +19,8 @@ Dundee and Angus College - HNC
   - Synaptic was made by a team of 8 people: 2 Programmers (Me being one of them), 3 Designers, 2 Artists and 1 Artist/Animator
   - Made in Unreal 5
   - Made with C++ and Unreal Blueprints
+  - [Synaptic's Itch.io Page](https://bonny-bandits.itch.io/synaptic)
+ 
 - [Ba Ba BANG! Sheep](https://alex-onions.itch.io/ba-ba-bang-sheep)
   -  <img width="315" height="250" alt="BaBa" src="https://github.com/user-attachments/assets/c6ad0947-6c5b-4b3f-bbf7-5a3c4aef396c" />
 
