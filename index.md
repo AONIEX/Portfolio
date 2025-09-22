@@ -22,7 +22,8 @@ Dundee and Angus College - HNC
 - 3rd Year Graphics Project: 
 - 3rd Year Games Mechanics Project: Mesh Cutting 
 
-#### Game Jams
+#### Game Jam Games
+For more information on these games please go to the projects page
 - [Blue](https://alex-onions.itch.io/blue)
 - [The Reapers Garden](https://alex-onions.itch.io/the-reapers-garden)
 - [Skuffed](https://alex-onions.itch.io/skuffed)
