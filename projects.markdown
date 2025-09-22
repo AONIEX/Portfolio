@@ -19,10 +19,13 @@ Synaptic is one of my biggest projects and is a game made for my 3rd year profes
 ![Synaptic Gif Two](Assets/SynapticTwo.gif)
 
 ### Game Mechanics Programming Mesh Cutting (3rd Year University Project)
+[Mesh Cutting Git Page](https://github.com/AONIEX/MeshCuttingWORKING)
+
 The project was made for Game Mechanics Programming (3rd Year Class), where i had to make a unique game mechanic in Unreal Engine 5 using C++ with minimal blueprint use. For this i decided to make a mesh cutting "Weapon" which allowed the player to cut out parts of a mesh, before being able to grab them and then return them to their original position if wanted.
 ![Mesh Cutting Gif One](Assets/MeshCuttingOne.gif)
 ![Mesh Cutting Gif Two](Assets/MeshCuttingTwo.gif)
-
+<br/>
+[Mesh Cutting Video Demonstration](https://www.youtube.com/watch?v=rBjXFgnGRYU)
 
 
 <br/>
