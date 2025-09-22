@@ -6,19 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
     body {
-      .markdown-body,
-      .post-content,
-      .content,
-      .wrapper section {
-        color: white;
-      }
       
-      .markdown-body a,
-      .post-content a,
-      .content a {
-        color: #00aaff;
-      }
-
       color: white;
 
       /*background-color: #f0f0f0; /* light gray */
@@ -32,28 +20,38 @@
 
     }
     body {
-    color: white;
-  }
-
-h1, h2, h3, p, li, nav, footer, header, section {
-  color: white;
-}
-
-      /* Keep links blue */
-    a {
-      color: #00aaff; /* or use 'blue' or any hex you prefer */
+      color: white;
     }
     
-    /* Optional: make visited links a different shade */
+    h1, h2, h3, p, li, nav, footer, header, section {
+      color: white;
+    }
+
+    * Apply white text to key containers */
+    .markdown-body,
+    .post-content,
+    .content,
+    .wrapper section,
+    header,
+    footer,
+    nav,
+    h1, h2, h3, p, li {
+      color: white;
+      background: transparent;
+    }
+  
+    /* Keep links blue */
+    a {
+      color: #00aaff;
+    }
+  
     a:visited {
       color: #0077cc;
     }
-    
-    /* Optional: hover effect */
+  
     a:hover {
       color: #66ccff;
     }
-
 
   </style>
 
