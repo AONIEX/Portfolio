@@ -13,28 +13,28 @@ Hi i'm Alex, Im a Games Programmer, Abertays Dare Finalist (2025) and 4th Year s
 
   <a href="/Portfolio/about/" style="flex: 1 1 250px; text-decoration: none;">
     <div style="border: 2px solid #00aaff; padding: 1em; background: rgba(0,0,0,0.3); border-radius: 8px; color: white;">
-      <h3>👤 About Me</h3>
+      <h3>About Me</h3>
       <p>Learn more about my background and journey.</p>
     </div>
   </a>
 
   <a href="/Portfolio/projects/" style="flex: 1 1 250px; text-decoration: none;">
     <div style="border: 2px solid #00aaff; padding: 1em; background: rgba(0,0,0,0.3); border-radius: 8px; color: white;">
-      <h3>🧪 Projects</h3>
+      <h3>Projects</h3>
       <p>Explore my game dev projects </p>
     </div>
   </a>
 
   <a href="/Portfolio/contact/" style="flex: 1 1 250px; text-decoration: none;">
     <div style="border: 2px solid #00aaff; padding: 1em; background: rgba(0,0,0,0.3); border-radius: 8px; color: white;">
-      <h3>📬 Contact</h3>
+      <h3>Contact</h3>
       <p>Get in touch or connect on GitHub.</p>
     </div>
   </a>
 
   <a href="/Portfolio/cv/" style="flex: 1 1 250px; text-decoration: none;">
     <div style="border: 2px solid #00aaff; padding: 1em; background: rgba(0,0,0,0.3); border-radius: 8px; color: white;">
-      <h3>📄 CV</h3>
+      <h3>CV</h3>
       <p>View my academic and professional experience.</p>
     </div>
   </a>
