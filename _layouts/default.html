@@ -101,33 +101,34 @@ header h3,
 
         
       <nav class="site-nav">
-        <div style="display: flex; flex-direction: column; gap: 0.5em; align-items: stretch;">
+       <div style="display: flex; flex-wrap: wrap; gap: 0.5em; justify-content: center;">
 
-  <a href="{{ 'Portfolio/about/' | relative_url }}" style="text-decoration: none;">
-    <div style="border: 1px solid #00aaff; padding: 0.5em 0.75em; background: rgba(0,0,0,0.3); border-radius: 6px; color: white; text-align: center;">
-      <h4 style="margin: 0;">About Me</h4>
+  <a href="{{ 'Portfolio/about/' | relative_url }}" style="flex: 0 1 auto; text-decoration: none;">
+    <div style="min-width: 100px; padding: 0.5em; background: rgba(0,0,0,0.3); border: 1px solid #00aaff; border-radius: 6px; color: white; text-align: center;">
+      <h5 style="margin: 0;">About</h5>
     </div>
   </a>
 
-  <a href="{{ 'Portfolio/projects/' | relative_url }}" style="text-decoration: none;">
-    <div style="border: 1px solid #00aaff; padding: 0.5em 0.75em; background: rgba(0,0,0,0.3); border-radius: 6px; color: white; text-align: center;">
-      <h4 style="margin: 0;">Projects</h4>
+  <a href="{{ 'Portfolio/projects/' | relative_url }}" style="flex: 0 1 auto; text-decoration: none;">
+    <div style="min-width: 100px; padding: 0.5em; background: rgba(0,0,0,0.3); border: 1px solid #00aaff; border-radius: 6px; color: white; text-align: center;">
+      <h5 style="margin: 0;">Projects</h5>
     </div>
   </a>
 
-  <a href="{{ 'Portfolio/contact/' | relative_url }}" style="text-decoration: none;">
-    <div style="border: 1px solid #00aaff; padding: 0.5em 0.75em; background: rgba(0,0,0,0.3); border-radius: 6px; color: white; text-align: center;">
-      <h4 style="margin: 0;">Contact</h4>
+  <a href="{{ 'Portfolio/contact/' | relative_url }}" style="flex: 0 1 auto; text-decoration: none;">
+    <div style="min-width: 100px; padding: 0.5em; background: rgba(0,0,0,0.3); border: 1px solid #00aaff; border-radius: 6px; color: white; text-align: center;">
+      <h5 style="margin: 0;">Contact</h5>
     </div>
   </a>
 
-  <a href="{{ 'Portfolio/cv/' | relative_url }}" style="text-decoration: none;">
-    <div style="border: 1px solid #00aaff; padding: 0.5em 0.75em; background: rgba(0,0,0,0.3); border-radius: 6px; color: white; text-align: center;">
-      <h4 style="margin: 0;">CV</h4>
+  <a href="{{ 'Portfolio/cv/' | relative_url }}" style="flex: 0 1 auto; text-decoration: none;">
+    <div style="min-width: 100px; padding: 0.5em; background: rgba(0,0,0,0.3); border: 1px solid #00aaff; border-radius: 6px; color: white; text-align: center;">
+      <h5 style="margin: 0;">CV</h5>
     </div>
   </a>
 
 </div>
+
 
         
         </nav>
