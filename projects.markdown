@@ -5,7 +5,7 @@ permalink: /Portfolio/projects/
 ---
 
 # Projects
-
+---
 ## Main Projects
 
 ### Dare Academy - Synaptic
