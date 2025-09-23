@@ -10,7 +10,7 @@ permalink: Portfolio/contact/
 
 
 <br/>
-Email me: Alexonions@hotmail.com
+Email: Alexonions@hotmail.com
 <br/>
 
  <a href="https://www.linkedin.com/in/alex-o%E2%80%99nions-025329276/" style="flex: 1 1 250px; text-decoration: none;">
