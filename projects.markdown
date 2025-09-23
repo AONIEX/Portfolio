@@ -4,6 +4,8 @@ title: Projects
 permalink: /Portfolio/projects/
 ---
 
+
+<hr style="all: unset; display: block; height: 6px; background-color: #00aaff; margin: 2em 0;">
 # Projects
 
 ## Main Projects
