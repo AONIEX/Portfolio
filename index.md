@@ -6,7 +6,6 @@ title: Home
 ### About Me
 Hi i'm Alex, Im a Games Programmer, Abertays Dare Finalist (2025) and 4th Year student at Abertay university studying Computer Games Applications Development . In my free time i take part in Game Jams, play DND and Paint 3d Models. I have a huge passion for creating video games, as i want to bring people together and help them create memories with friends and family. 
 
----
 <hr style="all: unset; display: block; height: 6px; background-color: #00aaff; margin: 2em 0;">
 
 
@@ -32,7 +31,7 @@ Hi i'm Alex, Im a Games Programmer, Abertays Dare Finalist (2025) and 4th Year s
 ![Ba Ba BANG Sheep Gif Two](Assets/BangTwo.gif)
 <br/>
 
----
+<hr style="all: unset; display: block; height: 6px; background-color: #00aaff; margin: 2em 0;">
   
 ### University Projects
 - 3rd Year Games Mechanics Project: Mesh Cutting
@@ -44,7 +43,7 @@ Hi i'm Alex, Im a Games Programmer, Abertays Dare Finalist (2025) and 4th Year s
   - [Mesh Cutting Video Demonstration](https://www.youtube.com/watch?v=rBjXFgnGRYU)
   - ![Mesh Cutting Gif One](Assets/MeshCuttingOne.gif) ![Mesh Cutting Gif Two](Assets/MeshCuttingTwo.gif)
 
----
+<hr style="all: unset; display: block; height: 6px; background-color: #00aaff; margin: 2em 0;">
 
 ### Game Jam Games
 For more information on these games please go to the projects page or check out their itch.io pages below
