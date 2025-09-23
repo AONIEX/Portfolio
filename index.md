@@ -3,7 +3,6 @@ layout: default
 title: Home
 
 ---
-## ✨ Final Boss: What Comes Next
 
 
 ### About Me
