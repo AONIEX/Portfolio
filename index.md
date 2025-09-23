@@ -21,7 +21,7 @@ Hi i'm Alex, Im a Games Programmer, Abertays Dare Finalist (2025) and 4th Year s
   <a href="/Portfolio/projects/" style="flex: 1 1 250px; text-decoration: none;">
     <div style="border: 2px solid #00aaff; padding: 1em; background: rgba(0,0,0,0.3); border-radius: 8px; color: white;">
       <h3>🧪 Projects</h3>
-      <p>Explore my game dev and web projects.</p>
+      <p>Explore my game dev projects </p>
     </div>
   </a>
 
