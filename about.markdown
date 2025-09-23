@@ -5,6 +5,7 @@ permalink: /Portfolio/about/
 ---
 
 <hr style="all: unset; display: block; height: 6px; background-color: #00aaff; margin: 2em 0;">
+
 # About Me
 
 ![Picture Of Alex O'Nions (me)](/Assets/Me.jpg)
