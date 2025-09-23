@@ -3,6 +3,8 @@ layout: default
 title: Home
 ---
 
+<hr style="all: unset; display: block; height: 6px; background-color: #00aaff; margin: 2em 0;">
+
 ### About Me
 Hi i'm Alex, Im a Games Programmer, Abertays Dare Finalist (2025) and 4th Year student at Abertay university studying Computer Games Applications Development . In my free time i take part in Game Jams, play DND and Paint 3d Models. I have a huge passion for creating video games, as i want to bring people together and help them create memories with friends and family. 
 
