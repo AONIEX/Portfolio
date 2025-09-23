@@ -68,6 +68,13 @@ header h3,
   background: transparent !important;
 }
 
+  .divider {
+  border-top: 2px solid #00aaff;
+  margin: 2em 0;
+  opacity: 0.6;
+}
+
+
 </style>
 
     
@@ -101,7 +108,8 @@ header h3,
             <li><a href="{{ 'Portfolio/cv/' | relative_url }}">CV</a></li>
           </ul>
         </nav>
-        
+        <div class="divider"></div>
+
         {% if site.github.is_project_page %}
         <p class="view"><a href="{{ site.github.repository_url }}">View the Project on GitHub <small>{{ site.github.repository_nwo }}</small></a></p>
         {% endif %}
@@ -118,11 +126,15 @@ header h3,
         </ul>
         {% endif %}
       </header>
+      <div class="divider"></div>
+
       <section>
 
       {{ content }}
 
       </section>
+      <div style="text-align: center; margin: 2em 0; color: #00aaff;">✦ ✦ ✦</div>
+
       <footer>
         {% if site.github.is_project_page %}
         <p>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
