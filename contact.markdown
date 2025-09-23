@@ -5,6 +5,7 @@ permalink: Portfolio/contact/
 ---
 
 <hr style="all: unset; display: block; height: 6px; background-color: #00aaff; margin: 2em 0;">
+
 # Get In Contact With Me At:
 
 
