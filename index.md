@@ -30,8 +30,7 @@ Hi i'm Alex, Im a Games Programmer, Abertays Dare Finalist (2025) and 4th Year s
    
 ![Synaptic Gif One](Assets/SynapticOne.gif) ![Synaptic Gif Two](Assets/SynapticTwo.gif)
 
-  <br/>
-  <br/>
+
    
 <hr style="all: unset; display: block; height: 6px; background-color: #00aaff; margin: 2em 0;">
 
