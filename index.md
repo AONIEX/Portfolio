@@ -10,9 +10,10 @@ Hi i'm Alex, Im a Games Programmer, Abertays Dare Finalist (2025) and 4th Year s
 
 <hr style="all: unset; display: block; height: 6px; background-color: #00aaff; margin: 2em 0;">
 
+### Big Projects 
 
+<hr style="all: unset; display: block; height: 6px; background-color: #00aaff; margin: 2em 0;">
 
-### Big Projects
  [Dare Academy Synaptic](https://bonny-bandits.itch.io/synaptic)
   <br/>
    
