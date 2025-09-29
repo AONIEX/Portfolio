@@ -27,9 +27,8 @@ Hi i'm Alex, Im a Games Programmer, Abertays Dare Finalist (2025) and 4th Year s
 - Synaptic was made by a team of 8 people: 2 Programmers (Me being one of them), 3 Designers, 2 Artists and 1 Artist/Animator
 - Made in Unreal 5
 - Made with C++ and Unreal Blueprints
-  <br/>
    
-   ![Synaptic Gif One](Assets/SynapticOne.gif) ![Synaptic Gif Two](Assets/SynapticTwo.gif)
+![Synaptic Gif One](Assets/SynapticOne.gif) ![Synaptic Gif Two](Assets/SynapticTwo.gif)
 
   <br/>
   <br/>
