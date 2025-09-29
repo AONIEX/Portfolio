@@ -42,15 +42,13 @@ Hi i'm Alex, Im a Games Programmer, Abertays Dare Finalist (2025) and 4th Year s
   
    Ba Ba BANG! Sheep is a first year project which i have grown and worked on when not working each summer. It started as a SFML game for PC but i quickly moved it over to Unity (C#) and made the game work for both PC and Mobile, with the game currently having a downloadable android version. The game consists of a infinte procedurally generates level with platforms and enemies constantly spawning as the player tries to move up and get a new high score. This project taught me alot about prefabs, inheritance, parent classes and how to use them properly to stop myself from re writing code where avoidable. It has also shown me the imporatance of object management and performance, due to working with an "infintely" generated level.
   <br/>
+
+### Extra Information
+- Game Engine: Unity
    
-   Game Engine: Unity
-  <br/>
+- Solo Project
    
-   Solo Project
-  <br/>
-   
-   Language: C#
-  <br/>
+- Language: C#
    
 <br/>
 
@@ -68,14 +66,12 @@ Hi i'm Alex, Im a Games Programmer, Abertays Dare Finalist (2025) and 4th Year s
  
    The project was made for Game Mechanics Programming (3rd Year Class), where i had to make a unique game mechanic in Unreal Engine 5 using C++ with minimal blueprint use. For this i decided to make a mesh cutting "Weapon" which allowed the player to cut out parts of a mesh, before being able to grab them and then return them to their original position if wanted.
   <br/>
+
+### Extra Information
    
-   Game Engine: Unreal Engine 5
-  <br/>
-   
-  Solo Project
-  <br/>
-   
-   Language: C++
+- Game Engine: Unreal Engine 5
+- Solo Project
+- Language: C++
   <br/>
    
    [Mesh Cutting Git Page](https://github.com/AONIEX/MeshCuttingWORKING)
