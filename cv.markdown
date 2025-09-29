@@ -9,8 +9,9 @@ permalink: /Portfolio/cv/
 
 # --- Work In Progress---
 
-<iframe src="https://docs.google.com/gview?url=https://yourusername.github.io/Assets/CV.pdf&embedded=true" width="100%" height="600px"></iframe>
-
+<iframe src="Assets/CV.pdf" width="100%" height="600px">
+  This browser does not support PDFs. Please download the PDF to view it: <a href="assets/my-document.pdf">Download PDF</a>.
+</iframe>
 
 
 
