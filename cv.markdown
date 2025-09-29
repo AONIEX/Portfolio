@@ -9,6 +9,11 @@ permalink: /Portfolio/cv/
 
 # --- Work In Progress---
 
+<iframe src="Assets/CV.pdf" width="100%" height="600px">
+  This browser does not support PDFs. Please download the PDF to view it: <a href="Assets/CVt.pdf">Download PDF</a>.
+</iframe>
+
+
 [View my PDF](Assets/CV.pdf)
 
 
