@@ -25,7 +25,6 @@ Hi, my name is Alex O'Nions, i'm a Games Programmer, Abertay Dare Finalist (2025
   - This job has helped me to learn how to handle tough situations and how to calm down situations, as well as learning on the job and give people information without over complicating it.     
 
 <hr style="all: unset; display: block; height: 6px; background-color: #00aaff; margin: 2em 0;">
-<br/>
 
 ### Hobbies
 - DND (Dungeons And Dragons)
