@@ -37,8 +37,6 @@ Hi i'm Alex, Im a Games Programmer, Abertays Dare Finalist (2025) and 4th Year s
  
  [Ba Ba BANG! Sheep](https://alex-onions.itch.io/ba-ba-bang-sheep)
 
-  <br/>
- 
   <img width="315" height="250" alt="BaBa" src="https://github.com/user-attachments/assets/c6ad0947-6c5b-4b3f-bbf7-5a3c4aef396c" />
 
   <br/>
