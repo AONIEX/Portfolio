@@ -13,20 +13,48 @@ Hi i'm Alex, Im a Games Programmer, Abertays Dare Finalist (2025) and 4th Year s
 
 
 ### Big Projects
-- [Dare Academy Synaptic](https://bonny-bandits.itch.io/synaptic)
-  - <img width="315" height="250" alt="Synaptic" src="https://github.com/user-attachments/assets/a12b8fc3-fe75-453e-8ef8-0454fba62356" />
-  - Synaptic is one of my biggest projects and is a game made for my 3rd year professional project class, which was then taken forward to Abertay's Dare Academy. This game was made as with a team of 8 and my role was the Weapons, UI, Interactions and Accesability Programmer. This project has helped with my team building skills, helping me stay in contact with team members and stick to deadlines. I also learned alot about the collabrative side of programming and how important it is to keep in contact with out professions to keep work flowing. For example keeping up to date with the animation team so we can link the animations to the code on time.
-  - Synaptic was made by a team of 8 people: 2 Programmers (Me being one of them), 3 Designers, 2 Artists and 1 Artist/Animator
-  - Made in Unreal 5
-  - Made with C++ and Unreal Blueprints
-  - ![Synaptic Gif One](Assets/SynapticOne.gif) ![Synaptic Gif Two](Assets/SynapticTwo.gif)
+ [Dare Academy Synaptic](https://bonny-bandits.itch.io/synaptic)
+  <br/>
+   
+   <img width="315" height="250" alt="Synaptic" src="https://github.com/user-attachments/assets/a12b8fc3-fe75-453e-8ef8-0454fba62356" />
+  
+  <br/>
+   
+   Synaptic is one of my biggest projects and is a game made for my 3rd year professional project class, which was then taken forward to Abertay's Dare Academy. This game was made as with a team of 8 and my role was the Weapons, UI, Interactions and Accesability Programmer. This project has helped with my team building skills, helping me stay in contact with team members and stick to deadlines. I also learned alot about the collabrative side of programming and how important it is to keep in contact with out professions to keep work flowing. For example keeping up to date with the animation team so we can link the animations to the code on time.
+  <br/>
+   Synaptic was made by a team of 8 people: 2 Programmers (Me being one of them), 3 Designers, 2 Artists and 1 Artist/Animator
+  <br/> 
+   Made in Unreal 5
+  <br/> 
+   Made with C++ and Unreal Blueprints
+  <br/>
+   
+   ![Synaptic Gif One](Assets/SynapticOne.gif) ![Synaptic Gif Two](Assets/SynapticTwo.gif)
+
+  <br/>
+  <br/>
+   
  
-- [Ba Ba BANG! Sheep](https://alex-onions.itch.io/ba-ba-bang-sheep)
-  -  <img width="315" height="250" alt="BaBa" src="https://github.com/user-attachments/assets/c6ad0947-6c5b-4b3f-bbf7-5a3c4aef396c" />
-  - Ba Ba BANG! Sheep is a first year project which i have grown and worked on when not working each summer. It started as a SFML game for PC but i quickly moved it over to Unity (C#) and made the game work for both PC and Mobile, with the game currently having a downloadable android version. The game consists of a infinte procedurally generates level with platforms and enemies constantly spawning as the player tries to move up and get a new high score. This project taught me alot about prefabs, inheritance, parent classes and how to use them properly to stop myself from re writing code where avoidable. It has also shown me the imporatance of object management and performance, due to working with an "infintely" generated level.
-  - Game Engine: Unity
-  - Solo Project
-  - Language: C#
+ [Ba Ba BANG! Sheep](https://alex-onions.itch.io/ba-ba-bang-sheep)
+
+  <br/>
+ 
+  <img width="315" height="250" alt="BaBa" src="https://github.com/user-attachments/assets/c6ad0947-6c5b-4b3f-bbf7-5a3c4aef396c" />
+
+  <br/>
+  
+   Ba Ba BANG! Sheep is a first year project which i have grown and worked on when not working each summer. It started as a SFML game for PC but i quickly moved it over to Unity (C#) and made the game work for both PC and Mobile, with the game currently having a downloadable android version. The game consists of a infinte procedurally generates level with platforms and enemies constantly spawning as the player tries to move up and get a new high score. This project taught me alot about prefabs, inheritance, parent classes and how to use them properly to stop myself from re writing code where avoidable. It has also shown me the imporatance of object management and performance, due to working with an "infintely" generated level.
+  <br/>
+   
+   Game Engine: Unity
+  <br/>
+   
+   Solo Project
+  <br/>
+   
+   Language: C#
+  <br/>
+   
 <br/>
 
 ![Ba Ba BANG Sheep Gif One](Assets/BangOne.gif)
@@ -36,14 +64,35 @@ Hi i'm Alex, Im a Games Programmer, Abertays Dare Finalist (2025) and 4th Year s
 <hr style="all: unset; display: block; height: 6px; background-color: #00aaff; margin: 2em 0;">
   
 ### University Projects
-- 3rd Year Games Mechanics Project: Mesh Cutting
-  - The project was made for Game Mechanics Programming (3rd Year Class), where i had to make a unique game mechanic in Unreal Engine 5 using C++ with minimal blueprint use. For this i decided to make a mesh cutting "Weapon" which allowed the player to cut out parts of a mesh, before being able to grab them and then return them to their original position if wanted.
-  - Game Engine: Unreal Engine 5
-  - Solo Project
-  - Language: C++
-  - [Mesh Cutting Git Page](https://github.com/AONIEX/MeshCuttingWORKING)
-  - [Mesh Cutting Video Demonstration](https://www.youtube.com/watch?v=rBjXFgnGRYU)
-  - ![Mesh Cutting Gif One](Assets/MeshCuttingOne.gif) ![Mesh Cutting Gif Two](Assets/MeshCuttingTwo.gif)
+
+
+ 3rd Year Games Mechanics Project: Mesh Cutting
+  <br/>
+ 
+   The project was made for Game Mechanics Programming (3rd Year Class), where i had to make a unique game mechanic in Unreal Engine 5 using C++ with minimal blueprint use. For this i decided to make a mesh cutting "Weapon" which allowed the player to cut out parts of a mesh, before being able to grab them and then return them to their original position if wanted.
+  <br/>
+   
+   Game Engine: Unreal Engine 5
+  <br/>
+   
+  Solo Project
+  <br/>
+   
+   Language: C++
+  <br/>
+   
+   [Mesh Cutting Git Page](https://github.com/AONIEX/MeshCuttingWORKING)
+
+  <br/>
+   
+   [Mesh Cutting Video Demonstration](https://www.youtube.com/watch?v=rBjXFgnGRYU)
+
+  <br/>
+   
+   ![Mesh Cutting Gif One](Assets/MeshCuttingOne.gif) ![Mesh Cutting Gif Two](Assets/MeshCuttingTwo.gif)
+
+  <br/>
+   
 
 <hr style="all: unset; display: block; height: 6px; background-color: #00aaff; margin: 2em 0;">
 
