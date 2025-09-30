@@ -9,7 +9,7 @@ permalink: Portfolio/contact/
 # Get In Contact With Me or Check out my socials
 
 <div style="display: flex; flex-wrap: wrap; gap: 1em; justify-content: center;">
-<a href="Alexonions@hotmail.com" style="flex: 1 1 250px; text-decoration: none;">
+<a  style="flex: 1 1 250px; text-decoration: none;">
     <div style="border: 2px solid #00aaff; padding: 1em; background: rgba(0,0,0,0.3); border-radius: 8px; color: white;">
       <h3>Email</h3>
       <p>Alexonions@hotmail.com </p>
