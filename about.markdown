@@ -14,15 +14,7 @@ permalink: /Portfolio/about/
 ### General
 Hi, my name is Alex O'Nions, i'm a Games Programmer, Abertay Dare Finalist (2025) and 4th Year student at Abertay University studying Computer Games Applications Development.
 
-<hr style="all: unset; display: block; height: 6px; background-color: #00aaff; margin: 2em 0;">
 
-### Recent Events
-
-#### Dare Academy
-During the Summer of 2025, Me and a team of 8 the Bonny Bandits became Dare Academy finalists with our game Systanpic, which we continued from our Des315 (University Professional Project). This oppurtunity allowed us to work with people in the game industry and get feedback on our ideas and approach to making the game. This also gave us the oppurtunity to show case our game at the Dundee Contemporary Arts (DCA)  its annual Drop-in and Play event, with the other 5 Finalists team. We are currently waiting for the awards ceremony and any further updates on our game.
-
-![Picture Of DCA Event](/Assets/SynapticShowcase.jpg)
-![Picture Of Bonny Bandits](/Assets/SynapticGroup.jpg)
 
 
 <hr style="all: unset; display: block; height: 6px; background-color: #00aaff; margin: 2em 0;">
@@ -51,4 +43,12 @@ During the Summer of 2025, Me and a team of 8 the Bonny Bandits became Dare Acad
 
 <hr style="all: unset; display: block; height: 6px; background-color: #00aaff; margin: 2em 0;">
 
+
+### Recent Events
+
+#### Dare Academy
+During the Summer of 2025, Me and a team of 8 the Bonny Bandits became Dare Academy finalists with our game Systanpic, which we continued from our Des315 (University Professional Project). This oppurtunity allowed us to work with people in the game industry and get feedback on our ideas and approach to making the game. This also gave us the oppurtunity to show case our game at the Dundee Contemporary Arts (DCA)  its annual Drop-in and Play event, with the other 5 Finalists team. We are currently waiting for the awards ceremony and any further updates on our game.
+
+![Picture Of DCA Event](/Assets/SynapticShowcase.jpg)
+![Picture Of Bonny Bandits](/Assets/SynapticGroup.jpg)
 
