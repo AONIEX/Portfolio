@@ -75,8 +75,6 @@ Hi i'm Alex, Im a Games Programmer, Abertays Dare Finalist (2025) and 4th Year s
    
    [Mesh Cutting Git Page](https://github.com/AONIEX/MeshCuttingWORKING)
 
-  <br/>
-   
    [Mesh Cutting Video Demonstration](https://www.youtube.com/watch?v=rBjXFgnGRYU)
 
    
