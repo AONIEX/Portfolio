@@ -39,6 +39,10 @@ Dare Academy is a competetion hosted by Abertay University, where students can a
   - the weapons were play tested countless times to make sure they felt smooth and good to use.
 - Animations connections for Ammo Display and Weapon animations:
   - worked closely with the animation to line up the animation timings and for them to work for the correct weapons
+- Testing
+  - Mechanics Testing
+  - Build Testing
+  - Checking that all targets are shootable   
 
 
 ### Synaptic
