@@ -21,7 +21,7 @@ Dare Academy is a competetion hosted by Abertay University, where students can a
  - The oppurtunity to showcase the game, helped me focus on fixing bugs, polishing mechanics and making features fun and accessible.
 
    <br/>
-#### My Focuses as the Weapons, UI and Accessability Programmer 
+#### Core Focuses During Dare Academy Hot housing (Development Period)
 - UI:
   - Polished and more settings were added (Aim Assist, Motion Sickness and other accessabilty settings).
   - Pause menu made to pause the game
