@@ -5,15 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
-  body {
-    color: white;
-    background-image: url('{{ "/Assets/Bg8.webp" | relative_url }}');
-    background-size: cover;
-    /*background-position: top center;*/
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-color: #001f3f;
-  }
+body {
+  color: white;
+  background-image:
+    radial-gradient(circle at center, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.2) 60%, rgba(0, 0, 0, 0) 100%),
+    url('{{ "/Assets/Bg8.webp" | relative_url }}');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: #001f3f;
+}
 
   /* Apply white text to key containers */
   .markdown-body,
