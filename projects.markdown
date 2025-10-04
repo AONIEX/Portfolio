@@ -11,7 +11,7 @@ permalink: /Portfolio/projects/
 
 <hr style="all: unset; display: block; height: 6px; background-color: #00aaff; margin: 2em 0;">
 
-### Dare Academy 
+### Dare Academy (Synaptic)
 Dare Academy is a competetion hosted by Abertay University, where students can apply with a team of up to 8 people. Only 6 teams can become finalists and mine was one of them (The Bonny Bandits). As a team we pitched a university project for this competition and then developed it into a working a playable game, showcasing at events at locatsions like the DCA (Dundee Contemporary Arts) and Water's Edge (Dundee) as well as talking to industry experts.
 
 #### This oppurnity allowed me to develope my communication, teambuilding, programming, showcasing, and pitching skills. 
