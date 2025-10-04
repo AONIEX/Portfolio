@@ -14,13 +14,16 @@ permalink: /Portfolio/projects/
 ### Dare Academy 
 Dare Academy is a competetion hosted by Abertay University, where students can apply with a team of up to 8 people. Only 6 teams can become finalists and mine was one of them (The Bonny Bandits). As a team we pitched a university project for this competition and then developed it into a working a playable game, showcasing at events at locatsions like the DCA (Dundee Contemporary Arts) and Water's Edge (Dundee) as well as talking to industry experts.
 
-This oppurnity allowed me to develope my communication, teambuilding, programming, showcasing, and pitching skills. 
+#### This oppurnity allowed me to develope my communication, teambuilding, programming, showcasing, and pitching skills. 
  - The ability to collabarate and talk to industry experts helped increase my programming and problem solving skills.
  - The oppurtunity to showcase at the DCA and Water edge helped me  massively improve my communication, showcasing and pitching skills.
  - Working closely with the team of 8 has helped me with team building as well as learning how to collabarate with different departments effectively.
  - The oppurtunity to showcase the game, helped me focus on fixing bugs, polishing mechanics and making features fun and accessible.
 
-My Focuses as the Weapons, UI and Accessability Programmer 
+   <br/>
+#### My Focuses as the Weapons, UI and Accessability Programmer 
+- Controller Support: Was a huge focus of mine during the second half of development, making sure the mechanics and UI worked smoothly on controller as well as changing any features needed for controller support
+- Aim Assist: This was a key accessability feature added for people with slower reaction times, as well as making playing with a controller easier. Using ray tracing to know when to apply aim assist
 - 
 
 ### Synaptic
