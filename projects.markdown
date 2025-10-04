@@ -22,9 +22,24 @@ Dare Academy is a competetion hosted by Abertay University, where students can a
 
    <br/>
 #### My Focuses as the Weapons, UI and Accessability Programmer 
-- Controller Support: Was a huge focus of mine during the second half of development, making sure the mechanics and UI worked smoothly on controller as well as changing any features needed for controller support
-- Aim Assist: This was a key accessability feature added for people with slower reaction times, as well as making playing with a controller easier. Using ray tracing to know when to apply aim assist
-- 
+- UI:
+  - Polished and more settings were added (Aim Assist, Motion Sickness and other accessabilty settings).
+  - Pause menu made to pause the game
+  - Controller support
+  - Selected button highlighting.
+- Controller Support:
+  - Huge focus of mine during the second half of development
+  - Making sure the mechanics and UI worked smoothly on controller
+  - Changing any features needed for smoother gameplay wiht controller whilst keeping it similar to the mouse and keyboard feel
+- Aim Assist
+  - This was a key accessability feature added for people with slower reaction times, as well as making playing with a controller easier. Using ray tracing to know when to apply aim assist
+- Motion Sickness Mode
+  - This was added to remove the visual effects, camera shake and anything that would make the player uncomftable or cause them to feel nautious.
+- Polishing Weapon Mechanics:
+  - the weapons were play tested countless times to make sure they felt smooth and good to use.
+- Animations connections for Ammo Display and Weapon animations:
+  - worked closely with the animation to line up the animation timings and for them to work for the correct weapons
+
 
 ### Synaptic
 Synaptic is one of my biggest projects and is a game made for my 3rd year professional project class, which was then taken forward to Abertay's Dare Academy. This game was made as with a team of 8 and my role was the Weapons, UI, Interactions and Accesability Programmer. This project has helped with my team building skills, helping me stay in contact with team members and stick to deadlines. I also learned alot about the collabrative side of programming and how important it is to keep in contact with out professions to keep work flowing. For example keeping up to date with the animation team so we can link the animations to the code on time.
