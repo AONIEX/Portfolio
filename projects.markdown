@@ -93,6 +93,7 @@ Synaptic is one of my biggest projects and is a game made for my 3rd year profes
 - Focusing on object/locations
   - Camera focuses/looks at set targets or locations
   - Used for tutorials to allow information to be showed based on correct enemies
+  - Used for opening and final cutscenes
 
 ![Synaptic Gif Two](Assets/SynapticTwo.gif)
    
