@@ -106,29 +106,34 @@ header h5,
   text-decoration: none;
 }
 
-.project-nav a > div {
-  width: 100px; /* Fixed width for consistency */
+.project-button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 180px;
   padding: 0.5em;
   background: rgba(0,0,0,0.3);
   border: 1px solid #00aaff;
   border-radius: 6px;
   color: white;
-  text-align: center;
+  text-align: left;
   transition: transform 0.3s ease;
 }
 
-.project-nav a:hover > div {
+.project-button:hover {
   transform: scale(1.05);
 }
 
-.project-nav img {
-  width: 100%;
+.project-button img {
+  width: 60px;
   height: auto;
   border-radius: 4px;
-  margin-bottom: 0.5em;
+  margin-left: 0.5em;
 }
 
-
+.project-text {
+  flex-grow: 1;
+}
   html {
   scroll-behavior: smooth;
 }
