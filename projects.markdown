@@ -19,10 +19,11 @@ permalink: /Portfolio/projects/
     </div>
   </div>
 </a>
- <a href="#Snyaptic" style="text-decoration: none;">
+
+ <a href="#Synaptic" style="text-decoration: none;">
   <div class="project-button">
     <div class="project-text">
-      <h5 style="margin: 0;">Snyaptic</h5>
+      <h5 style="margin: 0;">Synaptic</h5>
     </div>
   </div>
 </a>
