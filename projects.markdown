@@ -9,19 +9,7 @@ permalink: /Portfolio/projects/
 
 # Projects and Achievements
 
-<div class="project-nav" style="
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.5em;
-  justify-content: center;
-  background-color: #111; /* optional for contrast */
-  padding: 0.5em 0;
-  z-index: 1000;
-">
+<div class="project-nav" style="display: flex; flex-wrap: wrap; gap: 0.5em; justify-content: center; margin-bottom: 1em;"
 
 
  <a href="#Dare_Academy" style="text-decoration: none;">
