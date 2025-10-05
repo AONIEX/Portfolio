@@ -74,6 +74,8 @@ Synaptic is one of my biggest projects and is a game made for my 3rd year profes
 #### Core Focuses During Development
 - Weapon Mechanics
   - Finger guns
+    - A classic video game gun, fires a bullet as expected
+    - Created bullet drop for the bullet drop so the weapon felt like it needed some skill  
   - Scissors
     - The weapon focuses on letting the player cut targets in half before destorying them
     - This included working with changing and cutting meshes in half, creating a new mesh/object based on teh new half with its own collisions and physics  
