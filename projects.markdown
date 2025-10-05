@@ -10,12 +10,12 @@ permalink: /Portfolio/projects/
 # Projects and Achievements
 
 <div class="project-nav" style="display: flex; flex-wrap: wrap; gap: 0.5em; justify-content: center; margin-bottom: 1em;">
-  <a href="#project-one" style="flex: 0 1 auto; text-decoration: none;">
+  <a href="#Dare_Academy" style="flex: 0 1 auto; text-decoration: none;">
     <div style="min-width: 100px; padding: 0.5em; background: rgba(0,0,0,0.3); border: 1px solid #00aaff; border-radius: 6px; color: white; text-align: center;">
       <h5 style="margin: 0;">Project One</h5>
     </div>
   </a>
-  <a href="#project-two" style="flex: 0 1 auto; text-decoration: none;">
+  <a href="#Synaptic" style="flex: 0 1 auto; text-decoration: none;">
     <div style="min-width: 100px; padding: 0.5em; background: rgba(0,0,0,0.3); border: 1px solid #00aaff; border-radius: 6px; color: white; text-align: center;">
       <h5 style="margin: 0;">Project Two</h5>
     </div>
@@ -26,8 +26,8 @@ permalink: /Portfolio/projects/
 
 <hr style="all: unset; display: block; height: 6px; background-color: #00aaff; margin: 2em 0;">
 
-<a id="project-one"></a>
-## Project One
+<a id="Dare_Academy"></a>
+## Dare Academy
 <!-- content -->
 
 
@@ -74,8 +74,8 @@ Dare Academy is a competetion hosted by Abertay University, where students can a
 
 <hr style="all: unset; display: block; height: 6px; background-color: #00aaff; margin: 2em 0;">
 
-<a id="project-two"></a>
-## Project Two
+<a id="Synaptic"></a>
+## Synaptic
 <!-- content -->
 
 ### Synaptic (Before Dare Academy)
