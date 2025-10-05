@@ -87,6 +87,12 @@ header h5,
 
   /* Existing styles... */
 
+/* Animation setup */
+@keyframes slideUp {
+  from { transform: translateY(100%); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+
 .project-nav {
   position: fixed;
   bottom: 0;
@@ -101,7 +107,17 @@ header h5,
   border-top: 2px solid #00aaff;
   backdrop-filter: blur(4px);
   z-index: 1000;
+  animation: slideUp 0.6s ease-out;
+  transition: transform 0.3s ease, opacity 0.3s ease;
 }
+
+/* Hidden state */
+.project-nav.hide {
+  transform: translateY(100%);
+  opacity: 0;
+  pointer-events: none;
+}
+
 
 .project-nav a {
   text-decoration: none;
@@ -228,5 +244,21 @@ header h5,
       </footer>
     </div>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
+
+    <script>
+let lastScrollY = window.scrollY;
+const nav = document.querySelector('.project-nav');
+
+window.addEventListener('scroll', () => {
+  if (!nav) return;
+  if (window.scrollY > lastScrollY && window.scrollY > 100) {
+    nav.classList.add('hide'); // scrolling down
+  } else {
+    nav.classList.remove('hide'); // scrolling up
+  }
+  lastScrollY = window.scrollY;
+});
+</script>
+
   </body>
 </html>
