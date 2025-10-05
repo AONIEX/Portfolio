@@ -88,18 +88,46 @@ header h5,
   /* Existing styles... */
 
 .project-nav {
+  display: flex;
+  overflow-x: auto;
+  white-space: nowrap;
+  padding: 0.5em;
+  gap: 0.5em;
   position: sticky;
   top: 0;
   z-index: 1000;
-  background: rgba(0, 0, 0, 0.2); /* Optional: gives it a backdrop */
-  padding: 0.5em;
-  overflow-x: auto;
-  white-space: nowrap;
-  backdrop-filter: blur(4px); /* Optional: adds a frosted glass effect */
+  background: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(4px);
+  border-bottom: 2px solid #00aaff;
 }
+
 .project-nav a {
-  display: inline-block;
+  flex: 0 0 auto;
+  text-decoration: none;
 }
+
+.project-nav a > div {
+  width: 100px; /* Fixed width for consistency */
+  padding: 0.5em;
+  background: rgba(0,0,0,0.3);
+  border: 1px solid #00aaff;
+  border-radius: 6px;
+  color: white;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.project-nav a:hover > div {
+  transform: scale(1.05);
+}
+
+.project-nav img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+  margin-bottom: 0.5em;
+}
+
 
   html {
   scroll-behavior: smooth;
