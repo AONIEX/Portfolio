@@ -234,7 +234,7 @@ Before and during at university i have taken part in multiple game jams to refre
 
 ### Game Jam Games
 
-- ### Blue
+### Blue
 
 <br/>
 
@@ -251,7 +251,7 @@ Before and during at university i have taken part in multiple game jams to refre
 
 
 
-- ### The Reapers Garden
+ ### The Reapers Garden
 
 <br/>
 
@@ -269,7 +269,7 @@ Before and during at university i have taken part in multiple game jams to refre
   - Language: C#
   - [The Reapers Garden Itch.io Page](https://alex-onions.itch.io/the-reapers-garden)
 
-- ### Skuffed
+ ### Skuffed
 
 <br/>
 
@@ -287,7 +287,7 @@ Before and during at university i have taken part in multiple game jams to refre
   - [Skuffed Itch.io Page](https://alex-onions.itch.io/skuffed)
     
 
-- ### Fire Breathing Space Corgi
+ ### Fire Breathing Space Corgi
 
 
  <br/> 
