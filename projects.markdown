@@ -234,7 +234,11 @@ Before and during at university i have taken part in multiple game jams to refre
 
 ### Game Jam Games
 - ### Blue
+
+<br/>
+
 <img width="315" height="250" alt="Blue" src="https://github.com/user-attachments/assets/0e8de0a7-45ea-4af8-afe3-82b733398430" />
+
   - Blue was made for the Speed Jam #5 with a themes Speed Running and ASCEND. For this Project i wanted to work with lighting and ambience to give the game a nice feel and look whilst having minimal controls (Just a drag and click). I did this game alone, so worked on every aspect, and wanted to take a short break from coding to learn about the other aspects of game development as i believe it is important to understand what each department ahs to deal with
   -  Solo Project
   - Game Engine: Unity
@@ -243,6 +247,9 @@ Before and during at university i have taken part in multiple game jams to refre
 
 - ### The Reapers Garden
   - This was one of my first game jam games with a theme of 2 colours, no shades just black and white. I believe i learned the fundamentals of Unity for this project, when making this wave based game. I also chose to add a unique mechanics of collecting souls for the reaper to regrow their garden. This was quite a simple project but also allows me to show how far my skills have come.
+
+<br/>
+
 <img width="315" height="250" alt="Reap" src="https://github.com/user-attachments/assets/b0b8752e-ca1d-40f0-bad4-d977ccefe3e4" /> 
   - One of my First Game Jams
   - Solo Project
@@ -252,6 +259,9 @@ Before and during at university i have taken part in multiple game jams to refre
 
 - ### Skuffed
   - This project was a team project i did in my 3rd year of university and i took it on myself to have a team of 3rd years so i can see how it is to help people learn and work wiwth less experience people. Even though i was working with lesss experienced people i still wanted to do something unique, so we decided to do a two player rigid body physics game, where you would control your oppents arms and your legs whilst trying to race towards a finish line and screw up your enemy.
+
+<br/>
+
 <img width="315" height="250" alt="Skuffed" src="https://github.com/user-attachments/assets/6a611d58-fec7-4d5f-9831-1fe0a31d31ba" />
    - Team Project
   - Game Engine: Unity
