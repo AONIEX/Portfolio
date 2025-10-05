@@ -10,34 +10,23 @@ permalink: /Portfolio/projects/
 # Projects and Achievements
 
 <div class="project-nav" style="display: flex; flex-wrap: wrap; gap: 0.5em; justify-content: center; margin-bottom: 1em;">
-  <a href="#Dare_Academy" style="flex: 0 1 auto; text-decoration: none;">
-    <div style="min-width: 100px; padding: 0.5em; background: rgba(0,0,0,0.3); border: 1px solid #00aaff; border-radius: 6px; color: white; text-align: center;">
+ <a href="#Dare_Academy" style="text-decoration: none;">
+  <div class="project-button">
+    <div class="project-text">
       <h5 style="margin: 0;">Dare Academy</h5>
     </div>
-  </a>
-  <a href="#Synaptic" style="flex: 0 1 auto; text-decoration: none;">
-    <div style="min-width: 100px; padding: 0.5em; background: rgba(0,0,0,0.3); border: 1px solid #00aaff; border-radius: 6px; color: white; text-align: center;">
-      <h5 style="margin: 0;">Synaptic</h5>
+    <img src="{{ '/assets/images/project1-thumb.webp' | relative_url }}" alt="Project One Preview">
+  </div>
+</a>
+ <a href="#Snyaptic" style="text-decoration: none;">
+  <div class="project-button">
+    <div class="project-text">
+      <h5 style="margin: 0;">Snyaptic</h5>
     </div>
-  </a>
+    <img src="{{ '/assets/images/project1-thumb.webp' | relative_url }}" alt="Project One Preview">
+  </div>
+</a>
 
-  <a href="#Mesh_Cutting" style="flex: 0 1 auto; text-decoration: none;">
-    <div style="min-width: 100px; padding: 0.5em; background: rgba(0,0,0,0.3); border: 1px solid #00aaff; border-radius: 6px; color: white; text-align: center;">
-      <h5 style="margin: 0;">Mesh Cutting</h5>
-    </div>
-  </a>
-
-   <a href="#BaBaBANGSheeep" style="flex: 0 1 auto; text-decoration: none;">
-    <div style="min-width: 100px; padding: 0.5em; background: rgba(0,0,0,0.3); border: 1px solid #00aaff; border-radius: 6px; color: white; text-align: center;">
-      <h5 style="margin: 0;">BaBaBANG!Sheep</h5>
-    </div>
-  </a>
-
-   <a href="#GameJams" style="flex: 0 1 auto; text-decoration: none;">
-    <div style="min-width: 100px; padding: 0.5em; background: rgba(0,0,0,0.3); border: 1px solid #00aaff; border-radius: 6px; color: white; text-align: center;">
-      <h5 style="margin: 0;">Game Jams</h5>
-    </div>
-  </a>
   <!-- Add more buttons as needed -->
 </div>
 
