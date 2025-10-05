@@ -9,7 +9,7 @@ permalink: /Portfolio/projects/
 
 # Projects and Achievements
 
-<div class="project-nav" style="display: flex; flex-wrap: wrap; gap: 0.5em; justify-content: center; margin-bottom: 1em;"
+<div class="project-nav" style="display: flex; flex-wrap: wrap; gap: 0.5em; justify-content: center; margin-bottom: 1em;">
 
 
  <a href="#Dare_Academy" style="text-decoration: none;">
