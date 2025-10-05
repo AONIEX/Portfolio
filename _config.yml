@@ -4,6 +4,10 @@ description: Game Programmer and 4th Year Computer Games Applications Developmen
 baseurl: "/Portfolio"
 url: "https://aoniex.github.io"
 
+collections:
+  pages:
+    output: true
+
 # Uncomment this if you want download links to show
 # show_downloads: true
 
