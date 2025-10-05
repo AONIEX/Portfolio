@@ -23,6 +23,7 @@ permalink: /Portfolio/projects/
   z-index: 1000;
 ">
 
+
  <a href="#Dare_Academy" style="text-decoration: none;">
   <div class="project-button">
     <div class="project-text">
