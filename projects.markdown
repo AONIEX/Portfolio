@@ -236,8 +236,6 @@ Before and during at university i have taken part in multiple game jams to refre
 
 ### Blue
 
-<br/>
-
 <img width="315" height="250" alt="Blue" src="https://github.com/user-attachments/assets/0e8de0a7-45ea-4af8-afe3-82b733398430" />
 
 <br/>
@@ -252,8 +250,6 @@ Before and during at university i have taken part in multiple game jams to refre
 
 
  ### The Reapers Garden
-
-<br/>
 
 <img width="315" height="250" alt="Reap" src="https://github.com/user-attachments/assets/b0b8752e-ca1d-40f0-bad4-d977ccefe3e4" /> 
 
@@ -271,8 +267,6 @@ Before and during at university i have taken part in multiple game jams to refre
 
  ### Skuffed
 
-<br/>
-
 <img width="315" height="250" alt="Skuffed" src="https://github.com/user-attachments/assets/6a611d58-fec7-4d5f-9831-1fe0a31d31ba" />
 
 <br/>
@@ -289,8 +283,6 @@ Before and during at university i have taken part in multiple game jams to refre
 
  ### Fire Breathing Space Corgi
 
-
- <br/> 
 
  ![Fire Breathing Space Corgi](Assets/Corgi.png)
 
