@@ -12,7 +12,7 @@ permalink: /Portfolio/projects/
 <div class="project-nav" style="display: flex; flex-wrap: wrap; gap: 0.5em; justify-content: center; margin-bottom: 1em;">
   <a href="#Dare_Academy" style="flex: 0 1 auto; text-decoration: none;">
     <div style="min-width: 100px; padding: 0.5em; background: rgba(0,0,0,0.3); border: 1px solid #00aaff; border-radius: 6px; color: white; text-align: center;">
-      <h5 style="margin: 0;">Dare Acadmey</h5>
+      <h5 style="margin: 0;">Dare Academy</h5>
     </div>
   </a>
   <a href="#Synaptic" style="flex: 0 1 auto; text-decoration: none;">
