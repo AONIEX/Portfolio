@@ -91,7 +91,16 @@ Synaptic is one of my biggest projects and is a game made for my 3rd year profes
   - Camera focuses/looks at set targets or locations
   - Used for tutorials to allow information to be showed based on correct enemies 
 - UI and Settings
+  - Main Menu, End Screen
+    - Connections to settings, ability to start and exit game
+  - Settings
+    - Ability to turn on/off subtitles, audio, change specific volumes
+  - In Game Pause Menu
+    - Ability to Pause game, Access settings, Tutorial, Exit game, Go to Main Menu
 - Testing and Building
+  -  Testing the game looking for bugs and errors
+  -  Fixing Errors and bugs
+  -  Build Testing and fixing, passing on information to producer
 
 <hr style="all: unset; display: block; height: 6px; background-color: #00aaff; margin: 2em 0;">
 
