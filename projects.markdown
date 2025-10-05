@@ -251,6 +251,7 @@ Before and during at university i have taken part in multiple game jams to refre
 <br/>
 
 <img width="315" height="250" alt="Reap" src="https://github.com/user-attachments/assets/b0b8752e-ca1d-40f0-bad4-d977ccefe3e4" /> 
+
   - One of my First Game Jams
   - Solo Project
   - Game Engine: Unity
@@ -263,14 +264,18 @@ Before and during at university i have taken part in multiple game jams to refre
 <br/>
 
 <img width="315" height="250" alt="Skuffed" src="https://github.com/user-attachments/assets/6a611d58-fec7-4d5f-9831-1fe0a31d31ba" />
-   - Team Project
+
+  - Team Project
   - Game Engine: Unity
   - Language: C#
   - [Skuffed Itch.io Page](https://alex-onions.itch.io/skuffed)
 
 - ### Fire Breathing Space Corgi
   - This project was one of my first team projects in a game jam and was a big learning curve, figuring out how to learn with artists, level designers and audio designers. I focused on the core movements for the player and the AI for the enemies within the game, giving each of them unique mechanics, attacks and movement. For this i focused on state machines allowing an enemy to move between states based on if the enemy is close, what attack it wants to use and if it dies. I also made sure to re use this state machine for each enemy, making sure to re use the states that can re used.
+   
+ <br/> 
  ![Fire Breathing Space Corgi](Assets/Corgi.png)
+ 
    - Team Project
   - Game Engine: Unity
   - Language: C#
