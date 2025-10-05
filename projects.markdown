@@ -9,6 +9,21 @@ permalink: /Portfolio/projects/
 
 # Projects and Achievements
 
+<div class="project-nav" style="display: flex; flex-wrap: wrap; gap: 0.5em; justify-content: center; margin-bottom: 1em;">
+  <a href="#project-one" style="flex: 0 1 auto; text-decoration: none;">
+    <div style="min-width: 100px; padding: 0.5em; background: rgba(0,0,0,0.3); border: 1px solid #00aaff; border-radius: 6px; color: white; text-align: center;">
+      <h5 style="margin: 0;">Project One</h5>
+    </div>
+  </a>
+  <a href="#project-two" style="flex: 0 1 auto; text-decoration: none;">
+    <div style="min-width: 100px; padding: 0.5em; background: rgba(0,0,0,0.3); border: 1px solid #00aaff; border-radius: 6px; color: white; text-align: center;">
+      <h5 style="margin: 0;">Project Two</h5>
+    </div>
+  </a>
+  <!-- Add more buttons as needed -->
+</div>
+
+
 <hr style="all: unset; display: block; height: 6px; background-color: #00aaff; margin: 2em 0;">
 
 <a id="project-one"></a>
