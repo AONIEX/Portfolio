@@ -83,6 +83,7 @@ Synaptic is one of my biggest projects and is a game made for my 3rd year profes
     - This weapon creates a gravitational pull which sucks in nearby targets destroying them upon impacts, and causing them to have a zero gravity effect
     - This included working with physics to let the targets float and get pulled in as wanted, alot of testing and fiddling was needed to get this effect to feel right.
 - Player Movement
+  - Basic Player Movement (W,A,S,D) or (Analog Stick) Based walking 
 - Interactions
 - Focusing on object/locations
 - UI and Settings
