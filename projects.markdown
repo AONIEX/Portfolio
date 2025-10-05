@@ -95,6 +95,7 @@ Synaptic is one of my biggest projects and is a game made for my 3rd year profes
     - Connections to settings, ability to start and exit game
   - Settings
     - Ability to turn on/off subtitles, audio, change specific volumes
+    - Communication on needed settings
   - In Game Pause Menu
     - Ability to Pause game, Access settings, Tutorial, Exit game, Go to Main Menu
 - Testing and Building
