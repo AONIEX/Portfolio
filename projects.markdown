@@ -33,13 +33,13 @@ Dare Academy is a competetion hosted by Abertay University, where students can a
   - Controller support
   - Selected button highlighting.
 - Controller Support:
-  - Huge focus of mine during the second half of development
+  - Huge focus of mine during the second half of development, researching the best way to implement it
   - Making sure the mechanics and UI worked smoothly on controller
   - Changing any features needed for smoother gameplay wiht controller whilst keeping it similar to the mouse and keyboard feel
 - Aim Assist
   - This was a key accessability feature added for people with slower reaction times, as well as making playing with a controller easier. Using ray tracing to know when to apply aim assist
 - Motion Sickness Mode
-  - This was added to remove the visual effects, camera shake and anything that would make the player uncomftable or cause them to feel nautious.
+  - This was added to remove/reduce the visual effects, camera shake and anything that would make the player uncomftable or cause them to feel nautious.
 - Polishing Weapon Mechanics:
   - the weapons were play tested countless times to make sure they felt smooth and good to use.
 - Animations connections for Ammo Display and Weapon animations:
