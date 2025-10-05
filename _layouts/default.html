@@ -212,11 +212,27 @@ header h5,
       </header>
       <div class="divider"></div>
 
-      <section>
-
-      {{ content }}
-
-      </section>
+      <section style="display: flex; gap: 1em; align-items: flex-start;">
+          <div class="main-content" style="flex: 1;">
+            {{ content }}
+          </div>
+        
+          <div class="project-nav" style="flex: 0 0 auto;">
+            <a href="#project-one" style="text-decoration: none;">
+              <div>
+                <h5 style="margin: 0;">Project One</h5>
+                <img src="{{ '/assets/images/project1-thumb.webp' | relative_url }}" alt="Project One Preview">
+              </div>
+            </a>
+            <a href="#project-two" style="text-decoration: none;">
+              <div>
+                <h5 style="margin: 0;">Project Two</h5>
+                <img src="{{ '/assets/images/project2-thumb.webp' | relative_url }}" alt="Project Two Preview">
+              </div>
+            </a>
+            <!-- Add more project buttons here -->
+          </div>
+    </section>
       <div class="divider"></div>
 
       <footer>
