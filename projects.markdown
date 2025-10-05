@@ -86,7 +86,10 @@ Synaptic is one of my biggest projects and is a game made for my 3rd year profes
   - Basic Player Movement (W,A,S,D) or (Analog Stick) Based walking
   - Head Bobbing and Camera Shaking based on shooting, movement and interactions
 - Interactions
+  - Hub interactions with unique functions
 - Focusing on object/locations
+  - Camera focuses/looks at set targets or locations
+  - Used for tutorials to allow information to be showed based on correct enemies 
 - UI and Settings
 - Testing and Building
 
