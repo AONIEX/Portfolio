@@ -222,27 +222,17 @@ header h5,
       </header>
       <div class="divider"></div>
 
-   <section style="display: flex; gap: 2em; align-items: flex-start;">
-  <div class="main-content" style="max-width: 800px; width: 100%;">
-    {{ content }}
-  </div>
+  <div style="display: flex; justify-content: center;">
+  <section style="display: flex; gap: 2em; align-items: flex-start; width: 100%; max-width: 1200px;">
+    <div class="main-content" style="flex: 1; max-width: 800px; width: 100%; padding: 0 1em;">
+      {{ content }}
+    </div>
 
-  <div class="project-nav" style="flex: 0 0 auto;">
-    <a href="#project-one" style="text-decoration: none;">
-      <div>
-        <h5 style="margin: 0;">Project One</h5>
-        <img src="{{ '/assets/images/project1-thumb.webp' | relative_url }}" alt="Project One Preview">
-      </div>
-    </a>
-    <a href="#project-two" style="text-decoration: none;">
-      <div>
-        <h5 style="margin: 0;">Project Two</h5>
-        <img src="{{ '/assets/images/project2-thumb.webp' | relative_url }}" alt="Project Two Preview">
-      </div>
-    </a>
-    <!-- Add more project buttons here -->
-  </div>
-</section>
+    <div class="project-nav" style="flex-shrink: 0;">
+      <!-- Your project buttons -->
+    </div>
+  </section>
+</div>
 
 
       <footer>
