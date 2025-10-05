@@ -128,8 +128,8 @@ My Core Focus in this project was the ability to edit the mesh during run time, 
 - Game Engine: Unreal Engine 5
 - Solo Project
 - Language: C++
-- Ray Tracign
-- Procedural Mesh Cutting/Deformation
+- Ray Tracing
+- Procedural Mesh Cutting/Deformation/Creation
 
 <br/>
 
