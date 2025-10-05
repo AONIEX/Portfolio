@@ -35,7 +35,7 @@ permalink: /Portfolio/projects/
 
    <a href="#GameJams" style="flex: 0 1 auto; text-decoration: none;">
     <div style="min-width: 100px; padding: 0.5em; background: rgba(0,0,0,0.3); border: 1px solid #00aaff; border-radius: 6px; color: white; text-align: center;">
-      <h5 style="margin: 0;">Game Jam Games</h5>
+      <h5 style="margin: 0;">Game Jams</h5>
     </div>
   </a>
   <!-- Add more buttons as needed -->
