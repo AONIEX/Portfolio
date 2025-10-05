@@ -72,7 +72,7 @@ Synaptic is one of my biggest projects and is a game made for my 3rd year profes
 
 
 #### Core Focuses During Development
-- Weapon Mechanics
+- Weapon Mechanics & Bullet Behaviours
   - Finger guns
     - A classic video game gun, fires a bullet as expected
     - Created bullet drop for the bullet drop so the weapon felt like it needed some skill  
@@ -82,7 +82,6 @@ Synaptic is one of my biggest projects and is a game made for my 3rd year profes
   - Fist/Chatter Gun
     - This weapon creates a gravitational pull which sucks in nearby targets destroying them upon impacts, and causing them to have a zero gravity effect
     - This included working with physics to let the targets float and get pulled in as wanted, alot of testing and fiddling was needed to get this effect to feel right.
-- Bullet Behaviours
 - Player Movement
 - Interactions
 - Focusing on object/locations
