@@ -102,6 +102,10 @@ Synaptic is one of my biggest projects and is a game made for my 3rd year profes
   -  Testing the game looking for bugs and errors
   -  Fixing Errors and bugs
   -  Build Testing and fixing, passing on information to producer
+- Animation Connections
+  - Working with Animatior to connect animations to weapons and calming mechanics
+  - Created a system for fingers ammo display
+  - Discussing and fixing animation timing problems   
 
 <hr style="all: unset; display: block; height: 6px; background-color: #00aaff; margin: 2em 0;">
 
