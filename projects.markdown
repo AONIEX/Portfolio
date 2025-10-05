@@ -23,6 +23,9 @@ Dare Academy is a competetion hosted by Abertay University, where students can a
  - Working closely with the team of 8 has helped me with team building as well as learning how to collabarate with different departments effectively.
  - The oppurtunity to showcase the game, helped me focus on fixing bugs, polishing mechanics and making features fun and accessible.
 
+![Team Photo](Assets/Event.jpg)
+
+
 #### Core Focuses During Dare Academy Hot housing (Development Period)
 - UI:
   - Polished and more settings were added (Aim Assist, Motion Sickness and other accessabilty settings).
@@ -47,7 +50,6 @@ Dare Academy is a competetion hosted by Abertay University, where students can a
   - Checking that all targets are shootable   
 
 
-![Team Photo](Assets/Event.jpg)
 
 <hr style="all: unset; display: block; height: 6px; background-color: #00aaff; margin: 2em 0;">
 
