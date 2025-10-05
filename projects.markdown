@@ -70,6 +70,23 @@ Synaptic is one of my biggest projects and is a game made for my 3rd year profes
 ![Synaptic Gif One](Assets/SynapticOne.gif)
 ![Synaptic Gif Two](Assets/SynapticTwo.gif)
 
+
+#### Core Focuses During Development
+- Weapon Mechanics
+  - Finger guns
+  - Scissors
+    - The weapon focuses on letting the player cut targets in half before destorying them
+    - This included working with changing and cutting meshes in half, creating a new mesh/object based on teh new half with its own collisions and physics  
+  - Fist/Chatter Gun
+    - This weapon creates a gravitational pull which sucks in nearby targets destroying them upon impacts, and causing them to have a zero gravity effect
+    - This included working with physics to let the targets float and get pulled in as wanted, alot of testing and fiddling was needed to get this effect to feel right.
+- Bullet Behaviours
+- Player Movement
+- Interactions
+- Focusing on object/locations
+- UI and Settings
+- Testing and Building
+
 <hr style="all: unset; display: block; height: 6px; background-color: #00aaff; margin: 2em 0;">
 
 ### Game Mechanics Programming Mesh Cutting (3rd Year University Project)
