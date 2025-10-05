@@ -68,7 +68,6 @@ Synaptic is one of my biggest projects and is a game made for my 3rd year profes
 <br/>
 
 ![Synaptic Gif One](Assets/SynapticOne.gif)
-![Synaptic Gif Two](Assets/SynapticTwo.gif)
 
 
 #### Core Focuses During Development
@@ -93,7 +92,10 @@ Synaptic is one of my biggest projects and is a game made for my 3rd year profes
   - Hub interactions with unique functions
 - Focusing on object/locations
   - Camera focuses/looks at set targets or locations
-  - Used for tutorials to allow information to be showed based on correct enemies 
+  - Used for tutorials to allow information to be showed based on correct enemies
+
+![Synaptic Gif Two](Assets/SynapticTwo.gif)
+   
 - UI and Settings
   - Main Menu, End Screen
     - Connections to settings, ability to start and exit game
