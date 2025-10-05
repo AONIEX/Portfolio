@@ -122,15 +122,15 @@ Synaptic is one of my biggest projects and is a game made for my 3rd year profes
 The project was made for Game Mechanics Programming (3rd Year Class), where i had to make a unique game mechanic in Unreal Engine 5 using C++ with minimal blueprint use. For this i decided to make a mesh cutting "Weapon" which allowed the player to cut out parts of a mesh, before being able to grab them and then return them to their original position if wanted.
 <br/>
 
-My Core Focus in this project was the ability to edit the mesh during run time, slitting in two or more pieces, each with their own physics and collisions. I also used ray tracing to make the the mesh was cut in the correct postions. I originally it so the objects were cut in half then decided to go for a more complex rectangular shape however i am am more than able to create other shapes or custom cut outs with the approitate time. Another key focus was allowing the player to return the pieces they have cut out to the original mesh incase they made any mistakes or wanted to use this mechanic to move around areas they wouldnt usually be able to.
+#### What i took away from this project
+My Core Focus in this project was the ability to edit the mesh during run time, slitting in two or more pieces, each with their own physics and collisions. I developed my skills on ray tracing using it to make the the mesh was cut in the correct postions. I originally it so the objects were cut in half then decided to go for a more complex rectangular shape however i am am more than able to create other shapes or custom cut outs with the approitate time. Another key focus was allowing the player to return the pieces they have cut out to the original mesh incase they made any mistakes or wanted to use this mechanic to move around areas they wouldnt usually be able to.
 
-
-<br/>
 - Game Engine: Unreal Engine 5
 - Solo Project
 - Language: C++
 - Ray Tracign
 - Procedural Mesh Cutting/Deformation
+
 <br/>
 
 ![Mesh Cutting Gif One](Assets/MeshCuttingOne.gif)
