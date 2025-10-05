@@ -85,6 +85,10 @@ Synaptic is one of my biggest projects and is a game made for my 3rd year profes
 - Player Movement
   - Basic Player Movement (W,A,S,D) or (Analog Stick) Based walking
   - Head Bobbing and Camera Shaking based on shooting, movement and interactions
+- Sanity and Calming
+  - Created Sanity bar to keep track of players sanity
+  - Connected and ditsvisual effects to sanity to allow for correct display
+  - Created calming mechanics to increase players sanity
 - Interactions
   - Hub interactions with unique functions
 - Focusing on object/locations
