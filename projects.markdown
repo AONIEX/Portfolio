@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: projectslayout
 title: Projects
 permalink: /Portfolio/projects/
 ---
