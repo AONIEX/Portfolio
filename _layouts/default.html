@@ -87,15 +87,19 @@ header h5,
 
   /* Existing styles... */
 
-  .project-nav {
-    overflow-x: auto;
-    white-space: nowrap;
-    padding: 0.5em;
-  }
-
-  .project-nav a {
-    display: inline-block;
-  }
+.project-nav {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background: rgba(0, 0, 0, 0.6); /* Optional: gives it a backdrop */
+  padding: 0.5em;
+  overflow-x: auto;
+  white-space: nowrap;
+  backdrop-filter: blur(4px); /* Optional: adds a frosted glass effect */
+}
+.project-nav a {
+  display: inline-block;
+}
 
   html {
   scroll-behavior: smooth;
