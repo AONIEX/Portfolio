@@ -84,7 +84,7 @@ Synaptic is one of my biggest projects and is a game made for my 3rd year profes
     - This included working with physics to let the targets float and get pulled in as wanted, alot of testing and fiddling was needed to get this effect to feel right.
 - Player Movement
   - Basic Player Movement (W,A,S,D) or (Analog Stick) Based walking
-  - Head bobbing and camera shaking based on movement and interactions
+  - Head Bobbing and Camera Shaking based on shooting, movement and interactions
 - Interactions
 - Focusing on object/locations
 - UI and Settings
