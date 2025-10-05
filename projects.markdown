@@ -17,7 +17,6 @@ permalink: /Portfolio/projects/
     <div class="project-text">
       <h5 style="margin: 0;">Dare Academy</h5>
     </div>
-    <img src="{{ '/assets/images/project1-thumb.webp' | relative_url }}" alt="Project One Preview">
   </div>
 </a>
  <a href="#Snyaptic" style="text-decoration: none;">
@@ -25,7 +24,6 @@ permalink: /Portfolio/projects/
     <div class="project-text">
       <h5 style="margin: 0;">Snyaptic</h5>
     </div>
-    <img src="{{ '/assets/images/project1-thumb.webp' | relative_url }}" alt="Project One Preview">
   </div>
 </a>
 
