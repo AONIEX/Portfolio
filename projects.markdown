@@ -28,6 +28,30 @@ permalink: /Portfolio/projects/
   </div>
 </a>
 
+ <a href="#Mesh_Cutting" style="text-decoration: none;">
+  <div class="project-button">
+    <div class="project-text">
+      <h5 style="margin: 0;">Mesh Cutting</h5>
+    </div>
+  </div>
+</a>
+
+ <a href="#BaBaBANGSheep" style="text-decoration: none;">
+  <div class="project-button">
+    <div class="project-text">
+      <h5 style="margin: 0;">BaBaBANG!Sheep</h5>
+    </div>
+  </div>
+</a>
+
+ <a href="#GameJams" style="text-decoration: none;">
+  <div class="project-button">
+    <div class="project-text">
+      <h5 style="margin: 0;">Game Jams</h5>
+    </div>
+  </div>
+</a>
+
   <!-- Add more buttons as needed -->
 </div>
 
