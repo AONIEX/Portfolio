@@ -17,7 +17,25 @@ permalink: /Portfolio/projects/
   </a>
   <a href="#Synaptic" style="flex: 0 1 auto; text-decoration: none;">
     <div style="min-width: 100px; padding: 0.5em; background: rgba(0,0,0,0.3); border: 1px solid #00aaff; border-radius: 6px; color: white; text-align: center;">
-      <h5 style="margin: 0;">Synaptic (Before Dare Academy)</h5>
+      <h5 style="margin: 0;">Synaptic</h5>
+    </div>
+  </a>
+
+  <a href="#Mesh_Cutting" style="flex: 0 1 auto; text-decoration: none;">
+    <div style="min-width: 100px; padding: 0.5em; background: rgba(0,0,0,0.3); border: 1px solid #00aaff; border-radius: 6px; color: white; text-align: center;">
+      <h5 style="margin: 0;">Mesh Cutting</h5>
+    </div>
+  </a>
+
+   <a href="#BaBaBANGSheeep" style="flex: 0 1 auto; text-decoration: none;">
+    <div style="min-width: 100px; padding: 0.5em; background: rgba(0,0,0,0.3); border: 1px solid #00aaff; border-radius: 6px; color: white; text-align: center;">
+      <h5 style="margin: 0;">Ba Ba BANG! Sheep</h5>
+    </div>
+  </a>
+
+   <a href="#GameJams" style="flex: 0 1 auto; text-decoration: none;">
+    <div style="min-width: 100px; padding: 0.5em; background: rgba(0,0,0,0.3); border: 1px solid #00aaff; border-radius: 6px; color: white; text-align: center;">
+      <h5 style="margin: 0;">Game Jam Games</h5>
     </div>
   </a>
   <!-- Add more buttons as needed -->
@@ -140,6 +158,9 @@ Synaptic is one of my biggest projects and is a game made for my 3rd year profes
 
 <hr style="all: unset; display: block; height: 6px; background-color: #00aaff; margin: 2em 0;">
 
+<a id="Mesh_Cutting"></a>
+## Mesh Cutting
+
 ### Game Mechanics Programming Mesh Cutting (3rd Year University Project)
 
 
@@ -167,6 +188,9 @@ My Core Focus in this project was the ability to edit the mesh during run time, 
 
 
 <hr style="all: unset; display: block; height: 6px; background-color: #00aaff; margin: 2em 0;">
+
+<a id="BaBaBANGSheep"></a>
+## Ba Ba BANG! Sheep
  
 ### Ba Ba BANG! Sheep
 Ba Ba BANG! Sheep is a first year project which i have grown and worked on when not working each summer. It started as a SFML game for PC but i quickly moved it over to Unity (C#) and made the game work for both PC and Mobile, with the game currently having a downloadable android version. The game consists of a infinte procedurally generates level with platforms and enemies constantly spawning as the player tries to move up and get a new high score. This project taught me alot about prefabs, inheritance, parent classes and how to use them properly to stop myself from re writing code where avoidable. It has also shown me the imporatance of object management and performance, due to working with an "infintely" generated level.
@@ -184,6 +208,7 @@ Ba Ba BANG! Sheep is a first year project which i have grown and worked on when 
 
 <hr style="all: unset; display: block; height: 6px; background-color: #00aaff; margin: 2em 0;">
 
+<a id="GameJams"></a>
 ## Game Jams
 Before and during at university i have taken part in multiple game jams to refresh and improve my knowledge. The main thing i try to do every game jam is make each game unique, whether thats a new genre or different core mechanics as i believe this allows me to learn more in such a short amount of time.
 
