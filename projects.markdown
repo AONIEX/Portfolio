@@ -227,18 +227,61 @@ If i had more time i would like would advance this project by letting the player
 <a id="BaBaBANGSheep"></a>
 ## Ba Ba BANG! Sheep
  
-### Ba Ba BANG! Sheep
-Ba Ba BANG! Sheep is a first year project which i have grown and worked on when not working each summer. It started as a SFML game for PC but i quickly moved it over to Unity (C#) and made the game work for both PC and Mobile, with the game currently having a downloadable android version. The game consists of a infinte procedurally generates level with platforms and enemies constantly spawning as the player tries to move up and get a new high score. 
+Ba Ba BANG! Sheep is a first year project which i have grown and worked on when not working each summer. It started as a SFML game for PC but i quickly moved it over to Unity (C#) and made the game work for both PC and Mobile, with the game currently having a downloadable android version. The game consists of a infinte procedurally generated level with platforms and enemies constantly spawning and changing as the player tries to move up and get a new high score. 
+
+### Core Focuses
+My core focus with Ba Ba BANG! Sheep has always been to expand my knowledge of Unity (C#), Procedural Generation, Ogranisation and Mobile Development. This is mainly due to not doing much Unity or Mobile Development in University, and wanting to keep up to date with my procedural generation and ability to keep a project organised and easy to come back to. I also found that it is good to have a project to come back to each summer and see how my skills have changed, as i notice a huge difference each year.
 
 This project taught me alot about prefabs, inheritance, parent classes and how to use them properly to stop myself from re writing code where avoidable. It has also shown me the imporatance of object management and performance, due to working with an "infintely" generated level.
 
 I have also been able to learn about mobile development and the important aspects to keep in mind when working on developing a mobile game, that are different to your usual game on a pc.
 <br/>
 
+### Below are the main features used and what i learned
+- Mobile Development
+  - Performance is alot more important
+  - Unique Aspect Ratios for each phone and the game should be scaled correctly
+  - Less controls is better
+  - Layout needs to be thought out
+  - Touch Controls and its unique challenges
+- Unity
+  - Expanded knowledge on the tools
+  - Expanded knowledge on C# and scripting
+  - Expanded knowlegde on Prefabs and inheritance
+  - Expanded knowledge on UI and UI proramming
+  - Expanded knowledge on how to animate and link animations to code
+  - Massively Improved my ability to call sounds correctly through code, and stop bugs like sound overlapping or being called repeatedly
+- Procedural Level Generation
+  - How to generate a constantly changing infinte level
+  - Having unique areas and enviroments
+    - Unique Platforms
+    - Barriers
+    - Enemies 
+  - What can go wrong, like the player not being able to advance
+  - Generating the level whilst keep player progression and enemies in mind
+  - Making sure the level is visually pleasing
+  - Making sure the level is always unique
+  - Having Unique enemies and pick ups spawn based on the generated level
+- Inheritance used for Enemies (Base Class and Parent Class)
+  - Learned the importance of inheritance and not needing to repeat code
+  - Learned about the advantages of base classes like being able to edit core functions of all enemies at ones
+  - Learned to make different types of enemies each of which inherit from a class that inherits from the base class
+  - Fixed issues due to inheritance due to original not understanding
+- Performance
+  - Learned to always keep performance in mind
+  - Re-use objects, dont delete and re-create
+  - Dont use too many objects
+  - Only render what the player should be able to see, not what isnt in the players line of sight
+- Testing
+  - Testing for Mobile and PC
+  - Error and bug handling
+  - The importance of regular testing 
+
 ### Extra Information
 - Game Engine: Unity
 - Solo Project
 - Language: C#
+- Mobile and PC Development
 <br/>
 
 ![Ba Ba BANG Sheep Gif One](Assets/BangOne.gif)
