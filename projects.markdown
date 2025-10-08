@@ -187,6 +187,20 @@ The project was made for Game Mechanics Programming (3rd Year Class), where i ha
 #### What i took away from this project
 My Core Focus in this project was the ability to edit the mesh during run time, slitting in two or more pieces, each with their own physics and collisions. I developed my skills on ray tracing using it to make the the mesh was cut in the correct postions. I originally it so the objects were cut in half then decided to go for a more complex rectangular shape however i am am more than able to create other shapes or custom cut outs with the approitate time. Another key focus was allowing the player to return the pieces they have cut out to the original mesh incase they made any mistakes or wanted to use this mechanic to move around areas they wouldnt usually be able to.
 
+- Ray Tracing
+  - Used figure out the position that the player wanted to cut the mesh, using it to calculate the start and end point of the chunk the player wanted cut
+  - This was also used to figure out if the mesh was cutable or not
+  - Used to pick up and move objects around
+- Procedural Mesh
+  - I learned alot about the performance needs of editing procedural meshes at run time and to take then into account, not letting the player cut models that are too complex
+  - I learned how to deform and merge meshes
+  - I learned how to have a procedural mesh copy the componentes of another mesh
+  - I learned how to find the centre of the cut mesh as it would normally be based on the old mesh
+- Physics and collisons 
+  - I learned how un predictable physics can be when slicing meshes and changing collisions, as well as how to erase or minimise the chaotic affects
+  - I learned how to apply physics and collisions based on the new mesh when cut and the new object/mesh made
+  
+
 - Game Engine: Unreal Engine 5
 - Solo Project
 - Language: C++
