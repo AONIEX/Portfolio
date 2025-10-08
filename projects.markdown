@@ -184,9 +184,10 @@ The project was made for Game Mechanics Programming (3rd Year Class), where i ha
 ![Mesh Cutting Gif One](Assets/MeshCuttingOne.gif)
 
 
-#### What i took away from this project
-My Core Focus in this project was the ability to edit the mesh during run time, slitting in two or more pieces, each with their own physics and collisions. I developed my skills on ray tracing using it to make the the mesh was cut in the correct postions. I originally it so the objects were cut in half then decided to go for a more complex rectangular shape however i am am more than able to create other shapes or custom cut outs with the approitate time. Another key focus was allowing the player to return the pieces they have cut out to the original mesh incase they made any mistakes or wanted to use this mechanic to move around areas they wouldnt usually be able to.
+#### My Focus
+My Core Focus in this project was the ability to edit the mesh during run time, slitting in two or more pieces, each with their own physics and collisions. I developed my skills on ray tracing using it to make the the mesh was cut in the correct postions. I originally it so the objects were cut in half then decided to go for a more complex rectangular shape. 
 
+#### Below are some of the main features used and what i learned:
 - Ray Tracing
   - Used figure out the position that the player wanted to cut the mesh, using it to calculate the start and end point of the chunk the player wanted cut
   - This was also used to figure out if the mesh was cutable or not
@@ -199,8 +200,11 @@ My Core Focus in this project was the ability to edit the mesh during run time, 
 - Physics and collisons 
   - I learned how un predictable physics can be when slicing meshes and changing collisions, as well as how to erase or minimise the chaotic affects
   - I learned how to apply physics and collisions based on the new mesh when cut and the new object/mesh made
-  
 
+### How i would extend this project
+If i had more time i would like would advance this project by letting the player cut out more complext shapes, or even custom shapes with the player choosing the shape. I would also fix the small movement issues with the grabbing of some fo the meshes as well as the returing and merging of the mesh, though these are purely for visuals and woudln't affect gameplay use.
+  
+### Extra Information
 - Game Engine: Unreal Engine 5
 - Solo Project
 - Language: C++
