@@ -237,45 +237,35 @@ This project taught me alot about prefabs, inheritance, parent classes and how t
 I have also been able to learn about mobile development and the important aspects to keep in mind when working on developing a mobile game, that are different to your usual game on a pc.
 <br/>
 
-### Below are the main features used and what i learned
+### What i've learned
 - Mobile Development
   - Performance is alot more important
-  - Unique Aspect Ratios for each phone and the game should be scaled correctly
-  - Less controls is better
-  - Layout needs to be thought out
+  - Layout needs to be thought out, Unique Aspect Ratios for each phone and the game should be scaled correctly
+  - Less controls is usually better
   - Touch Controls and its unique challenges
 - Unity
-  - Expanded knowledge on the tools
-  - Expanded knowledge on C# and scripting
-  - Expanded knowlegde on Prefabs and inheritance
-  - Expanded knowledge on UI and UI proramming
-  - Expanded knowledge on how to animate and link animations to code
+  - Expanded knowledge on unity's tools, C#, Scripting, Prefabs, Inheritance
+  - Expanded knowledge on UI, UI proramming, Animation, Linking Animation to code
   - Massively Improved my ability to call sounds correctly through code, and stop bugs like sound overlapping or being called repeatedly
 - Procedural Level Generation
   - How to generate a constantly changing infinte level
   - Having unique areas and enviroments
-    - Unique Platforms
-    - Barriers
-    - Enemies 
-  - What can go wrong, like the player not being able to advance
   - Generating the level whilst keep player progression and enemies in mind
-  - Making sure the level is visually pleasing
-  - Making sure the level is always unique
-  - Having Unique enemies and pick ups spawn based on the generated level
+  - Making sure the level is visually pleasing and unique
+  - Having  enemies and pick ups spawn based on the generated level
 - Inheritance used for Enemies (Base Class and Parent Class)
   - Learned the importance of inheritance and not needing to repeat code
   - Learned about the advantages of base classes like being able to edit core functions of all enemies at ones
   - Learned to make different types of enemies each of which inherit from a class that inherits from the base class
   - Fixed issues due to inheritance due to original not understanding
 - Performance
-  - Learned to always keep performance in mind
   - Re-use objects, dont delete and re-create
   - Dont use too many objects
   - Only render what the player should be able to see, not what isnt in the players line of sight
 - Testing
   - Testing for Mobile and PC
   - Error and bug handling
-  - The importance of regular testing 
+  - The Importance of regular testing 
 
 ### Extra Information
 - Game Engine: Unity
