@@ -259,7 +259,7 @@ I have also been able to learn about mobile development and the important aspect
   - Making sure the level is visually pleasing and unique
   - Having  enemies and pick ups spawn based on the generated level
 
-![Ba Ba BANG Sheep Gif One](Assets/RainbowShot.png)
+![Ba Ba BANG Sheep Gif One](Assets/RainbowShotV2.png)
    
 - Inheritance used for Enemies (Base Class and Parent Class)
   - Learned the importance of inheritance and not needing to repeat code
@@ -275,7 +275,7 @@ I have also been able to learn about mobile development and the important aspect
   - Error and bug handling
   - The Importance of regular testing 
 
-![Ba Ba BANG Sheep Gif One](Assets/RainbowShotV2.png)
+![Ba Ba BANG Sheep Gif One](Assets/RainbowShot.png)
 
 ### Extra Information
 - Game Engine: Unity
