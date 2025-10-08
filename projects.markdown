@@ -258,6 +258,9 @@ I have also been able to learn about mobile development and the important aspect
   - Generating the level whilst keep player progression and enemies in mind
   - Making sure the level is visually pleasing and unique
   - Having  enemies and pick ups spawn based on the generated level
+
+![Ba Ba BANG Sheep Gif One](Assets/RainbowShot.png)
+   
 - Inheritance used for Enemies (Base Class and Parent Class)
   - Learned the importance of inheritance and not needing to repeat code
   - Learned about the advantages of base classes like being able to edit core functions of all enemies at ones
