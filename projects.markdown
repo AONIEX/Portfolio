@@ -229,6 +229,9 @@ If i had more time i would like would advance this project by letting the player
  
 Ba Ba BANG! Sheep is a first year project which i have grown and worked on when not working each summer. It started as a SFML game for PC but i quickly moved it over to Unity (C#) and made the game work for both PC and Mobile, with the game currently having a downloadable android version. The game consists of a infinte procedurally generated level with platforms and enemies constantly spawning and changing as the player tries to move up and get a new high score. 
 
+![Ba Ba BANG Sheep Gif One](Assets/BangOne.gif)
+
+
 ### Core Focuses
 My core focus with Ba Ba BANG! Sheep has always been to expand my knowledge of Unity (C#), Procedural Generation, Ogranisation and Mobile Development. This is mainly due to not doing much Unity or Mobile Development in University, and wanting to keep up to date with my procedural generation and ability to keep a project organised and easy to come back to. I also found that it is good to have a project to come back to each summer and see how my skills have changed, as i notice a huge difference each year.
 
@@ -237,7 +240,7 @@ This project taught me alot about prefabs, inheritance, parent classes and how t
 I have also been able to learn about mobile development and the important aspects to keep in mind when working on developing a mobile game, that are different to your usual game on a pc.
 <br/>
 
-![Ba Ba BANG Sheep Gif One](Assets/BangOne.gif)
+![Ba Ba BANG Sheep Gif Two](Assets/BangTwo.gif)
 
 ### What i've learned
 - Mobile Development
@@ -269,7 +272,6 @@ I have also been able to learn about mobile development and the important aspect
   - Error and bug handling
   - The Importance of regular testing 
 
-![Ba Ba BANG Sheep Gif Two](Assets/BangTwo.gif)
 
 ### Extra Information
 - Game Engine: Unity
