@@ -237,7 +237,7 @@ This project taught me alot about prefabs, inheritance, parent classes and how t
 I have also been able to learn about mobile development and the important aspects to keep in mind when working on developing a mobile game, that are different to your usual game on a pc.
 <br/>
 
-![Ba Ba BANG Sheep Gif Two](Assets/BangTwo.gif)
+![Ba Ba BANG Sheep Gif One](Assets/BangOne.gif)
 
 ### What i've learned
 - Mobile Development
@@ -269,16 +269,15 @@ I have also been able to learn about mobile development and the important aspect
   - Error and bug handling
   - The Importance of regular testing 
 
+![Ba Ba BANG Sheep Gif Two](Assets/BangTwo.gif)
+
 ### Extra Information
 - Game Engine: Unity
 - Solo Project
 - Language: C#
 - Mobile and PC Development
 <br/>
-
 [Ba Ba BANG Sheep Itch.io Page](https://alex-onions.itch.io/ba-ba-bang-sheep)
-<br/>
-![Ba Ba BANG Sheep Gif One](Assets/BangOne.gif)
 <br/>
 
 
