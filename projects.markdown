@@ -115,6 +115,7 @@ Synaptic is one of my biggest projects and is a game made for my 3rd year profes
 <br/>
 <br/>
 
+### Extra Information
 - [Synaptic's Itch.io Page](https://bonny-bandits.itch.io/synaptic)
 - Game Engine: Unreal Engine 5
 - Team Project
@@ -184,10 +185,10 @@ The project was made for Game Mechanics Programming (3rd Year Class), where i ha
 ![Mesh Cutting Gif One](Assets/MeshCuttingOne.gif)
 
 
-#### My Focus
-My Core Focus in this project was the ability to edit the mesh during run time, slitting in two or more pieces, each with their own physics and collisions. I developed my skills on ray tracing using it to make the the mesh was cut in the correct postions. I originally it so the objects were cut in half then decided to go for a more complex rectangular shape. 
+### My Focus
+My Core Focus in this project was the ability to edit/cut the mesh during run time, slitting in two or more pieces, each with their own physics and collisions. I developed my skills on ray tracing using it to make the the mesh was cut in the correct postions. I originally it so the objects were cut in half then decided to go for a more complex rectangular shape. 
 
-#### Below are the main features used and what i learned
+### Below are the main features used and what i learned
 - Ray Tracing
   - Used figure out the position that the player wanted to cut the mesh, using it to calculate the start and end point of the chunk the player wanted cut
   - This was also used to figure out if the mesh was cutable or not
@@ -233,6 +234,8 @@ This project taught me alot about prefabs, inheritance, parent classes and how t
 
 I have also been able to learn about mobile development and the important aspects to keep in mind when working on developing a mobile game, that are different to your usual game on a pc.
 <br/>
+
+### Extra Information
 - Game Engine: Unity
 - Solo Project
 - Language: C#
@@ -250,7 +253,7 @@ I have also been able to learn about mobile development and the important aspect
 ## Game Jams
 Before and during at university i have taken part in multiple game jams to refresh and improve my knowledge. The main thing i try to do every game jam is make each game unique, whether thats a new genre or different core mechanics as i believe this allows me to learn more in such a short amount of time.
 
-### Game Jam Games
+## Game Jam Games
 
 ### Blue
 
@@ -260,6 +263,8 @@ Before and during at university i have taken part in multiple game jams to refre
 
 
   - Blue was made for the Speed Jam #5 with a themes Speed Running and ASCEND. For this Project i wanted to work with lighting and ambience to give the game a nice feel and look whilst having minimal controls (Just a drag and click). I did this game alone, so worked on every aspect, and wanted to take a short break from coding to learn about the other aspects of game development as i believe it is important to understand what each department ahs to deal with
+
+### Extra Information
   -  Solo Project
   - Game Engine: Unity
   - Language: C#
@@ -276,7 +281,7 @@ Before and during at university i have taken part in multiple game jams to refre
   - This was one of my first game jam games with a theme of 2 colours, no shades just black and white. I believe i learned the fundamentals of Unity for this project, when making this wave based game. I also chose to add a unique mechanics of collecting souls for the reaper to regrow their garden. This was quite a simple project but also allows me to show how far my skills have come.
 
 
-
+### Extra Information
   - One of my First Game Jams
   - Solo Project
   - Game Engine: Unity
@@ -292,7 +297,7 @@ Before and during at university i have taken part in multiple game jams to refre
   - This project was a team project i did in my 3rd year of university and i took it on myself to have a team of 3rd years so i can see how it is to help people learn and work wiwth less experience people. Even though i was working with lesss experienced people i still wanted to do something unique, so we decided to do a two player rigid body physics game, where you would control your oppents arms and your legs whilst trying to race towards a finish line and screw up your enemy.
 
 
-
+### Extra Information
   - Team Project
   - Game Engine: Unity
   - Language: C#
