@@ -187,7 +187,7 @@ The project was made for Game Mechanics Programming (3rd Year Class), where i ha
 #### My Focus
 My Core Focus in this project was the ability to edit the mesh during run time, slitting in two or more pieces, each with their own physics and collisions. I developed my skills on ray tracing using it to make the the mesh was cut in the correct postions. I originally it so the objects were cut in half then decided to go for a more complex rectangular shape. 
 
-#### Below are some of the main features used and what i learned:
+#### Below are the main features used and what i learned
 - Ray Tracing
   - Used figure out the position that the player wanted to cut the mesh, using it to calculate the start and end point of the chunk the player wanted cut
   - This was also used to figure out if the mesh was cutable or not
