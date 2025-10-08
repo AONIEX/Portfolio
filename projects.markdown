@@ -253,8 +253,6 @@ I have also been able to learn about mobile development and the important aspect
 ## Game Jams
 Before and during at university i have taken part in multiple game jams to refresh and improve my knowledge. The main thing i try to do every game jam is make each game unique, whether thats a new genre or different core mechanics as i believe this allows me to learn more in such a short amount of time.
 
-## Game Jam Games
-
 ## Blue
 
 <img width="315" height="250" alt="Blue" src="https://github.com/user-attachments/assets/0e8de0a7-45ea-4af8-afe3-82b733398430" />
@@ -321,7 +319,7 @@ Before and during at university i have taken part in multiple game jams to refre
 
 
  
-- ## More Game Jam Games
+ ## More Game Jam Games
   - [Bong](https://alex-onions.itch.io/bong)
   - [Fire Breathing Space Corgi](https://alex-onions.itch.io/fire-breathing-space-corgi)
   - [Magnus's Libary](https://alex-onions.itch.io/magnuss-libary)
