@@ -13,7 +13,8 @@ title: Home
     Outside of development, you'll find me at Game Jams, rolling dice in D&D, or painting 3D models.
   </p>
   <div style="margin-top: 2em;">
-  <a href="/Portfolio/projects/" style="background:#fff; color:#004466; padding:0.8em 1.5em; border-radius:6px; text-decoration:none; font-weight:bold;">
+
+<a href="/Portfolio/projects/" style="background:#fff; color:#004466; padding:0.8em 1.5em; border-radius:6px; text-decoration:none; font-weight:bold;">
   View My Projects
 </a>
 
