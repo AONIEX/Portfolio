@@ -4,7 +4,7 @@ title: Home
 ---
 
 <!-- Hero Section -->
-<div style="text-align:center; padding: 3em 1em; background: linear-gradient(135deg, #00aaff, #004466); color: white;">
+<div style="text-align:center; padding: 3em 1em; color: #004466;">
   <h1 style="font-size: 3em; margin-bottom: 0.5em;">Hi, I'm Alex 👋</h1>
   <p style="font-size: 1.2em; max-width: 700px; margin: auto;">
     Games Programmer • Abertay Dare Finalist (2025) • 4th Year Computer Games Applications Development Student  
@@ -14,17 +14,17 @@ title: Home
   </p>
   <div style="margin-top: 2em;">
     <a href="{{ 'Portfolio/projects/' | relative_url }}"
-       style="background:#fff; color:#004466; padding:0.8em 1.5em; border-radius:6px; text-decoration:none; font-weight:bold;">
+       style="background:#00aaff; color:#fff; padding:0.8em 1.5em; border-radius:6px; text-decoration:none; font-weight:bold;">
       View My Projects
     </a>
-  <a href="{{ 'Portfolio/about/' | relative_url }}"
-       style="background:#004466; color:#fff; padding:0.8em 1.5em; border:2px solid #fff; border-radius:6px; text-decoration:none; font-weight:bold; margin-left:1em;">
+    <a href="{{ 'Portfolio/about/' | relative_url }}"
+       style="background:#fff; color:#004466; padding:0.8em 1.5em; border:2px solid #00aaff; border-radius:6px; text-decoration:none; font-weight:bold; margin-left:1em;">
       Learn More
     </a>
-
-   
   </div>
 </div>
+
+<hr style="all: unset; display: block; height: 6px; background-color: #00aaff; margin: 2em 0;">
 
 <hr style="all: unset; display: block; height: 6px; background-color: #00aaff; margin: 2em 0;">
 
