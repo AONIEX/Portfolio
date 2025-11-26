@@ -70,6 +70,77 @@ title: Home
 
 ## 🎲 Game Jam Games
 
+<div style="display:flex; align-items:center; gap:1em; margin-bottom:1.5em; padding:0.8em; border:2px solid #00aaff; border-radius:12px; background:transparent; color:#004466;">
+
+  <img src="https://github.com/user-attachments/assets/0e8de0a7-45ea-4af8-afe3-82b733398430" 
+       alt="Blue" 
+       style="width:160px; height:auto; border-radius:8px;">
+
+  <div style="flex:1; text-align:left;">
+    <h3 style="margin-top:0;">Blue</h3>
+    <p style="margin:0.5em 0;">A Game Jam project exploring mood and atmosphere through minimalist design.</p>
+    <a href="{{ 'Portfolio/projects/#GameJams' | relative_url }}" 
+       style="display:inline-block; margin-top:0.5em; padding:0.5em 1em; background:#00aaff; color:#fff; border-radius:6px; text-decoration:none; font-weight:bold;">
+       See More
+    </a>
+  </div>
+
+</div>
+
+
+<div style="display:flex; align-items:center; gap:1em; margin-bottom:1.5em; padding:0.8em; border:2px solid #00aaff; border-radius:12px; background:transparent; color:#004466;">
+
+  <img src="https://github.com/user-attachments/assets/b0b8752e-ca1d-40f0-bad4-d977ccefe3e4" 
+       alt="The Reapers Garden" 
+       style="width:160px; height:auto; border-radius:8px;">
+
+  <div style="flex:1; text-align:left;">
+    <h3 style="margin-top:0;">The Reapers Garden</h3>
+    <p style="margin:0.5em 0;">A narrative-driven jam game with dark themes and stylized visuals.</p>
+    <a href="{{ 'Portfolio/projects/#GameJams' | relative_url }}" 
+       style="display:inline-block; margin-top:0.5em; padding:0.5em 1em; background:#00aaff; color:#fff; border-radius:6px; text-decoration:none; font-weight:bold;">
+       See More
+    </a>
+  </div>
+
+</div>
+
+
+<div style="display:flex; align-items:center; gap:1em; margin-bottom:1.5em; padding:0.8em; border:2px solid #00aaff; border-radius:12px; background:transparent; color:#004466;">
+
+  <img src="https://github.com/user-attachments/assets/6a611d58-fec7-4d5f-9831-1fe0a31d31ba" 
+       alt="Skuffed" 
+       style="width:160px; height:auto; border-radius:8px;">
+
+  <div style="flex:1; text-align:left;">
+    <h3 style="margin-top:0;">Skuffed</h3>
+    <p style="margin:0.5em 0;">A fast-paced jam game with chaotic mechanics and playful energy.</p>
+    <a href="{{ 'Portfolio/projects/#GameJams' | relative_url }}" 
+       style="display:inline-block; margin-top:0.5em; padding:0.5em 1em; background:#00aaff; color:#fff; border-radius:6px; text-decoration:none; font-weight:bold;">
+       See More
+    </a>
+  </div>
+
+</div>
+
+
+<div style="display:flex; align-items:center; gap:1em; margin-bottom:1.5em; padding:0.8em; border:2px solid #00aaff; border-radius:12px; background:transparent; color:#004466;">
+
+  <img src="Assets/Corgi.png" 
+       alt="Fire Breathing Space Corgi" 
+       style="width:160px; height:auto; border-radius:8px;">
+
+  <div style="flex:1; text-align:left;">
+    <h3 style="margin-top:0;">Fire Breathing Space Corgi</h3>
+    <p style="margin:0.5em 0;">A whimsical jam game featuring a corgi with cosmic powers.</p>
+    <a href="{{ 'Portfolio/projects/#GameJams' | relative_url }}" 
+       style="display:inline-block; margin-top:0.5em; padding:0.5em 1em; background:#00aaff; color:#fff; border-radius:6px; text-decoration:none; font-weight:bold;">
+       See More
+    </a>
+  </div>
+
+</div>
+
 Explore more on the [Projects Page](/projects) or directly on itch.io:
 
 - [Blue](https://alex-onions.itch.io/blue)  
