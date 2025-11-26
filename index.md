@@ -70,7 +70,7 @@ title: Home
 
 
 
-## 🎲 Game Jam Games
+## 🎲 Game Jam Projects
 
 <div style="display:flex; align-items:center; gap:1em; margin-bottom:1.5em; padding:0.8em; border:2px solid #00aaff; border-radius:12px; background:transparent; color:#004466;">
 
