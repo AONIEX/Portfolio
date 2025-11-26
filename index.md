@@ -1,18 +1,24 @@
 ---
 layout: default
-title: Projects
+title: Home
 ---
 
-<!-- Hero Banner -->
-<div style="text-align:center; padding:2em 1em; background:#00aaff; color:white;">
-  <h1 style="font-size:2.5em; margin-bottom:0.5em;">My Projects</h1>
-  <p style="font-size:1.2em; max-width:700px; margin:auto;">
-    A collection of my core work, university projects, and game jam creations.  
-    Each project reflects my passion for game programming, design, and bringing ideas to life.
+<!-- Hero Section -->
+<div style="text-align:center; padding: 3em 1em; background: linear-gradient(135deg, #00aaff, #004466); color: white;">
+  <h1 style="font-size: 3em; margin-bottom: 0.5em;">Hi, I'm Alex 👋</h1>
+  <p style="font-size: 1.2em; max-width: 700px; margin: auto;">
+    Games Programmer • Abertay Dare Finalist (2025) • 4th Year Computer Games Applications Development Student  
+    <br/><br/>
+    I love creating video games that bring people together and help them make lasting memories.  
+    Outside of development, you'll find me at Game Jams, rolling dice in D&D, or painting 3D models.
   </p>
+  <div style="margin-top: 2em;">
+    <a href="/projects" style="background:#fff; color:#004466; padding:0.8em 1.5em; border-radius:6px; text-decoration:none; font-weight:bold;">View My Projects</a>
+    <a href="/about" style="background:#004466; color:#fff; padding:0.8em 1.5em; border:2px solid #fff; border-radius:6px; text-decoration:none; font-weight:bold; margin-left:1em;">Learn More</a>
+  </div>
 </div>
 
-<hr style="all: unset; display:block; height:6px; background-color:#00aaff; margin:2em 0;">
+<hr style="all: unset; display: block; height: 6px; background-color: #00aaff; margin: 2em 0;">
 
 ## 🎮 Core Projects
 
@@ -23,7 +29,7 @@ title: Projects
     <img width="315" height="250" alt="Synaptic" src="https://github.com/user-attachments/assets/a12b8fc3-fe75-453e-8ef8-0454fba62356" />
   </a>
   <h3>Synaptic</h3>
-  <p>My 3rd year professional project, later showcased at Abertay's Dare Academy.</p>
+  <p>Developed for my 3rd year professional project, later showcased at Abertay's Dare Academy.</p>
 </div>
 
 <div style="max-width:320px; text-align:center;">
@@ -31,12 +37,12 @@ title: Projects
     <img width="315" height="250" alt="BaBa" src="https://github.com/user-attachments/assets/c6ad0947-6c5b-4b3f-bbf7-5a3c4aef396c" />
   </a>
   <h3>Ba Ba BANG! Sheep</h3>
-  <p>A first-year project grown into a mobile game, refined each summer.</p>
+  <p>A first-year project evolved into a mobile game, refined each summer.</p>
 </div>
 
 </div>
 
-<hr style="all: unset; display:block; height:6px; background-color:#00aaff; margin:2em 0;">
+<hr style="all: unset; display: block; height: 6px; background-color: #00aaff; margin: 2em 0;">
 
 ## 🏫 University Projects
 
@@ -48,11 +54,11 @@ Created a mesh cutting mechanic in C++ with minimal blueprint use.
 - [GitHub Repository](https://github.com/AONIEX/MeshCuttingWORKING)  
 - [Video Demonstration](https://www.youtube.com/watch?v=rBjXFgnGRYU)
 
-<hr style="all: unset; display:block; height:6px; background-color:#00aaff; margin:2em 0;">
+<hr style="all: unset; display: block; height: 6px; background-color: #00aaff; margin: 2em 0;">
 
 ## 🎲 Game Jam Games
 
-For more information, check out the [Projects Page](/projects) or their itch.io links:
+Explore more on the [Projects Page](/projects) or directly on itch.io:
 
 - [Blue](https://alex-onions.itch.io/blue)  
 - [The Reapers Garden](https://alex-onions.itch.io/the-reapers-garden)  
