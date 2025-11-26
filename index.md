@@ -36,9 +36,9 @@ title: Home
   <div style="flex:1; text-align:left;">
     <h3 style="margin-top:0;">Synaptic</h3>
     <p style="margin:0.5em 0;">My 3rd year professional project, later showcased at Abertay's Dare Academy.</p>
-    <a href="https://bonny-bandits.itch.io/synaptic" 
+    <a href="{{ 'Portfolio/projects/#Dare_Academy' | relative_url }}" 
        style="display:inline-block; margin-top:0.5em; padding:0.5em 1em; background:#00aaff; color:#fff; border-radius:6px; text-decoration:none; font-weight:bold;">
-       Play Now
+       See More
     </a>
   </div>
 
@@ -54,14 +54,13 @@ title: Home
   <div style="flex:1; text-align:left;">
     <h3 style="margin-top:0;">Ba Ba BANG! Sheep</h3>
     <p style="margin:0.5em 0;">A first-year project grown into a mobile game, refined each summer.</p>
-    <a href="https://alex-onions.itch.io/ba-ba-bang-sheep" 
+    <a href="{{ 'Portfolio/projects/#BaBaBANGSheep' | relative_url }}" 
        style="display:inline-block; margin-top:0.5em; padding:0.5em 1em; background:#00aaff; color:#fff; border-radius:6px; text-decoration:none; font-weight:bold;">
-       Play Now
+       See More
     </a>
   </div>
 
 </div>
-
 
 <hr style="all: unset; display: block; height: 6px; background-color: #00aaff; margin: 2em 0;">
 
