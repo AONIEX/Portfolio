@@ -27,21 +27,38 @@ title: Home
 
 ## 🎮 Core Projects
 
-<div style="display:flex; flex-wrap:wrap; gap:1.5em; justify-content:center;">
+<div style="display:flex; align-items:center; gap:1.5em; margin-bottom:2em; padding:1em; border-radius:12px; background:#f9f9f9; box-shadow:0 4px 8px rgba(0,0,0,0.1);">
 
-  <a href="https://bonny-bandits.itch.io/synaptic" 
-     style="display:inline-block; width:300px; padding:1em; border-radius:12px; background:#f9f9f9; text-align:center; text-decoration:none; color:#004466; box-shadow:0 4px 8px rgba(0,0,0,0.1);">
-    <img src="https://github.com/user-attachments/assets/a12b8fc3-fe75-453e-8ef8-0454fba62356" alt="Synaptic" style="width:100%; border-radius:8px; margin-bottom:0.5em;">
-    <h3 style="margin:0.5em 0;">Synaptic</h3>
-    <p style="font-size:0.9em;">My 3rd year professional project, later showcased at Abertay's Dare Academy.</p>
-  </a>
+  <img src="https://github.com/user-attachments/assets/a12b8fc3-fe75-453e-8ef8-0454fba62356" 
+       alt="Synaptic" 
+       style="width:300px; height:auto; border-radius:8px;">
 
-  <a href="https://alex-onions.itch.io/ba-ba-bang-sheep" 
-     style="display:inline-block; width:300px; padding:1em; border-radius:12px; background:#f9f9f9; text-align:center; text-decoration:none; color:#004466; box-shadow:0 4px 8px rgba(0,0,0,0.1);">
-    <img src="https://github.com/user-attachments/assets/c6ad0947-6c5b-4b3f-bbf7-5a3c4aef396c" alt="Ba Ba BANG! Sheep" style="width:100%; border-radius:8px; margin-bottom:0.5em;">
-    <h3 style="margin:0.5em 0;">Ba Ba BANG! Sheep</h3>
-    <p style="font-size:0.9em;">A first-year project grown into a mobile game, refined each summer.</p>
-  </a>
+  <div style="flex:1; text-align:left; color:#004466;">
+    <h3 style="margin-top:0;">Synaptic</h3>
+    <p>My 3rd year professional project, later showcased at Abertay's Dare Academy.</p>
+    <a href="https://bonny-bandits.itch.io/synaptic" 
+       style="display:inline-block; margin-top:0.5em; padding:0.6em 1.2em; background:#00aaff; color:#fff; border-radius:6px; text-decoration:none; font-weight:bold;">
+       Play Now
+    </a>
+  </div>
+
+</div>
+
+
+<div style="display:flex; align-items:center; gap:1.5em; margin-bottom:2em; padding:1em; border-radius:12px; background:#f9f9f9; box-shadow:0 4px 8px rgba(0,0,0,0.1);">
+
+  <img src="https://github.com/user-attachments/assets/c6ad0947-6c5b-4b3f-bbf7-5a3c4aef396c" 
+       alt="Ba Ba BANG! Sheep" 
+       style="width:300px; height:auto; border-radius:8px;">
+
+  <div style="flex:1; text-align:left; color:#004466;">
+    <h3 style="margin-top:0;">Ba Ba BANG! Sheep</h3>
+    <p>A first-year project grown into a mobile game, refined each summer.</p>
+    <a href="https://alex-onions.itch.io/ba-ba-bang-sheep" 
+       style="display:inline-block; margin-top:0.5em; padding:0.6em 1.2em; background:#00aaff; color:#fff; border-radius:6px; text-decoration:none; font-weight:bold;">
+       Play Now
+    </a>
+  </div>
 
 </div>
 
