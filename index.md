@@ -66,13 +66,22 @@ title: Home
 
 ## 🏫 University Projects
 
-**Mesh Cutting (3rd Year Game Mechanics Project)**  
-Created a mesh cutting mechanic in C++ with minimal blueprint use.  
+<div style="display:flex; align-items:center; gap:1em; margin-bottom:1.5em; padding:0.8em; border:2px solid #00aaff; border-radius:12px; background:transparent; color:#004466;">
 
-![Mesh Cutting Gif One](Assets/MeshCuttingOne.gif) ![Mesh Cutting Gif Two](Assets/MeshCuttingTwo.gif)  
+  <img src="Assets/MeshCuttingOne.gif" 
+       alt="Mesh Cutting Project" 
+       style="width:160px; height:auto; border-radius:8px;">
 
-- [GitHub Repository](https://github.com/AONIEX/MeshCuttingWORKING)  
-- [Video Demonstration](https://www.youtube.com/watch?v=rBjXFgnGRYU)
+  <div style="flex:1; text-align:left;">
+    <h3 style="margin-top:0;">Mesh Cutting</h3>
+    <p style="margin:0.5em 0;">A 3rd Year Game Mechanics project where I built a mesh cutting system in C++.</p>
+    <a href="{{ 'Portfolio/projects/#Mesh_Cutting' | relative_url }}" 
+       style="display:inline-block; margin-top:0.5em; padding:0.5em 1em; background:#00aaff; color:#fff; border-radius:6px; text-decoration:none; font-weight:bold;">
+       See More
+    </a>
+  </div>
+
+</div>
 
 <hr style="all: unset; display: block; height: 6px; background-color: #00aaff; margin: 2em 0;">
 
