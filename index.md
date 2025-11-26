@@ -9,7 +9,7 @@ Hi i'm Alex, Im a Games Programmer, Abertay Dare Finalist (2025), 4th Year stude
 
 <hr style="all: unset; display: block; height: 6px; background-color: #00aaff; margin: 2em 0;">
 
-# Projects 
+# Core Projects 
 
  [Dare Academy Synaptic](https://bonny-bandits.itch.io/synaptic)
   <br/>
