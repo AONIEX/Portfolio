@@ -27,25 +27,24 @@ title: Home
 
 ## 🎮 Core Projects
 
-<div style="display:flex; flex-wrap:wrap; gap:2em; justify-content:center;">
+<div style="display:flex; flex-wrap:wrap; gap:1.5em; justify-content:center;">
 
-<div style="max-width:320px; text-align:center;">
-  <a href="https://bonny-bandits.itch.io/synaptic">
-    <img width="315" height="250" alt="Synaptic" src="https://github.com/user-attachments/assets/a12b8fc3-fe75-453e-8ef8-0454fba62356" />
+  <a href="https://bonny-bandits.itch.io/synaptic" 
+     style="display:inline-block; width:300px; padding:1em; border-radius:12px; background:#f9f9f9; text-align:center; text-decoration:none; color:#004466; box-shadow:0 4px 8px rgba(0,0,0,0.1);">
+    <img src="https://github.com/user-attachments/assets/a12b8fc3-fe75-453e-8ef8-0454fba62356" alt="Synaptic" style="width:100%; border-radius:8px; margin-bottom:0.5em;">
+    <h3 style="margin:0.5em 0;">Synaptic</h3>
+    <p style="font-size:0.9em;">My 3rd year professional project, later showcased at Abertay's Dare Academy.</p>
   </a>
-  <h3>Synaptic</h3>
-  <p>Developed for my 3rd year professional project, later showcased at Abertay's Dare Academy.</p>
-</div>
 
-<div style="max-width:320px; text-align:center;">
-  <a href="https://alex-onions.itch.io/ba-ba-bang-sheep">
-    <img width="315" height="250" alt="BaBa" src="https://github.com/user-attachments/assets/c6ad0947-6c5b-4b3f-bbf7-5a3c4aef396c" />
+  <a href="https://alex-onions.itch.io/ba-ba-bang-sheep" 
+     style="display:inline-block; width:300px; padding:1em; border-radius:12px; background:#f9f9f9; text-align:center; text-decoration:none; color:#004466; box-shadow:0 4px 8px rgba(0,0,0,0.1);">
+    <img src="https://github.com/user-attachments/assets/c6ad0947-6c5b-4b3f-bbf7-5a3c4aef396c" alt="Ba Ba BANG! Sheep" style="width:100%; border-radius:8px; margin-bottom:0.5em;">
+    <h3 style="margin:0.5em 0;">Ba Ba BANG! Sheep</h3>
+    <p style="font-size:0.9em;">A first-year project grown into a mobile game, refined each summer.</p>
   </a>
-  <h3>Ba Ba BANG! Sheep</h3>
-  <p>A first-year project evolved into a mobile game, refined each summer.</p>
-</div>
 
 </div>
+
 
 <hr style="all: unset; display: block; height: 6px; background-color: #00aaff; margin: 2em 0;">
 
