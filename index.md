@@ -4,7 +4,7 @@ title: Home
 ---
 
 <div style="text-align:center; padding:1.5em 0; color:#004466;">
-  <h1 style="font-size:2em; margin-bottom:0.3em;">Hi, I'm Alex 👋</h1>
+  <h1 style="font-size:2em; margin-bottom:0.3em;">Hi, I'm Alex</h1>
   <p style="font-size:1em; max-width:450px; margin:auto;">
     Games Programmer • Dare Academy Finalist (2025) • 4th Year at Abertay University
   </p>
@@ -14,7 +14,7 @@ title: Home
 
 <hr style="all: unset; display: block; height: 6px; background-color: #00aaff; margin: 2em 0;">
 
-## 🎮 Core Projects
+## Core Projects
 
 <div style="display:flex; align-items:center; gap:1em; margin-bottom:1.5em; padding:0.8em; border:2px solid #00aaff; border-radius:12px; background:transparent; color:#004466;">
 
@@ -70,7 +70,7 @@ title: Home
 
 
 
-## 🎲 Game Jam Projects
+## Game Jam Projects
 
 <div style="display:flex; align-items:center; gap:1em; margin-bottom:1.5em; padding:0.8em; border:2px solid #00aaff; border-radius:12px; background:transparent; color:#004466;">
 
