@@ -45,13 +45,15 @@ Synaptic is one of my biggest projects and is a game made for my 3rd year profes
  
    The project was made for Game Mechanics Programming (3rd Year Class), i created a mesh cutting mechanic using C++ with minimal blueprints use.
   <br/>
+
+   ![Mesh Cutting Gif One](Assets/MeshCuttingOne.gif) ![Mesh Cutting Gif Two](Assets/MeshCuttingTwo.gif)
   
 [Mesh Cutting Git Page](https://github.com/AONIEX/MeshCuttingWORKING)
 
    [Mesh Cutting Video Demonstration](https://www.youtube.com/watch?v=rBjXFgnGRYU)
 
    
-   ![Mesh Cutting Gif One](Assets/MeshCuttingOne.gif) ![Mesh Cutting Gif Two](Assets/MeshCuttingTwo.gif)
+
 
 <hr style="all: unset; display: block; height: 6px; background-color: #00aaff; margin: 2em 0;">
 
