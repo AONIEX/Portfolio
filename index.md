@@ -143,20 +143,11 @@ title: Home
 
 Explore more on the [Projects Page](/projects) or directly on itch.io:
 
-- [Blue](https://alex-onions.itch.io/blue)  
-- [The Reapers Garden](https://alex-onions.itch.io/the-reapers-garden)  
-- [Skuffed](https://alex-onions.itch.io/skuffed)  
 - [Bong](https://alex-onions.itch.io/bong)  
-- [Fire Breathing Space Corgi](https://alex-onions.itch.io/fire-breathing-space-corgi)  
 - [Magnus's Library](https://alex-onions.itch.io/magnuss-libary)  
 - [Maledictum Colori](https://alex-onions.itch.io/maledictum-colori)  
 - [Clash Of The Roots](https://alex-onions.itch.io/clash-of-the-roots)  
 - [Breadpocalypse](https://park66.itch.io/brotc)  
 - [Paranormal Containment Protocol](https://park66.itch.io/paraconpro)  
 
-<div style="display:flex; flex-wrap:wrap; gap:1em; justify-content:center; margin-top:1em;">
-  <img width="315" height="250" alt="Blue" src="https://github.com/user-attachments/assets/0e8de0a7-45ea-4af8-afe3-82b733398430" />
-  <img width="315" height="250" alt="Reap" src="https://github.com/user-attachments/assets/b0b8752e-ca1d-40f0-bad4-d977ccefe3e4" />
-  <img width="315" height="250" alt="Skuffed" src="https://github.com/user-attachments/assets/6a611d58-fec7-4d5f-9831-1fe0a31d31ba" />
-  <img width="315" height="250" alt="Corgi" src="Assets/Corgi.png" />
-</div>
+
