@@ -13,11 +13,11 @@ title: Home
     Outside of development, you'll find me at Game Jams, rolling dice in D&D, or painting 3D models.
   </p>
   <div style="margin-top: 2em;">
-    <a href="{{ site.baseurl }}/projects/" 
+    <a href="{{ site.baseurl }}/Portfolio/projects/" 
        style="background:#fff; color:#004466; padding:0.8em 1.5em; border-radius:6px; text-decoration:none; font-weight:bold;">
       View My Projects
     </a>
-  <a href="{{ site.baseurl }}/about" 
+  <a href="{{ site.baseurl }}/Portfolio/about" 
        style="background:#004466; color:#fff; padding:0.8em 1.5em; border:2px solid #fff; border-radius:6px; text-decoration:none; font-weight:bold; margin-left:1em;">
       Learn More
     </a>
