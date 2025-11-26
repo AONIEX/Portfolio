@@ -3,12 +3,13 @@ layout: default
 title: Home
 ---
 
-<div style="text-align:center; padding: 3em 1em; color:#004466;">
-  <h1 style="font-size:3em; margin-bottom:0.5em;">Hi, I'm Alex 👋</h1>
-  <p style="font-size:1.2em; max-width:600px; margin:auto;">
+<div style="text-align:center; padding:1.5em 0; color:#004466;">
+  <h1 style="font-size:2em; margin-bottom:0.3em;">Hi, I'm Alex 👋</h1>
+  <p style="font-size:1em; max-width:450px; margin:auto;">
     Games Programmer • Dare Academy Finalist (2025) • 4th Year at Abertay University
   </p>
 </div>
+
 
 
 <hr style="all: unset; display: block; height: 6px; background-color: #00aaff; margin: 2em 0;">
