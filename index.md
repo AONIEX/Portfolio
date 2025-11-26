@@ -17,6 +17,10 @@ title: Home
        style="background:#fff; color:#004466; padding:0.8em 1.5em; border-radius:6px; text-decoration:none; font-weight:bold;">
       View My Projects
     </a>
+  <a href="{{ site.baseurl }}/about" 
+       style="background:#004466; color:#fff; padding:0.8em 1.5em; border:2px solid #fff; border-radius:6px; text-decoration:none; font-weight:bold; margin-left:1em;">
+      Learn More
+    </a>
 
    
   </div>
