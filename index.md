@@ -49,7 +49,7 @@ title: Home
   </div>
 
 </div>
-
+<div style="display:flex; align-items:center; gap:1em; margin-bottom:1.5em; padding:0.8em; border:2px solid #00aaff; border-radius:12px; background:transparent; color:#004466;">
 
   <img src="Assets/MeshCuttingOne.gif" 
        alt="Mesh Cutting Project" 
@@ -65,6 +65,7 @@ title: Home
   </div>
 
 </div>
+
 
 <hr style="all: unset; display: block; height: 6px; background-color: #00aaff; margin: 2em 0;">
 
