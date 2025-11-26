@@ -9,7 +9,7 @@ Hi i'm Alex, Im a Games Programmer, Abertay Dare Finalist (2025), 4th Year stude
 
 Below are some of my core projects. 
 </br>
-More Detail and projects can be seenon the porjects page.
+More Detail and projects can be seen on the projects page.
 <hr style="all: unset; display: block; height: 6px; background-color: #00aaff; margin: 2em 0;">
 
 # Core Projects 
