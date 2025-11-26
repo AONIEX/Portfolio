@@ -119,7 +119,7 @@ Synaptic is one of my biggest projects and is a game made for my 3rd year profes
 - [Synaptic's Itch.io Page](https://bonny-bandits.itch.io/synaptic)
 - Game Engine: Unreal Engine 5
 - Team Project
-- Language: C++ and Blueprints
+- Languages: C++ and Blueprints
 
  
 <br/>
