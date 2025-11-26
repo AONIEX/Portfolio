@@ -8,18 +8,6 @@ title: Home
   <p style="font-size:1.2em; max-width:600px; margin:auto;">
     Games Programmer • Dare Academy Finalist (2025) • 4th Year at Abertay University
   </p>
-  <p style="font-size:1em; max-width:600px; margin:1em auto;">
-    I create games that bring people together.  
-    Outside of coding, I enjoy Game Jams, D&D, and painting 3D models.
-  </p>
-  <div style="margin-top:2em;">
-    <a href="{{ 'Portfolio/projects/' | relative_url }}" style="background:#00aaff; color:#fff; padding:0.8em 1.5em; border-radius:6px; text-decoration:none; font-weight:bold;">
-      View My Projects
-    </a>
-    <a href="{{ 'Portfolio/about/' | relative_url }}" style="background:#fff; color:#004466; padding:0.8em 1.5em; border:2px solid #00aaff; border-radius:6px; text-decoration:none; font-weight:bold; margin-left:1em;">
-      Learn More
-    </a>
-  </div>
 </div>
 
 
