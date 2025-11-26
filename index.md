@@ -5,7 +5,7 @@ title: Home
 
 <!-- Hero Section -->
 <div style="text-align:center; padding: 3em 1em; color: #004466;">
-  <h1 style="font-size: 3em; margin-bottom: 0.5em;">Hi, I'm Alex</h1>
+  <h1 style="font-size: 3em; margin-bottom: 0.5em;">Hi, I'm Alex 👋</h1>
   <p style="font-size: 1.2em; max-width: 700px; margin: auto;">
     Games Programmer • Abertay Dare Finalist (2025) • 4th Year Computer Games Applications Development Student  
     <br/><br/>
@@ -23,6 +23,8 @@ title: Home
     </a>
   </div>
 </div>
+
+<hr style="all: unset; display: block; height: 6px; background-color: #00aaff; margin: 2em 0;">
 
 <hr style="all: unset; display: block; height: 6px; background-color: #00aaff; margin: 2em 0;">
 
