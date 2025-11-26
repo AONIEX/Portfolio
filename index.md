@@ -3,22 +3,20 @@ layout: default
 title: Home
 ---
 
-<!-- Hero Section -->
-<div style="text-align:center; padding: 3em 1em; color: #004466;">
-  <h1 style="font-size: 3em; margin-bottom: 0.5em;">Hi, I'm Alex 👋</h1>
-  <p style="font-size: 1.2em; max-width: 700px; margin: auto;">
-    Games Programmer • Abertay Dare Finalist (2025) • 4th Year Computer Games Applications Development Student  
-    <br/><br/>
-    I love creating video games that bring people together and help them make lasting memories.  
-    Outside of development, you'll find me at Game Jams, rolling dice in D&D, or painting 3D models.
+<div style="text-align:center; padding: 3em 1em; color:#004466;">
+  <h1 style="font-size:3em; margin-bottom:0.5em;">Hi, I'm Alex 👋</h1>
+  <p style="font-size:1.2em; max-width:600px; margin:auto;">
+    Games Programmer • Dare Academy Finalist (2025) • 4th Year at Abertay University
   </p>
-  <div style="margin-top: 2em;">
-    <a href="{{ 'Portfolio/projects/' | relative_url }}"
-       style="background:#00aaff; color:#fff; padding:0.8em 1.5em; border-radius:6px; text-decoration:none; font-weight:bold;">
+  <p style="font-size:1em; max-width:600px; margin:1em auto;">
+    I create games that bring people together.  
+    Outside of coding, I enjoy Game Jams, D&D, and painting 3D models.
+  </p>
+  <div style="margin-top:2em;">
+    <a href="{{ 'Portfolio/projects/' | relative_url }}" style="background:#00aaff; color:#fff; padding:0.8em 1.5em; border-radius:6px; text-decoration:none; font-weight:bold;">
       View My Projects
     </a>
-    <a href="{{ 'Portfolio/about/' | relative_url }}"
-       style="background:#fff; color:#004466; padding:0.8em 1.5em; border:2px solid #00aaff; border-radius:6px; text-decoration:none; font-weight:bold; margin-left:1em;">
+    <a href="{{ 'Portfolio/about/' | relative_url }}" style="background:#fff; color:#004466; padding:0.8em 1.5em; border:2px solid #00aaff; border-radius:6px; text-decoration:none; font-weight:bold; margin-left:1em;">
       Learn More
     </a>
   </div>
