@@ -98,7 +98,7 @@ title: Home
 
   <div style="flex:1; text-align:left;">
     <h3 style="margin-top:0;">The Reapers Garden</h3>
-    <p style="margin:0.5em 0;">A narrative-driven jam game with dark themes and stylized visuals.</p>
+    <p style="margin:0.5em 0;">A endless wave game, about a Reaper and their garden.</p>
     <a href="{{ 'Portfolio/projects/#GameJams' | relative_url }}" 
        style="display:inline-block; margin-top:0.5em; padding:0.5em 1em; background:#00aaff; color:#fff; border-radius:6px; text-decoration:none; font-weight:bold;">
        See More
