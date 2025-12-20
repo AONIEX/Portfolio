@@ -107,10 +107,10 @@ permalink: /Portfolio/honours/
 
 ## 🛠️ Tools & Technologies
 
-- C++  
-- SFML / OpenGL (or your actual rendering stack)  
-- Custom mesh generation pipeline  
-- Parametric modelling techniques  
+- C#
+- Unity
+- Shadergraph
+- In engine degugging tools
 
 
 ## 📥 Downloads & Links
