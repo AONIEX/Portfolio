@@ -122,6 +122,4 @@ permalink: /Portfolio/honours/
 
 ## 📚 References
 
-- Shaker, N., Togelius, J., & Nelson, M. (2016). *Procedural Content Generation in Games*.  
-- Smith, G. (2014). *PCG-Based Weapon Design*.  
 - Relevant geometry and mesh‑generation literature.
