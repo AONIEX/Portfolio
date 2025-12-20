@@ -17,21 +17,23 @@ permalink: /Portfolio/honours/
 ## 🗡️ Project Overview
 
 <div style="display:flex; gap:1.5em; align-items:flex-start; margin-bottom:1.5em;">
-<img src="{{ '/Assets/Sword_Bp2.png' | relative_url }}"
-     style="height:100%; width:auto; object-fit:cover; border-radius:12px; border:2px solid #00aaff;">
-
-  <p>
-    My Honours Project explores procedural weapon generation, focusing on the creation of
-    fully parametric swords built at runtime. The system constructs the blades using mathematical
-    rules, shape grammars, and mesh‑generation algorithms. Afterwards the appropriate hilt, guards
-    and pommels are attached.
-  </p>
+  <img src="{{ '/Assets/Sword_Bp2.png' | relative_url }}"
+       alt="Procedural Sword Generation Thumbnail"
+       style="height:260px; width:200px; object-fit:cover; border-radius:12px; border:2px solid #00aaff;">
+  <div style="flex:1;">
+    <p>
+      My Honours Project explores procedural weapon generation, focusing on the creation of
+      fully parametric swords built at runtime. The system constructs the blades using mathematical rules,
+      shape grammars, and mesh‑generation algorithms. Afterwards the appropriate hilt, guards and pommels
+      are attached.
+    </p>
+    <p>
+      The goal is to create a flexible, extensible tool capable of producing thousands of
+      unique, stylistically coherent weapons for games.
+    </p>
+  </div>
 </div>
-
-<p>
-  The goal is to create a flexible, extensible tool capable of producing thousands of
-  unique, stylistically coherent weapons for games.
-</p>
+>
 
 
 ## 🎯 Research Motivation
