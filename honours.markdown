@@ -17,7 +17,7 @@ permalink: /Portfolio/honours/
 ## 🗡️ Project Overview
 
 <div style="display:flex; gap:1.5em; align-items:flex-start; margin-bottom:1.5em;">
-  <img src="/Assets/SwordGenThumbnail.png"
+  <img src="/Assets/Sword_Bp2.png"
        alt="Procedural Sword Generation Thumbnail"
        style="width:220px; height:auto; border-radius:12px; border:2px solid #00aaff;">
   <div style="flex:1;">
