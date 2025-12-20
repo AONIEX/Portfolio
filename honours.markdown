@@ -88,7 +88,7 @@ permalink: /Portfolio/honours/
   <img src="/Assets/Demo_Gif_4.gif"
        alt="Procedural Sword Generation Demo"
        style="width:80%; max-width:700px; border-radius:12px; border:2px solid #00aaff;">
-  <p style="color:#004466; margin-top:0.5em;">Example swords generated entirely at runtime.</p>
+  <p style="color:#004466; margin-top:0.5em;">Example swords generated entirely at runtime. (Prototype)</p>
 </div>
 
 
