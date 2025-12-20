@@ -79,8 +79,8 @@ permalink: /Portfolio/honours/
 
 ### 2. Shape Construction  
 - Blade spline generation  
-- Cross‑section extrusion  
-- Guard/hilt/pommel assembly  
+- Cross‑section Addition  
+- Guard/hilt/pommel Attachment  
 
 ### 3. Mesh Building  
 - Vertex grid creation  
@@ -91,7 +91,7 @@ permalink: /Portfolio/honours/
 ### 4. Post‑Processing  
 - Edge sharpening  
 - Decorative patterns  
-- Material assignment  
+- Material/Shader assignment  
 
 
 ## 🎮 Demonstration
