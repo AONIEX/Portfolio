@@ -50,10 +50,13 @@ permalink: /Portfolio/honours/
   <h3 style="margin-top:0;">Core Components</h3>
   <ul>
     <li><strong>Parametric Blade Generator:</strong> Length, curvature, bevels, fuller depth, tip style.</li>
-    <li><strong>Guard & Hilt Modules:</strong> Cross‑guards, T‑guards, curved guards, wrapped handles.</li>
-    <li><strong>Pommel Variants:</strong> Spheres, discs, spikes, geometric shapes.</li>
     <li><strong>Mesh Construction:</strong> Vertex generation, triangle indexing, UV mapping.</li>
     <li><strong>Style Profiles:</strong> “Elegant”, “Brutal”, “Fantasy”, “Historical”, etc.</li>
+    <li><strong>Textures:</strong> “Rustic”, “Shiny”, “Chipped”, “Clean”, etc.</li>
+    <li><strong>Guard & Hilt Modules:</strong> Cross‑guards, T‑guards, curved guards, wrapped handles.</li>
+    <li><strong>Pommel Variants:</strong> Spheres, discs, spikes, geometric shapes.</li>
+    
+    
   </ul>
 </div>
 
