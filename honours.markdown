@@ -94,6 +94,12 @@ permalink: /Portfolio/honours/
 - Material/Shader assignment  
 
 
+### 5. Exporting/Saving
+- Saving Sword
+- Loading Sword
+- Exporting Sword
+
+
 ## 🎮 Demonstration
 
 <div style="text-align:center; margin:2em 0;">
