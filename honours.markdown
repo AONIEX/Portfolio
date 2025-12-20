@@ -23,8 +23,7 @@ permalink: /Portfolio/honours/
   <div style="flex:1;">
     <p>
       My Honours Project explores procedural weapon generation, focusing on the creation of
-      fully parametric swords built at runtime. The system constructs blades, guards, hilts,
-      and pommels using mathematical rules, shape grammars, and mesh‑generation algorithms.
+      fully parametric swords built at runtime. The system constructs the blades using mathematical rules, shape grammars, and mesh‑generation algorithms. Afterwards the appropriate hilt, guards and pommels are attached.
     </p>
     <p>
       The goal is to create a flexible, extensible tool capable of producing thousands of
