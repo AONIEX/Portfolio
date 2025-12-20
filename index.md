@@ -25,7 +25,7 @@ title: Home
   <div style="flex:1; text-align:left;">
     <h3 style="margin-top:0;">Honours Project</h3>
     <p style="margin:0.5em 0;">3D Sword Procedural Generation, creating historically accurate and visually appealing swords</p>
-    <a href="{{ 'Portfolio/projects/#Dare_Academy' | relative_url }}" 
+    <a href="{{ 'Portfolio/honours/' | relative_url }}" 
        style="display:inline-block; margin-top:0.5em; padding:0.5em 1em; background:#00aaff; color:#fff; border-radius:6px; text-decoration:none; font-weight:bold;">
        See More
     </a>
