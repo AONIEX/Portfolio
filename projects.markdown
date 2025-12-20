@@ -52,6 +52,14 @@ permalink: /Portfolio/projects/
   </div>
 </a>
 
+ <a href="{{ 'Portfolio/honours/' | relative_url }}"  style="text-decoration: none;">
+  <div class="project-button">
+    <div class="project-text">
+      <h5 style="margin: 0;">Honours</h5>
+    </div>
+  </div>
+</a
+  
   <!-- Add more buttons as needed -->
 </div>
 
