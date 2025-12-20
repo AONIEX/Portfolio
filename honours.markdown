@@ -97,10 +97,7 @@ permalink: /Portfolio/honours/
 
 <div style="padding:1em; border:2px solid #00aaff; border-radius:12px;">
   <ul>
-    <li>Generated over 10,000 unique swords with consistent structural logic.</li>
-    <li>Runtime generation under 5ms per sword on average.</li>
-    <li>Style profiles produced recognisably different silhouettes.</li>
-    <li>Mesh quality suitable for real‑time rendering without manual cleanup.</li>
+    <li>Still to be Evaluated as its an ongoing project</li>
   </ul>
 </div>
 
