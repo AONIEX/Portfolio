@@ -123,7 +123,6 @@ permalink: /Portfolio/honours/
   </ul>
 </div>
 
-
 ## 🛠️ Tools & Technologies
 
 - C#
