@@ -17,7 +17,7 @@ permalink: /Portfolio/honours/
 ## 🗡️ Project Overview
 
 <div style="display:flex; gap:1.5em; align-items:flex-start; margin-bottom:1.5em;">
-  <img src="Assets/Sword_Bp2.png"
+  <img src="{{ '/Assets/Sword_Bp2.png' | relative_url }}"
        alt="Procedural Sword Generation Thumbnail"
        style="width:220px; height:auto; border-radius:12px; border:2px solid #00aaff;">
   <div style="flex:1;">
@@ -85,7 +85,7 @@ permalink: /Portfolio/honours/
 ## 🎮 Demonstration
 
 <div style="text-align:center; margin:2em 0;">
-  <img src="Assets/Demo_Gif_4.gif"
+  <img src="{{ '/Assets/Demo_Gif_4.gif' | relative_url }}"
        alt="Procedural Sword Generation Demo"
        style="width:80%; max-width:700px; border-radius:12px; border:2px solid #00aaff;">
   <p style="color:#004466; margin-top:0.5em;">Example swords generated entirely at runtime. (Prototype)</p>
