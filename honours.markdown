@@ -58,7 +58,6 @@ permalink: /Portfolio/honours/
   </ul>
 </div>
 
-</div>
 
 
 ## 🧩 Generation Pipeline
