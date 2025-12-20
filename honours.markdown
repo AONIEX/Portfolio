@@ -31,7 +31,7 @@ permalink: /Portfolio/honours/
 <p>
   The goal is to create a flexible, extensible tool capable of producing thousands of
   unique, stylistically coherent weapons for games.
-</p>>
+</p>
 
 
 ## 🎯 Research Motivation
