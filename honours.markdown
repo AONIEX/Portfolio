@@ -57,10 +57,6 @@ permalink: /Portfolio/honours/
     <li><strong style="color:#33a3d9;">Pommel Variants:</strong> Spheres, discs, spikes, geometric shapes.</li>
   </ul>
 </div>
->
-
-
-
 
 ## 🧩 Generation Pipeline
 
