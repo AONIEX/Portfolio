@@ -25,9 +25,6 @@ permalink: /Portfolio/honours/
       My Honours Project focuses on creating 3D swords using Procedural Generation and Shaders, 
       seeing if its possible to create visually appealing and historically accurate swords without the need of a 3D artist.
     </p>
-    <ul>
-     
-    </ul>
   </div>
 </div>
 
