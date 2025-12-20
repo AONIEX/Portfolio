@@ -14,6 +14,24 @@ title: Home
 
 <hr style="all: unset; display: block; height: 6px; background-color: #00aaff; margin: 2em 0;">
 
+## Ongoing Projects
+
+<div style="display:flex; align-items:center; gap:1em; margin-bottom:1.5em; padding:0.8em; border:2px solid #00aaff; border-radius:12px; background:transparent; color:#004466;">
+
+  <img src="https://github.com/user-attachments/assets/a12b8fc3-fe75-453e-8ef8-0454fba62356" 
+       alt="Synaptic" 
+       style="width:160px; height:auto; border-radius:8px;">
+
+  <div style="flex:1; text-align:left;">
+    <h3 style="margin-top:0;">Honours Project</h3>
+    <p style="margin:0.5em 0;">3D Sword Procedural Generation, creating historically accurate and visually appealing swords</p>
+    <a href="{{ 'Portfolio/projects/#Dare_Academy' | relative_url }}" 
+       style="display:inline-block; margin-top:0.5em; padding:0.5em 1em; background:#00aaff; color:#fff; border-radius:6px; text-decoration:none; font-weight:bold;">
+       See More
+    </a>
+  </div>
+
+</div>
 ## Core Projects
 
 <div style="display:flex; align-items:center; gap:1em; margin-bottom:1.5em; padding:0.8em; border:2px solid #00aaff; border-radius:12px; background:transparent; color:#004466;">
