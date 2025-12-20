@@ -18,8 +18,8 @@ title: Home
 
 <div style="display:flex; align-items:center; gap:1em; margin-bottom:1.5em; padding:0.8em; border:2px solid #00aaff; border-radius:12px; background:transparent; color:#004466;">
 
-  <img src="https://github.com/user-attachments/assets/a12b8fc3-fe75-453e-8ef8-0454fba62356" 
-       alt="Synaptic" 
+  <img src="https://github.com/user-attachments/assets/Blueprint_Sword.png" 
+       alt="Swords" 
        style="width:160px; height:auto; border-radius:8px;">
 
   <div style="flex:1; text-align:left;">
