@@ -46,15 +46,15 @@ permalink: /Portfolio/honours/
 
 ## 🏗️ System Architecture
 
-<div style="padding:1em; border:2px solid #00aaff; border-radius:12px; margin-bottom:1.5em; background:#eaf8ff; color:#4db7e3;">
-  <h3 style="margin-top:0; color:#33a3d9;">Core Components</h3>
-  <ul style="color:#4db7e3;">
-    <li><strong style="color:#33a3d9;">Parametric Blade Generator:</strong> Length, curvature, bevels, fuller depth, tip style.</li>
-    <li><strong style="color:#33a3d9;">Mesh Construction:</strong> Vertex generation, triangle indexing, UV mapping.</li>
-    <li><strong style="color:#33a3d9;">Style Profiles:</strong> “Elegant”, “Brutal”, “Fantasy”, “Historical”, etc.</li>
-    <li><strong style="color:#33a3d9;">Textures/Shaders:</strong> “Rustic”, “Shiny”, “Chipped”, “Clean”, etc.</li>
-    <li><strong style="color:#33a3d9;">Guard & Hilt Modules:</strong> Cross‑guards, T‑guards, curved guards, wrapped handles.</li>
-    <li><strong style="color:#33a3d9;">Pommel Variants:</strong> Spheres, discs, spikes, geometric shapes.</li>
+<div style="padding:1em; border:2px solid #00aaff; border-radius:12px; margin-bottom:1.5em; color:#7fd3f0;">
+  <h3 style="margin-top:0; color:#66c7eb;">Core Components</h3>
+  <ul style="color:#7fd3f0;">
+    <li><strong style="color:#66c7eb;">Parametric Blade Generator:</strong> Length, curvature, bevels, fuller depth, tip style.</li>
+    <li><strong style="color:#66c7eb;">Mesh Construction:</strong> Vertex generation, triangle indexing, UV mapping.</li>
+    <li><strong style="color:#66c7eb;">Style Profiles:</strong> “Elegant”, “Brutal”, “Fantasy”, “Historical”, etc.</li>
+    <li><strong style="color:#66c7eb;">Textures/Shaders:</strong> “Rustic”, “Shiny”, “Chipped”, “Clean”, etc.</li>
+    <li><strong style="color:#66c7eb;">Guard & Hilt Modules:</strong> Cross‑guards, T‑guards, curved guards, wrapped handles.</li>
+    <li><strong style="color:#66c7eb;">Pommel Variants:</strong> Spheres, discs, spikes, geometric shapes.</li>
   </ul>
 </div>
 
