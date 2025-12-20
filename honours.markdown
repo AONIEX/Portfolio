@@ -62,6 +62,7 @@ permalink: /Portfolio/honours/
   <ul style="color:#7fd3f0;">
     <li><strong style="color:#66c7eb;">Parametric Blade Generator:</strong> Length, curvature, bevels, fuller depth, tip style.</li>
     <li><strong style="color:#66c7eb;">Mesh Construction:</strong> Vertex generation, triangle indexing, UV mapping.</li>
+    <li><strong style="color:#66c7eb;">Interpolation:</strong> Curved Blade, Smooth Edges, Spline Curvature, Catmull-Rom.</li>
     <li><strong style="color:#66c7eb;">Style Profiles:</strong> “Elegant”, “Brutal”, “Fantasy”, “Historical”, etc.</li>
     <li><strong style="color:#66c7eb;">Textures/Shaders:</strong> “Rustic”, “Shiny”, “Chipped”, “Clean”, etc.</li>
     <li><strong style="color:#66c7eb;">Guard & Hilt Modules:</strong> Cross‑guards, T‑guards, curved guards, wrapped handles.</li>
