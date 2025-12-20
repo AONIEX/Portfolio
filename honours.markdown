@@ -61,9 +61,9 @@ permalink: /Portfolio/honours/
 ## 📊 Technical Breakdown
 
 ### Interpolation  
-- Buffered timeline of ~100–150ms  
-- Linear interpolation between snapshots  
-- Graceful fallback to extrapolation when needed  
+- 
+- 
+- 
 
 
 
