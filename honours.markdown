@@ -116,6 +116,9 @@ permalink: /Portfolio/honours/
 
 <div style="padding:1em; border:2px solid #00aaff; border-radius:12px;">
   <ul>
+    <li>Successfully Generated 2D Blades based on Paramaters.</li>
+    <li>Successfully added blade curvature, based on historical swords.</li>
+    <li>Successfully created visually appealing 2D blade shape for swords.</li>
     <li>Still to be Evaluated as its an ongoing project</li>
   </ul>
 </div>
