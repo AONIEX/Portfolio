@@ -46,7 +46,7 @@ permalink: /Portfolio/honours/
 
 ## 🏗️ System Architecture
 
-<div style="padding:1em; border:2px solid #00aaff; border-radius:12px; margin-bottom:1.5em; color:#4db7e3;">
+<div style="padding:1em; border:2px solid #00aaff; border-radius:12px; margin-bottom:1.5em; background:#eaf8ff; color:#4db7e3;">
   <h3 style="margin-top:0; color:#33a3d9;">Core Components</h3>
   <ul style="color:#4db7e3;">
     <li><strong style="color:#33a3d9;">Parametric Blade Generator:</strong> Length, curvature, bevels, fuller depth, tip style.</li>
@@ -57,6 +57,7 @@ permalink: /Portfolio/honours/
     <li><strong style="color:#33a3d9;">Pommel Variants:</strong> Spheres, discs, spikes, geometric shapes.</li>
   </ul>
 </div>
+>
 
 
 
