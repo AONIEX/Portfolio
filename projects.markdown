@@ -58,7 +58,7 @@ permalink: /Portfolio/projects/
       <h5 style="margin: 0;">Honours</h5>
     </div>
   </div>
-</a
+ </a>
   
   <!-- Add more buttons as needed -->
 </div>
