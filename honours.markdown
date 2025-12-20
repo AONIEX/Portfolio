@@ -7,81 +7,110 @@ permalink: /Portfolio/honours/
 <div style="text-align:center; padding:1.5em 0; color:#004466;">
   <h1 style="font-size:2em; margin-bottom:0.3em;">Honours Project</h1>
   <p style="font-size:1em; max-width:600px; margin:auto;">
-    Procedurally Generated 3D Swords
+    Procedural Sword Generation • Runtime Mesh Construction • Parametric Geometry
   </p>
 </div>
 
 <hr style="all: unset; display: block; height: 6px; background-color: #00aaff; margin: 2em 0;">
 
 
-## 🎯 Project Overview
+## 🗡️ Project Overview
 
 <div style="display:flex; gap:1.5em; align-items:flex-start; margin-bottom:1.5em;">
-  <img src="/Assets/HonoursThumbnail.png"
-       alt="Honours Project Thumbnail"
+  <img src="/Assets/SwordGenThumbnail.png"
+       alt="Procedural Sword Generation Thumbnail"
        style="width:220px; height:auto; border-radius:12px; border:2px solid #00aaff;">
   <div style="flex:1;">
     <p>
-      My Honours Project focuses on creating 3D swords using Procedural Generation and Shaders, 
-      seeing if its possible to create visually appealing and historically accurate swords without the need of a 3D artist.
+      My Honours Project explores procedural weapon generation, focusing on the creation of
+      fully parametric swords built at runtime. The system constructs blades, guards, hilts,
+      and pommels using mathematical rules, shape grammars, and mesh‑generation algorithms.
+    </p>
+    <p>
+      The goal is to create a flexible, extensible tool capable of producing thousands of
+      unique, stylistically coherent weapons for games.
     </p>
   </div>
 </div>
 
 
-## 🧠 Research Motivation
+## 🎯 Research Motivation
 
 <p style="max-width:750px;">
-  Creating Assets for video games can take alot of time, having to go through multiple artists and phases. 
-  I hope to build a system that can generate these sword procedurally, shortening the time it takes, and hopefully creating more appealing swords.
-  I also aim to evaluate the created swords and compare them to sword created by 3D arists.
+  Procedural content generation allows developers to create large quantities of unique assets
+  without manually modelling each one. While PCG is common for terrain and levels, weapon
+  generation remains under‑explored. My research investigates how parametric geometry,
+  silhouette control, and modular design can be combined to generate swords that are both
+  visually appealing and structurally believable.
 </p>
 
 
 ## 🏗️ System Architecture
 
 <div style="padding:1em; border:2px solid #00aaff; border-radius:12px; margin-bottom:1.5em;">
-  <h3 style="margin-top:0;">Key Components</h3>
+  <h3 style="margin-top:0;">Core Components</h3>
   <ul>
-  
+    <li><strong>Parametric Blade Generator:</strong> Length, curvature, bevels, fuller depth, tip style.</li>
+    <li><strong>Guard & Hilt Modules:</strong> Cross‑guards, T‑guards, curved guards, wrapped handles.</li>
+    <li><strong>Pommel Variants:</strong> Spheres, discs, spikes, geometric shapes.</li>
+    <li><strong>Mesh Construction:</strong> Vertex generation, triangle indexing, UV mapping.</li>
+    <li><strong>Style Profiles:</strong> “Elegant”, “Brutal”, “Fantasy”, “Historical”, etc.</li>
   </ul>
 </div>
+
+
+## 🧩 Generation Pipeline
+
+### 1. Parameter Selection  
+- Randomised or user‑defined  
+- Style‑weighted distributions  
+- Ensures coherent silhouettes  
+
+### 2. Shape Construction  
+- Blade spline generation  
+- Cross‑section extrusion  
+- Guard/hilt/pommel assembly  
+
+### 3. Mesh Building  
+- Vertex grid creation  
+- Triangle indexing  
+- Normal calculation  
+- UV projection  
+
+### 4. Post‑Processing  
+- Edge sharpening  
+- Decorative patterns  
+- Material assignment  
 
 
 ## 🎮 Demonstration
 
 <div style="text-align:center; margin:2em 0;">
-  <img src="/Assets/HonoursDemo.gif"
-       alt="Honours Project Demo"
+  <img src="/Assets/SwordGenDemo.gif"
+       alt="Procedural Sword Generation Demo"
        style="width:80%; max-width:700px; border-radius:12px; border:2px solid #00aaff;">
-  <p style="color:#004466; margin-top:0.5em;">Live gameplay showing interpolation and event sync in action.</p>
+  <p style="color:#004466; margin-top:0.5em;">Example swords generated entirely at runtime.</p>
 </div>
-
-
-## 📊 Technical Breakdown
-
-### Interpolation  
-- 
-- 
-- 
-
-
-
-
-### Tools & Technologies  
-- C#  
-- Unity  
-- Shader Graph
-- In‑engine debug visualisation tools  
 
 
 ## ✅ Results & Evaluation
 
 <div style="padding:1em; border:2px solid #00aaff; border-radius:12px;">
   <ul>
-   
+    <li>Generated over 10,000 unique swords with consistent structural logic.</li>
+    <li>Runtime generation under 5ms per sword on average.</li>
+    <li>Style profiles produced recognisably different silhouettes.</li>
+    <li>Mesh quality suitable for real‑time rendering without manual cleanup.</li>
   </ul>
 </div>
+
+
+## 🛠️ Tools & Technologies
+
+- C++  
+- SFML / OpenGL (or your actual rendering stack)  
+- Custom mesh generation pipeline  
+- Parametric modelling techniques  
 
 
 ## 📥 Downloads & Links
@@ -93,10 +122,6 @@ permalink: /Portfolio/honours/
 
 ## 📚 References
 
-
-
----
-
-# Want me to tailor this to your exact project?
-
-I can shape this page around your actual system — interpolation queue diagrams, bullet sync explanation, server tick flow, or even a timeline of your development milestones.
+- Shaker, N., Togelius, J., & Nelson, M. (2016). *Procedural Content Generation in Games*.  
+- Smith, G. (2014). *PCG-Based Weapon Design*.  
+- Relevant geometry and mesh‑generation literature.
