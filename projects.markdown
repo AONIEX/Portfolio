@@ -292,6 +292,7 @@ I have also been able to learn about mobile development and the important aspect
 - Mobile and PC Development
 <br/>
 [Ba Ba BANG Sheep Itch.io Page](https://alex-onions.itch.io/ba-ba-bang-sheep)
+<br/>
 [Ba Ba BANG Sheep Github](https://github.com/AONIEX/Ba-Ba-Bang-Sheep-The-Remake)
 <br/>
 
