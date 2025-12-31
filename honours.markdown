@@ -102,9 +102,6 @@ permalink: /Portfolio/honours/
 
 ## 🎮 Demonstration
 
-
-## 🎮 Demonstration
-
 <div style="display:flex; justify-content:center; gap:1.5em; margin:2em 0; flex-wrap:wrap;">
 
   <img src="{{ '/Assets/SwordDemo.gif' | relative_url }}"
