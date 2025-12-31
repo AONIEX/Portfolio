@@ -106,7 +106,8 @@ permalink: /Portfolio/honours/
 <div style="text-align:center; margin:2em 0;">
 
 
-![Team Photo](Assets/SwordDemo.gif)
+![Team Photo](../Assets/SwordDemo.gif)
+
 
   
   <p style="color:#66c7eb; margin-top:0.5em;">
