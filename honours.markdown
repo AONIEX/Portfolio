@@ -103,19 +103,24 @@ permalink: /Portfolio/honours/
 ## 🎮 Demonstration
 
 
-<div style="text-align:center; margin:2em 0;">
+## 🎮 Demonstration
 
-<img src="{{ '/Assets/SwordDemo.gif' | relative_url }}"
-     alt="Procedural Sword Generation Demo"
-     style="width:80%; max-width:700px; border-radius:12px;">
+<div style="display:flex; justify-content:center; gap:1.5em; margin:2em 0; flex-wrap:wrap;">
 
+  <img src="{{ '/Assets/SwordDemo.gif' | relative_url }}"
+       alt="Procedural Sword Generation Demo"
+       style="width:45%; max-width:350px; border-radius:12px;">
 
+  <img src="{{ '/Assets/Demo_Gif_3' | relative_url }}"
+       alt="Procedural Sword Generation Demo 2"
+       style="width:45%; max-width:350px; border-radius:12px;">
 
-  
-  <p style="color:#66c7eb; margin-top:0.5em;">
-    Example swords generated entirely at runtime. (Prototype)
-  </p>
 </div>
+
+<p style="text-align:center; color:#66c7eb; margin-top:0.5em;">
+  Example swords generated entirely at runtime. (Prototype)
+</p>
+
 
 
 ## ✅ Results & Evaluation
