@@ -103,7 +103,7 @@ permalink: /Portfolio/honours/
 ## 🎮 Demonstration
 
 <div style="text-align:center; margin:2em 0;">
-  <img src="/Assets/SwordDemo.gif"
+  <img src="Assets/SwordDemo.gif"
        alt="Procedural Sword Generation Demo"
        style="width:80%; max-width:700px; border-radius:12px;">
   <p style="color:#66c7eb; margin-top:0.5em;">
