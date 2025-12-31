@@ -105,8 +105,10 @@ permalink: /Portfolio/honours/
 
 <div style="text-align:center; margin:2em 0;">
 
+<img src="{{ '/Assets/SwordDemo.gif | relative_url }}"
+     alt="Procedural Sword Generation Demo"
+     style="width:80%; max-width:700px; border-radius:12px;">
 
-![Team Photo](../Assets/SwordDemo.gif)
 
 
   
