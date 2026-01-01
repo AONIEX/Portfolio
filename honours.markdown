@@ -149,7 +149,6 @@ permalink: /Portfolio/honours/
   - Proper Lighting
   - Compatibility with Rendered Materials  
 
-</br>
 
 ### Shapening the blade
 </br>
