@@ -121,6 +121,16 @@ permalink: /Portfolio/honours/
 ## Movinig From 2D to 3D
 
 ### Extruding the blade
+</br>
+
+### Shapening the blade
+</br>
+
+### Creating the tip
+</br>
+###Finishing Touches
+
+
 
 
 
