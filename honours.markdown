@@ -148,7 +148,7 @@ permalink: /Portfolio/honours/
 - Normals and tangents are recalculated to ensure:
   - Proper Lighting
   - Compatibility with Rendered Materials  
-- 
+
 </br>
 
 ### Shapening the blade
