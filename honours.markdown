@@ -158,12 +158,21 @@ permalink: /Portfolio/honours/
 
 
 ## Shapening the blade
+### --- IN PROGRESS ---
 </br>
 
 ## Creating the tip
+### --- IN PROGRESS ---
 </br>
 
+## Creating the Shader
+### --- IN PROGRESS ---
+
+## Applying the Shader
+### --- IN PROGRESS ---
+
 ## Finishing Touches
+### --- IN PROGRESS ---
 
 </br>
 
