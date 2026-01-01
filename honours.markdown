@@ -120,7 +120,7 @@ permalink: /Portfolio/honours/
 
 ## Creating The Blade Generation
 
-### Steps For Creating The Blade Base
+### Steps For Creating The Base Blades
 
 ### 1.First the Blade is generated as a flat 2D mesh based on:
 - A Spline based center lines
