@@ -118,9 +118,7 @@ permalink: /Portfolio/honours/
   Example swords generated entirely at runtime. (Prototype)
 </p>
 
-## Creating The Blade Generation
-
-## Steps For Creating The Base Blades
+## Creating The Blade Generation - Steps For Creating The Base Blade
 
 ### 1. First the Blade is generated as a flat 2D mesh based on:
 - A Spline based center lines
