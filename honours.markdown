@@ -100,7 +100,7 @@ permalink: /Portfolio/honours/
 - Exporting Sword
 
 
-## 🎮 Demonstration
+## 🎮 2D Demonstration
 
 <div style="display:flex; justify-content:center; gap:1.5em; margin:2em 0; flex-wrap:wrap;">
 
@@ -117,6 +117,8 @@ permalink: /Portfolio/honours/
 <p style="text-align:center; color:#66c7eb; margin-top:0.5em;">
   Example swords generated entirely at runtime. (Prototype)
 </p>
+
+## Movinig From 2D to 3D
 
 
 
