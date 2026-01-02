@@ -158,6 +158,9 @@ permalink: /Portfolio/honours/
 
 
 ## Sharpening the blade
+
+### --- IN PROGRESS ---
+
 - Added extra vertices along each side of the blade that exrude outward to create sharp edges
 - Single edge line per side between the front and back faces
 - Calculated xtrustion direction from blade center to edge, then pushed vertices outwards based on side sharpness amount
@@ -165,7 +168,6 @@ permalink: /Portfolio/honours/
 - Seperate connections for left and right side so we can maintain proper topology
 - Control via side sharpnees slider to adjust how sharp the edges appear
 
-### --- IN PROGRESS ---
 
 ## Creating the tip
 ### --- IN PROGRESS ---
