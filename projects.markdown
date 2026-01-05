@@ -315,24 +315,23 @@ I have also been able to learn about mobile development and the important aspect
 
 ## AI Evolution Simulation
 ### AI Evolution Simulation (University Project)
-This project was developed as part of my university coursework, built in Unity using C#. The goal of the application is to simulate how animals adapt over time when faced with basic survival needs such as eating and drinking. Each creature is defined by a set of traits that evolve as the simulation runs, allowing the population to gradually improve its survival rate across generations.
-The core behaviour of the system is driven by Genetic Algorithms, enabling creatures to inherit traits from previous generations, mutate, and adapt based on their performance. Over time, the fittest animals survive longer, and their traits become more dominant within the population.
+This Unity (C#) project simulates how animals evolve over time when faced with basic survival needs such as eating and drinking. Each creature has a set of traits that change across generations, allowing the population to gradually adapt and survive longer. The system uses Genetic Algorithms—crossover, mutation, and fitness scoring—to drive this evolutionary behaviour.
+
 
 ![AI Evolution Gif](Assets/AI_Mutation.gif)
 
 #### Core Focuses
-My focus for this project was to explore genetic algorithms, AI behaviour, and data‑driven simulation design in Unity. It taught me how simple rules and inherited traits can create emergent behaviour, and strengthened my understanding of algorithm design, long‑running simulations, and performance when managing many agents.
+This project explored genetic algorithms, emergent AI behaviour, and long‑running simulation design in Unity. It strengthened my understanding of algorithm design, performance optimisation, and managing many agents efficiently
 
 How the System Works
 The simulation is built around several key systems:
   - DNA Crossover
-  Each new generation is created by combining the traits of two parent animals. Usually, the fittest animals are selected, but there is also a chance for random parents to introduce variety.
-  - MutationAfter crossover, traits may mutate based on a configurable mutation chance. These small changes allow the population to evolve rather than stagnate.
-  - GenerationsAnimals live, eat, drink, and eventually die. Once a generation ends, a new one is spawned using the previous generation’s DNA. Over time, the goal is for survival rates to increase.
-  - Eating & Drinking
-Animals have hunger and thirst values that decrease over time.
+  New animals inherit traits from two parents, usually the fittest. There is also a chance for random parents to introduce variety.
+  - Mutation After crossover, Traits have a chance to shift slightly each generation, preventing stagnation.
+  - Generations Animals live, eat, drink, and die; new generations use the previous DNA. Over time, the goal is for survival rates to increase.
+  - Eating & Drinkin Animals have hunger and thirst values that decrease over time.
   - If either reaches 0, the animal dies.
-  - Animals detect food/water based on their view radius (which is also a trait).
+  - Animals detect food/water based on view radius and act accordingly.
   - Larger animals see further; smaller animals see less.
     
  Adjustable Settings The user can modify: (These settings are controlled through Unity UI sliders.)
@@ -350,20 +349,11 @@ Data Storage
 - This data is written to a text file for later graphing and analysis
 
  What I’ve Learned
-- Genetic Algorithms
-- How crossover and mutation influence long‑term behaviour
-- How fitness scoring affects evolution
-- How randomness can prevent stagnation
-- Structuring long‑running simulations
-- Data logging and file handling
-- AI Behaviour
-  - Designing simple rules that lead to emergent complexity
-  - Balancing traits like size, view radius, hunger resistance, and movement
-  - Understanding how small changes affect survival outcomes
-- Performance
-  - Managing many active agents
-  - Reducing unnecessary updates
-  - Keeping the simulation scalable and stable
+- Implementing genetic algorithms (crossover, mutation, fitness)
+- Designing simple rules that create emergent AI behaviour
+- Structuring scalable, long‑running simulations
+- Managing performance and logging data effectivel
+
 
 Extra Information
 - Game Engine: Unity
