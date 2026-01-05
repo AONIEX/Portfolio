@@ -335,20 +335,19 @@ Animals have hunger and thirst values that decrease over time.
   - Animals detect food/water based on their view radius (which is also a trait).
   - Larger animals see further; smaller animals see less.
     
- Adjustable Settings
-  The user can modify:
+ Adjustable Settings The user can modify: (These settings are controlled through Unity UI sliders.)
   - Population size
   - Amount of food
   - Mutation chance
   - Random parent chance
   - Generation length / wave spawning
-These settings are controlled through Unity UI sliders.
-  - Data Storage
-  At the end of each generation, the simulation logs:
-  - Average trait values
-  - Survival rate
-  - Population performance
-This data is written to a text file for later graphing and analysis
+
+Data Storage 
+- At the end of each generation, the simulation logs:
+- Average trait values
+- Survival rate
+- Population performance
+- This data is written to a text file for later graphing and analysis
 
  What I’ve Learned
 - Genetic Algorithms
