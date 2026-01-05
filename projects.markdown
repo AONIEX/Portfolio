@@ -99,7 +99,7 @@ Dare Academy is a competetion hosted by Abertay University, where students can a
 ![Team Photo](Assets/Event.jpg)
 
 
-### Core Focuses During Dare Academy Hot housing (Development Period)
+### Core Focuses During Dare Academy Hot housing 
 - UI:
   - Polished and more settings were added (Aim Assist, Motion Sickness and other accessabilty settings).
   - Pause menu made to pause the game
