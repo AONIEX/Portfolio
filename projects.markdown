@@ -327,6 +327,7 @@ The simulation is built around several key systems:
   Each new generation is created by combining the traits of two parent animals. Usually, the fittest animals are selected, but there is also a chance for random parents to introduce variety.
   - Mutation
   After crossover, traits may mutate based on a configurable mutation chance. These small changes allow the population to evolve rather than stagnate.
+    - ![AI Mutatue Code](Assets/AI_Mutate.png)
   - Generations
   Animals live, eat, drink, and eventually die. Once a generation ends, a new one is spawned using the previous generation’s DNA. Over time, the goal is for survival rates to increase.
   - Eating & Drinking
