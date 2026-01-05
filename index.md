@@ -98,7 +98,7 @@ title: Home
     <p style="margin:0.5em 0;">
       An AI simulation where creatures mutate and adapt to survive by seeking food and water.
     </p>
-    <a href="{{ 'Portfolio/projects/AI_Mutation' | relative_url }}" 
+    <a href="{{ 'Portfolio/projects/#AI_Mutation' | relative_url }}" 
        style="display:inline-block; margin-top:0.5em; padding:0.5em 1em; background:#00aaff; color:#fff; border-radius:6px; text-decoration:none; font-weight:bold;">
        See More
     </a>
