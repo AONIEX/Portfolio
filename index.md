@@ -87,6 +87,25 @@ title: Home
 
 </div>
 
+<div style="display:flex; align-items:center; gap:1em; margin-bottom:1.5em; padding:0.8em; border:2px solid #00aaff; border-radius:12px; background:transparent; color:#004466;">
+
+  <img src="Assets/AI_Project.png" 
+       alt="AI Project Thumbnail" 
+       style="width:160px; height:auto; border-radius:8px;">
+
+  <div style="flex:1; text-align:left;">
+    <h3 style="margin-top:0;">AI Mutation Project</h3>
+    <p style="margin:0.5em 0;">
+      An AI project where animal mutate whilst trying to survive, having to eat and drink in order to survive.
+    </p>
+    <a href="{{ 'Portfolio/projects/#AI_Project' | relative_url }}" 
+       style="display:inline-block; margin-top:0.5em; padding:0.5em 1em; background:#00aaff; color:#fff; border-radius:6px; text-decoration:none; font-weight:bold;">
+       See More
+    </a>
+  </div>
+
+</div>
+
 
 
 
