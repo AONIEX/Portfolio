@@ -96,7 +96,7 @@ title: Home
   <div style="flex:1; text-align:left;">
     <h3 style="margin-top:0;">AI Mutation Project</h3>
     <p style="margin:0.5em 0;">
-     An AI‑driven simulation where creatures evolve and mutate over time, adapting their behaviour to survive by seeking food and water.
+      An AI simulation where creatures mutate and adapt to survive by seeking food and water.
     </p>
     <a href="{{ 'Portfolio/projects/AI_Mutation' | relative_url }}" 
        style="display:inline-block; margin-top:0.5em; padding:0.5em 1em; background:#00aaff; color:#fff; border-radius:6px; text-decoration:none; font-weight:bold;">
