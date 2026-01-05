@@ -332,8 +332,11 @@ The simulation is built around several key systems:
   - Eating & Drinking
 Animals have hunger and thirst values that decrease over time.
   - If either reaches 0, the animal dies.
-  - Animals detect food/water based on their view radius (which is also a trsait).
+  - Animals detect food/water based on their view radius (which is also a trait).
   - Larger animals see further; smaller animals see less.
+    
+    </br>
+    
  Adjustable Settings
   The user can modify:
   - Population size
