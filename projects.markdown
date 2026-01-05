@@ -351,6 +351,8 @@ Data Storage
 - Population performance
 - This data is written to a text file for later graphing and analysis
 
+![AI Data](Assets/AI_Data.png)
+
  What I’ve Learned
 - Genetic Algorithms
 - How crossover and mutation influence long‑term behaviour
