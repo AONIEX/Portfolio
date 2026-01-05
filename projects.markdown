@@ -90,7 +90,7 @@ Dare Academy is a competetion hosted by Abertay University, where students can a
 ![Team Photo](Assets/TheTeam.jpg)
 
 
-#### This oppurnity allowed me to develope my communication, teambuilding, programming, showcasing, and pitching skills. 
+#### This oppurnity allowed me to develop my communication, teambuilding, programming, showcasing, and pitching skills. 
  - The ability to collabarate and talk to industry experts helped increase my programming and problem solving skills.
  - The oppurtunity to showcase at the DCA and Water edge helped me  massively improve my communication, showcasing and pitching skills.
  - Working closely with the team of 8 has helped me with team building as well as learning how to collabarate with different departments effectively.
@@ -99,7 +99,7 @@ Dare Academy is a competetion hosted by Abertay University, where students can a
 ![Team Photo](Assets/Event.jpg)
 
 
-#### Core Focuses During Dare Academy Hot housing (Development Period)
+### Core Focuses During Dare Academy Hot housing (Development Period)
 - UI:
   - Polished and more settings were added (Aim Assist, Motion Sickness and other accessabilty settings).
   - Pause menu made to pause the game
@@ -137,7 +137,7 @@ Synaptic is one of my biggest projects and is a game made for my 3rd year profes
 ![Synaptic Gif One](Assets/SynapticOne.gif)
 
 
-#### Core Focuses During Development
+### Core Focuses During Development
 - Weapon Mechanics & Bullet Behaviours
   - Finger guns
     - A classic video game gun, fires a bullet as expected
