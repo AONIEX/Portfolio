@@ -320,10 +320,10 @@ This Unity (C#) project simulates how animals evolve over time when faced with b
 
 ![AI Evolution Gif](Assets/AI_Mutation.gif)
 
-#### Core Focuses
+### Core Focuses
 This project explored genetic algorithms, emergent AI behaviour, and long‑running simulation design in Unity. It strengthened my understanding of algorithm design, performance optimisation, and managing many agents efficiently
 
-How the System Works
+### How the System Works
 The simulation is built around several key systems:
   - DNA Crossover
   New animals inherit traits from two parents, usually the fittest. There is also a chance for random parents to introduce variety.
@@ -334,21 +334,21 @@ The simulation is built around several key systems:
   - Animals detect food/water based on view radius and act accordingly.
   - Larger animals see further; smaller animals see less.
     
- Adjustable Settings The user can modify: (These settings are controlled through Unity UI sliders.)
+ ### Adjustable Settings The user can modify: (These settings are controlled through Unity UI sliders.)
   - Population size
   - Amount of food
   - Mutation chance
   - Random parent chance
   - Generation length / wave spawning
     
-Data Storage 
+### Data Storage 
 - At the end of each generation, the simulation logs:
 - Average trait values
 - Survival rate
 - Population performance
 - This data is written to a text file for later graphing and analysis
 
- What I’ve Learned
+### What I’ve Learned
 - Implementing genetic algorithms (crossover, mutation, fitness)
 - Designing simple rules that create emergent AI behaviour
 - Structuring scalable, long‑running simulations
