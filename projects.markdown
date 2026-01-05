@@ -308,8 +308,8 @@ I have also been able to learn about mobile development and the important aspect
 
 <hr style="all: unset; display: block; height: 6px; background-color: #00aaff; margin: 2em 0;">
 
-
-<a id="AI_EvolutionSim"></a>
+## AI Evolution Simulation
+<a id="AI_Mutation"></a>
 Evolution Simulation – AI & Genetic Algorithms
 This project was developed as part of my university coursework, built in Unity using C#. The goal of the application is to simulate how animals adapt over time when faced with basic survival needs such as eating and drinking. Each creature is defined by a set of traits that evolve as the simulation runs, allowing the population to gradually improve its survival rate across generations.
 The core behaviour of the system is driven by Genetic Algorithms, enabling creatures to inherit traits from previous generations, mutate, and adapt based on their performance. Over time, the fittest animals survive longer, and their traits become more dominant within the population.
