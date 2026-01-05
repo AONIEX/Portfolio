@@ -310,16 +310,13 @@ I have also been able to learn about mobile development and the important aspect
 
 ## AI Evolution Simulation
 <a id="AI_Mutation"></a>
-Evolution Simulation – AI & Genetic Algorithms
 This project was developed as part of my university coursework, built in Unity using C#. The goal of the application is to simulate how animals adapt over time when faced with basic survival needs such as eating and drinking. Each creature is defined by a set of traits that evolve as the simulation runs, allowing the population to gradually improve its survival rate across generations.
 The core behaviour of the system is driven by Genetic Algorithms, enabling creatures to inherit traits from previous generations, mutate, and adapt based on their performance. Over time, the fittest animals survive longer, and their traits become more dominant within the population.
-AI Evolution Simulation
 
 ![AI Evolution Gif](Assets/AI_Mutation.gif)
 
- Core Focuses
-My main focus for this project was to explore Genetic Algorithms, AI behaviour, and data‑driven simulation design within Unity. I wanted to understand how simple rules and inherited traits could lead to emergent behaviour, and how populations evolve when placed under survival pressure.
-This project taught me a great deal about algorithm design, data structures, and how to structure simulations that run over long periods of time. It also strengthened my understanding of Unity’s scripting workflow, UI systems, and performance considerations when simulating many agents at once.
+#### Core Focuses
+My focus for this project was to explore genetic algorithms, AI behaviour, and data‑driven simulation design in Unity. It taught me how simple rules and inherited traits can create emergent behaviour, and strengthened my understanding of algorithm design, long‑running simulations, and performance when managing many agents.
 
 How the System Works
 The simulation is built around several key systems:
