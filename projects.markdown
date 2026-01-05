@@ -354,19 +354,17 @@ Data Storage
 - How crossover and mutation influence long‑term behaviour
 - How fitness scoring affects evolution
 - How randomness can prevent stagnation
-- Unity & C#
 - Structuring long‑running simulations
 - Efficiently managing many agents
-- Creating adjustable systems using UI sliders
 - Data logging and file handling
 - AI Behaviour
 - Designing simple rules that lead to emergent complexity
 - Balancing traits like size, view radius, hunger resistance, and movement
 - Understanding how small changes affect survival outcomes
 - Performance
-- Managing many active agents
-- Reducing unnecessary updates
-- Keeping the simulation scalable and stable
+  - Managing many active agents
+  - Reducing unnecessary updates
+  - Keeping the simulation scalable and stable
 
 Extra Information
 - Game Engine: Unity
