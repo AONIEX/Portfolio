@@ -315,6 +315,8 @@ This project was developed as part of my university coursework, built in Unity u
 The core behaviour of the system is driven by Genetic Algorithms, enabling creatures to inherit traits from previous generations, mutate, and adapt based on their performance. Over time, the fittest animals survive longer, and their traits become more dominant within the population.
 AI Evolution Simulation
 
+![AI Evolution Gif](Assets/AI_Mutation.gif)
+
  Core Focuses
 My main focus for this project was to explore Genetic Algorithms, AI behaviour, and data‑driven simulation design within Unity. I wanted to understand how simple rules and inherited traits could lead to emergent behaviour, and how populations evolve when placed under survival pressure.
 This project taught me a great deal about algorithm design, data structures, and how to structure simulations that run over long periods of time. It also strengthened my understanding of Unity’s scripting workflow, UI systems, and performance considerations when simulating many agents at once.
@@ -371,6 +373,9 @@ Extra Information
 - Language: C#
 - University Project
 - Focus: AI, Genetic Algorithms, Simulation Design
+
+</br>
+ [AI Evolution Github]([https://github.com/AONIEX/Ba-Ba-Bang-Sheep-The-Remake](https://github.com/AONIEX/AI_Evolution_Project_UNI))
 <br/>
 <hr style="all: unset; display: block; height: 6px; background-color: #00aaff; margin: 2em 0;">
 
