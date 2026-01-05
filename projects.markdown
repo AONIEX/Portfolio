@@ -359,12 +359,11 @@ Data Storage
 - How fitness scoring affects evolution
 - How randomness can prevent stagnation
 - Structuring long‑running simulations
-- Efficiently managing many agents
 - Data logging and file handling
 - AI Behaviour
-- Designing simple rules that lead to emergent complexity
-- Balancing traits like size, view radius, hunger resistance, and movement
-- Understanding how small changes affect survival outcomes
+  - Designing simple rules that lead to emergent complexity
+  - Balancing traits like size, view radius, hunger resistance, and movement
+  - Understanding how small changes affect survival outcomes
 - Performance
   - Managing many active agents
   - Reducing unnecessary updates
