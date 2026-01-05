@@ -341,6 +341,7 @@ Animals have hunger and thirst values that decrease over time.
   - Mutation chance
   - Random parent chance
   - Generation length / wave spawning
+    
 ![AI Settings](Assets/AI_Settings.png)
 
 Data Storage 
