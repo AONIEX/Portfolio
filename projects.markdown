@@ -355,7 +355,7 @@ The simulation is built around several key systems:
 - Managing performance and logging data effectivel
 
 
-Extra Information
+### Extra Information
 - Game Engine: Unity
 - Language: C#
 - University Project
