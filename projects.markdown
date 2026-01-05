@@ -133,16 +133,6 @@ Dare Academy is a competetion hosted by Abertay University, where students can a
 ### Synaptic (Before Dare Academy)
 Synaptic is one of my biggest projects and is a game made for my 3rd year professional project class, which was then taken forward to Abertay's Dare Academy. This game was made as with a team of 8 and my role was the Weapons, UI, Interactions and Accesability Programmer. This project has helped with my team building skills, helping me stay in contact with team members and stick to deadlines. I also learned alot about the collabrative side of programming and how important it is to keep in contact with out professions to keep work flowing. For example keeping up to date with the animation team so we can link the animations to the code on time.
 <br/>
-<br/>
-
-### Extra Information
-- [Synaptic's Itch.io Page](https://bonny-bandits.itch.io/synaptic)
-- Game Engine: Unreal Engine 5
-- Team Project
-- Languages: C++ and Blueprints
-
- 
-<br/>
 
 ![Synaptic Gif One](Assets/SynapticOne.gif)
 
@@ -189,7 +179,18 @@ Synaptic is one of my biggest projects and is a game made for my 3rd year profes
 - Animation Connections
   - Working with Animatior to connect animations to weapons and calming mechanics
   - Created a system for fingers ammo display
-  - Discussing and fixing animation timing problems   
+  - Discussing and fixing animation timing problems
+
+<br/>
+
+### Extra Information
+- [Synaptic's Itch.io Page](https://bonny-bandits.itch.io/synaptic)
+- Game Engine: Unreal Engine 5
+- Team Project
+- Languages: C++ and Blueprints
+
+ 
+<br/>
 
 <hr style="all: unset; display: block; height: 6px; background-color: #00aaff; margin: 2em 0;">
 
