@@ -332,7 +332,7 @@ Animals have hunger and thirst values that decrease over time.
   - If either reaches 0, the animal dies.
   - Animals detect food/water based on their view radius (which is also a trsait).
   - Larger animals see further; smaller animals see less.
-- Adjustable Settings
+ Adjustable Settings
   The user can modify:
   - Population size
   - Amount of food
