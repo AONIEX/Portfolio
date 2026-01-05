@@ -321,30 +321,30 @@ This project taught me a great deal about algorithm design, data structures, and
 
 How the System Works
 The simulation is built around several key systems:
-- DNA Crossover
-Each new generation is created by combining the traits of two parent animals. Usually, the fittest animals are selected, but there is also a chance for random parents to introduce variety.
-- Mutation
-After crossover, traits may mutate based on a configurable mutation chance. These small changes allow the population to evolve rather than stagnate.
-- Generations
-Animals live, eat, drink, and eventually die. Once a generation ends, a new one is spawned using the previous generation’s DNA. Over time, the goal is for survival rates to increase.
-- Eating & Drinking
+  - DNA Crossover
+  Each new generation is created by combining the traits of two parent animals. Usually, the fittest animals are selected, but there is also a chance for random parents to introduce variety.
+  - Mutation
+  After crossover, traits may mutate based on a configurable mutation chance. These small changes allow the population to evolve rather than stagnate.
+  - Generations
+  Animals live, eat, drink, and eventually die. Once a generation ends, a new one is spawned using the previous generation’s DNA. Over time, the goal is for survival rates to increase.
+  - Eating & Drinking
 Animals have hunger and thirst values that decrease over time.
-- If either reaches 0, the animal dies.
-- Animals detect food/water based on their view radius (which is also a trait).
-- Larger animals see further; smaller animals see less.
+  - If either reaches 0, the animal dies.
+  - Animals detect food/water based on their view radius (which is also a trsait).
+  - Larger animals see further; smaller animals see less.
 - Adjustable Settings
-The user can modify:
-- Population size
-- Amount of food
-- Mutation chance
-- Random parent chance
-- Generation length / wave spawning
+  The user can modify:
+  - Population size
+  - Amount of food
+  - Mutation chance
+  - Random parent chance
+  - Generation length / wave spawning
 These settings are controlled through Unity UI sliders.
-- Data Storage
-At the end of each generation, the simulation logs:
-- Average trait values
-- Survival rate
-- Population performance
+  - Data Storage
+  At the end of each generation, the simulation logs:
+  - Average trait values
+  - Survival rate
+  - Population performance
 This data is written to a text file for later graphing and analysis
 
  What I’ve Learned
