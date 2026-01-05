@@ -129,8 +129,6 @@ Dare Academy is a competetion hosted by Abertay University, where students can a
 - Team Project
 - Languages: C++ and Blueprints
 
-</br>
-
 <hr style="all: unset; display: block; height: 6px; background-color: #00aaff; margin: 2em 0;">
 
 <a id="Synaptic"></a>
@@ -195,8 +193,6 @@ Synaptic is one of my biggest projects and is a game made for my 3rd year profes
 - Languages: C++ and Blueprints
 
  
-<br/>
-
 <hr style="all: unset; display: block; height: 6px; background-color: #00aaff; margin: 2em 0;">
 
 <a id="Mesh_Cutting"></a>
