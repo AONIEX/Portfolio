@@ -129,6 +129,8 @@ Dare Academy is a competetion hosted by Abertay University, where students can a
 - Team Project
 - Languages: C++ and Blueprints
 
+</br>
+
 <hr style="all: unset; display: block; height: 6px; background-color: #00aaff; margin: 2em 0;">
 
 <a id="Synaptic"></a>
@@ -185,8 +187,6 @@ Synaptic is one of my biggest projects and is a game made for my 3rd year profes
   - Working with Animatior to connect animations to weapons and calming mechanics
   - Created a system for fingers ammo display
   - Discussing and fixing animation timing problems
-
-<br/>
 
 ### Extra Information
 - [Synaptic's Itch.io Page](https://bonny-bandits.itch.io/synaptic)
