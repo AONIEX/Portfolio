@@ -123,6 +123,11 @@ Dare Academy is a competetion hosted by Abertay University, where students can a
   - Checking that all targets are shootable   
 
 
+### Extra Information
+- [Synaptic's Itch.io Page](https://bonny-bandits.itch.io/synaptic)
+- Game Engine: Unreal Engine 5
+- Team Project
+- Languages: C++ and Blueprints
 
 <hr style="all: unset; display: block; height: 6px; background-color: #00aaff; margin: 2em 0;">
 
