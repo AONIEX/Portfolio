@@ -89,7 +89,7 @@ title: Home
 
 <div style="display:flex; align-items:center; gap:1em; margin-bottom:1.5em; padding:0.8em; border:2px solid #00aaff; border-radius:12px; background:transparent; color:#004466;">
 
-  <img src="Assets/AI_Project.png" 
+  <img src="Assets/AI_Mutation.png" 
        alt="AI Project Thumbnail" 
        style="width:160px; height:auto; border-radius:8px;">
 
