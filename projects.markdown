@@ -308,10 +308,76 @@ I have also been able to learn about mobile development and the important aspect
 
 <hr style="all: unset; display: block; height: 6px; background-color: #00aaff; margin: 2em 0;">
 
+
+<a id="AI_EvolutionSim"></a>
+Evolution Simulation – AI & Genetic Algorithms
+This project was developed as part of my university coursework, built in Unity using C#. The goal of the application is to simulate how animals adapt over time when faced with basic survival needs such as eating and drinking. Each creature is defined by a set of traits that evolve as the simulation runs, allowing the population to gradually improve its survival rate across generations.
+The core behaviour of the system is driven by Genetic Algorithms, enabling creatures to inherit traits from previous generations, mutate, and adapt based on their performance. Over time, the fittest animals survive longer, and their traits become more dominant within the population.
+AI Evolution Simulation
+
+ Core Focuses
+My main focus for this project was to explore Genetic Algorithms, AI behaviour, and data‑driven simulation design within Unity. I wanted to understand how simple rules and inherited traits could lead to emergent behaviour, and how populations evolve when placed under survival pressure.
+This project taught me a great deal about algorithm design, data structures, and how to structure simulations that run over long periods of time. It also strengthened my understanding of Unity’s scripting workflow, UI systems, and performance considerations when simulating many agents at once.
+
+How the System Works
+The simulation is built around several key systems:
+- DNA Crossover
+Each new generation is created by combining the traits of two parent animals. Usually, the fittest animals are selected, but there is also a chance for random parents to introduce variety.
+- Mutation
+After crossover, traits may mutate based on a configurable mutation chance. These small changes allow the population to evolve rather than stagnate.
+- Generations
+Animals live, eat, drink, and eventually die. Once a generation ends, a new one is spawned using the previous generation’s DNA. Over time, the goal is for survival rates to increase.
+- Eating & Drinking
+Animals have hunger and thirst values that decrease over time.
+- If either reaches 0, the animal dies.
+- Animals detect food/water based on their view radius (which is also a trait).
+- Larger animals see further; smaller animals see less.
+- Adjustable Settings
+The user can modify:
+- Population size
+- Amount of food
+- Mutation chance
+- Random parent chance
+- Generation length / wave spawning
+These settings are controlled through Unity UI sliders.
+- Data Storage
+At the end of each generation, the simulation logs:
+- Average trait values
+- Survival rate
+- Population performance
+This data is written to a text file for later graphing and analysis
+
+ What I’ve Learned
+- Genetic Algorithms
+- How crossover and mutation influence long‑term behaviour
+- How fitness scoring affects evolution
+- How randomness can prevent stagnation
+- Unity & C#
+- Structuring long‑running simulations
+- Efficiently managing many agents
+- Creating adjustable systems using UI sliders
+- Data logging and file handling
+- AI Behaviour
+- Designing simple rules that lead to emergent complexity
+- Balancing traits like size, view radius, hunger resistance, and movement
+- Understanding how small changes affect survival outcomes
+- Performance
+- Managing many active agents
+- Reducing unnecessary updates
+- Keeping the simulation scalable and stable
+
+Extra Information
+- Game Engine: Unity
+- Language: C#
+- University Project
+- Focus: AI, Genetic Algorithms, Simulation Design
+<br/>
+<hr style="all: unset; display: block; height: 6px; background-color: #00aaff; margin: 2em 0;">
+
 <a id="GameJams"></a>
 ## Game Jams
 Before and during at university i have taken part in multiple game jams to refresh and improve my knowledge. The main thing i try to do every game jam is make each game unique, whether thats a new genre or different core mechanics as i believe this allows me to learn more in such a short amount of time.
-
+ 
 ## Blue
 
 <img width="315" height="250" alt="Blue" src="https://github.com/user-attachments/assets/0e8de0a7-45ea-4af8-afe3-82b733398430" />
