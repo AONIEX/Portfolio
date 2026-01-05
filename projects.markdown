@@ -55,7 +55,7 @@ permalink: /Portfolio/projects/
 
 
 
-<a href="{{ '#AI_Mutation' | relative_url }}" style="text-decoration: none;">
+<a href="#AI_Mutation" style="text-decoration: none;">
   <div class="project-button">
     <div class="project-text">
       <h5 style="margin: 0;">AI Mutation</h5>
