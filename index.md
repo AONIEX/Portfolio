@@ -94,7 +94,7 @@ title: Home
        style="width:160px; height:auto; border-radius:8px;">
 
   <div style="flex:1; text-align:left;">
-    <h3 style="margin-top:0;">AI Mutation Project</h3>
+    <h3 style="margin-top:0;">AI Evolution Simulation</h3>
     <p style="margin:0.5em 0;">
       An AI simulation where creatures mutate and adapt to survive by seeking food and water.
     </p>
