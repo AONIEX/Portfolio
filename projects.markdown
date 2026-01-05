@@ -335,8 +335,6 @@ Animals have hunger and thirst values that decrease over time.
   - Animals detect food/water based on their view radius (which is also a trait).
   - Larger animals see further; smaller animals see less.
     
-    </br>
-    
  Adjustable Settings
   The user can modify:
   - Population size
