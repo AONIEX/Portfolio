@@ -183,7 +183,11 @@ permalink: /Portfolio/honours/
 
 ## Creating the Shader
 ### --- IN PROGRESS ---
-
+- The Shader whilst not the focus of the project is crucial in making the sword visually appearing and realistic.
+- The Shader was created using Unity's shader graph allowing for easier changes to the shader if needed.
+- It uses paramaters to procedurally generate the shader based on the values inputed.
+- It allows for multiple textures as well as various effects on the blade which include: Mud, Blood, Oxidization and Rust.
+- The available textures include: Iron, Bronze, Steel, Carbon, Damascus, Woots and Obsidian.
 ## Applying the Shader
 ### --- IN PROGRESS ---
 
