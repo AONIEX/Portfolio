@@ -41,6 +41,8 @@ permalink: /Portfolio/honours/
     </p>
     <p>
       If you are wanting to test out the current version of the project please feel free to so do at:
+    </p>
+    <p>  
       https://alex-onions.itch.io/procedural-sword-generation
     </p>
     <p>
