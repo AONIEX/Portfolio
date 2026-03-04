@@ -39,6 +39,10 @@ permalink: /Portfolio/honours/
       The goal is to create a flexible, extensible tool capable of producing thousands of
       unique, stylistically coherent weapons for games.
     </p>
+    <p>
+      If you are wanting to test out the current version of the project please feel free to so do at:
+      https://alex-onions.itch.io/procedural-sword-generation
+    </p>
   </div>
 </div>
 
