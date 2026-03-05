@@ -182,12 +182,15 @@ permalink: /Portfolio/honours/
 ### --- IN PROGRESS ---
 
 ## Creating the Shader
-### --- IN PROGRESS ---
 - The Shader whilst not the focus of the project is crucial in making the sword visually appearing and realistic.
 - The Shader was created using Unity's shader graph allowing for easier changes to the shader if needed.
 - It uses paramaters to procedurally generate the shader based on the values inputed.
-- It allows for multiple textures as well as various effects on the blade which include: Mud, Blood, Oxidization and Rust.
-- The available textures include: Iron, Bronze, Steel, Carbon, Damascus, Woots and Obsidian.
+- The shader blends multiple material layers using Voronoi, Gradient Noise, and custom masks to generate surface variation such as scratches, indents, and wear.
+- Each material type has its own normal, smoothness, and metallic values, which are procedurally combined using lerps driven by noise patterns.
+- This allows the final blade texture to be generated dynamically while maintaining physically‑based shading accuracy.
+- Additional effects such as rust, blood, mud, and oxidation are layered using separate noise masks and blend parameters, allowing each effect to be controlled independently.
+- The current available textures include: Iron, Bronze, Steel, Carbon, Damascus, Woots and Obsidian.
+
 ## Applying the Shader
 ### --- IN PROGRESS ---
 
