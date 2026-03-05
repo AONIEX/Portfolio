@@ -167,9 +167,6 @@ permalink: /Portfolio/honours/
 
 
 ## Sharpening the blade
-
-### --- IN PROGRESS ---
-
 - Added extra vertices along each side of the blade that exrude outward to create sharp edges
 - Single edge line per side between the front and back faces
 - Calculated xtrustion direction from blade center to edge, then pushed vertices outwards based on side sharpness amount
@@ -179,7 +176,14 @@ permalink: /Portfolio/honours/
 
 
 ## Creating the tip
-### --- IN PROGRESS ---
+- I began by generating the base blade mesh along a central spline, giving me a consistent profile to work from.
+- Once the blade length was defined, I identified the final segment of the mesh using its position along the blade, allowing me to isolate the area that would form the tip.
+- I gradually reduced the blade’s width toward this end section, tapering both sides evenly so the geometry converged into a sharp point.
+- To refine the shape, I adjusted the vertices along the cutting edges so they angled inward, ensuring the edges met cleanly at the tip.
+- I then changed the style of the point based on the paramaters, allowing for results such as straight, curved, or more needle‑like.
+- I then smoothed the surrounding vertices to avoid harsh transitions and to keep the tip visually consistent with the rest of the blade.
+- Finally, I ensured the UVs at the tip were correctly aligned so the shader could blend materials and effects seamlessly across the point
+
 
 ## Creating the Shader
 - The Shader whilst not the focus of the project is crucial in making the sword visually appearing and realistic.
@@ -192,10 +196,22 @@ permalink: /Portfolio/honours/
 - The current available textures include: Iron, Bronze, Steel, Carbon, Damascus, Woots and Obsidian.
 
 ## Applying the Shader
-### --- IN PROGRESS ---
+- Once the blade geometry was generated, I assigned a base material that exposed all the parameters needed for procedural texturing.
+- I passed the material‑type selection (steel, iron, bronze, etc.) directly from the generator into the shader, allowing the blade to automatically pick the correct texture set.
+- The shader pthen rocedurally blended the chosen base material with surface effects like scratches, wear, and subtle noise‑driven variation to avoid flat or repetitive surfaces.
+- I then layered optional effects such as rust, mud, blood, and oxidation, each controlled by its own parameter so the generator could enable or scale them as needed.
+- Because the shader was built in Unity’s Shader Graph, I could quickly adjust values, tweak blending behaviour, or refine noise patterns without needing to rewrite code.
+- Finally, I verified that the shader responded correctly across different blade shapes and UV layouts, ensuring that every procedurally generated sword received consistent, believable surface detail.
 
 ## Finishing Touches
-### --- IN PROGRESS ---
+- Once the core geometry and shader were working together, I focused on refining the overall presentation of each generated sword.
+- I added small adjustments to the blade’s silhouette, smoothing any harsh transitions and ensuring the taper, edges, and tip all flowed cleanly into one another.
+- I introduced randomisation to elements like edge sharpness, surface wear, and material variation so that no two generated swords looked identical.
+- I fine‑tuned the lighting response by tweaking the shader’s metallic and smoothness ranges, making sure the blade caught highlights realistically from different angles.
+- I also ensured that all optional effects — rust, mud, blood, and oxidation — blended naturally with the underlying material, avoiding hard seams or unnatural patches.
+- To support consistent results across different sword shapes, I double‑checked UV alignment and verified that the shader behaved correctly on both long, narrow blades and shorter, broader designs.
+- Finally, I cleaned up the parameter interface, grouping related controls and exposing only the values that were genuinely useful, making the system easier to tweak and more intuitive to use.
+
 
 </br>
 
