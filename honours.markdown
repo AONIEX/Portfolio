@@ -251,7 +251,7 @@ permalink: /Portfolio/honours/
 
 <div class="image-grid">
   <div class="image-item">
-    <img src="/assets/screenshots/sword1.png" alt="Generated Sword 1">
+    <img src="/assets/screenshots/Mine1.png" alt="Generated Sword 1">
   </div>
   <div class="image-item">
     <img src="/assets/screenshots/sword2.png" alt="Generated Sword 2">
