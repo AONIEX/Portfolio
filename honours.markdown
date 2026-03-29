@@ -224,7 +224,6 @@ permalink: /Portfolio/honours/
 - In engine degugging tools
 
 ## Screeshots
-<style>
 .image-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
@@ -232,36 +231,24 @@ permalink: /Portfolio/honours/
   margin-top: 1em;
 }
 
-.image-item {
-  overflow: hidden;
-  border-radius: 10px;
-}
-
-.image-item img {
+.image-grid .grid-img {
+  display: block;
   width: 100%;
   height: auto;
+  border-radius: 10px;
   transition: transform 0.3s ease;
-  display: block;
 }
 
-.image-item img:hover {
+.image-grid .grid-img:hover {
   transform: scale(1.15);
 }
-</style>
+
 
 <div class="image-grid">
-  <div class="image-item">
-    <img src="/assets/screenshots/Online Image_AlexO'Nions.png" alt="Generated Sword 1">
-  </div>
-  <div class="image-item">
-    <img src="/assets/screenshots/Mine1.png" alt="Generated Sword 2">
-  </div>
-  <div class="image-item">
-    <img src="/assets/screenshots/sword3.png" alt="Generated Sword 3">
-  </div>
-  <div class="image-item">
-    <img src="/assets/screenshots/sword4.png" alt="Generated Sword 4">
-  </div>
+![Generated Sword 1](/assets/screenshots/Mine1.png){: .grid-img }
+![Generated Sword 2](/assets/screenshots/sword2.png){: .grid-img }
+![Generated Sword 3](/assets/screenshots/sword3.png){: .grid-img }
+![Generated Sword 4](/assets/screenshots/sword4.png){: .grid-img }
 </div>
 
 
