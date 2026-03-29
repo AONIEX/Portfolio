@@ -247,13 +247,14 @@ permalink: /Portfolio/honours/
 </style>
 
 <div class="image-grid">
-  <img src="/Assets/sword1.png" alt="Generated Sword 1">
-  <img src="/Assets/sword2.png" alt="Generated Sword 2">
-  <img src="/Assets/sword3.png" alt="Generated Sword 3">
-  <img src="/Assets/sword4.png" alt="Generated Sword 4">
-  <img src="/Assets/sword5.png" alt="Generated Sword 5">
-  <img src="/Assets/sword6.png" alt="Generated Sword 6">
+  <img src="{{ '/Assets/sword1.png' | relative_url }}" alt="Sword 1">
+  <img src="{{ '/Assets/sword2.png' | relative_url }}" alt="Sword 2">
+  <img src="{{ '/Assets/sword3.png' | relative_url }}" alt="Sword 3">
+  <img src="{{ '/Assets/sword4.png' | relative_url }}" alt="Sword 4">
+  <img src="{{ '/Assets/sword5.png' | relative_url }}" alt="Sword 5">
+  <img src="{{ '/Assets/sword6.png' | relative_url }}" alt="Sword 6">
 </div>
+
 
 
 ## Downloads & Links
