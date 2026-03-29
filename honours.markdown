@@ -259,7 +259,7 @@ permalink: /Portfolio/honours/
   height: auto;
   max-width: none;
   max-height: none;
-  transform: scale(1.8); /* adjust as needed */
+  transform: scale(1.1); /* adjust as needed */
   z-index: 10;
   box-shadow: 0 10px 25px rgba(0,0,0,0.4);
 }
