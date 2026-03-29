@@ -232,34 +232,52 @@ permalink: /Portfolio/honours/
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   gap: 15px;
-  margin-top: 1em;
 }
 
-.image-grid img {
+.img-wrap {
+  position: relative;
+  overflow: visible; /* allow the image to expand outside */
+  height: 200px;     /* thumbnail height */
+}
+
+.img-wrap img {
   width: 100%;
-  height: 200px;          /* uniform thumbnails */
+  height: 100%;
   object-fit: cover;
   border-radius: 10px;
-  transition: transform 0.3s ease, z-index 0s;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
   position: relative;
   z-index: 1;
 }
 
-/* Hover: pop out ABOVE the grid */
-.image-grid img:hover {
-  transform: scale(2);     /* enlarge to natural-ish size */
-  z-index: 10;             /* float above other images */
-  position: relative;      /* ensures stacking works */
+/* Hover effect: image floats above everything */
+.img-wrap:hover img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: auto;
+  height: auto;
+  max-width: none;
+  max-height: none;
+  transform: scale(1.8); /* adjust as needed */
+  z-index: 10;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.4);
 }
-
 </style>
 
 <div class="image-grid">
-  <img src="{{ '/Assets/sword3.png' | relative_url }}" alt="Sword 1">
-  <img src="{{ '/Assets/sword5.png' | relative_url }}" alt="Sword 2">
-  <img src="{{ '/Assets/sword2.png' | relative_url }}" alt="Sword 3">
-  <img src="{{ '/Assets/sword4.png' | relative_url }}" alt="Sword 4">
-  <img src="{{ '/Assets/sword6.png' | relative_url }}" alt="Sword 5">
+  <div class="img-wrap">
+    <img src="{{ '/Assets/sword1.png' | relative_url }}" alt="Sword 1">
+  </div>
+  <div class="img-wrap">
+    <img src="{{ '/Assets/sword2.png' | relative_url }}" alt="Sword 2">
+  </div>
+  <div class="img-wrap">
+    <img src="{{ '/Assets/sword3.png' | relative_url }}" alt="Sword 3">
+  </div>
+  <div class="img-wrap">
+    <img src="{{ '/Assets/sword4.png' | relative_url }}" alt="Sword 4">
+  </div>
 </div>
 
 ![Array Of Swords](/Assets/sword1.png)
