@@ -237,16 +237,19 @@ permalink: /Portfolio/honours/
 
 .image-grid img {
   width: 100%;
-  height: 200px;        /* choose any height you like */
-  object-fit: cover;    /* crops the image cleanly */
+  height: 200px;        /* uniform thumbnail height */
+  object-fit: cover;    /* crop to fit */
   border-radius: 10px;
-  transition: transform 0.3s ease;
+  transition: transform 0.3s ease, height 0.3s ease, object-fit 0.3s ease;
 }
 
-
+/* On hover: show full image */
 .image-grid img:hover {
-  transform: scale(1.15);
+  height: auto;         /* let it expand to natural height */
+  object-fit: contain;  /* show the whole image */
+  transform: scale(1);  /* no zoom needed */
 }
+
 </style>
 
 <div class="image-grid">
