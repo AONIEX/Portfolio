@@ -234,35 +234,39 @@ permalink: /Portfolio/honours/
   gap: 15px;
 }
 
+/* The wrapper defines the hover zone */
 .img-wrap {
   position: relative;
-  height: 200px; /* thumbnail height */
+  height: 200px;
   overflow: visible;
 }
 
+/* Thumbnail state */
 .img-wrap img {
   width: 100%;
   height: 100%;
   object-fit: cover;
   border-radius: 10px;
-  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  transition: transform 0.4s ease, box-shadow 0.4s ease; /* slower zoom-out */
   position: relative;
   z-index: 1;
+  pointer-events: none; /* prevents flicker */
 }
 
-/* Hover: controlled pop-out */
+/* Hover state */
 .img-wrap:hover img {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%) scale(1.4); /* moderate zoom */
-  width: 300px;   /* max hover width */
-  height: auto;   /* keep proportions */
-  max-height: 300px; /* cap height */
+  transform: translate(-50%, -50%) scale(1.4); /* controlled zoom */
+  width: 260px;        /* max hover width */
+  height: auto;
+  max-height: 260px;   /* cap height */
   object-fit: contain;
   z-index: 10;
   box-shadow: 0 10px 25px rgba(0,0,0,0.4);
 }
+
 
 </style>
 
