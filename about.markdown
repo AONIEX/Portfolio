@@ -57,8 +57,9 @@ Hi, my name is Alex O'Nions, i'm a Games Programmer, Abertay Dare Finalist (2025
 ### Recent Events
 
 #### Dare Academy
-During the Summer of 2025, Me and a team of 8 the Bonny Bandits became Dare Academy finalists with our game Systanpic, which we continued from our Des315 (University Professional Project). This oppurtunity allowed us to work with people in the game industry and get feedback on our ideas and approach to making the game. This also gave us the oppurtunity to show case our game at the Dundee Contemporary Arts (DCA)  its annual Drop-in and Play event, with the other 5 Finalists team. We also ttended an Awards showing Synaptic to multiple Game developers and Studios, whilst taking the time to appreciate the other games created.
+During the Summer of 2025, Me and a team of 8 (The Bonny Bandits) became Dare Academy finalists with our game Systanpic, which we continued from our Des315 (University Professional Project). This oppurtunity allowed us to work with people in the game industry and get feedback on our ideas and approach to making the game. This also gave us the oppurtunity to show case our game at the Dundee Contemporary Arts (DCA)  its annual Drop-in and Play event, with the other 5 Finalists team. We also ttended an Awards showing Synaptic to multiple Game developers and Studios, whilst taking the time to appreciate the other games created. This was an oppurtunity that i am still thankful for, due to all the knowledge and experience i have gained from it, and Thank you to the amzaing Bonny Bandits.
 
-![Picture Of DCA Event](/Assets/SynapticShowcase.jpg)
-![Picture Of Bonny Bandits](/Assets/SynapticGroup.jpg)
+![DARE Academy Awards Bonny Bandits Group Photo](/Assets/DareAwards.jpg)
+![DCA Event](/Assets/SynapticShowcase.jpg)
+![Picture Of The Bonny Bandits](/Assets/SynapticGroup.jpg)
 
