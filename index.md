@@ -155,7 +155,7 @@ title: Home
 
   <div style="flex:1; text-align:left;">
     <h3 style="margin-top:0;">Skuffed</h3>
-    <p style="margin:0.5em 0;">A fast-paced jam game with chaotic mechanics and playful energy.</p>
+    <p style="margin:0.5em 0;">A fast-paced game with chaotic mechanics and playful energy, having players control their opponents arms.</p>
     <a href="{{ 'Portfolio/projects/#GameJams' | relative_url }}" 
        style="display:inline-block; margin-top:0.5em; padding:0.5em 1em; background:#00aaff; color:#fff; border-radius:6px; text-decoration:none; font-weight:bold;">
        See More
