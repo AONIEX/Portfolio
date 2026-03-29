@@ -236,8 +236,8 @@ permalink: /Portfolio/honours/
 
 .img-wrap {
   position: relative;
-  overflow: visible; /* allow the image to expand outside */
-  height: 200px;     /* thumbnail height */
+  height: 200px; /* thumbnail height */
+  overflow: visible;
 }
 
 .img-wrap img {
@@ -250,19 +250,20 @@ permalink: /Portfolio/honours/
   z-index: 1;
 }
 
-/* Hover effect: image floats above everything */
+/* Hover: controlled pop-out */
 .img-wrap:hover img {
   position: absolute;
-  top: 0;
-  left: 0;
-  width: auto;
-  height: auto;
-  max-width: none;
-  max-height: none;
-  transform: scale(1.1); /* adjust as needed */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(1.4); /* moderate zoom */
+  width: 300px;   /* max hover width */
+  height: auto;   /* keep proportions */
+  max-height: 300px; /* cap height */
+  object-fit: contain;
   z-index: 10;
   box-shadow: 0 10px 25px rgba(0,0,0,0.4);
 }
+
 </style>
 
 <div class="image-grid">
