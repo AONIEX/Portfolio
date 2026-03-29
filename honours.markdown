@@ -224,6 +224,45 @@ permalink: /Portfolio/honours/
 - In engine degugging tools
 
 ## Screeshots
+<style>
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 15px;
+  margin-top: 1em;
+}
+
+.image-item {
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.image-item img {
+  width: 100%;
+  height: auto;
+  transition: transform 0.3s ease;
+  display: block;
+}
+
+.image-item img:hover {
+  transform: scale(1.15);
+}
+</style>
+
+<div class="image-grid">
+  <div class="image-item">
+    <img src="/assets/screenshots/sword1.png" alt="Generated Sword 1">
+  </div>
+  <div class="image-item">
+    <img src="/assets/screenshots/sword2.png" alt="Generated Sword 2">
+  </div>
+  <div class="image-item">
+    <img src="/assets/screenshots/sword3.png" alt="Generated Sword 3">
+  </div>
+  <div class="image-item">
+    <img src="/assets/screenshots/sword4.png" alt="Generated Sword 4">
+  </div>
+</div>
 
 
 ## Downloads & Links
