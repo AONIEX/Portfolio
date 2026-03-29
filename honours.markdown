@@ -16,40 +16,27 @@ permalink: /Portfolio/honours/
 
 ## 🗡️ Project Overview
 
-<div style="display:flex; gap:1.5em; align-items:flex-start; margin-bottom:1.5em;">
-<img src="{{ '/Assets/Sword_Bp2.png' | relative_url }}"
-     alt="Procedural Sword Generation Thumbnail"
-     style="
-       height:260px;
-       width:200px;
-       object-fit:cover;
-       object-position:left;
-       border-radius:12px;
-       border:2px solid #00aaff;
-     ">
 
-  <div style="flex:1;">
-    <p>
-      My Honours Project explores procedural weapon generation, focusing on the creation of
-      fully parametric swords built at runtime. The system constructs the blades using mathematical rules,
-      shape grammars, and mesh‑generation algorithms. Afterwards the appropriate hilt, guards and pommels
-      are attached.
-    </p>
-    <p>
-      The goal is to create a flexible, extensible tool capable of producing thousands of
-      unique, stylistically coherent weapons for games.
-    </p>
-    <p>
-      If you are wanting to test out the current version of the project please feel free to so do at:
-    </p>
-    <p>  
-      https://alex-onions.itch.io/procedural-sword-generation
-    </p>
-    <p>
-      All Feedback is welcome and appreciated.
-    </p>
-  </div>
-</div>
+<p>
+  My Honours Project explores procedural weapon generation, focusing on the creation of
+  fully parametric swords built at runtime. The system constructs the blades using mathematical rules,
+  shape grammars, and mesh‑generation algorithms. Afterwards the appropriate hilt, guards and pommels
+  are attached.
+</p>
+<p>
+  The goal is to create a flexible, extensible tool capable of producing thousands of
+  unique, stylistically coherent weapons for games.
+</p>
+<p>
+   If you are wanting to test out the current version of the project please feel free to so do at:
+</p>
+<p>  
+  https://alex-onions.itch.io/procedural-sword-generation
+</p>
+<p>
+  All Feedback is welcome and appreciated.
+</p>
+
 
 
 
@@ -236,12 +223,14 @@ permalink: /Portfolio/honours/
 - Shadergraph
 - In engine degugging tools
 
+## Screeshots
 
-## 📥 Downloads & Links
 
-- GitHub Repository: *Add link here*  
-- Technical Report (PDF): *Add link here*  
-- Demo Build: *Add link here*  
+## Downloads & Links
+
+- GitHub Repository: *Will Add link here*  
+- Dissertation/Technical Report (PDF): *Will Add link here*  
+- Demo Build: https://alex-onions.itch.io/procedural-sword-generation
 
 
 ## 📚 References
