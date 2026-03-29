@@ -272,10 +272,10 @@ permalink: /Portfolio/honours/
 
 <div class="image-grid">
   <div class="img-wrap">
-    <img src="{{ '/Assets/sword5.png' | relative_url }}" alt="Sword 1">
+    <img src="{{ '/Assets/sword2.png' | relative_url }}" alt="Sword 1">
   </div>
   <div class="img-wrap">
-    <img src="{{ '/Assets/sword2.png' | relative_url }}" alt="Sword 2">
+    <img src="{{ '/Assets/sword5.png' | relative_url }}" alt="Sword 2">
   </div>
   <div class="img-wrap">
     <img src="{{ '/Assets/sword3.png' | relative_url }}" alt="Sword 3">
@@ -284,6 +284,8 @@ permalink: /Portfolio/honours/
     <img src="{{ '/Assets/sword4.png' | relative_url }}" alt="Sword 4">
   </div>
 </div>
+
+<div style="margin-top: 20px;"></div>
 
 ![Array Of Swords](/Assets/sword1.png)
 
