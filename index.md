@@ -18,7 +18,7 @@ title: Home
 
 <div style="display:flex; align-items:center; gap:1em; margin-bottom:1.5em; padding:0.8em; border:2px solid #00aaff; border-radius:12px; background:transparent; color:#004466;">
 
-  <img src="Assets/sword1.png" 
+  <img src="Assets/sword2.png" 
        alt="Swords" 
        style="width:160px; height:auto; border-radius:8px;">
 
