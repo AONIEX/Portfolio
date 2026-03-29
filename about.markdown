@@ -18,8 +18,8 @@ Hi, my name is Alex O'Nions, i'm a Games Programmer, Abertay Dare Finalist (2025
 
 <hr style="all: unset; display: block; height: 6px; background-color: #00aaff; margin: 2em 0;">
 
-### Passion
-<p>I have a huge passion for Game Mechanics, Procedural Generation and AI programming. My Honours project is focused on Procedural Sword Generation, and explorining if Procedural Asset Creation (Specifically Meshes) can be used efficently in development, reducing the time it takes to create Assets for games.</p>
+### Coding Passions
+<p>I have a huge passion for Game Mechanics, Procedural Generation and AI programming. My Honours project is focused on Procedural Sword Generation, and explorining if Procedural Asset Creation (Specifically Meshes) can be used efficently in development, reducing the time it takes to create Assets for games. I'm intrigued to learn more about how Procedural Generation can be used as a tool and help in more un-expected ways.</p>
 
 <p>A favourite project of mine is my Mesh Cutting Mechanic made in Unreal Engine 5 (C++), allowing players to cut a mesh into pieces, moving those pieces around before pressing a button to return them to solve puzzles, or climb up to places that weren't previously accessable.</p>
 
