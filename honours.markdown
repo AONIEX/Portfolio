@@ -251,10 +251,10 @@ permalink: /Portfolio/honours/
 
 <div class="image-grid">
   <div class="image-item">
-    <img src="/assets/screenshots/Mine1.png" alt="Generated Sword 1">
+    <img src="/assets/screenshots/Online Image_AlexO'Nions.png" alt="Generated Sword 1">
   </div>
   <div class="image-item">
-    <img src="/assets/screenshots/sword2.png" alt="Generated Sword 2">
+    <img src="/assets/screenshots/Mine1.png" alt="Generated Sword 2">
   </div>
   <div class="image-item">
     <img src="/assets/screenshots/sword3.png" alt="Generated Sword 3">
