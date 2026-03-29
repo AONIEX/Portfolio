@@ -225,6 +225,8 @@ permalink: /Portfolio/honours/
 
 ## Screeshots
 
+
+
 <style>
 .image-grid {
   display: grid;
@@ -233,33 +235,24 @@ permalink: /Portfolio/honours/
   margin-top: 1em;
 }
 
-.grid-img {
-  display: block;
+.image-grid img {
   width: 100%;
   border-radius: 10px;
   transition: transform 0.3s ease;
 }
 
-.grid-img:hover {
+.image-grid img:hover {
   transform: scale(1.15);
 }
 </style>
 
-
 <div class="image-grid">
-  
-![Generated Sword 1](/Assets/sword1.png){: .grid-img }
-  
-![Generated Sword 2](/Assets/sword2.png){: .grid-img }
-
-![Generated Sword 3](/Assets/sword3.png){: .grid-img }
-
-![Generated Sword 4](/Assets/sword4.png){: .grid-img }
-
-![Generated Sword 4](/Assets/sword5.png){: .grid-img }
-
-![Generated Sword 4](/Assets/sword6.png){: .grid-img }
-
+  <img src="/Assets/sword1.png" alt="Generated Sword 1">
+  <img src="/Assets/sword2.png" alt="Generated Sword 2">
+  <img src="/Assets/sword3.png" alt="Generated Sword 3">
+  <img src="/Assets/sword4.png" alt="Generated Sword 4">
+  <img src="/Assets/sword5.png" alt="Generated Sword 5">
+  <img src="/Assets/sword6.png" alt="Generated Sword 6">
 </div>
 
 
