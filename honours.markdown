@@ -248,17 +248,17 @@ permalink: /Portfolio/honours/
 
 <div class="image-grid">
   
-![Generated Sword 1](/assets/screenshots/sword1.png){: .grid-img }
+![Generated Sword 1](/assets/screenshots/sword1.png) {: .grid-img }
   
-![Generated Sword 2](/assets/screenshots/sword2.png){: .grid-img }
+![Generated Sword 2](/assets/screenshots/sword2.png) {: .grid-img }
 
-![Generated Sword 3](/assets/screenshots/sword3.png){: .grid-img }
+![Generated Sword 3](/assets/screenshots/sword3.png) {: .grid-img }
 
-![Generated Sword 4](/assets/screenshots/sword4.png){: .grid-img }
+![Generated Sword 4](/assets/screenshots/sword4.png) {: .grid-img }
 
-![Generated Sword 4](/assets/screenshots/sword5.png){: .grid-img }
+![Generated Sword 4](/assets/screenshots/sword5.png) {: .grid-img }
 
-![Generated Sword 4](/assets/screenshots/sword6.png){: .grid-img }
+![Generated Sword 4](/assets/screenshots/sword6.png) {: .grid-img }
 
 </div>
 
