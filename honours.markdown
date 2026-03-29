@@ -237,17 +237,19 @@ permalink: /Portfolio/honours/
 
 .image-grid img {
   width: 100%;
-  height: 200px;        /* uniform thumbnail height */
-  object-fit: cover;    /* crop to fit */
+  height: 200px;          /* uniform thumbnails */
+  object-fit: cover;
   border-radius: 10px;
-  transition: transform 0.3s ease, height 0.3s ease, object-fit 0.3s ease;
+  transition: transform 0.3s ease, z-index 0s;
+  position: relative;
+  z-index: 1;
 }
 
-/* On hover: show full image */
+/* Hover: pop out ABOVE the grid */
 .image-grid img:hover {
-  height: auto;         /* let it expand to natural height */
-  object-fit: contain;  /* show the whole image */
-  transform: scale(1);  /* no zoom needed */
+  transform: scale(2);     /* enlarge to natural-ish size */
+  z-index: 10;             /* float above other images */
+  position: relative;      /* ensures stacking works */
 }
 
 </style>
