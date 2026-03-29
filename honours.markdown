@@ -237,9 +237,12 @@ permalink: /Portfolio/honours/
 
 .image-grid img {
   width: 100%;
+  height: 200px;        /* choose any height you like */
+  object-fit: cover;    /* crops the image cleanly */
   border-radius: 10px;
   transition: transform 0.3s ease;
 }
+
 
 .image-grid img:hover {
   transform: scale(1.15);
