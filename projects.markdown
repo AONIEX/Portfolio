@@ -418,7 +418,7 @@ Before and during at university i have taken part in multiple game jams to refre
 
 <br/>
 
-  - This project was a team project i did in my 3rd year of university and i took it on myself to have a team of 3rd years so i can see how it is to help people learn and work wiwth less experience people. Even though i was working with lesss experienced people i still wanted to do something unique, so we decided to do a two player rigid body physics game, where you would control your oppents arms and your legs whilst trying to race towards a finish line and screw up your enemy.
+  - This project was a team project i did in my 3rd year of university and i took it on myself to have a team of 1st years so i can see how it is to help people learn and work with less experience people. Even though i was working with lesss experienced people i still wanted to do something unique, so we decided to do a two player rigid body physics game, where you would control your oppents arms and your legs whilst trying to race towards a finish line and screw up your enemy.
 
 
 ### Extra Information
