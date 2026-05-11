@@ -296,6 +296,14 @@ permalink: /Portfolio/honours/
 - Demo Build: https://alex-onions.itch.io/procedural-sword-generation
 
 
-## 📚 References
+## Dissertation Paper
+<hr style="all: unset; display: block; height: 6px; background-color: #00aaff; margin: 2em 0;">
 
-- Relevant geometry and mesh‑generation literature.
+<iframe src="https://aoniex.github.io/Portfolio/Assets/CV.pdf" width="100%" height="600px"></iframe>
+
+
+[View my PDF](Assets/Dissertation.pdf)
+
+
+
+<hr style="all: unset; display: block; height: 6px; background-color: #00aaff; margin: 2em 0;">
