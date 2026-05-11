@@ -291,15 +291,14 @@ permalink: /Portfolio/honours/
 
 ## Downloads & Links
 
-- GitHub Repository: *Will Add link here*  
-- Dissertation/Technical Report (PDF): *Will Add link here*  
+- GitHub Repository: https://github.com/AONIEX/Procedural_Sword_Generation
 - Demo Build: https://alex-onions.itch.io/procedural-sword-generation
 
 
 ## Dissertation Paper
 <hr style="all: unset; display: block; height: 6px; background-color: #00aaff; margin: 2em 0;">
 
-<iframe src="https://aoniex.github.io/Portfolio/Assets/CV.pdf" width="100%" height="600px"></iframe>
+<iframe src="https://aoniex.github.io/Portfolio/Assets/Dissertation.pdf" width="100%" height="600px"></iframe>
 
 
 [View my PDF](Assets/Dissertation.pdf)
