@@ -17,12 +17,13 @@
       }
 
       /* ========================================================= */
-      /* LAYOUT EXPANSION (Reduces massive side gaps by ~50%)       */
+      /* LAYOUT EXPANSION                                           */
       /* ========================================================= */
       .wrapper {
         width: 88% !important;
-        max-width: 1350px !important; /* Expanded from default 860px */
+        max-width: 1350px !important;
         margin: 0 auto !important;
+        padding-top: 70px; /* Space for the fixed top navbar */
       }
 
       header {
@@ -31,7 +32,7 @@
       }
 
       section {
-        width: calc(100% - 320px) !important; /* Lets main content fill all remaining space */
+        width: calc(100% - 320px) !important; /* Main content area */
         float: right !important;
       }
 
@@ -39,6 +40,7 @@
       @media screen and (max-width: 960px) {
         .wrapper {
           width: 92% !important;
+          padding-top: 110px;
         }
         header, section {
           width: 100% !important;
@@ -106,6 +108,9 @@
         opacity: 0.6;
       }
 
+      /* ========================================================= */
+      /* FIXED TOP NAVIGATION BAR                                   */
+      /* ========================================================= */
       .project-nav {
         position: fixed;
         top: 0;
@@ -115,11 +120,11 @@
         flex-wrap: wrap;
         gap: 0.5em;
         justify-content: center;
-        background: rgba(0, 0, 0, 0.6);
-        padding: 0.5em 0;
+        background: rgba(0, 0, 0, 0.7);
+        padding: 0.6em 0;
         margin: 0;
         border-bottom: 2px solid #00aaff;
-        backdrop-filter: blur(4px);
+        backdrop-filter: blur(6px);
         z-index: 1000;
         animation: slideDown 0.6s ease-out;
         transition: transform 0.3s ease, opacity 0.3s ease;
@@ -130,6 +135,7 @@
         to { transform: translateY(0); opacity: 1; }
       }
 
+      /* Hide when scrolling down */
       .project-nav.hide {
         transform: translateY(-100%);
         opacity: 0;
@@ -143,25 +149,24 @@
       .project-nav a > div {
         display: flex;
         align-items: center;
-        justify-content: space-between;
-        width: 180px;
-        padding: 0.5em;
-        background: rgba(0,0,0,0.3);
+        justify-content: center;
+        min-width: 110px;
+        padding: 0.4em 0.8em;
+        background: rgba(0, 0, 0, 0.4);
         border: 1px solid #00aaff;
         border-radius: 6px;
         color: white;
-        transition: transform 0.3s ease;
+        transition: transform 0.3s ease, background-color 0.3s ease;
+      }
+
+      .project-nav a > div h5 {
+        margin: 0;
+        font-size: 0.95em;
       }
 
       .project-nav a:hover > div {
         transform: scale(1.05);
-      }
-
-      .project-nav img {
-        width: 60px;
-        height: auto;
-        border-radius: 4px;
-        margin-left: 0.5em;
+        background: rgba(0, 170, 255, 0.2);
       }
 
       html {
@@ -177,6 +182,41 @@
     {% include head-custom.html %}
   </head>
   <body>
+
+    <!-- Top Navigation Bar -->
+    <nav class="project-nav">
+      <a href="{{ '/' | relative_url }}">
+        <div>
+          <h5>Home</h5>
+        </div>
+      </a>
+      <a href="{{ 'Portfolio/honours/' | relative_url }}">
+        <div>
+          <h5>Honours</h5>
+        </div>
+      </a>
+      <a href="{{ 'Portfolio/about/' | relative_url }}">
+        <div>
+          <h5>About</h5>
+        </div>
+      </a>
+      <a href="{{ 'Portfolio/projects/' | relative_url }}">
+        <div>
+          <h5>Projects</h5>
+        </div>
+      </a>
+      <a href="{{ 'Portfolio/contact/' | relative_url }}">
+        <div>
+          <h5>Contact</h5>
+        </div>
+      </a>
+      <a href="{{ 'Portfolio/cv/' | relative_url }}">
+        <div>
+          <h5>CV</h5>
+        </div>
+      </a>
+    </nav>
+
     <div class="wrapper">
       <header>
         <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
@@ -187,59 +227,14 @@
 
         <p>{{ site.description | default: site.github.project_tagline }}</p>
 
-        <nav class="site-nav">
-          <div style="display: flex; flex-wrap: wrap; gap: 0.5em; justify-content: center;">
-
-            <!-- Home Button -->
-            <a href="{{ '/' | relative_url }}" style="flex: 0 1 auto; text-decoration: none;">
-              <div style="min-width: 100px; padding: 0.5em; background: rgba(0,0,0,0.3); border: 1px solid #00aaff; border-radius: 6px; color: white; text-align: center;">
-                <h5 style="margin: 0;">Home</h5>
-              </div>
-            </a>
-
-            <!-- Honours Project Button -->
-            <a href="{{ 'Portfolio/honours/' | relative_url }}" style="flex: 0 1 auto; text-decoration: none;">
-              <div style="min-width: 100px; padding: 0.5em; background: rgba(0,0,0,0.3); border: 1px solid #00aaff; border-radius: 6px; color: white; text-align: center;">
-                <h5 style="margin: 0;">Honours</h5>
-              </div>
-            </a>
-
-            <a href="{{ 'Portfolio/about/' | relative_url }}" style="flex: 0 1 auto; text-decoration: none;">
-              <div style="min-width: 100px; padding: 0.5em; background: rgba(0,0,0,0.3); border: 1px solid #00aaff; border-radius: 6px; color: white; text-align: center;">
-                <h5 style="margin: 0;">About</h5>
-              </div>
-            </a>
-
-            <a href="{{ 'Portfolio/projects/' | relative_url }}" style="flex: 0 1 auto; text-decoration: none;">
-              <div style="min-width: 100px; padding: 0.5em; background: rgba(0,0,0,0.3); border: 1px solid #00aaff; border-radius: 6px; color: white; text-align: center;">
-                <h5 style="margin: 0;">Projects</h5>
-              </div>
-            </a>
-
-            <a href="{{ 'Portfolio/contact/' | relative_url }}" style="flex: 0 1 auto; text-decoration: none;">
-              <div style="min-width: 100px; padding: 0.5em; background: rgba(0,0,0,0.3); border: 1px solid #00aaff; border-radius: 6px; color: white; text-align: center;">
-                <h5 style="margin: 0;">Contact</h5>
-              </div>
-            </a>
-
-            <a href="{{ 'Portfolio/cv/' | relative_url }}" style="flex: 0 1 auto; text-decoration: none;">
-              <div style="min-width: 100px; padding: 0.5em; background: rgba(0,0,0,0.3); border: 1px solid #00aaff; border-radius: 6px; color: white; text-align: center;">
-                <h5 style="margin: 0;">CV</h5>
-              </div>
-            </a>
-
-          </div>
-        </nav>
-
         <div class="divider"></div>
-
       </header>
 
-      <section style="padding-top: 40px;">
+      <section style="padding-top: 10px;">
         {{ content }}
       </section>
 
-      <div class="divider"></div>
+      <div class="divider" style="clear: both;"></div>
 
       <footer>
         <p><small>&copy; {{ 'now' | date: "%Y" }} Alex Onions</small></p>
