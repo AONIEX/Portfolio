@@ -5,14 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <style>
-      /* Expanded width to reduce side gaps by ~50% */
-      .wrapper {
-        width: 88% !important;
-        max-width: 1400px !important;
-        margin: 0 auto !important;
-        padding: 0 1em;
-      }
-
       body {
         color: white;
         background-image:
@@ -22,6 +14,119 @@
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-color: #001f3f;
+      }
+
+      /* Expanded width to reduce side gaps by ~50% */
+      .wrapper {
+        width: 88% !important;
+        max-width: 1400px !important;
+        margin: 0 auto !important;
+        padding: 70px 1em 0 1em; /* 70px top padding for fixed top bar */
+      }
+
+      /* ========================================================= */
+      /* FIXED TOP NAVIGATION BAR (Hides on Scroll)               */
+      /* ========================================================= */
+      .top-nav {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.5em;
+        justify-content: center;
+        background: rgba(0, 0, 0, 0.7);
+        padding: 0.6em 0;
+        margin: 0;
+        border-bottom: 2px solid #00aaff;
+        backdrop-filter: blur(6px);
+        z-index: 1000;
+        animation: slideDown 0.6s ease-out;
+        transition: transform 0.3s ease, opacity 0.3s ease;
+      }
+
+      @keyframes slideDown {
+        from { transform: translateY(-100%); opacity: 0; }
+        to { transform: translateY(0); opacity: 1; }
+      }
+
+      .top-nav.hide {
+        transform: translateY(-100%);
+        opacity: 0;
+        pointer-events: none;
+      }
+
+      .top-nav a {
+        text-decoration: none;
+      }
+
+      .top-nav a > div {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-width: 110px;
+        padding: 0.4em 0.8em;
+        background: rgba(0, 0, 0, 0.4);
+        border: 1px solid #00aaff;
+        border-radius: 6px;
+        color: white;
+        transition: transform 0.3s ease, background-color 0.3s ease;
+      }
+
+      .top-nav a > div h5 {
+        margin: 0;
+        font-size: 0.95em;
+      }
+
+      .top-nav a:hover > div {
+        transform: scale(1.05);
+        background: rgba(0, 170, 255, 0.2);
+      }
+
+      /* ========================================================= */
+      /* RIGHT SIDEBAR QUICK JUMP NAVIGATION                       */
+      /* ========================================================= */
+      .project-nav {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5em;
+        position: sticky;
+        top: 80px; /* Sticks below the top bar */
+        z-index: 900;
+        background: rgba(0, 0, 0, 0.6);
+        padding: 0.8em;
+        border: 1px solid #00aaff;
+        border-radius: 6px;
+        backdrop-filter: blur(4px);
+      }
+
+      .project-nav a {
+        text-decoration: none;
+      }
+
+      .project-nav a > div {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        padding: 0.5em;
+        background: rgba(0,0,0,0.3);
+        border: 1px solid #00aaff;
+        border-radius: 6px;
+        color: white;
+        transition: transform 0.3s ease;
+      }
+
+      .project-nav a:hover > div {
+        transform: scale(1.03);
+      }
+
+      .project-nav img {
+        width: 60px;
+        height: auto;
+        border-radius: 4px;
+        margin-left: 0.5em;
       }
 
       /* Apply white text to key containers */
@@ -65,7 +170,7 @@
       }
 
       a {
-        color: #00aaff; /* Neon blue */
+        color: #00aaff;
         text-decoration: underline;
         transition: color 0.3s ease;
       }
@@ -84,48 +189,6 @@
         opacity: 0.6;
       }
 
-      .project-nav {
-        display: flex;
-        flex-direction: column;
-        gap: 0.5em;
-        position: sticky;
-        top: 20px;
-        z-index: 1000;
-        background: rgba(0, 0, 0, 0.6);
-        padding: 0.8em;
-        border: 1px solid #00aaff;
-        border-radius: 6px;
-        backdrop-filter: blur(4px);
-      }
-
-      .project-nav a {
-        text-decoration: none;
-      }
-
-      .project-nav a > div {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        width: 100%;
-        padding: 0.5em;
-        background: rgba(0,0,0,0.3);
-        border: 1px solid #00aaff;
-        border-radius: 6px;
-        color: white;
-        transition: transform 0.3s ease;
-      }
-
-      .project-nav a:hover > div {
-        transform: scale(1.03);
-      }
-
-      .project-nav img {
-        width: 60px;
-        height: auto;
-        border-radius: 4px;
-        margin-left: 0.5em;
-      }
-
       html {
         scroll-behavior: smooth;
       }
@@ -133,6 +196,7 @@
       @media (max-width: 860px) {
         .wrapper {
           width: 95% !important;
+          padding-top: 110px;
         }
         section {
           flex-direction: column;
@@ -152,6 +216,17 @@
     {% include head-custom.html %}
   </head>
   <body>
+
+    <!-- 1. FIXED TOP NAVIGATION BAR -->
+    <nav class="top-nav">
+      <a href="{{ '/' | relative_url }}"><div><h5>Home</h5></div></a>
+      <a href="{{ 'Portfolio/honours/' | relative_url }}"><div><h5>Honours</h5></div></a>
+      <a href="{{ 'Portfolio/about/' | relative_url }}"><div><h5>About</h5></div></a>
+      <a href="{{ 'Portfolio/projects/' | relative_url }}"><div><h5>Projects</h5></div></a>
+      <a href="{{ 'Portfolio/contact/' | relative_url }}"><div><h5>Contact</h5></div></a>
+      <a href="{{ 'Portfolio/cv/' | relative_url }}"><div><h5>CV</h5></div></a>
+    </nav>
+
     <div class="wrapper">
       <header>
         <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
@@ -162,47 +237,39 @@
 
         <p>{{ site.description | default: site.github.project_tagline }}</p>
 
+        <!-- 2. LEFT SIDEBAR NAVIGATION BUTTONS -->
         <nav class="site-nav">
-          <div style="display: flex; flex-wrap: wrap; gap: 0.5em; justify-content: center;">
-
-            <!-- Home Button -->
+          <div style="display: flex; flex-wrap: wrap; gap: 0.5em; justify-content: center; margin-top: 1em;">
             <a href="{{ '/' | relative_url }}" style="flex: 0 1 auto; text-decoration: none;">
               <div style="min-width: 100px; padding: 0.5em; background: rgba(0,0,0,0.3); border: 1px solid #00aaff; border-radius: 6px; color: white; text-align: center;">
                 <h5 style="margin: 0;">Home</h5>
               </div>
             </a>
-
-            <!-- Honours Project Button -->
             <a href="{{ 'Portfolio/honours/' | relative_url }}" style="flex: 0 1 auto; text-decoration: none;">
               <div style="min-width: 100px; padding: 0.5em; background: rgba(0,0,0,0.3); border: 1px solid #00aaff; border-radius: 6px; color: white; text-align: center;">
                 <h5 style="margin: 0;">Honours</h5>
               </div>
             </a>
-
             <a href="{{ 'Portfolio/about/' | relative_url }}" style="flex: 0 1 auto; text-decoration: none;">
               <div style="min-width: 100px; padding: 0.5em; background: rgba(0,0,0,0.3); border: 1px solid #00aaff; border-radius: 6px; color: white; text-align: center;">
                 <h5 style="margin: 0;">About</h5>
               </div>
             </a>
-
             <a href="{{ 'Portfolio/projects/' | relative_url }}" style="flex: 0 1 auto; text-decoration: none;">
               <div style="min-width: 100px; padding: 0.5em; background: rgba(0,0,0,0.3); border: 1px solid #00aaff; border-radius: 6px; color: white; text-align: center;">
                 <h5 style="margin: 0;">Projects</h5>
               </div>
             </a>
-
             <a href="{{ 'Portfolio/contact/' | relative_url }}" style="flex: 0 1 auto; text-decoration: none;">
               <div style="min-width: 100px; padding: 0.5em; background: rgba(0,0,0,0.3); border: 1px solid #00aaff; border-radius: 6px; color: white; text-align: center;">
                 <h5 style="margin: 0;">Contact</h5>
               </div>
             </a>
-
             <a href="{{ 'Portfolio/cv/' | relative_url }}" style="flex: 0 1 auto; text-decoration: none;">
               <div style="min-width: 100px; padding: 0.5em; background: rgba(0,0,0,0.3); border: 1px solid #00aaff; border-radius: 6px; color: white; text-align: center;">
                 <h5 style="margin: 0;">CV</h5>
               </div>
             </a>
-
           </div>
         </nav>
 
@@ -214,6 +281,7 @@
           {{ content }}
         </div>
 
+        <!-- 3. RIGHT SIDEBAR JUMP NAVIGATION -->
         <div class="project-nav" style="width: 240px; flex-shrink: 0;">
           <h3 style="margin-bottom: 0.5em; color: white;">Jump to Project</h3>
           <!-- Project navigation buttons populated here -->
@@ -228,5 +296,21 @@
     </div>
     
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
+
+    <!-- HIDE TOP BAR ON SCROLL DOWN, SHOW ON SCROLL UP -->
+    <script>
+      let lastScrollY = window.scrollY;
+      const topNav = document.querySelector('.top-nav');
+
+      window.addEventListener('scroll', () => {
+        if (!topNav) return;
+        if (window.scrollY > lastScrollY && window.scrollY > 100) {
+          topNav.classList.add('hide'); // scrolling down
+        } else {
+          topNav.classList.remove('hide'); // scrolling up
+        }
+        lastScrollY = window.scrollY;
+      });
+    </script>
   </body>
 </html>
