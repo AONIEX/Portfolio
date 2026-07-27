@@ -200,9 +200,7 @@ permalink: /Portfolio/honours/
 - Finally, I cleaned up the parameter interface, grouping related controls and exposing only the values that were genuinely useful, making the system easier to tweak and more intuitive to use.
 
 
-</br>
-
-
+<br>
 
 
 ## ✅ Results & Evaluation
@@ -223,9 +221,7 @@ permalink: /Portfolio/honours/
 - Shadergraph
 - In engine degugging tools
 
-## Screeshots Of The Latest Version
-
-
+## Screenshots Of The Latest Version
 
 <style>
 .image-grid {
@@ -234,40 +230,29 @@ permalink: /Portfolio/honours/
   gap: 15px;
 }
 
-/* The wrapper defines the hover zone */
+/* Fixed container with clipped overflow */
 .img-wrap {
   position: relative;
   height: 200px;
-  overflow: visible;
+  overflow: hidden;
+  border-radius: 10px;
+  cursor: crosshair;
 }
 
-/* Thumbnail state */
+/* Image fills container naturally */
 .img-wrap img {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  border-radius: 10px;
-  transition: transform 0.4s ease, box-shadow 0.4s ease; /* slower zoom-out */
-  position: relative;
-  z-index: 1;
-  pointer-events: none; /* prevents flicker */
+  transition: transform 0.2s ease-out;
+  transform-origin: center center;
+  pointer-events: none; /* Mouse movements pass directly to wrapper */
 }
 
-/* Hover state */
+/* Zoom inside box on hover */
 .img-wrap:hover img {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%) scale(1.4); /* controlled zoom */
-  width: 260px;        /* max hover width */
-  height: auto;
-  max-height: 260px;   /* cap height */
-  object-fit: contain;
-  z-index: 10;
-  box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+  transform: scale(2.2);
 }
-
-
 </style>
 
 <div class="image-grid">
@@ -284,6 +269,25 @@ permalink: /Portfolio/honours/
     <img src="{{ '/Assets/sword4.png' | relative_url }}" alt="Sword 4">
   </div>
 </div>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  document.querySelectorAll('.img-wrap').forEach(wrap => {
+    wrap.addEventListener('mousemove', (e) => {
+      const rect = wrap.getBoundingClientRect();
+      const x = ((e.clientX - rect.left) / rect.width) * 100;
+      const y = ((e.clientY - rect.top) / rect.height) * 100;
+      const img = wrap.querySelector('img');
+      img.style.transformOrigin = `${x}% ${y}%`;
+    });
+
+    wrap.addEventListener('mouseleave', () => {
+      const img = wrap.querySelector('img');
+      img.style.transformOrigin = 'center center';
+    });
+  });
+});
+</script>
 
 <div style="margin-top: 20px;"></div>
 
@@ -302,7 +306,6 @@ permalink: /Portfolio/honours/
 
 
 [View my PDF](Assets/Dissertation.pdf)
-
 
 
 <hr style="all: unset; display: block; height: 6px; background-color: #00aaff; margin: 2em 0;">
