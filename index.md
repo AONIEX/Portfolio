@@ -5,81 +5,81 @@ tags: ["C++", "C#", "Unity", "UE5"]
 
 ongoing:
   - title: "Honours Project"
-    description: "3D Sword Procedural Generation, creating historically accurate and visually appealing swords"
-    details: "Exploration of algorithms for generating historically accurate blade profiles, crossguards, and hilts in real time."
+    description: "3D Sword Procedural Generation creating historically accurate and visually appealing weapons."
+    details: "Exploration of procedural generation algorithms in real time to generate historically accurate blade profiles, crossguards, grips, and hilts in 3D."
     image: "Assets/sword2.png"
     link: "Portfolio/honours/"
     tags: ["C++", "Procedural Generation", "Unity", "3D Graphics"]
 
 featured:
-  - title: "Synaptic"
-    description: "My 3rd year professional project, later showcased at Abertay's Dare Academy."
-    details: "A team-developed Unreal Engine 5 title focused on gameplay mechanics, custom C++ systems, and optimization."
+  - title: "Synaptic (Dare Academy Finalist)"
+    description: "A 3rd-year team project in Unreal Engine 5, selected as a finalist for Abertay's Dare Academy."
+    details: "As Weapons, UI & Accessibility Programmer, implemented custom C++ weapon mechanics (finger guns, mesh-slicing scissors, chatter gravity gun), UI, aim assist, motion sickness mode, full controller support, and animation systems."
     image: "https://github.com/user-attachments/assets/a12b8fc3-fe75-453e-8ef8-0454fba62356"
     link: "Portfolio/projects/#Dare_Academy"
-    tags: ["C#", "UE5", "Dare Academy", "Group Project"]
+    tags: ["C++", "Blueprints", "UE5", "Dare Academy", "Group Project"]
 
   - title: "Ba Ba BANG! Sheep"
-    description: "A first-year project grown into a mobile game, refined each summer."
-    details: "An arcade-style mobile title built in Unity featuring touch controls, score tracking, and performance passes for Android."
+    description: "An infinite procedural arcade platformer built in Unity (C#) for Mobile and PC."
+    details: "Features an infinitely generated procedural level, mobile touch controls, aspect ratio scaling, object pooling, and parent/child inheritance structures for enemy behaviors."
     image: "https://github.com/user-attachments/assets/c6ad0947-6c5b-4b3f-bbf7-5a3c4aef396c"
     link: "Portfolio/projects/#BaBaBANGSheep"
-    tags: ["C#", "Unity", "Mobile", "Android"]
+    tags: ["C#", "Unity", "Mobile", "Android", "Procedural Generation"]
 
-  - title: "Mesh Slicing"
-    description: "A 3rd Year Game Mechanics project where I built a mesh slicing system in C++."
-    details: "Built runtime plane-mesh intersection algorithms to dynamically recalculate vertices, UV coordinates, and caps."
+  - title: "Mesh Cutting"
+    description: "A 3rd-year C++ project in Unreal Engine 5 focused on runtime procedural mesh cutting."
+    details: "Uses ray tracing to calculate cut locations and dynamically slice procedural meshes into separate chunks at runtime, recalculating collision bounds, physics, and center of mass for each slice."
     image: "Assets/MeshCuttingOne.gif"
     link: "Portfolio/projects/#Mesh_Cutting"
-    tags: ["C++", "Algorithms", "3D Geometry", "UE5"]
+    tags: ["C++", "UE5", "Ray Tracing", "Procedural Mesh"]
 
   - title: "AI Evolution Simulation"
-    description: "An AI simulation where creatures mutate and adapt to survive by seeking food and water."
-    details: "Utilizes genetic algorithms to pass traits down across generations based on survival efficiency and resource gathering."
+    description: "A Unity (C#) simulation using Genetic Algorithms where creatures mutate and evolve to survive."
+    details: "Implements crossover, mutation, and fitness scoring based on hunger/thirst. Includes custom UI sliders for population/food parameters and outputs survival data to text files for performance logging."
     image: "Assets/AI_Mutation.gif"
     link: "Portfolio/projects/#AI_Mutation"
-    tags: ["C#", "AI / Mutation", "Unity", "Simulation"]
+    tags: ["C#", "Unity", "AI / Genetic Algorithms", "Simulation"]
 
 game_jams:
   - title: "Blue"
-    description: "A Game Jam project exploring mood and atmosphere through minimalist design."
-    details: "Developed within a 48-hour deadline focusing on lighting, atmospheric audio, and minimalist player interactions."
+    description: "A Speed Jam #5 project focusing on lighting, atmosphere, and minimal drag-and-click controls."
+    details: "Created solo for Speed Jam #5. Focused on dynamic lighting, ambience, and simplified single-input controls to explore atmospheric visuals and audio design."
     image: "https://github.com/user-attachments/assets/0e8de0a7-45ea-4af8-afe3-82b733398430"
     link: "Portfolio/projects/#GameJams"
-    tags: ["C#", "Unity", "Game Jam"]
+    tags: ["C#", "Unity", "Game Jam", "Solo"]
 
   - title: "The Reapers Garden"
-    description: "“An endless wave survival game set in a Reaper’s garden.”"
-    details: "Fast-paced wave survival mechanics featuring custom enemy AI paths, weapon upgrades, and score tracking."
+    description: "A 2-color black & white wave survival game built in Unity (C#)."
+    details: "A strict 2-color wave survival game where players collect souls to regrow the Reaper's garden while battling escalating waves of enemies."
     image: "https://github.com/user-attachments/assets/b0b8752e-ca1d-40f0-bad4-d977ccefe3e4"
     link: "Portfolio/projects/#GameJams"
-    tags: ["C#", "Unity", "Game Jam"]
+    tags: ["C#", "Unity", "Game Jam", "Solo"]
 
   - title: "Skuffed"
-    description: "A fast-paced game with chaotic mechanics, playful energy, and controlling your opponents arms."
-    details: "Local multiplayer game incorporating physics-based limb movement and ragdoll interactions."
+    description: "A 2-player local physics game where players control their opponent's arms and their own legs."
+    details: "Developed during 3rd year in a team mentoring 1st-year students. Utilizes Unity rigid-body physics to create chaotic limb controls and ragdoll racing mechanics."
     image: "https://github.com/user-attachments/assets/6a611d58-fec7-4d5f-9831-1fe0a31d31ba"
     link: "Portfolio/projects/#GameJams"
-    tags: ["C#", "Unity", "Co-op"]
+    tags: ["C#", "Unity", "Co-op", "Physics"]
 
   - title: "Fire Breathing Space Corgi"
-    description: "A whimsical jam game featuring a corgi with cosmic powers."
-    details: "A 2D arcade shooter made for a weekend game jam featuring custom particle effects and floating physics."
+    description: "A team game jam project featuring state-machine-driven enemy AI."
+    details: "Focused on core player movement and flexible finite state machines for enemy AI, enabling dynamic state transitions between movement, multi-type attacks, and death."
     image: "Assets/Corgi.png"
     link: "Portfolio/projects/#GameJams"
-    tags: ["C#", "Unity", "2D Arcade"]
+    tags: ["C#", "Unity", "Game Jam", "AI State Machine"]
 ---
 
 <div style="text-align:center; padding:1.5em 0; color:#004466;">
   <h1 style="font-size:2em; margin-bottom:0.3em;">Hi, I'm Alex</h1>
   <p style="font-size:1em; max-width:450px; margin:auto;">
-    Games Programmer • Dare Academy Finalist (2025) • 4th Year at Abertay University
+    Games Programmer • Dare Academy Finalist • 4th Year at Abertay University
   </p>
 </div>
 
 <hr style="all: unset; display: block; height: 6px; background-color: #00aaff; margin: 2em 0;">
 
-## On Going Projects
+## Ongoing Projects
 
 {% for project in page.ongoing %}
 <div style="display:flex; align-items:flex-start; gap:1em; margin-bottom:1.5em; padding:0.8em; border:2px solid #00aaff; border-radius:12px; background:transparent; color:#004466;">
@@ -178,7 +178,7 @@ game_jams:
 </div>
 {% endfor %}
 
-Explore more on the [Projects Page]({{ '/projects' | relative_url }}) or directly on itch.io:
+Explore more on the [Projects Page]({{ '/Portfolio/projects/' | relative_url }}) or directly on itch.io:
 
 - [Bong](https://alex-onions.itch.io/bong)  
 - [Magnus's Library](https://alex-onions.itch.io/magnuss-libary)  
