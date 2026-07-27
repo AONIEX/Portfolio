@@ -230,26 +230,37 @@ permalink: /Portfolio/honours/
   gap: 15px;
 }
 
-/* Fixed container with clipped overflow */
+/* Base image container */
 .img-wrap {
   position: relative;
-  height: 200px;
+  height: 220px;
   overflow: hidden;
   border-radius: 10px;
   cursor: crosshair;
+  background: rgba(0, 0, 0, 0.25); /* Sleek backdrop for uncropped aspect ratio */
+  border: 1px solid rgba(0, 170, 255, 0.2);
 }
 
-/* Image fills container naturally */
+/* Modifier class for the large full-width banner image */
+.img-wrap.img-wrap-large {
+  height: 380px;
+  width: 100%;
+  margin-top: 20px;
+}
+
+/* Fits entire sword without squishing or clipping */
 .img-wrap img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain; /* Keeps full aspect ratio */
+  padding: 8px; /* Breathing room around the blade edges */
+  box-sizing: border-box;
   transition: transform 0.2s ease-out;
   transform-origin: center center;
-  pointer-events: none; /* Mouse movements pass directly to wrapper */
+  pointer-events: none;
 }
 
-/* Zoom inside box on hover */
+/* Zoom effect */
 .img-wrap:hover img {
   transform: scale(2.2);
 }
@@ -270,8 +281,14 @@ permalink: /Portfolio/honours/
   </div>
 </div>
 
+<!-- Big Image with mouse-follow zoom enabled -->
+<div class="img-wrap img-wrap-large">
+  <img src="{{ '/Assets/sword1.png' | relative_url }}" alt="Array Of Swords">
+</div>
+
 <script>
 document.addEventListener("DOMContentLoaded", function () {
+  // Automatically attaches cursor tracking to both grid images and the big image
   document.querySelectorAll('.img-wrap').forEach(wrap => {
     wrap.addEventListener('mousemove', (e) => {
       const rect = wrap.getBoundingClientRect();
@@ -288,10 +305,6 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 </script>
-
-<div style="margin-top: 20px;"></div>
-
-![Array Of Swords](/Assets/sword1.png)
 
 ## Downloads & Links
 
