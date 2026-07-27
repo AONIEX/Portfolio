@@ -2,6 +2,56 @@
 layout: default
 title: Home
 tags: ["C++", "C#", "Unity", "UE5"]
+ongoing:
+  - title: "Honours Project"
+    description: "3D Sword Procedural Generation, creating historically accurate and visually appealing swords"
+    image: "Assets/sword2.png"
+    link: "Portfolio/honours/"
+    tags: ["C++", "Procedural Generation", "Unity", "3D Graphics"]
+
+featured:
+  - title: "Synaptic"
+    description: "My 3rd year professional project, later showcased at Abertay's Dare Academy."
+    image: "https://github.com/user-attachments/assets/a12b8fc3-fe75-453e-8ef8-0454fba62356"
+    link: "Portfolio/projects/#Dare_Academy"
+    tags: ["C#", "UE5", "Dare Academy", "Group Project"]
+  - title: "Ba Ba BANG! Sheep"
+    description: "A first-year project grown into a mobile game, refined each summer."
+    image: "https://github.com/user-attachments/assets/c6ad0947-6c5b-4b3f-bbf7-5a3c4aef396c"
+    link: "Portfolio/projects/#BaBaBANGSheep"
+    tags: ["C#", "Unity", "Mobile", "Android"]
+  - title: "Mesh Slicing"
+    description: "A 3rd Year Game Mechanics project where I built a mesh slicing system in C++."
+    image: "Assets/MeshCuttingOne.gif"
+    link: "Portfolio/projects/#Mesh_Cutting"
+    tags: ["C++", "Algorithms", "3D Geometry", "UE5"]
+  - title: "AI Evolution Simulation"
+    description: "An AI simulation where creatures mutate and adapt to survive by seeking food and water."
+    image: "Assets/AI_Mutation.gif"
+    link: "Portfolio/projects/#AI_Mutation"
+    tags: ["C#", "AI / Mutation", "Unity", "Simulation"]
+
+game_jams:
+  - title: "Blue"
+    description: "A Game Jam project exploring mood and atmosphere through minimalist design."
+    image: "https://github.com/user-attachments/assets/0e8de0a7-45ea-4af8-afe3-82b733398430"
+    link: "Portfolio/projects/#GameJams"
+    tags: ["C#", "Unity", "Game Jam"]
+  - title: "The Reapers Garden"
+    description: "“An endless wave survival game set in a Reaper’s garden.”"
+    image: "https://github.com/user-attachments/assets/b0b8752e-ca1d-40f0-bad4-d977ccefe3e4"
+    link: "Portfolio/projects/#GameJams"
+    tags: ["C#", "Unity", "Game Jam"]
+  - title: "Skuffed"
+    description: "A fast-paced game with chaotic mechanics, playful energy, and controlling your opponents arms."
+    image: "https://github.com/user-attachments/assets/6a611d58-fec7-4d5f-9831-1fe0a31d31ba"
+    link: "Portfolio/projects/#GameJams"
+    tags: ["C#", "Unity", "Co-op"]
+  - title: "Fire Breathing Space Corgi"
+    description: "A whimsical jam game featuring a corgi with cosmic powers."
+    image: "Assets/Corgi.png"
+    link: "Portfolio/projects/#GameJams"
+    tags: ["C#", "Unity", "2D Arcade"]
 ---
 
 <div style="text-align:center; padding:1.5em 0; color:#004466;">
@@ -15,249 +65,59 @@ tags: ["C++", "C#", "Unity", "UE5"]
 
 ## On Going Projects
 
+{% for project in page.ongoing %}
 <div style="display:flex; align-items:center; gap:1em; margin-bottom:1.5em; padding:0.8em; border:2px solid #00aaff; border-radius:12px; background:transparent; color:#004466;">
-
-  <img src="Assets/sword2.png" 
-       alt="Swords" 
-       style="width:160px; height:auto; border-radius:8px;">
-
+  <img src="{% if project.image contains '://' %}{{ project.image }}{% else %}{{ project.image | relative_url }}{% endif %}" alt="{{ project.title }}" style="width:160px; height:auto; border-radius:8px;">
   <div style="flex:1; text-align:left;">
-    <h3 style="margin-top:0;">Honours Project</h3>
-    <p style="margin:0.5em 0;">3D Sword Procedural Generation, creating historically accurate and visually appealing swords</p>
-    
-    <a href="{{ 'Portfolio/honours/' | relative_url }}" 
-       style="display:inline-block; margin-top:0.3em; padding:0.5em 1em; background:#00aaff; color:#fff; border-radius:6px; text-decoration:none; font-weight:bold;">
-       See More
-    </a>
-
-    <!-- Tags -->
+    <h3 style="margin-top:0;">{{ project.title }}</h3>
+    <p style="margin:0.5em 0;">{{ project.description }}</p>
+    <a href="{{ project.link | relative_url }}" style="display:inline-block; margin-top:0.3em; padding:0.5em 1em; background:#00aaff; color:#fff; border-radius:6px; text-decoration:none; font-weight:bold;">See More</a>
     <div style="display:flex; flex-wrap:wrap; gap:0.4em; margin-top:0.8em;">
-      <span style="font-size:0.75em; background:rgba(0, 170, 255, 0.1); color:#00aaff; border:1px solid #00aaff; padding:0.2em 0.6em; border-radius:4px; font-weight:600;">C++</span>
-      <span style="font-size:0.75em; background:rgba(0, 170, 255, 0.1); color:#00aaff; border:1px solid #00aaff; padding:0.2em 0.6em; border-radius:4px; font-weight:600;">Procedural Generation</span>
-     <span style="font-size:0.75em; background:rgba(0, 170, 255, 0.1); color:#00aaff; border:1px solid #00aaff; padding:0.2em 0.6em; border-radius:4px; font-weight:600;"> Unity</span>
-      <span style="font-size:0.75em; background:rgba(0, 170, 255, 0.1); color:#00aaff; border:1px solid #00aaff; padding:0.2em 0.6em; border-radius:4px; font-weight:600;">3D Graphics</span>
+      {% for tag in project.tags %}
+        <span style="font-size:0.75em; background:rgba(0, 170, 255, 0.1); color:#00aaff; border:1px solid #00aaff; padding:0.2em 0.6em; border-radius:4px; font-weight:600;">{{ tag }}</span>
+      {% endfor %}
     </div>
   </div>
-
 </div>
-
+{% endfor %}
 
 ## Featured Projects
 
+{% for project in page.featured %}
 <div style="display:flex; align-items:center; gap:1em; margin-bottom:1.5em; padding:0.8em; border:2px solid #00aaff; border-radius:12px; background:transparent; color:#004466;">
-
-  <img src="https://github.com/user-attachments/assets/a12b8fc3-fe75-453e-8ef8-0454fba62356" 
-       alt="Synaptic" 
-       style="width:160px; height:auto; border-radius:8px;">
-
+  <img src="{% if project.image contains '://' %}{{ project.image }}{% else %}{{ project.image | relative_url }}{% endif %}" alt="{{ project.title }}" style="width:160px; height:auto; border-radius:8px;">
   <div style="flex:1; text-align:left;">
-    <h3 style="margin-top:0;">Synaptic</h3>
-    <p style="margin:0.5em 0;">My 3rd year professional project, later showcased at Abertay's Dare Academy.</p>
-    
-    <a href="{{ 'Portfolio/projects/#Dare_Academy' | relative_url }}" 
-       style="display:inline-block; margin-top:0.3em; padding:0.5em 1em; background:#00aaff; color:#fff; border-radius:6px; text-decoration:none; font-weight:bold;">
-       See More
-    </a>
-
-    <!-- Tags -->
+    <h3 style="margin-top:0;">{{ project.title }}</h3>
+    <p style="margin:0.5em 0;">{{ project.description }}</p>
+    <a href="{{ project.link | relative_url }}" style="display:inline-block; margin-top:0.3em; padding:0.5em 1em; background:#00aaff; color:#fff; border-radius:6px; text-decoration:none; font-weight:bold;">See More</a>
     <div style="display:flex; flex-wrap:wrap; gap:0.4em; margin-top:0.8em;">
-      <span style="font-size:0.75em; background:rgba(0, 170, 255, 0.1); color:#00aaff; border:1px solid #00aaff; padding:0.2em 0.6em; border-radius:4px; font-weight:600;">C#</span>
-      <span style="font-size:0.75em; background:rgba(0, 170, 255, 0.1); color:#00aaff; border:1px solid #00aaff; padding:0.2em 0.6em; border-radius:4px; font-weight:600;">UE5</span>
-      <span style="font-size:0.75em; background:rgba(0, 170, 255, 0.1); color:#00aaff; border:1px solid #00aaff; padding:0.2em 0.6em; border-radius:4px; font-weight:600;">Dare Academy</span>
-         <span style="font-size:0.75em; background:rgba(0, 170, 255, 0.1); color:#00aaff; border:1px solid #00aaff; padding:0.2em 0.6em; border-radius:4px; font-weight:600;">Group Project</span>
+      {% for tag in project.tags %}
+        <span style="font-size:0.75em; background:rgba(0, 170, 255, 0.1); color:#00aaff; border:1px solid #00aaff; padding:0.2em 0.6em; border-radius:4px; font-weight:600;">{{ tag }}</span>
+      {% endfor %}
     </div>
   </div>
-
 </div>
-
-
-<div style="display:flex; align-items:center; gap:1em; margin-bottom:1.5em; padding:0.8em; border:2px solid #00aaff; border-radius:12px; background:transparent; color:#004466;">
-
-  <img src="https://github.com/user-attachments/assets/c6ad0947-6c5b-4b3f-bbf7-5a3c4aef396c" 
-       alt="Ba Ba BANG! Sheep" 
-       style="width:160px; height:auto; border-radius:8px;">
-
-  <div style="flex:1; text-align:left;">
-    <h3 style="margin-top:0;">Ba Ba BANG! Sheep</h3>
-    <p style="margin:0.5em 0;">A first-year project grown into a mobile game, refined each summer.</p>
-    
-    <a href="{{ 'Portfolio/projects/#BaBaBANGSheep' | relative_url }}" 
-       style="display:inline-block; margin-top:0.3em; padding:0.5em 1em; background:#00aaff; color:#fff; border-radius:6px; text-decoration:none; font-weight:bold;">
-       See More
-    </a>
-
-    <!-- Tags -->
-    <div style="display:flex; flex-wrap:wrap; gap:0.4em; margin-top:0.8em;">
-      <span style="font-size:0.75em; background:rgba(0, 170, 255, 0.1); color:#00aaff; border:1px solid #00aaff; padding:0.2em 0.6em; border-radius:4px; font-weight:600;">C#</span>
-      <span style="font-size:0.75em; background:rgba(0, 170, 255, 0.1); color:#00aaff; border:1px solid #00aaff; padding:0.2em 0.6em; border-radius:4px; font-weight:600;">Unity</span>
-      <span style="font-size:0.75em; background:rgba(0, 170, 255, 0.1); color:#00aaff; border:1px solid #00aaff; padding:0.2em 0.6em; border-radius:4px; font-weight:600;">Mobile</span>
-      <span style="font-size:0.75em; background:rgba(0, 170, 255, 0.1); color:#00aaff; border:1px solid #00aaff; padding:0.2em 0.6em; border-radius:4px; font-weight:600;">Android</span>
-    </div>
-  </div>
-
-</div>
-
-<div style="display:flex; align-items:center; gap:1em; margin-bottom:1.5em; padding:0.8em; border:2px solid #00aaff; border-radius:12px; background:transparent; color:#004466;">
-
-  <img src="Assets/MeshCuttingOne.gif" 
-       alt="Mesh Slicing Project" 
-       style="width:160px; height:auto; border-radius:8px;">
-
-  <div style="flex:1; text-align:left;">
-    <h3 style="margin-top:0;">Mesh Slicing</h3>
-    <p style="margin:0.5em 0;">A 3rd Year Game Mechanics project where I built a mesh slicing system in C++.</p>
-    
-    <a href="{{ 'Portfolio/projects/#Mesh_Cutting' | relative_url }}" 
-       style="display:inline-block; margin-top:0.3em; padding:0.5em 1em; background:#00aaff; color:#fff; border-radius:6px; text-decoration:none; font-weight:bold;">
-       See More
-    </a>
-
-    <!-- Tags -->
-    <div style="display:flex; flex-wrap:wrap; gap:0.4em; margin-top:0.8em;">
-      <span style="font-size:0.75em; background:rgba(0, 170, 255, 0.1); color:#00aaff; border:1px solid #00aaff; padding:0.2em 0.6em; border-radius:4px; font-weight:600;">C++</span>
-      <span style="font-size:0.75em; background:rgba(0, 170, 255, 0.1); color:#00aaff; border:1px solid #00aaff; padding:0.2em 0.6em; border-radius:4px; font-weight:600;">Algorithms</span>
-      <span style="font-size:0.75em; background:rgba(0, 170, 255, 0.1); color:#00aaff; border:1px solid #00aaff; padding:0.2em 0.6em; border-radius:4px; font-weight:600;">3D Geometry</span>
-      <span style="font-size:0.75em; background:rgba(0, 170, 255, 0.1); color:#00aaff; border:1px solid #00aaff; padding:0.2em 0.6em; border-radius:4px; font-weight:600;">UE5</span>
-    </div>
-  </div>
-
-</div>
-
-<div style="display:flex; align-items:center; gap:1em; margin-bottom:1.5em; padding:0.8em; border:2px solid #00aaff; border-radius:12px; background:transparent; color:#004466;">
-
-  <img src="Assets/AI_Mutation.gif" 
-       alt="AI Project Thumbnail" 
-       style="width:160px; height:auto; border-radius:8px;">
-
-  <div style="flex:1; text-align:left;">
-    <h3 style="margin-top:0;">AI Evolution Simulation</h3>
-    <p style="margin:0.5em 0;">
-      An AI simulation where creatures mutate and adapt to survive by seeking food and water.
-    </p>
-    
-    <a href="{{ 'Portfolio/projects/#AI_Mutation' | relative_url }}"
-       style="display:inline-block; margin-top:0.3em; padding:0.5em 1em; background:#00aaff; color:#fff; border-radius:6px; text-decoration:none; font-weight:bold;">
-       See More
-    </a>
-
-    <!-- Tags -->
-    <div style="display:flex; flex-wrap:wrap; gap:0.4em; margin-top:0.8em;">
-      <span style="font-size:0.75em; background:rgba(0, 170, 255, 0.1); color:#00aaff; border:1px solid #00aaff; padding:0.2em 0.6em; border-radius:4px; font-weight:600;">C#span>
-      <span style="font-size:0.75em; background:rgba(0, 170, 255, 0.1); color:#00aaff; border:1px solid #00aaff; padding:0.2em 0.6em; border-radius:4px; font-weight:600;">AI / Mutation</span>
-       <span style="font-size:0.75em; background:rgba(0, 170, 255, 0.1); color:#00aaff; border:1px solid #00aaff; padding:0.2em 0.6em; border-radius:4px; font-weight:600;">Unity</span>
-      <span style="font-size:0.75em; background:rgba(0, 170, 255, 0.1); color:#00aaff; border:1px solid #00aaff; padding:0.2em 0.6em; border-radius:4px; font-weight:600;">Simulation</span>
-    </div>
-  </div>
-
-</div>
-
+{% endfor %}
 
 ## Game Jam Projects
 
+{% for project in page.game_jams %}
 <div style="display:flex; align-items:center; gap:1em; margin-bottom:1.5em; padding:0.8em; border:2px solid #00aaff; border-radius:12px; background:transparent; color:#004466;">
-
-  <img src="https://github.com/user-attachments/assets/0e8de0a7-45ea-4af8-afe3-82b733398430" 
-       alt="Blue" 
-       style="width:160px; height:auto; border-radius:8px;">
-
+  <img src="{% if project.image contains '://' %}{{ project.image }}{% else %}{{ project.image | relative_url }}{% endif %}" alt="{{ project.title }}" style="width:160px; height:auto; border-radius:8px;">
   <div style="flex:1; text-align:left;">
-    <h3 style="margin-top:0;">Blue</h3>
-    <p style="margin:0.5em 0;">A Game Jam project exploring mood and atmosphere through minimalist design.</p>
-    
-    <a href="{{ 'Portfolio/projects/#GameJams' | relative_url }}" 
-       style="display:inline-block; margin-top:0.3em; padding:0.5em 1em; background:#00aaff; color:#fff; border-radius:6px; text-decoration:none; font-weight:bold;">
-       See More
-    </a>
-
-    <!-- Tags -->
+    <h3 style="margin-top:0;">{{ project.title }}</h3>
+    <p style="margin:0.5em 0;">{{ project.description }}</p>
+    <a href="{{ project.link | relative_url }}" style="display:inline-block; margin-top:0.3em; padding:0.5em 1em; background:#00aaff; color:#fff; border-radius:6px; text-decoration:none; font-weight:bold;">See More</a>
     <div style="display:flex; flex-wrap:wrap; gap:0.4em; margin-top:0.8em;">
-      <span style="font-size:0.75em; background:rgba(0, 170, 255, 0.1); color:#00aaff; border:1px solid #00aaff; padding:0.2em 0.6em; border-radius:4px; font-weight:600;">C#</span>
-      <span style="font-size:0.75em; background:rgba(0, 170, 255, 0.1); color:#00aaff; border:1px solid #00aaff; padding:0.2em 0.6em; border-radius:4px; font-weight:600;">Unity</span>
-      <span style="font-size:0.75em; background:rgba(0, 170, 255, 0.1); color:#00aaff; border:1px solid #00aaff; padding:0.2em 0.6em; border-radius:4px; font-weight:600;">Game Jam</span>
+      {% for tag in project.tags %}
+        <span style="font-size:0.75em; background:rgba(0, 170, 255, 0.1); color:#00aaff; border:1px solid #00aaff; padding:0.2em 0.6em; border-radius:4px; font-weight:600;">{{ tag }}</span>
+      {% endfor %}
     </div>
   </div>
-
 </div>
+{% endfor %}
 
-
-<div style="display:flex; align-items:center; gap:1em; margin-bottom:1.5em; padding:0.8em; border:2px solid #00aaff; border-radius:12px; background:transparent; color:#004466;">
-
-  <img src="https://github.com/user-attachments/assets/b0b8752e-ca1d-40f0-bad4-d977ccefe3e4" 
-       alt="The Reapers Garden" 
-       style="width:160px; height:auto; border-radius:8px;">
-
-  <div style="flex:1; text-align:left;">
-    <h3 style="margin-top:0;">The Reapers Garden</h3>
-    <p style="margin:0.5em 0;">“An endless wave survival game set in a Reaper’s garden.”</p>
-    
-    <a href="{{ 'Portfolio/projects/#GameJams' | relative_url }}" 
-       style="display:inline-block; margin-top:0.3em; padding:0.5em 1em; background:#00aaff; color:#fff; border-radius:6px; text-decoration:none; font-weight:bold;">
-       See More
-    </a>
-
-    <!-- Tags -->
-    <div style="display:flex; flex-wrap:wrap; gap:0.4em; margin-top:0.8em;">
-      <span style="font-size:0.75em; background:rgba(0, 170, 255, 0.1); color:#00aaff; border:1px solid #00aaff; padding:0.2em 0.6em; border-radius:4px; font-weight:600;">C#</span>
-      <span style="font-size:0.75em; background:rgba(0, 170, 255, 0.1); color:#00aaff; border:1px solid #00aaff; padding:0.2em 0.6em; border-radius:4px; font-weight:600;">Unity</span>
-      <span style="font-size:0.75em; background:rgba(0, 170, 255, 0.1); color:#00aaff; border:1px solid #00aaff; padding:0.2em 0.6em; border-radius:4px; font-weight:600;">Game Jam</span>
-    </div>
-  </div>
-
-</div>
-
-
-<div style="display:flex; align-items:center; gap:1em; margin-bottom:1.5em; padding:0.8em; border:2px solid #00aaff; border-radius:12px; background:transparent; color:#004466;">
-
-  <img src="https://github.com/user-attachments/assets/6a611d58-fec7-4d5f-9831-1fe0a31d31ba" 
-       alt="Skuffed" 
-       style="width:160px; height:auto; border-radius:8px;">
-
-  <div style="flex:1; text-align:left;">
-    <h3 style="margin-top:0;">Skuffed</h3>
-    <p style="margin:0.5em 0;">A fast-paced game with chaotic mechanics, playful energy, and controlling your opponents arms.</p>
-    
-    <a href="{{ 'Portfolio/projects/#GameJams' | relative_url }}" 
-       style="display:inline-block; margin-top:0.3em; padding:0.5em 1em; background:#00aaff; color:#fff; border-radius:6px; text-decoration:none; font-weight:bold;">
-       See More
-    </a>
-
-    <!-- Tags -->
-    <div style="display:flex; flex-wrap:wrap; gap:0.4em; margin-top:0.8em;">
-      <span style="font-size:0.75em; background:rgba(0, 170, 255, 0.1); color:#00aaff; border:1px solid #00aaff; padding:0.2em 0.6em; border-radius:4px; font-weight:600;">C#</span>
-      <span style="font-size:0.75em; background:rgba(0, 170, 255, 0.1); color:#00aaff; border:1px solid #00aaff; padding:0.2em 0.6em; border-radius:4px; font-weight:600;">Unity</span>
-      <span style="font-size:0.75em; background:rgba(0, 170, 255, 0.1); color:#00aaff; border:1px solid #00aaff; padding:0.2em 0.6em; border-radius:4px; font-weight:600;">Co-op</span>
-    </div>
-  </div>
-
-</div>
-
-
-<div style="display:flex; align-items:center; gap:1em; margin-bottom:1.5em; padding:0.8em; border:2px solid #00aaff; border-radius:12px; background:transparent; color:#004466;">
-
-  <img src="Assets/Corgi.png" 
-       alt="Fire Breathing Space Corgi" 
-       style="width:160px; height:auto; border-radius:8px;">
-
-  <div style="flex:1; text-align:left;">
-    <h3 style="margin-top:0;">Fire Breathing Space Corgi</h3>
-    <p style="margin:0.5em 0;">A whimsical jam game featuring a corgi with cosmic powers.</p>
-    
-    <a href="{{ 'Portfolio/projects/#GameJams' | relative_url }}" 
-       style="display:inline-block; margin-top:0.3em; padding:0.5em 1em; background:#00aaff; color:#fff; border-radius:6px; text-decoration:none; font-weight:bold;">
-       See More
-    </a>
-
-    <!-- Tags -->
-    <div style="display:flex; flex-wrap:wrap; gap:0.4em; margin-top:0.8em;">
-      <span style="font-size:0.75em; background:rgba(0, 170, 255, 0.1); color:#00aaff; border:1px solid #00aaff; padding:0.2em 0.6em; border-radius:4px; font-weight:600;">C#</span>
-      <span style="font-size:0.75em; background:rgba(0, 170, 255, 0.1); color:#00aaff; border:1px solid #00aaff; padding:0.2em 0.6em; border-radius:4px; font-weight:600;">Unity</span>
-      <span style="font-size:0.75em; background:rgba(0, 170, 255, 0.1); color:#00aaff; border:1px solid #00aaff; padding:0.2em 0.6em; border-radius:4px; font-weight:600;">2D Arcade</span>
-    </div>
-  </div>
-
-</div>
-
-Explore more on the [Projects Page](/projects) or directly on itch.io:
+Explore more on the [Projects Page]({{ '/projects' | relative_url }}) or directly on itch.io:
 
 - [Bong](https://alex-onions.itch.io/bong)  
 - [Magnus's Library](https://alex-onions.itch.io/magnuss-libary)  
