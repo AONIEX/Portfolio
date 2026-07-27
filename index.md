@@ -25,17 +25,18 @@ tags: ["C++", "C#", "Unity", "UE5"]
     <h3 style="margin-top:0;">Honours Project</h3>
     <p style="margin:0.5em 0;">3D Sword Procedural Generation, creating historically accurate and visually appealing swords</p>
     
-    <!-- Tags -->
-    <div style="display:flex; flex-wrap:wrap; gap:0.4em; margin:0.6em 0;">
-      <span style="font-size:0.75em; background:rgba(0, 170, 255, 0.1); color:#004466; border:1px solid #00aaff; padding:0.2em 0.6em; border-radius:4px; font-weight:600;">C++</span>
-      <span style="font-size:0.75em; background:rgba(0, 170, 255, 0.1); color:#004466; border:1px solid #00aaff; padding:0.2em 0.6em; border-radius:4px; font-weight:600;">Procedural Generation</span>
-      <span style="font-size:0.75em; background:rgba(0, 170, 255, 0.1); color:#004466; border:1px solid #00aaff; padding:0.2em 0.6em; border-radius:4px; font-weight:600;">3D Graphics</span>
-    </div>
-
     <a href="{{ 'Portfolio/honours/' | relative_url }}" 
        style="display:inline-block; margin-top:0.3em; padding:0.5em 1em; background:#00aaff; color:#fff; border-radius:6px; text-decoration:none; font-weight:bold;">
        See More
     </a>
+
+    <!-- Tags -->
+    <div style="display:flex; flex-wrap:wrap; gap:0.4em; margin-top:0.8em;">
+      <span style="font-size:0.75em; background:rgba(0, 170, 255, 0.1); color:#00aaff; border:1px solid #00aaff; padding:0.2em 0.6em; border-radius:4px; font-weight:600;">C++</span>
+      <span style="font-size:0.75em; background:rgba(0, 170, 255, 0.1); color:#00aaff; border:1px solid #00aaff; padding:0.2em 0.6em; border-radius:4px; font-weight:600;">Procedural Generation</span>
+     <span style="font-size:0.75em; background:rgba(0, 170, 255, 0.1); color:#00aaff; border:1px solid #00aaff; padding:0.2em 0.6em; border-radius:4px; font-weight:600;"> Unity</span>
+      <span style="font-size:0.75em; background:rgba(0, 170, 255, 0.1); color:#00aaff; border:1px solid #00aaff; padding:0.2em 0.6em; border-radius:4px; font-weight:600;">3D Graphics</span>
+    </div>
   </div>
 
 </div>
@@ -53,17 +54,18 @@ tags: ["C++", "C#", "Unity", "UE5"]
     <h3 style="margin-top:0;">Synaptic</h3>
     <p style="margin:0.5em 0;">My 3rd year professional project, later showcased at Abertay's Dare Academy.</p>
     
-    <!-- Tags -->
-    <div style="display:flex; flex-wrap:wrap; gap:0.4em; margin:0.6em 0;">
-      <span style="font-size:0.75em; background:rgba(0, 170, 255, 0.1); color:#004466; border:1px solid #00aaff; padding:0.2em 0.6em; border-radius:4px; font-weight:600;">C#</span>
-      <span style="font-size:0.75em; background:rgba(0, 170, 255, 0.1); color:#004466; border:1px solid #00aaff; padding:0.2em 0.6em; border-radius:4px; font-weight:600;">Unity</span>
-      <span style="font-size:0.75em; background:rgba(0, 170, 255, 0.1); color:#004466; border:1px solid #00aaff; padding:0.2em 0.6em; border-radius:4px; font-weight:600;">Dare Academy</span>
-    </div>
-
     <a href="{{ 'Portfolio/projects/#Dare_Academy' | relative_url }}" 
        style="display:inline-block; margin-top:0.3em; padding:0.5em 1em; background:#00aaff; color:#fff; border-radius:6px; text-decoration:none; font-weight:bold;">
        See More
     </a>
+
+    <!-- Tags -->
+    <div style="display:flex; flex-wrap:wrap; gap:0.4em; margin-top:0.8em;">
+      <span style="font-size:0.75em; background:rgba(0, 170, 255, 0.1); color:#00aaff; border:1px solid #00aaff; padding:0.2em 0.6em; border-radius:4px; font-weight:600;">C#</span>
+      <span style="font-size:0.75em; background:rgba(0, 170, 255, 0.1); color:#00aaff; border:1px solid #00aaff; padding:0.2em 0.6em; border-radius:4px; font-weight:600;">UE5</span>
+      <span style="font-size:0.75em; background:rgba(0, 170, 255, 0.1); color:#00aaff; border:1px solid #00aaff; padding:0.2em 0.6em; border-radius:4px; font-weight:600;">Dare Academy</span>
+         <span style="font-size:0.75em; background:rgba(0, 170, 255, 0.1); color:#00aaff; border:1px solid #00aaff; padding:0.2em 0.6em; border-radius:4px; font-weight:600;">Group Project</span>
+    </div>
   </div>
 
 </div>
@@ -79,17 +81,18 @@ tags: ["C++", "C#", "Unity", "UE5"]
     <h3 style="margin-top:0;">Ba Ba BANG! Sheep</h3>
     <p style="margin:0.5em 0;">A first-year project grown into a mobile game, refined each summer.</p>
     
-    <!-- Tags -->
-    <div style="display:flex; flex-wrap:wrap; gap:0.4em; margin:0.6em 0;">
-      <span style="font-size:0.75em; background:rgba(0, 170, 255, 0.1); color:#004466; border:1px solid #00aaff; padding:0.2em 0.6em; border-radius:4px; font-weight:600;">C#</span>
-      <span style="font-size:0.75em; background:rgba(0, 170, 255, 0.1); color:#004466; border:1px solid #00aaff; padding:0.2em 0.6em; border-radius:4px; font-weight:600;">Unity</span>
-      <span style="font-size:0.75em; background:rgba(0, 170, 255, 0.1); color:#004466; border:1px solid #00aaff; padding:0.2em 0.6em; border-radius:4px; font-weight:600;">Mobile</span>
-    </div>
-
     <a href="{{ 'Portfolio/projects/#BaBaBANGSheep' | relative_url }}" 
        style="display:inline-block; margin-top:0.3em; padding:0.5em 1em; background:#00aaff; color:#fff; border-radius:6px; text-decoration:none; font-weight:bold;">
        See More
     </a>
+
+    <!-- Tags -->
+    <div style="display:flex; flex-wrap:wrap; gap:0.4em; margin-top:0.8em;">
+      <span style="font-size:0.75em; background:rgba(0, 170, 255, 0.1); color:#00aaff; border:1px solid #00aaff; padding:0.2em 0.6em; border-radius:4px; font-weight:600;">C#</span>
+      <span style="font-size:0.75em; background:rgba(0, 170, 255, 0.1); color:#00aaff; border:1px solid #00aaff; padding:0.2em 0.6em; border-radius:4px; font-weight:600;">Unity</span>
+      <span style="font-size:0.75em; background:rgba(0, 170, 255, 0.1); color:#00aaff; border:1px solid #00aaff; padding:0.2em 0.6em; border-radius:4px; font-weight:600;">Mobile</span>
+      <span style="font-size:0.75em; background:rgba(0, 170, 255, 0.1); color:#00aaff; border:1px solid #00aaff; padding:0.2em 0.6em; border-radius:4px; font-weight:600;">Android</span>
+    </div>
   </div>
 
 </div>
@@ -104,17 +107,18 @@ tags: ["C++", "C#", "Unity", "UE5"]
     <h3 style="margin-top:0;">Mesh Slicing</h3>
     <p style="margin:0.5em 0;">A 3rd Year Game Mechanics project where I built a mesh slicing system in C++.</p>
     
-    <!-- Tags -->
-    <div style="display:flex; flex-wrap:wrap; gap:0.4em; margin:0.6em 0;">
-      <span style="font-size:0.75em; background:rgba(0, 170, 255, 0.1); color:#004466; border:1px solid #00aaff; padding:0.2em 0.6em; border-radius:4px; font-weight:600;">C++</span>
-      <span style="font-size:0.75em; background:rgba(0, 170, 255, 0.1); color:#004466; border:1px solid #00aaff; padding:0.2em 0.6em; border-radius:4px; font-weight:600;">Algorithms</span>
-      <span style="font-size:0.75em; background:rgba(0, 170, 255, 0.1); color:#004466; border:1px solid #00aaff; padding:0.2em 0.6em; border-radius:4px; font-weight:600;">3D Geometry</span>
-    </div>
-
     <a href="{{ 'Portfolio/projects/#Mesh_Cutting' | relative_url }}" 
        style="display:inline-block; margin-top:0.3em; padding:0.5em 1em; background:#00aaff; color:#fff; border-radius:6px; text-decoration:none; font-weight:bold;">
        See More
     </a>
+
+    <!-- Tags -->
+    <div style="display:flex; flex-wrap:wrap; gap:0.4em; margin-top:0.8em;">
+      <span style="font-size:0.75em; background:rgba(0, 170, 255, 0.1); color:#00aaff; border:1px solid #00aaff; padding:0.2em 0.6em; border-radius:4px; font-weight:600;">C++</span>
+      <span style="font-size:0.75em; background:rgba(0, 170, 255, 0.1); color:#00aaff; border:1px solid #00aaff; padding:0.2em 0.6em; border-radius:4px; font-weight:600;">Algorithms</span>
+      <span style="font-size:0.75em; background:rgba(0, 170, 255, 0.1); color:#00aaff; border:1px solid #00aaff; padding:0.2em 0.6em; border-radius:4px; font-weight:600;">3D Geometry</span>
+      <span style="font-size:0.75em; background:rgba(0, 170, 255, 0.1); color:#00aaff; border:1px solid #00aaff; padding:0.2em 0.6em; border-radius:4px; font-weight:600;">UE5</span>
+    </div>
   </div>
 
 </div>
@@ -131,17 +135,18 @@ tags: ["C++", "C#", "Unity", "UE5"]
       An AI simulation where creatures mutate and adapt to survive by seeking food and water.
     </p>
     
-    <!-- Tags -->
-    <div style="display:flex; flex-wrap:wrap; gap:0.4em; margin:0.6em 0;">
-      <span style="font-size:0.75em; background:rgba(0, 170, 255, 0.1); color:#004466; border:1px solid #00aaff; padding:0.2em 0.6em; border-radius:4px; font-weight:600;">C++</span>
-      <span style="font-size:0.75em; background:rgba(0, 170, 255, 0.1); color:#004466; border:1px solid #00aaff; padding:0.2em 0.6em; border-radius:4px; font-weight:600;">AI / Mutation</span>
-      <span style="font-size:0.75em; background:rgba(0, 170, 255, 0.1); color:#004466; border:1px solid #00aaff; padding:0.2em 0.6em; border-radius:4px; font-weight:600;">Simulation</span>
-    </div>
-
     <a href="{{ 'Portfolio/projects/#AI_Mutation' | relative_url }}"
        style="display:inline-block; margin-top:0.3em; padding:0.5em 1em; background:#00aaff; color:#fff; border-radius:6px; text-decoration:none; font-weight:bold;">
        See More
     </a>
+
+    <!-- Tags -->
+    <div style="display:flex; flex-wrap:wrap; gap:0.4em; margin-top:0.8em;">
+      <span style="font-size:0.75em; background:rgba(0, 170, 255, 0.1); color:#00aaff; border:1px solid #00aaff; padding:0.2em 0.6em; border-radius:4px; font-weight:600;">C#span>
+      <span style="font-size:0.75em; background:rgba(0, 170, 255, 0.1); color:#00aaff; border:1px solid #00aaff; padding:0.2em 0.6em; border-radius:4px; font-weight:600;">AI / Mutation</span>
+       <span style="font-size:0.75em; background:rgba(0, 170, 255, 0.1); color:#00aaff; border:1px solid #00aaff; padding:0.2em 0.6em; border-radius:4px; font-weight:600;">Unity</span>
+      <span style="font-size:0.75em; background:rgba(0, 170, 255, 0.1); color:#00aaff; border:1px solid #00aaff; padding:0.2em 0.6em; border-radius:4px; font-weight:600;">Simulation</span>
+    </div>
   </div>
 
 </div>
@@ -159,17 +164,17 @@ tags: ["C++", "C#", "Unity", "UE5"]
     <h3 style="margin-top:0;">Blue</h3>
     <p style="margin:0.5em 0;">A Game Jam project exploring mood and atmosphere through minimalist design.</p>
     
-    <!-- Tags -->
-    <div style="display:flex; flex-wrap:wrap; gap:0.4em; margin:0.6em 0;">
-      <span style="font-size:0.75em; background:rgba(0, 170, 255, 0.1); color:#004466; border:1px solid #00aaff; padding:0.2em 0.6em; border-radius:4px; font-weight:600;">C#</span>
-      <span style="font-size:0.75em; background:rgba(0, 170, 255, 0.1); color:#004466; border:1px solid #00aaff; padding:0.2em 0.6em; border-radius:4px; font-weight:600;">Unity</span>
-      <span style="font-size:0.75em; background:rgba(0, 170, 255, 0.1); color:#004466; border:1px solid #00aaff; padding:0.2em 0.6em; border-radius:4px; font-weight:600;">Game Jam</span>
-    </div>
-
     <a href="{{ 'Portfolio/projects/#GameJams' | relative_url }}" 
        style="display:inline-block; margin-top:0.3em; padding:0.5em 1em; background:#00aaff; color:#fff; border-radius:6px; text-decoration:none; font-weight:bold;">
        See More
     </a>
+
+    <!-- Tags -->
+    <div style="display:flex; flex-wrap:wrap; gap:0.4em; margin-top:0.8em;">
+      <span style="font-size:0.75em; background:rgba(0, 170, 255, 0.1); color:#00aaff; border:1px solid #00aaff; padding:0.2em 0.6em; border-radius:4px; font-weight:600;">C#</span>
+      <span style="font-size:0.75em; background:rgba(0, 170, 255, 0.1); color:#00aaff; border:1px solid #00aaff; padding:0.2em 0.6em; border-radius:4px; font-weight:600;">Unity</span>
+      <span style="font-size:0.75em; background:rgba(0, 170, 255, 0.1); color:#00aaff; border:1px solid #00aaff; padding:0.2em 0.6em; border-radius:4px; font-weight:600;">Game Jam</span>
+    </div>
   </div>
 
 </div>
@@ -185,17 +190,17 @@ tags: ["C++", "C#", "Unity", "UE5"]
     <h3 style="margin-top:0;">The Reapers Garden</h3>
     <p style="margin:0.5em 0;">“An endless wave survival game set in a Reaper’s garden.”</p>
     
-    <!-- Tags -->
-    <div style="display:flex; flex-wrap:wrap; gap:0.4em; margin:0.6em 0;">
-      <span style="font-size:0.75em; background:rgba(0, 170, 255, 0.1); color:#004466; border:1px solid #00aaff; padding:0.2em 0.6em; border-radius:4px; font-weight:600;">C++</span>
-      <span style="font-size:0.75em; background:rgba(0, 170, 255, 0.1); color:#004466; border:1px solid #00aaff; padding:0.2em 0.6em; border-radius:4px; font-weight:600;">Unreal Engine</span>
-      <span style="font-size:0.75em; background:rgba(0, 170, 255, 0.1); color:#004466; border:1px solid #00aaff; padding:0.2em 0.6em; border-radius:4px; font-weight:600;">Game Jam</span>
-    </div>
-
     <a href="{{ 'Portfolio/projects/#GameJams' | relative_url }}" 
        style="display:inline-block; margin-top:0.3em; padding:0.5em 1em; background:#00aaff; color:#fff; border-radius:6px; text-decoration:none; font-weight:bold;">
        See More
     </a>
+
+    <!-- Tags -->
+    <div style="display:flex; flex-wrap:wrap; gap:0.4em; margin-top:0.8em;">
+      <span style="font-size:0.75em; background:rgba(0, 170, 255, 0.1); color:#00aaff; border:1px solid #00aaff; padding:0.2em 0.6em; border-radius:4px; font-weight:600;">C#</span>
+      <span style="font-size:0.75em; background:rgba(0, 170, 255, 0.1); color:#00aaff; border:1px solid #00aaff; padding:0.2em 0.6em; border-radius:4px; font-weight:600;">Unity</span>
+      <span style="font-size:0.75em; background:rgba(0, 170, 255, 0.1); color:#00aaff; border:1px solid #00aaff; padding:0.2em 0.6em; border-radius:4px; font-weight:600;">Game Jam</span>
+    </div>
   </div>
 
 </div>
@@ -211,17 +216,17 @@ tags: ["C++", "C#", "Unity", "UE5"]
     <h3 style="margin-top:0;">Skuffed</h3>
     <p style="margin:0.5em 0;">A fast-paced game with chaotic mechanics, playful energy, and controlling your opponents arms.</p>
     
-    <!-- Tags -->
-    <div style="display:flex; flex-wrap:wrap; gap:0.4em; margin:0.6em 0;">
-      <span style="font-size:0.75em; background:rgba(0, 170, 255, 0.1); color:#004466; border:1px solid #00aaff; padding:0.2em 0.6em; border-radius:4px; font-weight:600;">C#</span>
-      <span style="font-size:0.75em; background:rgba(0, 170, 255, 0.1); color:#004466; border:1px solid #00aaff; padding:0.2em 0.6em; border-radius:4px; font-weight:600;">Unity</span>
-      <span style="font-size:0.75em; background:rgba(0, 170, 255, 0.1); color:#004466; border:1px solid #00aaff; padding:0.2em 0.6em; border-radius:4px; font-weight:600;">Local Multiplayer</span>
-    </div>
-
     <a href="{{ 'Portfolio/projects/#GameJams' | relative_url }}" 
        style="display:inline-block; margin-top:0.3em; padding:0.5em 1em; background:#00aaff; color:#fff; border-radius:6px; text-decoration:none; font-weight:bold;">
        See More
     </a>
+
+    <!-- Tags -->
+    <div style="display:flex; flex-wrap:wrap; gap:0.4em; margin-top:0.8em;">
+      <span style="font-size:0.75em; background:rgba(0, 170, 255, 0.1); color:#00aaff; border:1px solid #00aaff; padding:0.2em 0.6em; border-radius:4px; font-weight:600;">C#</span>
+      <span style="font-size:0.75em; background:rgba(0, 170, 255, 0.1); color:#00aaff; border:1px solid #00aaff; padding:0.2em 0.6em; border-radius:4px; font-weight:600;">Unity</span>
+      <span style="font-size:0.75em; background:rgba(0, 170, 255, 0.1); color:#00aaff; border:1px solid #00aaff; padding:0.2em 0.6em; border-radius:4px; font-weight:600;">Co-op</span>
+    </div>
   </div>
 
 </div>
@@ -237,17 +242,17 @@ tags: ["C++", "C#", "Unity", "UE5"]
     <h3 style="margin-top:0;">Fire Breathing Space Corgi</h3>
     <p style="margin:0.5em 0;">A whimsical jam game featuring a corgi with cosmic powers.</p>
     
-    <!-- Tags -->
-    <div style="display:flex; flex-wrap:wrap; gap:0.4em; margin:0.6em 0;">
-      <span style="font-size:0.75em; background:rgba(0, 170, 255, 0.1); color:#004466; border:1px solid #00aaff; padding:0.2em 0.6em; border-radius:4px; font-weight:600;">C#</span>
-      <span style="font-size:0.75em; background:rgba(0, 170, 255, 0.1); color:#004466; border:1px solid #00aaff; padding:0.2em 0.6em; border-radius:4px; font-weight:600;">Unity</span>
-      <span style="font-size:0.75em; background:rgba(0, 170, 255, 0.1); color:#004466; border:1px solid #00aaff; padding:0.2em 0.6em; border-radius:4px; font-weight:600;">2D Arcade</span>
-    </div>
-
     <a href="{{ 'Portfolio/projects/#GameJams' | relative_url }}" 
        style="display:inline-block; margin-top:0.3em; padding:0.5em 1em; background:#00aaff; color:#fff; border-radius:6px; text-decoration:none; font-weight:bold;">
        See More
     </a>
+
+    <!-- Tags -->
+    <div style="display:flex; flex-wrap:wrap; gap:0.4em; margin-top:0.8em;">
+      <span style="font-size:0.75em; background:rgba(0, 170, 255, 0.1); color:#00aaff; border:1px solid #00aaff; padding:0.2em 0.6em; border-radius:4px; font-weight:600;">C#</span>
+      <span style="font-size:0.75em; background:rgba(0, 170, 255, 0.1); color:#00aaff; border:1px solid #00aaff; padding:0.2em 0.6em; border-radius:4px; font-weight:600;">Unity</span>
+      <span style="font-size:0.75em; background:rgba(0, 170, 255, 0.1); color:#00aaff; border:1px solid #00aaff; padding:0.2em 0.6em; border-radius:4px; font-weight:600;">2D Arcade</span>
+    </div>
   </div>
 
 </div>
