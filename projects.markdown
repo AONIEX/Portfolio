@@ -9,14 +9,6 @@ permalink: /Portfolio/projects/
 
 # Projects and Achievements
 
-<div class="project-nav" style="display: flex; flex-wrap: wrap; gap: 0.5em; justify-content: center; margin-bottom: 1em;">
-
-
-
-  <!-- Add more buttons as needed -->
-  
-</div>
-
 
 <hr style="all: unset; display: block; height: 6px; background-color: #00aaff; margin: 2em 0;">
 
