@@ -21,7 +21,7 @@
         width: 88% !important;
         max-width: 1400px !important;
         margin: 0 auto !important;
-        padding-top: 20px;
+        padding-top: 70px; /* Space for fixed top project bar */
       }
 
       header {
@@ -35,25 +35,49 @@
       }
 
       /* ========================================================= */
-      /* IN-PAGE PROJECT JUMP BUTTONS (from markdown project-nav)  */
+      /* FIXED TOP PROJECT BUTTONS BAR (Hides on Scroll)           */
       /* ========================================================= */
-      .project-nav {
+      .top-nav {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
         display: flex;
         flex-wrap: wrap;
         gap: 0.5em;
         justify-content: center;
-        margin-bottom: 1em;
+        align-items: center;
+        background: rgba(0, 0, 0, 0.85);
+        padding: 0.6em 1em;
+        margin: 0;
+        border-bottom: 2px solid #00aaff;
+        backdrop-filter: blur(6px);
+        z-index: 1000;
+        animation: slideDown 0.6s ease-out;
+        transition: transform 0.3s ease, opacity 0.3s ease;
       }
 
-      .project-nav a {
+      @keyframes slideDown {
+        from { transform: translateY(-100%); opacity: 0; }
+        to { transform: translateY(0); opacity: 1; }
+      }
+
+      /* Forced override so keyframes or specificity can't block hiding */
+      .top-nav.hide {
+        transform: translateY(-100%) !important;
+        opacity: 0 !important;
+        pointer-events: none !important;
+      }
+
+      .top-nav a {
         text-decoration: none;
       }
 
-      .project-button {
+      .top-nav a > div {
         display: flex;
         align-items: center;
         justify-content: center;
-        padding: 0.4em 1.4em;
+        padding: 0.4em 0.8em;
         background: rgba(0, 0, 0, 0.4);
         border: 1px solid #00aaff;
         border-radius: 6px;
@@ -61,15 +85,15 @@
         transition: transform 0.3s ease, background-color 0.3s ease;
       }
 
-      .project-button:hover {
-        transform: scale(1.05);
-        background: rgba(0, 170, 255, 0.25);
-      }
-
-      .project-text h5 {
+      .top-nav a > div h5 {
         margin: 0;
         font-size: 0.9em;
         white-space: nowrap;
+      }
+
+      .top-nav a:hover > div {
+        transform: scale(1.05);
+        background: rgba(0, 170, 255, 0.25);
       }
 
       /* Left Sidebar Button Hover Effect */
@@ -125,6 +149,7 @@
       @media screen and (max-width: 960px) {
         .wrapper {
           width: 95% !important;
+          padding-top: 110px;
         }
         header, section {
           width: 100% !important;
@@ -141,6 +166,17 @@
     {% include head-custom.html %}
   </head>
   <body>
+
+    <!-- FIXED TOP BAR (PROJECT JUMP BUTTONS ONLY) -->
+    <nav class="top-nav">
+      <a href="#Dare_Academy"><div><h5>Dare Academy</h5></div></a>
+      <a href="#Synaptic"><div><h5>Synaptic</h5></div></a>
+      <a href="#Mesh_Cutting"><div><h5>Mesh Cutting</h5></div></a>
+      <a href="{{ 'Portfolio/honours/' | relative_url }}"><div><h5>Honours</h5></div></a>
+      <a href="#BaBaBANGSheep"><div><h5>BaBaBANG!Sheep</h5></div></a>
+      <a href="#AI_Mutation"><div><h5>AI Mutation</h5></div></a>
+      <a href="#GameJams"><div><h5>Game Jams</h5></div></a>
+    </nav>
 
     <div class="wrapper">
       <header>
@@ -180,4 +216,61 @@
             </a>
 
             <a href="{{ 'Portfolio/contact/' | relative_url }}" style="flex: 1 1 45%; text-decoration: none;">
-              <div style="padding: 0.5em; background:
+              <div style="padding: 0.5em; background: rgba(0,0,0,0.3); border: 1px solid #00aaff; border-radius: 6px; color: white; text-align: center; transition: transform 0.3s ease;">
+                <h5 style="margin: 0;">Contact</h5>
+              </div>
+            </a>
+
+            <a href="{{ 'Portfolio/cv/' | relative_url }}" style="flex: 1 1 45%; text-decoration: none;">
+              <div style="padding: 0.5em; background: rgba(0,0,0,0.3); border: 1px solid #00aaff; border-radius: 6px; color: white; text-align: center; transition: transform 0.3s ease;">
+                <h5 style="margin: 0;">CV</h5>
+              </div>
+            </a>
+          </div>
+        </nav>
+
+        <div class="divider"></div>
+      </header>
+
+      <section style="padding-top: 10px;">
+        {{ content }}
+      </section>
+
+      <div class="divider" style="clear: both;"></div>
+
+      <footer>
+        <p><small>&copy; {{ 'now' | date: "%Y" }} Alex Onions</small></p>
+      </footer>
+    </div>
+
+    <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
+
+    <!-- ROBUST HIDE-ON-SCROLL SCRIPT -->
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        let lastScrollY = window.pageYOffset || document.documentElement.scrollTop;
+        const topNav = document.querySelector('.top-nav');
+
+        if (!topNav) return;
+
+        window.addEventListener('scroll', function () {
+          const currentScrollY = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop;
+
+          // Prevent rubber-band effect on iOS
+          if (currentScrollY < 0) return;
+
+          // Scrolling Down past threshold (50px) -> Hide
+          if (currentScrollY > lastScrollY && currentScrollY > 50) {
+            topNav.classList.add('hide');
+          } 
+          // Scrolling Up -> Show
+          else if (currentScrollY < lastScrollY) {
+            topNav.classList.remove('hide');
+          }
+
+          lastScrollY = currentScrollY;
+        }, { passive: true });
+      });
+    </script>
+  </body>
+</html>
