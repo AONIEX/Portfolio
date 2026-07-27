@@ -16,6 +16,36 @@
         background-color: #001f3f;
       }
 
+      /* ========================================================= */
+      /* LAYOUT EXPANSION (Reduces massive side gaps by ~50%)       */
+      /* ========================================================= */
+      .wrapper {
+        width: 88% !important;
+        max-width: 1350px !important; /* Expanded from default 860px */
+        margin: 0 auto !important;
+      }
+
+      header {
+        width: 280px !important; /* Fixed width for left column */
+        float: left !important;
+      }
+
+      section {
+        width: calc(100% - 320px) !important; /* Lets main content fill all remaining space */
+        float: right !important;
+      }
+
+      /* Mobile responsiveness fallback */
+      @media screen and (max-width: 960px) {
+        .wrapper {
+          width: 92% !important;
+        }
+        header, section {
+          width: 100% !important;
+          float: none !important;
+        }
+      }
+
       /* Apply white text to key containers */
       .markdown-body,
       .post-content,
@@ -51,7 +81,7 @@
       .markdown-body h2,
       .markdown-body h3,
       .markdown-body h4,
-      .markdown-body h5  {
+      .markdown-body h5 {
         color: white !important;
         background: transparent !important;
       }
@@ -205,7 +235,7 @@
 
       </header>
 
-      <section style="padding-top: 100px;">
+      <section style="padding-top: 40px;">
         {{ content }}
       </section>
 
