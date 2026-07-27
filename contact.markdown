@@ -19,7 +19,7 @@ permalink: Portfolio/contact/
  <a href="https://www.linkedin.com/in/alex-o%E2%80%99nions-025329276/" style="flex: 1 1 250px; text-decoration: none;">
     <div style="border: 2px solid #00aaff; padding: 1em; background: rgba(0,0,0,0.3); border-radius: 8px; color: white;">
       <h3>Linkdin</h3>
-      <p>Check out my Linkdin </p>
+      <p>Check out my LinkdIn </p>
     </div>
   </a>
   
