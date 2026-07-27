@@ -62,10 +62,11 @@
         to { transform: translateY(0); opacity: 1; }
       }
 
+      /* Forced override so keyframes or specificity can't block hiding */
       .top-nav.hide {
-        transform: translateY(-100%);
-        opacity: 0;
-        pointer-events: none;
+        transform: translateY(-100%) !important;
+        opacity: 0 !important;
+        pointer-events: none !important;
       }
 
       .top-nav a {
@@ -166,7 +167,7 @@
   </head>
   <body>
 
-    <!-- 1. FIXED TOP BAR (PROJECT JUMP BUTTONS ONLY) -->
+    <!-- FIXED TOP BAR (PROJECT JUMP BUTTONS ONLY) -->
     <nav class="top-nav">
       <a href="#Dare_Academy"><div><h5>Dare Academy</h5></div></a>
       <a href="#Synaptic"><div><h5>Synaptic</h5></div></a>
@@ -187,7 +188,7 @@
 
         <p>{{ site.description | default: site.github.project_tagline }}</p>
 
-        <!-- 2. LEFT SIDEBAR SITE NAVIGATION (Home, About, CV, etc.) -->
+        <!-- LEFT SIDEBAR SITE NAVIGATION -->
         <nav class="site-nav">
           <div style="display: flex; flex-wrap: wrap; gap: 0.5em; justify-content: center; margin-top: 1em;">
             <a href="{{ '/' | relative_url }}" style="flex: 1 1 45%; text-decoration: none;">
@@ -244,19 +245,31 @@
 
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
 
-    <!-- HIDE TOP PROJECT BAR ON SCROLL DOWN, REAPPEAR ON SCROLL UP -->
+    <!-- ROBUST HIDE-ON-SCROLL SCRIPT -->
     <script>
-      let lastScrollY = window.scrollY;
-      const topNav = document.querySelector('.top-nav');
+      document.addEventListener("DOMContentLoaded", function () {
+        let lastScrollY = window.pageYOffset || document.documentElement.scrollTop;
+        const topNav = document.querySelector('.top-nav');
 
-      window.addEventListener('scroll', () => {
         if (!topNav) return;
-        if (window.scrollY > lastScrollY && window.scrollY > 100) {
-          topNav.classList.add('hide'); // scrolling down
-        } else {
-          topNav.classList.remove('hide'); // scrolling up
-        }
-        lastScrollY = window.scrollY;
+
+        window.addEventListener('scroll', function () {
+          const currentScrollY = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop;
+
+          // Prevent rubber-band effect on iOS
+          if (currentScrollY < 0) return;
+
+          // Scrolling Down past threshold (50px) -> Hide
+          if (currentScrollY > lastScrollY && currentScrollY > 50) {
+            topNav.classList.add('hide');
+          } 
+          // Scrolling Up -> Show
+          else if (currentScrollY < lastScrollY) {
+            topNav.classList.remove('hide');
+          }
+
+          lastScrollY = currentScrollY;
+        }, { passive: true });
       });
     </script>
   </body>
