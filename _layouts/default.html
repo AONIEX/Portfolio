@@ -17,13 +17,13 @@
       }
 
       /* ========================================================= */
-      /* LAYOUT EXPANSION                                           */
+      /* LAYOUT EXPANSION (Reduced side gaps)                      */
       /* ========================================================= */
       .wrapper {
         width: 88% !important;
         max-width: 1350px !important;
         margin: 0 auto !important;
-        padding-top: 70px; /* Space for the fixed top navbar */
+        padding-top: 70px; /* Space for the top nav bar */
       }
 
       header {
@@ -135,7 +135,6 @@
         to { transform: translateY(0); opacity: 1; }
       }
 
-      /* Hide when scrolling down */
       .project-nav.hide {
         transform: translateY(-100%);
         opacity: 0;
@@ -169,6 +168,12 @@
         background: rgba(0, 170, 255, 0.2);
       }
 
+      /* Left Sidebar Button Hover Effect */
+      .site-nav a:hover > div {
+        transform: scale(1.03);
+        background: rgba(0, 170, 255, 0.2) !important;
+      }
+
       html {
         scroll-behavior: smooth;
       }
@@ -183,37 +188,25 @@
   </head>
   <body>
 
-    <!-- Top Navigation Bar -->
+    <!-- 1. TOP FIXED NAVIGATION BAR -->
     <nav class="project-nav">
       <a href="{{ '/' | relative_url }}">
-        <div>
-          <h5>Home</h5>
-        </div>
+        <div><h5>Home</h5></div>
       </a>
       <a href="{{ 'Portfolio/honours/' | relative_url }}">
-        <div>
-          <h5>Honours</h5>
-        </div>
+        <div><h5>Honours</h5></div>
       </a>
       <a href="{{ 'Portfolio/about/' | relative_url }}">
-        <div>
-          <h5>About</h5>
-        </div>
+        <div><h5>About</h5></div>
       </a>
       <a href="{{ 'Portfolio/projects/' | relative_url }}">
-        <div>
-          <h5>Projects</h5>
-        </div>
+        <div><h5>Projects</h5></div>
       </a>
       <a href="{{ 'Portfolio/contact/' | relative_url }}">
-        <div>
-          <h5>Contact</h5>
-        </div>
+        <div><h5>Contact</h5></div>
       </a>
       <a href="{{ 'Portfolio/cv/' | relative_url }}">
-        <div>
-          <h5>CV</h5>
-        </div>
+        <div><h5>CV</h5></div>
       </a>
     </nav>
 
@@ -226,6 +219,49 @@
         {% endif %}
 
         <p>{{ site.description | default: site.github.project_tagline }}</p>
+
+        <!-- 2. LEFT SIDEBAR NAVIGATION BUTTONS -->
+        <nav class="site-nav">
+          <div style="display: flex; flex-wrap: wrap; gap: 0.5em; justify-content: center; margin-top: 1em;">
+
+            <a href="{{ '/' | relative_url }}" style="flex: 1 1 45%; text-decoration: none;">
+              <div style="padding: 0.5em; background: rgba(0,0,0,0.3); border: 1px solid #00aaff; border-radius: 6px; color: white; text-align: center; transition: transform 0.3s ease;">
+                <h5 style="margin: 0;">Home</h5>
+              </div>
+            </a>
+
+            <a href="{{ 'Portfolio/honours/' | relative_url }}" style="flex: 1 1 45%; text-decoration: none;">
+              <div style="padding: 0.5em; background: rgba(0,0,0,0.3); border: 1px solid #00aaff; border-radius: 6px; color: white; text-align: center; transition: transform 0.3s ease;">
+                <h5 style="margin: 0;">Honours</h5>
+              </div>
+            </a>
+
+            <a href="{{ 'Portfolio/about/' | relative_url }}" style="flex: 1 1 45%; text-decoration: none;">
+              <div style="padding: 0.5em; background: rgba(0,0,0,0.3); border: 1px solid #00aaff; border-radius: 6px; color: white; text-align: center; transition: transform 0.3s ease;">
+                <h5 style="margin: 0;">About</h5>
+              </div>
+            </a>
+
+            <a href="{{ 'Portfolio/projects/' | relative_url }}" style="flex: 1 1 45%; text-decoration: none;">
+              <div style="padding: 0.5em; background: rgba(0,0,0,0.3); border: 1px solid #00aaff; border-radius: 6px; color: white; text-align: center; transition: transform 0.3s ease;">
+                <h5 style="margin: 0;">Projects</h5>
+              </div>
+            </a>
+
+            <a href="{{ 'Portfolio/contact/' | relative_url }}" style="flex: 1 1 45%; text-decoration: none;">
+              <div style="padding: 0.5em; background: rgba(0,0,0,0.3); border: 1px solid #00aaff; border-radius: 6px; color: white; text-align: center; transition: transform 0.3s ease;">
+                <h5 style="margin: 0;">Contact</h5>
+              </div>
+            </a>
+
+            <a href="{{ 'Portfolio/cv/' | relative_url }}" style="flex: 1 1 45%; text-decoration: none;">
+              <div style="padding: 0.5em; background: rgba(0,0,0,0.3); border: 1px solid #00aaff; border-radius: 6px; color: white; text-align: center; transition: transform 0.3s ease;">
+                <h5 style="margin: 0;">CV</h5>
+              </div>
+            </a>
+
+          </div>
+        </nav>
 
         <div class="divider"></div>
       </header>
