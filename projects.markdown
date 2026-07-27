@@ -12,64 +12,6 @@ permalink: /Portfolio/projects/
 <div class="project-nav" style="display: flex; flex-wrap: wrap; gap: 0.5em; justify-content: center; margin-bottom: 1em;">
 
 
- <a href="#Dare_Academy" style="text-decoration: none;">
-  <div class="project-button">
-    <div class="project-text">
-      <h5 style="margin: 0;">Dare Academy</h5>
-    </div>
-  </div>
-</a>
-
- <a href="#Synaptic" style="text-decoration: none;">
-  <div class="project-button">
-    <div class="project-text">
-      <h5 style="margin: 0;">Synaptic</h5>
-    </div>
-  </div>
-</a>
-
- <a href="#Mesh_Cutting" style="text-decoration: none;">
-  <div class="project-button">
-    <div class="project-text">
-      <h5 style="margin: 0;">Mesh Cutting</h5>
-    </div>
-  </div>
-</a>
-
- <a href="{{ 'Portfolio/honours/' | relative_url }}"  style="text-decoration: none;">
-  <div class="project-button">
-    <div class="project-text">
-      <h5 style="margin: 0;">Honours</h5>
-    </div>
-  </div>
- </a>
-  
- <a href="#BaBaBANGSheep" style="text-decoration: none;">
-  <div class="project-button">
-    <div class="project-text">
-      <h5 style="margin: 0;">BaBaBANG!Sheep</h5>
-    </div>
-  </div>
-</a>
-
-
-
-
-<a href="#AI_Mutation" style="text-decoration: none;">
-  <div class="project-button">
-    <div class="project-text">
-      <h5 style="margin: 0;">AI Mutation</h5>
-    </div>
-  </div>
-</a>
-
- <a href="#GameJams" style="text-decoration: none;">
-  <div class="project-button">
-    <div class="project-text">
-      <h5 style="margin: 0;">Game Jams</h5>
-    </div>
-  </div>
-</a>
 
   <!-- Add more buttons as needed -->
   
