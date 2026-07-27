@@ -8,7 +8,7 @@
       body {
         color: white;
         background-image:
-          radial-gradient(circle at center, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.3) 20%, rgba(0, 0, 0, 0) 21%),
+          radial-gradient(circle at center, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.3) 1000%, rgba(0, 0, 0, 0) 51%),
           url('{{ "/Assets/Bg8.webp" | relative_url }}');
         background-size: cover;
         background-repeat: no-repeat;
@@ -16,16 +16,18 @@
         background-color: #001f3f;
       }
 
-      /* Expanded layout width */
+      /* ========================================================= */
+      /* LAYOUT EXPANSION (Reduced side gaps)                      */
+      /* ========================================================= */
       .wrapper {
         width: 88% !important;
-        max-width: 1400px !important;
+        max-width: 1350px !important;
         margin: 0 auto !important;
-        padding-top: 70px; /* Space for fixed top project bar */
+        padding-top: 70px; /* Space for the top nav bar */
       }
 
       header {
-        width: 280px !important; /* Left sidebar width */
+        width: 280px !important; /* Fixed width for left column */
         float: left !important;
       }
 
@@ -34,10 +36,82 @@
         float: right !important;
       }
 
+      /* Mobile responsiveness fallback */
+      @media screen and (max-width: 960px) {
+        .wrapper {
+          width: 92% !important;
+          padding-top: 110px;
+        }
+        header, section {
+          width: 100% !important;
+          float: none !important;
+        }
+      }
+
+      /* Apply white text to key containers */
+      .markdown-body,
+      .post-content,
+      .content,
+      .wrapper section,
+      header,
+      footer,
+      nav,
+      p,
+      li {
+        color: white;
+        background: transparent;
+      }
+
+      h1, h2, h3, h4, h5 {
+        color: white !important;
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+        background: transparent !important;
+      }
+
+      .wrapper h1,
+      .wrapper h2,
+      .wrapper h3,
+      section h1,
+      section h2,
+      section h3,
+      header h1,
+      header h2,
+      header h3,
+      header h4,
+      header h5,
+      .markdown-body h1,
+      .markdown-body h2,
+      .markdown-body h3,
+      .markdown-body h4,
+      .markdown-body h5 {
+        color: white !important;
+        background: transparent !important;
+      }
+
+      a {
+        color: #00aaff; /* Neon blue */
+        text-decoration: underline;
+        transition: color 0.3s ease;
+      }
+
+      a:visited {
+        color: #0077cc;
+      }
+
+      a:hover {
+        color: #66ccff;
+      }
+
+      .divider {
+        border-top: 2px solid #00aaff;
+        margin: 2em 0;
+        opacity: 0.6;
+      }
+
       /* ========================================================= */
-      /* FIXED TOP PROJECT BUTTONS BAR (Hides on Scroll)           */
+      /* FIXED TOP NAVIGATION BAR                                   */
       /* ========================================================= */
-      .top-nav {
+      .project-nav {
         position: fixed;
         top: 0;
         left: 0;
@@ -62,18 +136,17 @@
         to { transform: translateY(0); opacity: 1; }
       }
 
-      /* Forced override so keyframes or specificity can't block hiding */
-      .top-nav.hide {
+      .project-nav.hide {
         transform: translateY(-100%) !important;
         opacity: 0 !important;
         pointer-events: none !important;
       }
 
-      .top-nav a {
+      .project-nav a {
         text-decoration: none;
       }
 
-      .top-nav a > div {
+      .project-nav a > div {
         display: flex;
         align-items: center;
         justify-content: center;
@@ -85,13 +158,13 @@
         transition: transform 0.3s ease, background-color 0.3s ease;
       }
 
-      .top-nav a > div h5 {
+      .project-nav a > div h5 {
         margin: 0;
         font-size: 0.9em;
         white-space: nowrap;
       }
 
-      .top-nav a:hover > div {
+      .project-nav a:hover > div {
         transform: scale(1.05);
         background: rgba(0, 170, 255, 0.25);
       }
@@ -102,59 +175,8 @@
         background: rgba(0, 170, 255, 0.2) !important;
       }
 
-      /* Apply white text to key containers */
-      .markdown-body,
-      .post-content,
-      .content,
-      .wrapper section,
-      header,
-      footer,
-      nav,
-      p,
-      li {
-        color: white;
-        background: transparent;
-      }
-
-      h1, h2, h3, h4, h5 {
-        color: white !important;
-        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
-        background: transparent !important;
-      }
-
-      a {
-        color: #00aaff;
-        text-decoration: underline;
-        transition: color 0.3s ease;
-      }
-
-      a:visited {
-        color: #0077cc;
-      }
-
-      a:hover {
-        color: #66ccff;
-      }
-
-      .divider {
-        border-top: 2px solid #00aaff;
-        margin: 2em 0;
-        opacity: 0.6;
-      }
-
       html {
         scroll-behavior: smooth;
-      }
-
-      @media screen and (max-width: 960px) {
-        .wrapper {
-          width: 95% !important;
-          padding-top: 110px;
-        }
-        header, section {
-          width: 100% !important;
-          float: none !important;
-        }
       }
     </style>
 
@@ -167,15 +189,26 @@
   </head>
   <body>
 
-    <!-- FIXED TOP BAR (PROJECT JUMP BUTTONS ONLY) -->
-    <nav class="top-nav">
-      <a href="#Dare_Academy"><div><h5>Dare Academy</h5></div></a>
-      <a href="#Synaptic"><div><h5>Synaptic</h5></div></a>
-      <a href="#Mesh_Cutting"><div><h5>Mesh Cutting</h5></div></a>
-      <a href="{{ 'Portfolio/honours/' | relative_url }}"><div><h5>Honours</h5></div></a>
-      <a href="#BaBaBANGSheep"><div><h5>BaBaBANG!Sheep</h5></div></a>
-      <a href="#AI_Mutation"><div><h5>AI Mutation</h5></div></a>
-      <a href="#GameJams"><div><h5>Game Jams</h5></div></a>
+    <!-- 1. TOP FIXED NAVIGATION BAR -->
+    <nav class="project-nav">
+      <a href="{{ '/' | relative_url }}">
+        <div><h5>Home</h5></div>
+      </a>
+      <a href="{{ 'Portfolio/honours/' | relative_url }}">
+        <div><h5>Honours</h5></div>
+      </a>
+      <a href="{{ 'Portfolio/about/' | relative_url }}">
+        <div><h5>About</h5></div>
+      </a>
+      <a href="{{ 'Portfolio/projects/' | relative_url }}">
+        <div><h5>Projects</h5></div>
+      </a>
+      <a href="{{ 'Portfolio/contact/' | relative_url }}">
+        <div><h5>Contact</h5></div>
+      </a>
+      <a href="{{ 'Portfolio/cv/' | relative_url }}">
+        <div><h5>CV</h5></div>
+      </a>
     </nav>
 
     <div class="wrapper">
@@ -188,9 +221,10 @@
 
         <p>{{ site.description | default: site.github.project_tagline }}</p>
 
-        <!-- LEFT SIDEBAR SITE NAVIGATION -->
+        <!-- 2. LEFT SIDEBAR NAVIGATION BUTTONS -->
         <nav class="site-nav">
           <div style="display: flex; flex-wrap: wrap; gap: 0.5em; justify-content: center; margin-top: 1em;">
+
             <a href="{{ '/' | relative_url }}" style="flex: 1 1 45%; text-decoration: none;">
               <div style="padding: 0.5em; background: rgba(0,0,0,0.3); border: 1px solid #00aaff; border-radius: 6px; color: white; text-align: center; transition: transform 0.3s ease;">
                 <h5 style="margin: 0;">Home</h5>
@@ -226,6 +260,7 @@
                 <h5 style="margin: 0;">CV</h5>
               </div>
             </a>
+
           </div>
         </nav>
 
@@ -249,9 +284,9 @@
     <script>
       document.addEventListener("DOMContentLoaded", function () {
         let lastScrollY = window.pageYOffset || document.documentElement.scrollTop;
-        const topNav = document.querySelector('.top-nav');
+        const nav = document.querySelector('.project-nav');
 
-        if (!topNav) return;
+        if (!nav) return;
 
         window.addEventListener('scroll', function () {
           const currentScrollY = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop;
@@ -261,11 +296,11 @@
 
           // Scrolling Down past threshold (50px) -> Hide
           if (currentScrollY > lastScrollY && currentScrollY > 50) {
-            topNav.classList.add('hide');
+            nav.classList.add('hide');
           } 
           // Scrolling Up -> Show
           else if (currentScrollY < lastScrollY) {
-            topNav.classList.remove('hide');
+            nav.classList.remove('hide');
           }
 
           lastScrollY = currentScrollY;
