@@ -82,7 +82,7 @@ game_jams:
 ## Ongoing Projects
 
 {% for project in page.ongoing %}
-<div style="display:flex; align-items:flex-start; gap:1em; margin-bottom:1.5em; padding:0.8em; border:2px solid #00aaff; border-radius:12px; background:transparent; color:#004466;">
+<div style="display:flex; align-items:flex-start; gap:1em; margin-bottom:1.5em; padding:0.8em; border:2px solid #00aaff; border-radius:5px; background:transparent; color:#004466;">
   <img src="{% if project.image contains '://' %}{{ project.image }}{% else %}{{ project.image | relative_url }}{% endif %}" alt="{{ project.title }}" style="width:160px; height:auto; border-radius:8px;">
   
   <div style="flex:1; text-align:left;">
@@ -115,7 +115,7 @@ game_jams:
 ## Featured Projects
 
 {% for project in page.featured %}
-<div style="display:flex; align-items:flex-start; gap:1em; margin-bottom:1.5em; padding:0.8em; border:2px solid #00aaff; border-radius:12px; background:transparent; color:#004466;">
+<div style="display:flex; align-items:flex-start; gap:1em; margin-bottom:1.5em; padding:0.8em; border:2px solid #00aaff; border-radius:5px; background:transparent; color:#004466;">
   <img src="{% if project.image contains '://' %}{{ project.image }}{% else %}{{ project.image | relative_url }}{% endif %}" alt="{{ project.title }}" style="width:160px; height:auto; border-radius:8px;">
   
   <div style="flex:1; text-align:left;">
@@ -148,7 +148,7 @@ game_jams:
 ## Game Jam Projects
 
 {% for project in page.game_jams %}
-<div style="display:flex; align-items:flex-start; gap:1em; margin-bottom:1.5em; padding:0.8em; border:2px solid #00aaff; border-radius:12px; background:transparent; color:#004466;">
+<div style="display:flex; align-items:flex-start; gap:1em; margin-bottom:1.5em; padding:0.8em; border:2px solid #00aaff; border-radius:5px; background:transparent; color:#004466;">
   <img src="{% if project.image contains '://' %}{{ project.image }}{% else %}{{ project.image | relative_url }}{% endif %}" alt="{{ project.title }}" style="width:160px; height:auto; border-radius:8px;">
   
   <div style="flex:1; text-align:left;">
