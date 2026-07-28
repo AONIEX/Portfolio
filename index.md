@@ -73,7 +73,7 @@ game_jams:
 <div style="text-align:center; padding:1.5em 0; color:#004466;">
   <h1 style="font-size:2em; margin-bottom:0.3em;">Hi, I'm Alex</h1>
   <p style="font-size:1em; max-width:450px; margin:auto;">
-    Games Programmer • Dare Academy Finalist • 4th Year at Abertay University
+    Games Programmer • Dare Academy Finalist • Abertay University Graduate
   </p>
 </div>
 
