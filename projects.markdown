@@ -297,7 +297,7 @@ The simulation is built around several key systems:
 - University Project
 - Focus: AI, Genetic Algorithms, Simulation Design
 
-</br>
+
 
  [AI Evolution Github]([https://github.com/AONIEX/Ba-Ba-Bang-Sheep-The-Remake](https://github.com/AONIEX/AI_Evolution_Project_UNI))
  
