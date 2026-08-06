@@ -31,18 +31,22 @@ Hi, my name is Alex O'Nions, i'm a Games Programmer, Abertay Dare Finalist (2025
 
 
 ### Work Experience
-- Barista 3 Years (Dan's Goods)
-  - This Job helped me to learn how to work under pressure as well as how to keep calm and collected when talking to people and resolving issues.     
-- Cleaner 1 Year (Apartments in St Andrews)
-  - This Job helped me with persistance and helped me learn to keep going even when i dont feel like it. 
-- Customer Service and Sales Assisant 4 Years (The Studio Kitchens and Bathrooms)
-  - This job has helped me to learn how to handle tough situations and how to calm down situations, as well as learning on the job and give people information without over complicating it.     
-
+ 
+- Joe Cool Website Programmer (2026-Current)
+  - Website Programming, HTML, CSS and PHP.  UI design.Front and Backend Programming.
+- Customer Service and Sales Assisant 5 Years (The Studio Kitchens and Bathrooms) (2021-2026)
+  - This job has helped me to learn how to handle tough situations and how to calm down situations, as well as learning on the job and give people information without over complicating it.
+- Cleaner 1 Year (Apartments in St Andrews) (2020-2021)
+  - This Job helped me with persistance and helped me learn to keep going even during hard times. 
+- Barista 3 Years (Dan's Goods) (2018-2021)
+  - This Job helped me to learn how to work under pressure as well as how to keep calm and collected when talking to people and resolving issues.    
 <hr style="all: unset; display: block; height: 6px; background-color: #00aaff; margin: 2em 0;">
 
 ### Hobbies
 - DND (Dungeons And Dragons)
-  - DND allows me to socilise and come up with unique and creative ideas for gaming or life in general. It lets my creativity flow and my ideas in a world of almost endless possibilities, which i belive is important for people to do in general. 
+  - DND allows me to socilise and come up with unique and creative ideas for gaming or life in general. It lets my creativity flow and my ideas in a world of almost endless possibilities, which i belive is important for people to do in general.
+- 3D Printing
+  - Resin and FDM 3D printing from DND miniatures to Mechanical Parts. Learning 3D models work and should be made, as well as the practical applications of 3D printing.  
 - Miniature Painting
   - Painting miniatures helps me relax and clear my mind in between projects, often giving me a fresh mind when i go back to my projects whilst still being creative in my down time.
 - Video games
