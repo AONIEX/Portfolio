@@ -10,7 +10,7 @@ permalink: /Portfolio/cv/
 <iframe src="https://aoniex.github.io/Portfolio/Assets/CV_V3.pdf" width="100%" height="600px"></iframe>
 
 
-[View my PDF](Assets/CV_V3.pdf)
+[View My CV](Assets/CV_V3.pdf)
 
 
 
