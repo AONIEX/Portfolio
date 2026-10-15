@@ -19,6 +19,8 @@ permalink: /Portfolio/projects/
 ### Joe Cool Website
 During my time at Joe Cool, I helped build and upgrade their wholesale e-commerce website. I added key features like product variations and clear item categories while optimizing it for faster loading times. Dealing with such a massive product database really drove home why keeping code concise and detail-oriented is so crucial—otherwise, the site can easily end up slow and sluggish.
 
+![Joe Cool Website ScreenShot](Assets/JoeCool.png)
+
 #### During Development I improved various skills which include:
 - Leveraging PHP to build out custom website features and backend logic.
 - Using HTML to fix layout bugs and sharpen the visual presentation.
