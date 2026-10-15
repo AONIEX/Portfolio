@@ -23,7 +23,7 @@
         width: 88% !important;
         max-width: 1350px !important;
         margin: 0 auto !important;
-        padding-top: 70px; /* Space for the top nav bar */
+        padding-top: 80px; /* Space for the top nav bar */
       }
 
       header {
@@ -36,11 +36,36 @@
         float: right !important;
       }
 
+      /* ========================================================= */
+      /* VERTICAL PROJECT CARD STACK (Forces vertical scrolling)   */
+      /* ========================================================= */
+      .project-card {
+        display: flex !important;
+        flex-direction: column !important;
+        gap: 1em !important;
+        margin-bottom: 2em !important;
+        padding: 1.2em !important;
+        border: 2px solid #00aaff !important;
+        border-radius: 5px !important;
+        background: rgba(0, 0, 0, 0.3) !important;
+        backdrop-filter: blur(4px) !important;
+        width: 100% !important;
+        box-sizing: border-box !important;
+      }
+
+      .project-card img {
+        width: 100% !important;
+        max-height: 380px !important;
+        object-fit: cover !important;
+        border-radius: 3px !important;
+        float: none !important;
+      }
+
       /* Mobile responsiveness fallback */
       @media screen and (max-width: 960px) {
         .wrapper {
           width: 92% !important;
-          padding-top: 75px;
+          padding-top: 90px;
         }
         header, section {
           width: 100% !important;
@@ -49,7 +74,8 @@
         .project-nav {
           flex-direction: column;
           align-items: stretch;
-          padding: 0.5em 1em;
+          padding: 0.6em 1em;
+          background: #000000 !important;
         }
         .nav-toggle-btn {
           display: block !important;
@@ -59,9 +85,11 @@
           flex-direction: column;
           gap: 0.4em;
           margin-top: 0.5em;
-          max-height: 250px;
+          max-height: 280px;
           overflow-y: auto;
           width: 100%;
+          background: #000000;
+          padding-bottom: 0.5em;
         }
         .project-nav-links.open {
           display: flex !important;
@@ -147,7 +175,7 @@
         gap: 0.5em;
         justify-content: center;
         align-items: center;
-        background: rgba(0, 0, 0, 0.85);
+        background: rgba(0, 0, 0, 0.9);
         padding: 0.6em 1em;
         margin: 0;
         border-bottom: 2px solid #00aaff;
