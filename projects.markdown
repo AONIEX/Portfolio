@@ -64,10 +64,10 @@ Collaboration & Integration: Connecting multiple external tools and working hand
 
 ### Extra Information
 
-Live Website: joe-cool.uk
-Role: Web Developer
-Duration: 4 Months (Contract / Project-Based)
-Languages : PHP, HTML, CSS
+- Live Website: joe-cool.uk
+- Role: Web Developer
+- Duration: 4 Months (Contract / Project-Based)
+- Languages : PHP, HTML, CSS, WooCommerce, Web Development
   
 
 <hr style="all: unset; display: block; height: 6px; background-color: #00aaff; margin: 2em 0;">
