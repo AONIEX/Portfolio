@@ -40,7 +40,7 @@
       @media screen and (max-width: 960px) {
         .wrapper {
           width: 92% !important;
-          padding-top: 90px; /* Extra space on mobile */
+          padding-top: 90px;
         }
         header, section {
           width: 100% !important;
@@ -50,7 +50,7 @@
           flex-direction: column;
           align-items: stretch;
           padding: 0.6em 1em;
-          background: #000000 !important; /* Solid background on mobile to prevent text bleed */
+          background: #000000 !important;
         }
         .nav-toggle-btn {
           display: block !important;
@@ -97,28 +97,8 @@
         background: transparent !important;
       }
 
-      .wrapper h1,
-      .wrapper h2,
-      .wrapper h3,
-      section h1,
-      section h2,
-      section h3,
-      header h1,
-      header h2,
-      header h3,
-      header h4,
-      header h5,
-      .markdown-body h1,
-      .markdown-body h2,
-      .markdown-body h3,
-      .markdown-body h4,
-      .markdown-body h5 {
-        color: white !important;
-        background: transparent !important;
-      }
-
       a {
-        color: #00aaff; /* Neon blue */
+        color: #00aaff;
         text-decoration: underline;
         transition: color 0.3s ease;
       }
@@ -171,7 +151,6 @@
         pointer-events: none !important;
       }
 
-      /* Mobile Dropdown Toggle Button (Hidden on desktop) */
       .nav-toggle-btn {
         display: none;
         background: rgba(0, 170, 255, 0.2);
@@ -221,10 +200,31 @@
         background: rgba(0, 170, 255, 0.25);
       }
 
-      /* Left Sidebar Button Hover Effect */
       .site-nav a:hover > div {
         transform: scale(1.03);
         background: rgba(0, 170, 255, 0.2) !important;
+      }
+
+      /* ========================================================= */
+      /* VERTICAL PROJECT CARD STACK STYLES                        */
+      /* ========================================================= */
+      .project-card {
+        display: flex;
+        flex-direction: column; /* Stacks image on top, text below */
+        gap: 1em;
+        margin-bottom: 1.5em;
+        padding: 1em;
+        border: 2px solid #00aaff;
+        border-radius: 5px;
+        background: transparent;
+        color: #004466;
+      }
+
+      .project-card img {
+        width: 100%;
+        max-height: 280px;
+        object-fit: cover;
+        border-radius: 3px;
       }
 
       html {
@@ -241,28 +241,16 @@
   </head>
   <body>
 
-    <!-- 1. TOP FIXED NAVIGATION BAR WITH MOBILE TOGGLE -->
+    <!-- TOP FIXED NAVIGATION BAR WITH MOBILE TOGGLE -->
     <nav class="project-nav">
       <button class="nav-toggle-btn" id="navToggle">Menu ▾</button>
       <div class="project-nav-links" id="navLinks">
-        <a href="{{ '/' | relative_url }}">
-          <div><h5>Home</h5></div>
-        </a>
-        <a href="{{ 'Portfolio/honours/' | relative_url }}">
-          <div><h5>Honours</h5></div>
-        </a>
-        <a href="{{ 'Portfolio/about/' | relative_url }}">
-          <div><h5>About</h5></div>
-        </a>
-        <a href="{{ 'Portfolio/projects/' | relative_url }}">
-          <div><h5>Projects</h5></div>
-        </a>
-        <a href="{{ 'Portfolio/contact/' | relative_url }}">
-          <div><h5>Contact</h5></div>
-        </a>
-        <a href="{{ 'Portfolio/cv/' | relative_url }}">
-          <div><h5>CV</h5></div>
-        </a>
+        <a href="{{ '/' | relative_url }}"><div><h5>Home</h5></div></a>
+        <a href="{{ 'Portfolio/honours/' | relative_url }}"><div><h5>Honours</h5></div></a>
+        <a href="{{ 'Portfolio/about/' | relative_url }}"><div><h5>About</h5></div></a>
+        <a href="{{ 'Portfolio/projects/' | relative_url }}"><div><h5>Projects</h5></div></a>
+        <a href="{{ 'Portfolio/contact/' | relative_url }}"><div><h5>Contact</h5></div></a>
+        <a href="{{ 'Portfolio/cv/' | relative_url }}"><div><h5>CV</h5></div></a>
       </div>
     </nav>
 
@@ -276,46 +264,27 @@
 
         <p>{{ site.description | default: site.github.project_tagline }}</p>
 
-        <!-- 2. LEFT SIDEBAR NAVIGATION BUTTONS -->
+        <!-- LEFT SIDEBAR NAVIGATION BUTTONS -->
         <nav class="site-nav">
           <div style="display: flex; flex-wrap: wrap; gap: 0.5em; justify-content: center; margin-top: 1em;">
-
             <a href="{{ '/' | relative_url }}" style="flex: 1 1 45%; text-decoration: none;">
-              <div style="padding: 0.5em; background: rgba(0,0,0,0.3); border: 1px solid #00aaff; border-radius: 3px; color: white; text-align: center; transition: transform 0.3s ease;">
-                <h5 style="margin: 0;">Home</h5>
-              </div>
+              <div style="padding: 0.5em; background: rgba(0,0,0,0.3); border: 1px solid #00aaff; border-radius: 3px; color: white; text-align: center;"><h5 style="margin: 0;">Home</h5></div>
             </a>
-
             <a href="{{ 'Portfolio/honours/' | relative_url }}" style="flex: 1 1 45%; text-decoration: none;">
-              <div style="padding: 0.5em; background: rgba(0,0,0,0.3); border: 1px solid #00aaff; border-radius: 3px; color: white; text-align: center; transition: transform 0.3s ease;">
-                <h5 style="margin: 0;">Honours</h5>
-              </div>
+              <div style="padding: 0.5em; background: rgba(0,0,0,0.3); border: 1px solid #00aaff; border-radius: 3px; color: white; text-align: center;"><h5 style="margin: 0;">Honours</h5></div>
             </a>
-
             <a href="{{ 'Portfolio/about/' | relative_url }}" style="flex: 1 1 45%; text-decoration: none;">
-              <div style="padding: 0.5em; background: rgba(0,0,0,0.3); border: 1px solid #00aaff; border-radius: 3px; color: white; text-align: center; transition: transform 0.3s ease;">
-                <h5 style="margin: 0;">About</h5>
-              </div>
+              <div style="padding: 0.5em; background: rgba(0,0,0,0.3); border: 1px solid #00aaff; border-radius: 3px; color: white; text-align: center;"><h5 style="margin: 0;">About</h5></div>
             </a>
-
             <a href="{{ 'Portfolio/projects/' | relative_url }}" style="flex: 1 1 45%; text-decoration: none;">
-              <div style="padding: 0.5em; background: rgba(0,0,0,0.3); border: 1px solid #00aaff; border-radius: 3px; color: white; text-align: center; transition: transform 0.3s ease;">
-                <h5 style="margin: 0;">Projects</h5>
-              </div>
+              <div style="padding: 0.5em; background: rgba(0,0,0,0.3); border: 1px solid #00aaff; border-radius: 3px; color: white; text-align: center;"><h5 style="margin: 0;">Projects</h5></div>
             </a>
-
             <a href="{{ 'Portfolio/contact/' | relative_url }}" style="flex: 1 1 45%; text-decoration: none;">
-              <div style="padding: 0.5em; background: rgba(0,0,0,0.3); border: 1px solid #00aaff; border-radius: 3px; color: white; text-align: center; transition: transform 0.3s ease;">
-                <h5 style="margin: 0;">Contact</h5>
-              </div>
+              <div style="padding: 0.5em; background: rgba(0,0,0,0.3); border: 1px solid #00aaff; border-radius: 3px; color: white; text-align: center;"><h5 style="margin: 0;">Contact</h5></div>
             </a>
-
             <a href="{{ 'Portfolio/cv/' | relative_url }}" style="flex: 1 1 45%; text-decoration: none;">
-              <div style="padding: 0.5em; background: rgba(0,0,0,0.3); border: 1px solid #00aaff; border-radius: 3px; color: white; text-align: center; transition: transform 0.3s ease;">
-                <h5 style="margin: 0;">CV</h5>
-              </div>
+              <div style="padding: 0.5em; background: rgba(0,0,0,0.3); border: 1px solid #00aaff; border-radius: 3px; color: white; text-align: center;"><h5 style="margin: 0;">CV</h5></div>
             </a>
-
           </div>
         </nav>
 
@@ -343,13 +312,10 @@
         const navToggle = document.getElementById('navToggle');
         const navLinks = document.getElementById('navLinks');
 
-        // Toggle mobile dropdown menu
         if (navToggle && navLinks) {
           navToggle.addEventListener('click', function () {
             navLinks.classList.toggle('open');
           });
-
-          // Close dropdown automatically when a link is clicked
           navLinks.querySelectorAll('a').forEach(link => {
             link.addEventListener('click', function () {
               navLinks.classList.remove('open');
@@ -359,15 +325,12 @@
 
         if (!nav) return;
 
-        // Hide/Show on Scroll behavior
         window.addEventListener('scroll', function () {
           const currentScrollY = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop;
-
           if (currentScrollY < 0) return;
 
           if (currentScrollY > lastScrollY && currentScrollY > 100) {
             nav.classList.add('hide');
-            // Also close the dropdown if scrolling down
             if (navLinks) navLinks.classList.remove('open');
           } 
           else if (currentScrollY < lastScrollY) {
