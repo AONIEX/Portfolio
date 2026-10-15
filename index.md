@@ -6,7 +6,7 @@ tags: ["C++", "C#", "Unity", "UE5", "PHP", "Web Development"]
 recent:
   - title: "Joe Cool Wholesale E-Commerce Website"
     description: "An upgraded wholesale e-commerce platform built with PHP, HTML, CSS, and WooCommerce."
-    details: "![Joe Cool Website ScreenShot](Assets/JoeCool.png) databases, optimized page loading performance, and integrated external services."
+    details: "Upgraded Joe Cool's wholesale e-commerce platform with product variations, categories, and speed optimizations, highlighting the critical role of clean, detail-oriented code when managing massive databases."
     image: "Assets/JoeCool.png"
     link: "Portfolio/projects/#Joe_Cool"
     tags: ["PHP", "HTML", "CSS", "WooCommerce", "Web Development"]
