@@ -1,9 +1,17 @@
 ---
 layout: default
 title: Home
-tags: ["C++", "C#", "Unity", "UE5"]
+tags: ["C++", "C#", "Unity", "UE5", "PHP", "Web Development"]
 
-ongoing:
+recent:
+  - title: "Joe Cool Wholesale E-Commerce"
+    description: "An upgraded wholesale e-commerce platform built with PHP, HTML, CSS, and WooCommerce."
+    details: "Spearheaded the development and upgrade of the wholesale platform for Joe Cool. Built custom product variations, managed large-scale product databases, optimized page loading performance, and integrated external services."
+    image: "Assets/joe_cool.png"
+    link: "https://joe-cool.uk/"
+    tags: ["PHP", "HTML", "CSS", "WooCommerce", "Web Development"]
+
+indevelopment:
   - title: "Honours Project"
     description: "3D Sword Procedural Generation creating historically accurate and visually appealing weapons."
     details: "Exploration of procedural generation algorithms in real time to generate historically accurate blade profiles, crossguards, grips, and hilts in 3D."
@@ -58,7 +66,7 @@ game_jams:
   - title: "Skuffed"
     description: "A 2-player local physics game where players control their opponent's arms and their own legs."
     details: "Developed during 3rd year in a team mentoring 1st-year students. Utilizes Unity rigid-body physics to create chaotic limb controls and ragdoll racing mechanics."
-    image: "https://github.com/user-attachments/assets/6a611d58-fec7-4d5f-9831-1fe0a31d31ba"
+    image: "https://github.com/user-attachments/assets/a6a611d58-fec7-4d5f-9831-1fe0a31d31ba"
     link: "Portfolio/projects/#GameJams"
     tags: ["C#", "Unity", "Co-op", "Physics"]
 
@@ -79,7 +87,40 @@ game_jams:
 
 <hr style="all: unset; display: block; height: 6px; background-color: #00aaff; margin: 2em 0;">
 
-## Ongoing Projects
+## Recent Work
+
+{% for project in page.recent %}
+<div style="display:flex; align-items:flex-start; gap:1em; margin-bottom:1.5em; padding:0.8em; border:2px solid #00aaff; border-radius:5px; background:transparent; color:#004466;">
+  <img src="{% if project.image contains '://' %}{{ project.image }}{% else %}{{ project.image | relative_url }}{% endif %}" alt="{{ project.title }}" style="width:160px; height:auto; border-radius:3px;">
+  
+  <div style="flex:1; text-align:left;">
+    <h3 style="margin-top:0; margin-bottom:0.3em;">{{ project.title }}</h3>
+    <p style="margin:0.5em 0;">{{ project.description }}</p>
+
+    <!-- Tags -->
+    <div style="display:flex; flex-wrap:wrap; gap:0.4em; margin-top:0.8em; margin-bottom:0.8em;">
+      {% for tag in project.tags %}
+        <span style="font-size:0.75em; background:rgba(0, 170, 255, 0.1); color:#00aaff; border:1px solid #00aaff; padding:0.2em 0.6em; border-radius:4px; font-weight:600;">{{ tag }}</span>
+      {% endfor %}
+    </div>
+
+    <!-- Expandable Section -->
+    <details style="margin-top:0.5em;">
+      <summary style="display:inline-block; padding:0.4em 0.9em; background:#00aaff; color:#fff; border-radius:6px; font-weight:bold; cursor:pointer; user-select:none; font-size:0.9em;">
+        See More
+      </summary>
+      <div style="margin-top:0.8em; padding:0.8em; background:rgba(0, 170, 255, 0.05); border-left:3px solid #00aaff; border-radius:4px;">
+        <p style="margin:0 0 0.6em 0; font-size:0.95em;">{{ project.details }}</p>
+        <a href="{% if project.link contains '://' %}{{ project.link }}{% else %}{{ project.link | relative_url }}{% endif %}" style="color:#00aaff; font-weight:bold; text-decoration:underline; font-size:0.9em;" target="_blank">
+          Visit Live Website &rarr;
+        </a>
+      </div>
+    </details>
+  </div>
+</div>
+{% endfor %}
+
+## In Development
 
 {% for project in page.ongoing %}
 <div style="display:flex; align-items:flex-start; gap:1em; margin-bottom:1.5em; padding:0.8em; border:2px solid #00aaff; border-radius:5px; background:transparent; color:#004466;">
@@ -103,7 +144,7 @@ game_jams:
       </summary>
       <div style="margin-top:0.8em; padding:0.8em; background:rgba(0, 170, 255, 0.05); border-left:3px solid #00aaff; border-radius:4px;">
         <p style="margin:0 0 0.6em 0; font-size:0.95em;">{{ project.details }}</p>
-        <a href="{{ project.link | relative_url }}" style="color:#00aaff; font-weight:bold; text-decoration:underline; font-size:0.9em;">
+        <a href="{% if project.link contains '://' %}{{ project.link }}{% else %}{{ project.link | relative_url }}{% endif %}" style="color:#00aaff; font-weight:bold; text-decoration:underline; font-size:0.9em;">
           View Full Project Page &rarr;
         </a>
       </div>
@@ -136,7 +177,7 @@ game_jams:
       </summary>
       <div style="margin-top:0.8em; padding:0.8em; background:rgba(0, 170, 255, 0.05); border-left:3px solid #00aaff; border-radius:4px;">
         <p style="margin:0 0 0.6em 0; font-size:0.95em;">{{ project.details }}</p>
-        <a href="{{ project.link | relative_url }}" style="color:#00aaff; font-weight:bold; text-decoration:underline; font-size:0.9em;">
+        <a href="{% if project.link contains '://' %}{{ project.link }}{% else %}{{ project.link | relative_url }}{% endif %}" style="color:#00aaff; font-weight:bold; text-decoration:underline; font-size:0.9em;">
           View Full Project Page &rarr;
         </a>
       </div>
@@ -169,7 +210,7 @@ game_jams:
       </summary>
       <div style="margin-top:0.8em; padding:0.8em; background:rgba(0, 170, 255, 0.05); border-left:3px solid #00aaff; border-radius:4px;">
         <p style="margin:0 0 0.6em 0; font-size:0.95em;">{{ project.details }}</p>
-        <a href="{{ project.link | relative_url }}" style="color:#00aaff; font-weight:bold; text-decoration:underline; font-size:0.9em;">
+        <a href="{% if project.link contains '://' %}{{ project.link }}{% else %}{{ project.link | relative_url }}{% endif %}" style="color:#00aaff; font-weight:bold; text-decoration:underline; font-size:0.9em;">
           View Full Project Page &rarr;
         </a>
       </div>
