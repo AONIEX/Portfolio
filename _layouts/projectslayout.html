@@ -8,7 +8,7 @@
       body {
         color: white;
         background-image:
-          radial-gradient(circle at center, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.3) 1000%, rgba(0, 0, 0, 0) 51%),
+          radial-gradient(circle at center, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.3) 20%, rgba(0, 0, 0, 0) 21%),
           url('{{ "/Assets/Bg8.webp" | relative_url }}');
         background-size: cover;
         background-repeat: no-repeat;
@@ -16,18 +16,16 @@
         background-color: #001f3f;
       }
 
-      /* ========================================================= */
-      /* LAYOUT EXPANSION (Reduced side gaps)                      */
-      /* ========================================================= */
+      /* Expanded layout width */
       .wrapper {
         width: 88% !important;
-        max-width: 1350px !important;
+        max-width: 1400px !important;
         margin: 0 auto !important;
-        padding-top: 80px; /* Safe space for the top nav bar */
+        padding-top: 80px; /* Space for fixed top project bar */
       }
 
       header {
-        width: 280px !important; /* Fixed width for left column */
+        width: 280px !important; /* Left sidebar width */
         float: left !important;
       }
 
@@ -36,45 +34,123 @@
         float: right !important;
       }
 
-      /* Mobile responsiveness fallback */
-      @media screen and (max-width: 960px) {
-        .wrapper {
-          width: 92% !important;
-          padding-top: 90px;
-        }
-        header, section {
-          width: 100% !important;
-          float: none !important;
-        }
-        .project-nav {
-          flex-direction: column;
-          align-items: stretch;
-          padding: 0.6em 1em;
-          background: #000000 !important;
-        }
-        .nav-toggle-btn {
-          display: block !important;
-        }
-        .project-nav-links {
-          display: none !important;
-          flex-direction: column;
-          gap: 0.4em;
-          margin-top: 0.5em;
-          max-height: 280px;
-          overflow-y: auto;
-          width: 100%;
-          background: #000000;
-          padding-bottom: 0.5em;
-        }
-        .project-nav-links.open {
-          display: flex !important;
-        }
-        .project-nav-links a {
-          width: 100%;
-        }
-        .project-nav-links a > div {
-          width: 100%;
-        }
+      /* ========================================================= */
+      /* VERTICAL PROJECT CARD STACK (Image on top, text below)    */
+      /* ========================================================= */
+      .project-card {
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+        margin-bottom: 2em;
+        padding: 1.2em;
+        border: 2px solid #00aaff;
+        border-radius: 5px;
+        background: rgba(0, 0, 0, 0.25);
+        backdrop-filter: blur(4px);
+      }
+
+      .project-card img {
+        width: 100%;
+        height: auto;
+        max-height: 380px;
+        object-fit: cover;
+        border-radius: 3px;
+      }
+
+      .project-card h3 {
+        margin-top: 0;
+        margin-bottom: 0.3em;
+      }
+
+      /* ========================================================= */
+      /* FIXED TOP PROJECT BUTTONS BAR (Hides on Scroll)           */
+      /* ========================================================= */
+      .top-nav {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.5em;
+        justify-content: center;
+        align-items: center;
+        background: rgba(0, 0, 0, 0.9);
+        padding: 0.6em 1em;
+        margin: 0;
+        border-bottom: 2px solid #00aaff;
+        backdrop-filter: blur(6px);
+        z-index: 1000;
+        animation: slideDown 0.6s ease-out;
+        transition: transform 0.3s ease, opacity 0.3s ease;
+      }
+
+      @keyframes slideDown {
+        from { transform: translateY(-100%); opacity: 0; }
+        to { transform: translateY(0); opacity: 1; }
+      }
+
+      /* Forced override so keyframes or specificity can't block hiding */
+      .top-nav.hide {
+        transform: translateY(-100%) !important;
+        opacity: 0 !important;
+        pointer-events: none !important;
+      }
+
+      .top-nav a {
+        text-decoration: none;
+      }
+
+      .top-nav a > div {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0.4em 0.8em;
+        background: rgba(0, 0, 0, 0.4);
+        border: 1px solid #00aaff;
+        border-radius: 3px;
+        color: white;
+        transition: transform 0.3s ease, background-color 0.3s ease;
+      }
+
+      .top-nav a > div h5 {
+        margin: 0;
+        font-size: 0.9em;
+        white-space: nowrap;
+      }
+
+      .top-nav a:hover > div {
+        transform: scale(1.05);
+        background: rgba(0, 170, 255, 0.25);
+      }
+
+      /* Mobile Dropdown Toggle Button (Hidden by default on desktop) */
+      .nav-toggle-btn {
+        display: none;
+        background: rgba(0, 170, 255, 0.2);
+        border: 1px solid #00aaff;
+        color: white;
+        padding: 0.5em 1em;
+        border-radius: 4px;
+        font-weight: bold;
+        cursor: pointer;
+        font-size: 0.9em;
+        width: 100%;
+        text-align: center;
+      }
+
+      .top-nav-links {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.5em;
+        justify-content: center;
+        align-items: center;
+      }
+
+      /* Left Sidebar Button Hover Effect */
+      .site-nav a:hover > div {
+        transform: scale(1.03);
+        background: rgba(0, 170, 255, 0.2) !important;
       }
 
       /* Apply white text to key containers */
@@ -117,118 +193,48 @@
         opacity: 0.6;
       }
 
-      /* ========================================================= */
-      /* FIXED TOP NAVIGATION BAR                                  */
-      /* ========================================================= */
-      .project-nav {
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        display: flex;
-        flex-wrap: wrap;
-        gap: 0.5em;
-        justify-content: center;
-        align-items: center;
-        background: rgba(0, 0, 0, 0.9);
-        padding: 0.6em 1em;
-        margin: 0;
-        border-bottom: 2px solid #00aaff;
-        backdrop-filter: blur(6px);
-        z-index: 1000;
-        animation: slideDown 0.6s ease-out;
-        transition: transform 0.3s ease, opacity 0.3s ease;
-      }
-
-      @keyframes slideDown {
-        from { transform: translateY(-100%); opacity: 0; }
-        to { transform: translateY(0); opacity: 1; }
-      }
-
-      .project-nav.hide {
-        transform: translateY(-100%) !important;
-        opacity: 0 !important;
-        pointer-events: none !important;
-      }
-
-      .nav-toggle-btn {
-        display: none;
-        background: rgba(0, 170, 255, 0.2);
-        border: 1px solid #00aaff;
-        color: white;
-        padding: 0.5em 1em;
-        border-radius: 4px;
-        font-weight: bold;
-        cursor: pointer;
-        font-size: 0.9em;
-        width: 100%;
-        text-align: center;
-      }
-
-      .project-nav-links {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 0.5em;
-        justify-content: center;
-        align-items: center;
-      }
-
-      .project-nav a {
-        text-decoration: none;
-      }
-
-      .project-nav a > div {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        min-width: 110px;
-        padding: 0.4em 0.8em;
-        background: rgba(0, 0, 0, 0.4);
-        border: 1px solid #00aaff;
-        border-radius: 3px;
-        color: white;
-        transition: transform 0.3s ease, background-color 0.3s ease;
-      }
-
-      .project-nav a > div h5 {
-        margin: 0;
-        font-size: 0.95em;
-      }
-
-      .project-nav a:hover > div {
-        transform: scale(1.05);
-        background: rgba(0, 170, 255, 0.25);
-      }
-
-      .site-nav a:hover > div {
-        transform: scale(1.03);
-        background: rgba(0, 170, 255, 0.2) !important;
-      }
-
-      /* ========================================================= */
-      /* VERTICAL PROJECT CARD STACK STYLES                        */
-      /* ========================================================= */
-      .project-card {
-        display: flex;
-        flex-direction: column; /* Stacks image on top, text below */
-        gap: 1em;
-        margin-bottom: 1.5em;
-        padding: 1em;
-        border: 2px solid #00aaff;
-        border-radius: 5px;
-        background: transparent;
-        color: #004466;
-      }
-
-      .project-card img {
-        width: 100%;
-        max-height: 280px;
-        object-fit: cover;
-        border-radius: 3px;
-      }
-
       html {
         scroll-behavior: smooth;
+      }
+
+      @media screen and (max-width: 960px) {
+        .wrapper {
+          width: 95% !important;
+          padding-top: 90px;
+        }
+        header, section {
+          width: 100% !important;
+          float: none !important;
+        }
+        .top-nav {
+          flex-direction: column;
+          align-items: stretch;
+          padding: 0.6em 1em;
+          background: #000000 !important;
+        }
+        .nav-toggle-btn {
+          display: block;
+        }
+        .top-nav-links {
+          display: none; /* Hidden by default on mobile until toggled */
+          flex-direction: column;
+          gap: 0.4em;
+          margin-top: 0.5em;
+          max-height: 280px;
+          overflow-y: auto;
+          width: 100%;
+          background: #000000;
+          padding-bottom: 0.5em;
+        }
+        .top-nav-links.open {
+          display: flex; /* Shown when clicked */
+        }
+        .top-nav-links a {
+          width: 100%;
+        }
+        .top-nav-links a > div {
+          width: 100%;
+        }
       }
     </style>
 
@@ -241,16 +247,18 @@
   </head>
   <body>
 
-    <!-- TOP FIXED NAVIGATION BAR WITH MOBILE TOGGLE -->
-    <nav class="project-nav">
-      <button class="nav-toggle-btn" id="navToggle">Menu ▾</button>
-      <div class="project-nav-links" id="navLinks">
-        <a href="{{ '/' | relative_url }}"><div><h5>Home</h5></div></a>
-        <a href="{{ 'Portfolio/honours/' | relative_url }}"><div><h5>Honours</h5></div></a>
-        <a href="{{ 'Portfolio/about/' | relative_url }}"><div><h5>About</h5></div></a>
-        <a href="{{ 'Portfolio/projects/' | relative_url }}"><div><h5>Projects</h5></div></a>
-        <a href="{{ 'Portfolio/contact/' | relative_url }}"><div><h5>Contact</h5></div></a>
-        <a href="{{ 'Portfolio/cv/' | relative_url }}"><div><h5>CV</h5></div></a>
+    <!-- FIXED TOP BAR WITH MOBILE TOGGLE -->
+    <nav class="top-nav">
+      <button class="nav-toggle-btn" id="navToggle">Jump to Project ▾</button>
+      <div class="top-nav-links" id="navLinks">
+        <a href="#Joe_Cool"><div><h5> Web Dev </h5></div></a>
+        <a href="#Dare_Academy"><div><h5> Dare Academy </h5></div></a>
+        <a href="#Synaptic"><div><h5> Synaptic </h5></div></a>
+        <a href="#Mesh_Cutting"><div><h5> Mesh Cutting </h5></div></a>
+        <a href="{{ 'Portfolio/honours/' | relative_url }}"><div><h5> Honours </h5></div></a>
+        <a href="#BaBaBANGSheep"><div><h5> BaBaBANG!Sheep </h5></div></a>
+        <a href="#AI_Mutation"><div><h5> AI Mutation </h5></div></a>
+        <a href="#GameJams"><div><h5> Game Jams </h5></div></a>
       </div>
     </nav>
 
@@ -264,26 +272,43 @@
 
         <p>{{ site.description | default: site.github.project_tagline }}</p>
 
-        <!-- LEFT SIDEBAR NAVIGATION BUTTONS -->
+        <!-- LEFT SIDEBAR SITE NAVIGATION -->
         <nav class="site-nav">
           <div style="display: flex; flex-wrap: wrap; gap: 0.5em; justify-content: center; margin-top: 1em;">
             <a href="{{ '/' | relative_url }}" style="flex: 1 1 45%; text-decoration: none;">
-              <div style="padding: 0.5em; background: rgba(0,0,0,0.3); border: 1px solid #00aaff; border-radius: 3px; color: white; text-align: center;"><h5 style="margin: 0;">Home</h5></div>
+              <div style="padding: 0.5em; background: rgba(0,0,0,0.3); border: 1px solid #00aaff; border-radius: 3px; color: white; text-align: center; transition: transform 0.3s ease;">
+                <h5 style="margin: 0;">Home</h5>
+              </div>
             </a>
+
             <a href="{{ 'Portfolio/honours/' | relative_url }}" style="flex: 1 1 45%; text-decoration: none;">
-              <div style="padding: 0.5em; background: rgba(0,0,0,0.3); border: 1px solid #00aaff; border-radius: 3px; color: white; text-align: center;"><h5 style="margin: 0;">Honours</h5></div>
+              <div style="padding: 0.5em; background: rgba(0,0,0,0.3); border: 1px solid #00aaff; border-radius: 3px; color: white; text-align: center; transition: transform 0.3s ease;">
+                <h5 style="margin: 0;">Honours</h5>
+              </div>
             </a>
+
             <a href="{{ 'Portfolio/about/' | relative_url }}" style="flex: 1 1 45%; text-decoration: none;">
-              <div style="padding: 0.5em; background: rgba(0,0,0,0.3); border: 1px solid #00aaff; border-radius: 3px; color: white; text-align: center;"><h5 style="margin: 0;">About</h5></div>
+              <div style="padding: 0.5em; background: rgba(0,0,0,0.3); border: 1px solid #00aaff; border-radius: 3px; color: white; text-align: center; transition: transform 0.3s ease;">
+                <h5 style="margin: 0;">About</h5>
+              </div>
             </a>
+
             <a href="{{ 'Portfolio/projects/' | relative_url }}" style="flex: 1 1 45%; text-decoration: none;">
-              <div style="padding: 0.5em; background: rgba(0,0,0,0.3); border: 1px solid #00aaff; border-radius: 3px; color: white; text-align: center;"><h5 style="margin: 0;">Projects</h5></div>
+              <div style="padding: 0.5em; background: rgba(0,0,0,0.3); border: 1px solid #00aaff; border-radius: 3px; color: white; text-align: center; transition: transform 0.3s ease;">
+                <h5 style="margin: 0;">Projects</h5>
+              </div>
             </a>
+
             <a href="{{ 'Portfolio/contact/' | relative_url }}" style="flex: 1 1 45%; text-decoration: none;">
-              <div style="padding: 0.5em; background: rgba(0,0,0,0.3); border: 1px solid #00aaff; border-radius: 3px; color: white; text-align: center;"><h5 style="margin: 0;">Contact</h5></div>
+              <div style="padding: 0.5em; background: rgba(0,0,0,0.3); border: 1px solid #00aaff; border-radius: 3px; color: white; text-align: center; transition: transform 0.3s ease;">
+                <h5 style="margin: 0;">Contact</h5>
+              </div>
             </a>
+
             <a href="{{ 'Portfolio/cv/' | relative_url }}" style="flex: 1 1 45%; text-decoration: none;">
-              <div style="padding: 0.5em; background: rgba(0,0,0,0.3); border: 1px solid #00aaff; border-radius: 3px; color: white; text-align: center;"><h5 style="margin: 0;">CV</h5></div>
+              <div style="padding: 0.5em; background: rgba(0,0,0,0.3); border: 1px solid #00aaff; border-radius: 3px; color: white; text-align: center; transition: transform 0.3s ease;">
+                <h5 style="margin: 0;">CV</h5>
+              </div>
             </a>
           </div>
         </nav>
@@ -308,14 +333,17 @@
     <script>
       document.addEventListener("DOMContentLoaded", function () {
         let lastScrollY = window.pageYOffset || document.documentElement.scrollTop;
-        const nav = document.querySelector('.project-nav');
+        const topNav = document.querySelector('.top-nav');
         const navToggle = document.getElementById('navToggle');
         const navLinks = document.getElementById('navLinks');
 
+        // Toggle mobile dropdown menu
         if (navToggle && navLinks) {
           navToggle.addEventListener('click', function () {
             navLinks.classList.toggle('open');
           });
+
+          // Close dropdown automatically when a link is clicked
           navLinks.querySelectorAll('a').forEach(link => {
             link.addEventListener('click', function () {
               navLinks.classList.remove('open');
@@ -323,18 +351,21 @@
           });
         }
 
-        if (!nav) return;
+        if (!topNav) return;
 
+        // Hide/Show on Scroll behavior
         window.addEventListener('scroll', function () {
           const currentScrollY = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop;
+
           if (currentScrollY < 0) return;
 
-          if (currentScrollY > lastScrollY && currentScrollY > 100) {
-            nav.classList.add('hide');
+          if (currentScrollY > lastScrollY && currentScrollY > 50) {
+            topNav.classList.add('hide');
+            // Also close the dropdown if scrolling down
             if (navLinks) navLinks.classList.remove('open');
           } 
           else if (currentScrollY < lastScrollY) {
-            nav.classList.remove('hide');
+            topNav.classList.remove('hide');
           }
 
           lastScrollY = currentScrollY;
