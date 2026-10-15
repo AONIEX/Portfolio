@@ -28,10 +28,10 @@ During my time at Joe Cool, I helped build and upgrade their wholesale e-commerc
 - Integrating various services so they all sync up and share consistent data.
 
 ### Core Focuses
-- **E-Commerce & Wholesale Scaling:** Building structured systems for massive product catalogs and variations.
-- **Data Management:** Handling heavy database operations and maintaining clean, accurate records.
-- **Performance & Clean Code:** Writing concise, optimized code to prevent site lag and keep load times fast.
-- **Collaboration & Integration:** Connecting multiple external tools and working hand-in-hand with the team.
+- E-Commerce & Wholesale Scaling: Building structured systems for massive product catalogs and variations.
+- Data Management: Handling heavy database operations and maintaining clean, accurate records.
+- Performance & Clean Code: Writing concise, optimized code to prevent site lag and keep load times fast.
+- Collaboration & Integration: Connecting multiple external tools and working hand-in-hand with the team.
 
 ### Extra Information
 - Live Website: joe-cool.uk
