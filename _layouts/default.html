@@ -40,11 +40,37 @@
       @media screen and (max-width: 960px) {
         .wrapper {
           width: 92% !important;
-          padding-top: 110px;
+          padding-top: 75px;
         }
         header, section {
           width: 100% !important;
           float: none !important;
+        }
+        .project-nav {
+          flex-direction: column;
+          align-items: stretch;
+          padding: 0.5em 1em;
+        }
+        .nav-toggle-btn {
+          display: block !important;
+        }
+        .project-nav-links {
+          display: none !important;
+          flex-direction: column;
+          gap: 0.4em;
+          margin-top: 0.5em;
+          max-height: 250px;
+          overflow-y: auto;
+          width: 100%;
+        }
+        .project-nav-links.open {
+          display: flex !important;
+        }
+        .project-nav-links a {
+          width: 100%;
+        }
+        .project-nav-links a > div {
+          width: 100%;
         }
       }
 
@@ -109,7 +135,7 @@
       }
 
       /* ========================================================= */
-      /* FIXED TOP NAVIGATION BAR                                   */
+      /* FIXED TOP NAVIGATION BAR                                  */
       /* ========================================================= */
       .project-nav {
         position: fixed;
@@ -120,8 +146,9 @@
         flex-wrap: wrap;
         gap: 0.5em;
         justify-content: center;
-        background: rgba(0, 0, 0, 0.7);
-        padding: 0.6em 0;
+        align-items: center;
+        background: rgba(0, 0, 0, 0.85);
+        padding: 0.6em 1em;
         margin: 0;
         border-bottom: 2px solid #00aaff;
         backdrop-filter: blur(6px);
@@ -136,9 +163,32 @@
       }
 
       .project-nav.hide {
-        transform: translateY(-100%);
-        opacity: 0;
-        pointer-events: none;
+        transform: translateY(-100%) !important;
+        opacity: 0 !important;
+        pointer-events: none !important;
+      }
+
+      /* Mobile Dropdown Toggle Button (Hidden on desktop) */
+      .nav-toggle-btn {
+        display: none;
+        background: rgba(0, 170, 255, 0.2);
+        border: 1px solid #00aaff;
+        color: white;
+        padding: 0.5em 1em;
+        border-radius: 4px;
+        font-weight: bold;
+        cursor: pointer;
+        font-size: 0.9em;
+        width: 100%;
+        text-align: center;
+      }
+
+      .project-nav-links {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.5em;
+        justify-content: center;
+        align-items: center;
       }
 
       .project-nav a {
@@ -165,7 +215,7 @@
 
       .project-nav a:hover > div {
         transform: scale(1.05);
-        background: rgba(0, 170, 255, 0.2);
+        background: rgba(0, 170, 255, 0.25);
       }
 
       /* Left Sidebar Button Hover Effect */
@@ -188,26 +238,29 @@
   </head>
   <body>
 
-    <!-- 1. TOP FIXED NAVIGATION BAR -->
+    <!-- 1. TOP FIXED NAVIGATION BAR WITH MOBILE TOGGLE -->
     <nav class="project-nav">
-      <a href="{{ '/' | relative_url }}">
-        <div><h5>Home</h5></div>
-      </a>
-      <a href="{{ 'Portfolio/honours/' | relative_url }}">
-        <div><h5>Honours</h5></div>
-      </a>
-      <a href="{{ 'Portfolio/about/' | relative_url }}">
-        <div><h5>About</h5></div>
-      </a>
-      <a href="{{ 'Portfolio/projects/' | relative_url }}">
-        <div><h5>Projects</h5></div>
-      </a>
-      <a href="{{ 'Portfolio/contact/' | relative_url }}">
-        <div><h5>Contact</h5></div>
-      </a>
-      <a href="{{ 'Portfolio/cv/' | relative_url }}">
-        <div><h5>CV</h5></div>
-      </a>
+      <button class="nav-toggle-btn" id="navToggle">Menu ▾</button>
+      <div class="project-nav-links" id="navLinks">
+        <a href="{{ '/' | relative_url }}">
+          <div><h5>Home</h5></div>
+        </a>
+        <a href="{{ 'Portfolio/honours/' | relative_url }}">
+          <div><h5>Honours</h5></div>
+        </a>
+        <a href="{{ 'Portfolio/about/' | relative_url }}">
+          <div><h5>About</h5></div>
+        </a>
+        <a href="{{ 'Portfolio/projects/' | relative_url }}">
+          <div><h5>Projects</h5></div>
+        </a>
+        <a href="{{ 'Portfolio/contact/' | relative_url }}">
+          <div><h5>Contact</h5></div>
+        </a>
+        <a href="{{ 'Portfolio/cv/' | relative_url }}">
+          <div><h5>CV</h5></div>
+        </a>
+      </div>
     </nav>
 
     <div class="wrapper">
@@ -279,18 +332,47 @@
 
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
 
+    <!-- MOBILE DROPDOWN & HIDE-ON-SCROLL SCRIPT -->
     <script>
-      let lastScrollY = window.scrollY;
-      const nav = document.querySelector('.project-nav');
+      document.addEventListener("DOMContentLoaded", function () {
+        let lastScrollY = window.pageYOffset || document.documentElement.scrollTop;
+        const nav = document.querySelector('.project-nav');
+        const navToggle = document.getElementById('navToggle');
+        const navLinks = document.getElementById('navLinks');
 
-      window.addEventListener('scroll', () => {
-        if (!nav) return;
-        if (window.scrollY > lastScrollY && window.scrollY > 100) {
-          nav.classList.add('hide'); // scrolling down
-        } else {
-          nav.classList.remove('hide'); // scrolling up
+        // Toggle mobile dropdown menu
+        if (navToggle && navLinks) {
+          navToggle.addEventListener('click', function () {
+            navLinks.classList.toggle('open');
+          });
+
+          // Close dropdown automatically when a link is clicked
+          navLinks.querySelectorAll('a').forEach(link => {
+            link.addEventListener('click', function () {
+              navLinks.classList.remove('open');
+            });
+          });
         }
-        lastScrollY = window.scrollY;
+
+        if (!nav) return;
+
+        // Hide/Show on Scroll behavior
+        window.addEventListener('scroll', function () {
+          const currentScrollY = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop;
+
+          if (currentScrollY < 0) return;
+
+          if (currentScrollY > lastScrollY && currentScrollY > 100) {
+            nav.classList.add('hide');
+            // Also close the dropdown if scrolling down
+            if (navLinks) navLinks.classList.remove('open');
+          } 
+          else if (currentScrollY < lastScrollY) {
+            nav.classList.remove('hide');
+          }
+
+          lastScrollY = currentScrollY;
+        }, { passive: true });
       });
     </script>
   </body>
