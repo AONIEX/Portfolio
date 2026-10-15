@@ -7,7 +7,7 @@ recent:
   - title: "Joe Cool Wholesale E-Commerce"
     description: "An upgraded wholesale e-commerce platform built with PHP, HTML, CSS, and WooCommerce."
     details: "Spearheaded the development and upgrade of the wholesale platform for Joe Cool. Built custom product variations, managed large-scale product databases, optimized page loading performance, and integrated external services."
-    image: "Assets/joe_cool.png"
+    image: "Assets/JoeCool.png"
     link: "https://joe-cool.uk/"
     tags: ["PHP", "HTML", "CSS", "WooCommerce", "Web Development"]
 
