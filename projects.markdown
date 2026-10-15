@@ -5,6 +5,37 @@ permalink: /Portfolio/projects/
 ---
 
 
+
+<hr style="all: unset; display: block; height: 6px; background-color: #00aaff; margin: 2em 0;">
+
+# Latest Work
+
+
+<hr style="all: unset; display: block; height: 6px; background-color: #00aaff; margin: 2em 0;">
+
+<a id="Joe_Cool"></a>
+## Joe Cool - Web Development
+<!-- content -->
+
+
+### Joe Cool Website
+During my time at Joe Cool i worked on creating and upgrading their website for wholesale sales. Adding multiple new aspects such as product variations, item categories and faster loading times. Working with such a large database of products has shown me the importants of keeping code consise and making sure every detail is correct, otherwise the website will end up slow and sluggish.
+
+#### During Developemtn i improved various skills which include:
+ - Working and making the most of PHP, and using it to improve various aspects of the website.
+ - Making the most of HTML to fix various bugs and improve the visuals of the websites.
+ - Using CSS to contorl the layout and visuals of the websites.
+ - Working closes with co-workers to improve the websites and include key functions as needed.
+ - Managing and working with a big database, importing and exporting large quantities of items.
+ - Intergrating multiple services to work together and contain the same Data.
+
+
+### Extra Information
+- Website: https://joe-cool.uk/
+- Web Development
+- Employed: 4 Months (Until Project was Complete)
+- Languages: PHP, HTML, CSS
+  
 <hr style="all: unset; display: block; height: 6px; background-color: #00aaff; margin: 2em 0;">
 
 # Projects and Achievements
