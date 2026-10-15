@@ -16,25 +16,28 @@ permalink: /Portfolio/projects/
 <a id="Joe_Cool"></a>
 ## Joe Cool - Web Development
 <!-- content -->
-
-
 ### Joe Cool Website
-During my time at Joe Cool i worked on creating and upgrading their website for wholesale sales. Adding multiple new aspects such as product variations, item categories and faster loading times. Working with such a large database of products has shown me the importants of keeping code consise and making sure every detail is correct, otherwise the website will end up slow and sluggish.
+During my time at Joe Cool, I helped build and upgrade their wholesale e-commerce website. I added key features like product variations and clear item categories while optimizing it for faster loading times. Dealing with such a massive product database really drove home why keeping code concise and detail-oriented is so crucial—otherwise, the site can easily end up slow and sluggish.
 
-#### During Developemtn i improved various skills which include:
- - Working and making the most of PHP, and using it to improve various aspects of the website.
- - Making the most of HTML to fix various bugs and improve the visuals of the websites.
- - Using CSS to contorl the layout and visuals of the websites.
- - Working closes with co-workers to improve the websites and include key functions as needed.
- - Managing and working with a big database, importing and exporting large quantities of items.
- - Intergrating multiple services to work together and contain the same Data.
+#### During Development I improved various skills which include:
+- Leveraging PHP to build out custom website features and backend logic.
+- Using HTML to fix layout bugs and sharpen the visual presentation.
+- Applying CSS to control styling, layouts, and overall responsiveness.
+- Collaborating closely with team members to deliver core functions and improvements as needed.
+- Managing large-scale databases, handling heavy bulk data imports and exports smoothly.
+- Integrating various services so they all sync up and share consistent data.
 
+### Core Focuses
+- **E-Commerce & Wholesale Scaling:** Building structured systems for massive product catalogs and variations.
+- **Data Management:** Handling heavy database operations and maintaining clean, accurate records.
+- **Performance & Clean Code:** Writing concise, optimized code to prevent site lag and keep load times fast.
+- **Collaboration & Integration:** Connecting multiple external tools and working hand-in-hand with the team.
 
 ### Extra Information
-- Website: https://joe-cool.uk/
-- Web Development
-- Employed: 4 Months (Until Project was Complete)
-- Languages: PHP, HTML, CSS
+- Live Website: joe-cool.uk
+- Role: Web Developer
+- Duration: 4 Months (Contract / Project-Based)
+- Languages : PHP, HTML, CSS
   
 <hr style="all: unset; display: block; height: 6px; background-color: #00aaff; margin: 2em 0;">
 
