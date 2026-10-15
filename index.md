@@ -4,11 +4,11 @@ title: Home
 tags: ["C++", "C#", "Unity", "UE5", "PHP", "Web Development"]
 
 recent:
-  - title: "Joe Cool Wholesale E-Commerce"
+  - title: "Joe Cool Wholesale E-Commerce Website"
     description: "An upgraded wholesale e-commerce platform built with PHP, HTML, CSS, and WooCommerce."
-    details: "Spearheaded the development and upgrade of the wholesale platform for Joe Cool. Built custom product variations, managed large-scale product databases, optimized page loading performance, and integrated external services."
+    details: "![Joe Cool Website ScreenShot](Assets/JoeCool.png) databases, optimized page loading performance, and integrated external services."
     image: "Assets/JoeCool.png"
-    link: "https://joe-cool.uk/"
+    link: "Portfolio/projects/#Joe_Cool"
     tags: ["PHP", "HTML", "CSS", "WooCommerce", "Web Development"]
 
 indevelopment:
@@ -112,7 +112,7 @@ game_jams:
       <div style="margin-top:0.8em; padding:0.8em; background:rgba(0, 170, 255, 0.05); border-left:3px solid #00aaff; border-radius:4px;">
         <p style="margin:0 0 0.6em 0; font-size:0.95em;">{{ project.details }}</p>
         <a href="{% if project.link contains '://' %}{{ project.link }}{% else %}{{ project.link | relative_url }}{% endif %}" style="color:#00aaff; font-weight:bold; text-decoration:underline; font-size:0.9em;" target="_blank">
-          Visit Live Website &rarr;
+          View The Project &rarr;
         </a>
       </div>
     </details>
